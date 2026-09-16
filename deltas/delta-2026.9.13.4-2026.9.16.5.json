@@ -1,0 +1,181 @@
+{
+  "schema": 1,
+  "channel": "experimental",
+  "baseVersion": "2026.9.13.4",
+  "version": "2026.9.16.5",
+  "files": [
+    {
+      "path": "RevelationLauncher.deps.json",
+      "baseSha256": "3ca712d3f7eb3c4bc31439299522ec9db4cca09173bf909802a15cf5d7ff484c",
+      "sha256": "e6b64cfacf7597ebeee695879aa241d2821908e9f735c64a42a930f2557679e3",
+      "size": 44827
+    },
+    {
+      "path": "RevelationLauncher.dll",
+      "baseSha256": "e72bd608b88073f356abc12cfc8962821fa4a39dc623526a5185821d6fc25c00",
+      "sha256": "bd1998b71ad6ecc2d2c8b7d420b2191fc611ad3e5cc1e81ca4572482ac1e0aaa",
+      "size": 2285568
+    },
+    {
+      "path": "RevelationLauncher.exe",
+      "baseSha256": "00a30e1d914d5ade73d0f2c318fa39b39530e3ca90da74078adc3964d0d3c3b9",
+      "sha256": "538009c501468e4f70c3f4fdfef25a44f1a4002af8c64695aad5a7e13bb4ff6b",
+      "size": 344064
+    },
+    {
+      "path": "native/core/launcher-build.json",
+      "baseSha256": "716996bc3e0cd93327557f8445a6fee44efe3b6de6ce59c2cfbbca29c8c413a1",
+      "sha256": "4923bb630fa907450af21d596cc1415d9130ccafaa07da91f36076c999de864c",
+      "size": 116
+    },
+    {
+      "path": "native/core/license-config.ini",
+      "baseSha256": "ca6257fe7b947ce5577992220f86a480c255393995f1ad35b694bbfa28883362",
+      "sha256": "2f986074e3b91e10e83cdc3def619a9a3f3a15b70883c3d6e29edcefda72632d",
+      "size": 947
+    },
+    {
+      "path": "native/core/RevelationCaptureNetworkAnalysis.ps1",
+      "baseSha256": "80c3d978bfb35fe3c61421f41a2591f57d300900cd068df814d75fb072ea2285",
+      "sha256": "dfa04da32f2e8816317a46b645a85774a30467338fc3613c649a26e9fd5b74d7",
+      "size": 34024
+    },
+    {
+      "path": "native/core/RevelationCleanup.ps1",
+      "baseSha256": "376e4ecba2627ad65b137bc7745a541e506be2101866c251fb4b750ab59a21d3",
+      "sha256": "7c650176978ea16905062b59f6249fe5a1340be6bb316719531a11a0bf7b82fd",
+      "size": 5342
+    },
+    {
+      "path": "native/core/RevelationEmergencyNetworkReset.ps1",
+      "baseSha256": "91102d3f22ceccaf955e210b5bdf8f2e3915b3daccbbfd5eeea629b51f3c38e7",
+      "sha256": "c9ff138eb781242774603dc69544197790b3ded30d3da51d19bebfd345ebbd5e",
+      "size": 3390
+    },
+    {
+      "path": "native/core/RevelationExperimental.ps1",
+      "baseSha256": "df90e149978b968ecfe41023f5c5c3baeec834fa19d08c8f696988e015590a60",
+      "sha256": "5ce14f92bc6bcd3e0b9d77fa8a60a9b00eb9f97db6e524cc65013e329fbeeed0",
+      "size": 8965
+    },
+    {
+      "path": "native/core/RevelationLab.ps1",
+      "baseSha256": "3b5ab93e7b5697f7b1b5c0f676af04f75199913efb9883bf752fd76964b4366d",
+      "sha256": "fe711bc286813971b89dfb156807ed42ac976fd3dc23e2f0b2af5ab8f9277523",
+      "size": 86372
+    },
+    {
+      "path": "native/core/RevelationNetExperiment.ps1",
+      "baseSha256": "26caae7bc3e3eedd125536ece265850b7fbedd79cec562cc266ee670fa388a96",
+      "sha256": "a7f41601eb55b343a772a6d53e43a2478d73d9da40b0aee16f99f8d79a051a49",
+      "size": 9560
+    },
+    {
+      "path": "native/core/RevelationUpdater.ps1",
+      "baseSha256": "79cb559be59bf7a0679996053ecd7c9df77bd1b2b41d26e4a3ae1af36ec4959f",
+      "sha256": "75c617e7be80d6fa7bb6d755d66865f4afe063520a3d4cff81aea78c5734abd8",
+      "size": 47320
+    },
+    {
+      "path": "native/core/tools/RevelationGameExit.ps1",
+      "baseSha256": "268cb1b4c5e77b8f1557eee1b69ce6ebea10c58d5357f8d2ac407a315e9fe49f",
+      "sha256": "b32cce9d8ee5cfacc3f3f4d7bc52a1151edc6664034da2dabf0217eb30738918",
+      "size": 14907
+    },
+    {
+      "path": "native/core/tools/RevelationGameInspector.ps1",
+      "baseSha256": "123f53a00cde9448ff7ad3bfc82e9ef6ac1a574c792b970b5df797c0926b0486",
+      "sha256": "6e28b939064d64451d4bae074e388fd0cc5be84094dfed2e118e0d3f85d8d408",
+      "size": 60208
+    },
+    {
+      "path": "native/core/tools/RevelationGameInspectorAgent.ps1",
+      "baseSha256": "25ae8209064024507db4aca1c92efdc7ebef5968f1fc94bbbfe9143808d4b2dc",
+      "sha256": "8201c8841e34d1b9a2506ea7e285f12806ef9b16cb9aab9763587496ffddba94",
+      "size": 35366
+    },
+    {
+      "path": "native/core/tools/RevelationWindowControl.ps1",
+      "baseSha256": "e38ebe6181a3c920006f4f80540dc2c123d98773f29ae21e5ae81afaba087ee5",
+      "sha256": "6d86116895341a5661d18d9778e4e33de2b08d917677ccd6b5ef25cfba7fae54",
+      "size": 7367
+    },
+    {
+      "path": "native/core/tools/RevelationWorldNavigation.ps1",
+      "baseSha256": "1d75babbc125a97f3d4641d3553c1795c88594ad323e887322c16d9ec1229603",
+      "sha256": "cbc621227e03874e7ad1819f004d7b8c45221bc78d67d0a05cecd58b6bf314a0",
+      "size": 27051
+    },
+    {
+      "path": "native/core/tools/WatchUiRuntime.ps1",
+      "baseSha256": "a132f708f5e3d28866d57d15fa7d0869eafe45effec37da5146a839ee754b3d6",
+      "sha256": "dad10ccf26aba8353bdb42ed72e969d86ac2fd58e9b11f56505f8f3ef941be0d",
+      "size": 39275
+    },
+    {
+      "path": "native/guild/GuildCommand.ps1",
+      "baseSha256": "6c42d96e36072a46d574f02529a350ee3e08a3f255715cd13a7e432b495b3d7d",
+      "sha256": "664e4b9ea4b6e82b2db2136f7a174b09495a426425c216b132ffa043caf72f3d",
+      "size": 8485
+    },
+    {
+      "path": "native/guild/Invoke-GuildBaseEntry.ps1",
+      "baseSha256": "0b8f3b3b36497832c90a46cbc9ca2afe0bbb1620fc5a4952b1dfc5c2f7b70dbf",
+      "sha256": "9ac8738d934e2fcc8cb842e84eea99ddfac35b2344061e8750457ce39e909477",
+      "size": 4827
+    },
+    {
+      "path": "native/guild/Start-GuildAcceptanceTest.ps1",
+      "baseSha256": "44a0c943ca07374bdc0de29e99e062f6594ea68d0fa609b8e761635202b84a81",
+      "sha256": "d597c72c27bd4fe03eb1733a97333e042f6ade9958b2dac99a951b43774915a6",
+      "size": 3663
+    },
+    {
+      "path": "native/quests/QuestCommand.ps1",
+      "baseSha256": "74d3fd94a317676a2c6d49ecafb6986774ffda10c8a72825bca274e99cbb10fb",
+      "sha256": "1592f454158e9e6729bcae6b4a67b388e4c3271744ff533f7742b21a5a76dd21",
+      "size": 8529
+    },
+    {
+      "path": "native/quests/QuestPolicy.ps1",
+      "baseSha256": "c50863b29ec9c0f79451b4ee87316042567f3ea004b2e35a5ccd0de3361b0503",
+      "sha256": "568b99f365dc1e4c0810be16c8023171c76769088dd4ec4180b3474b410bea95",
+      "size": 1676
+    },
+    {
+      "path": "native/tower/DeploymentFiles.ps1",
+      "baseSha256": "e909ff0080abd52411c32d07610ac3f0e6999ee3d6a5cc6cee050485d75d65a2",
+      "sha256": "927abaeb69d1720358d0084dd1f6f3e53cc25b13239d832bb87e3974a789a932",
+      "size": 3055
+    },
+    {
+      "path": "native/tower/LaunchElevated.ps1",
+      "baseSha256": "d7a1a202c06bcde702117fba6925db521580f1c5f48d1a139210a79ab64c36ce",
+      "sha256": "741bc378d26145d3620b49c0aa05171a40c5f40f4e5b69cd9def7939c0b8a73b",
+      "size": 1791
+    },
+    {
+      "path": "native/tower/probe.json",
+      "baseSha256": "465975c2821cb96598dfd7c2464264e49a27ef837d3166d22bf9728f80c35935",
+      "sha256": "a9fdefc09e161ca9e01acfb8aadb9231301ae9017fc267a32fb5d2d2dff995af",
+      "size": 90
+    },
+    {
+      "path": "native/tower/RevelationGameBridge.json",
+      "baseSha256": "4b75ff3b01e3a2757721a8cba6661fb0a92705dc7752f4e89bd78bd61e1be92d",
+      "sha256": "88cf7c97373a96f49ea5330748e56805735b99f1d2fc35e8ec4bdcdb7a41a244",
+      "size": 301
+    },
+    {
+      "path": "native/tower/TowerCanaryProbe.dll",
+      "baseSha256": "c4091078f17aad5bf520c4a5c9dd06b91c91edb2d74eca608e6bf7a3b2a51806",
+      "sha256": "1369df03171e65230a9b58016beae15053afe250fe3735cf409a52c1f30f0f8f",
+      "size": 718848
+    }
+  ],
+  "package": {
+    "fileName": "delta-2026.9.13.4-2026.9.16.5.zip",
+    "sha256": "db13405ec464f8e6f0890a69385db0fd74c48797226e2b4e714fc33c263ef1f8",
+    "sizeBytes": 1521830
+  }
+}
