@@ -1,0 +1,55 @@
+{
+  "schema": 1,
+  "channel": "experimental",
+  "baseVersion": "2026.9.16.8",
+  "version": "2026.9.16.9",
+  "files": [
+    {
+      "path": "native/core/.revelation-combat/last-operation.json",
+      "baseSha256": "f800f348ebfe8ecace42c7212b3f165b4d08cb5b84da6f650ab52008396f43e2",
+      "delete": true,
+      "size": 0
+    },
+    {
+      "path": "native/core/.revelation-combat/license-fingerprint-cache.json",
+      "baseSha256": "5ce7054e1937451683feac88a00f7177dd71ac92886168b392c8f80d6b995e00",
+      "delete": true,
+      "size": 0
+    },
+    {
+      "path": "native/core/.revelation-combat/license.json",
+      "baseSha256": "82448bfb45a8bc9c1715d61812dbd23b5c0910314e5f30048b8bd156e6fc2c21",
+      "delete": true,
+      "size": 0
+    },
+    {
+      "path": "RevelationLauncher.deps.json",
+      "baseSha256": "71390b5305d85d0d681620e6bfd9bb0375d9bc720e0506f8b318a21226ea7c3a",
+      "sha256": "a1a74fe0a1589bdcd6e961dbda75bbcf8479982a2417ec278b90ecec110b526d",
+      "size": 46788
+    },
+    {
+      "path": "RevelationLauncher.dll",
+      "baseSha256": "db58475697bd9d2150a981337e5fe7d6ef36cb3899de89e377a22b5e54212b24",
+      "sha256": "d56f5f8fe9305ff25fed611d37041cc51100ea64f9d6377cb677def2102785aa",
+      "size": 2297856
+    },
+    {
+      "path": "RevelationLauncher.exe",
+      "baseSha256": "421a987ad4951b1073a4482d1b56f421f0b99864209da85a44d26b188b9f2562",
+      "sha256": "0b0cc5741c8ae03bea3b00fb994d23363f39640b45cd5ace1ea19ec8483d1255",
+      "size": 344576
+    },
+    {
+      "path": "native/core/launcher-build.json",
+      "baseSha256": "cf28cbf9197b0f9750d5b5c92354a1ee42a172f0bd1d9596f5fe0211fa085857",
+      "sha256": "812c231a2b449bfd234cd8d60fc438b9d201ec9bfafe6ac4f2e47ca3ec3bd7de",
+      "size": 116
+    }
+  ],
+  "package": {
+    "fileName": "delta-2026.9.16.8-2026.9.16.9.zip",
+    "sha256": "97d7d00f6bb0ceffa574c889316597b2fe2ab64720aadf24913fe455f23742e0",
+    "sizeBytes": 1127347
+  }
+}
