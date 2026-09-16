@@ -1,18 +1,18 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.9.16.5",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.9.16.5/RevelationLauncherCanary-0.3.21-Setup-x64.exe",
-  "fileName": "RevelationLauncherCanary-0.3.21-Setup-x64.exe",
-  "sha256": "8a19e421794c046e013773ef7df1b903dacc2d8f57477e316ad5331c691cb768",
-  "sizeBytes": 109470208,
-  "publishedAtUtc": "2026-09-16T07:23:57Z",
+  "version": "2026.9.16.9",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.9.16.9/RevelationLauncherCanary-0.3.25-Setup-x64.exe",
+  "fileName": "RevelationLauncherCanary-0.3.25-Setup-x64.exe",
+  "sha256": "9d8f0369f4c6d76d597ba271bbde351e3368fc1b514ed3b56a744d9527371703",
+  "sizeBytes": 109435904,
+  "publishedAtUtc": "2026-09-16T10:34:17Z",
   "historyUrl": "https://raw.githubusercontent.com/moz9/revelation-launcher-updates/main/manifests/experimental-history.json",
-  "notes": "Точечное обновление: версия устанавливается по фактическому launcher-build.json; автоматическое восстановление классового оплота через контрольную точку; GitHub — основной канал, HTTPS-серверы — резерв.",
+  "notes": "Исправлен запуск от администратора и связь контура с повышенным лаунчером.",
   "delta": {
-    "baseVersion": "2026.9.13.4",
-    "url": "https://raw.githubusercontent.com/moz9/revelation-launcher-updates/476f1d5a1e60e45928eedcf5b3e52d2da260096b/deltas/delta-2026.9.13.4-2026.9.16.5.json",
-    "sha256": "067145e564ce7e42fac2015c0b0d73dcec6226be70802373e956e2667eea2d41",
-    "fileName": "delta-2026.9.13.4-2026.9.16.5.json"
+    "baseVersion": "2026.9.16.8",
+    "url": "https://raw.githubusercontent.com/moz9/revelation-launcher-updates/c9d1008324ee345269017d9b5b7618ab59ea419a/deltas/delta-2026.9.16.8-2026.9.16.9.json",
+    "sha256": "4e3edcc93d2ea0192daa19e4ad251130ab337b227884c855988d1d3e8fa3d49f",
+    "fileName": "delta-2026.9.16.8-2026.9.16.9.json"
   }
 }
