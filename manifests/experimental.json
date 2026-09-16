@@ -1,0 +1,18 @@
+{
+  "channel": "experimental",
+  "displayName": "Тестовая версия",
+  "version": "2026.9.16.3",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.9.16.3/RevelationLauncherCanary-0.3.19-Setup-x64.exe",
+  "fileName": "RevelationLauncherCanary-0.3.19-Setup-x64.exe",
+  "sha256": "17faf38961f5719bba6caf9de6fc73abc62c901ca8b150cb0249f4cae9cd2fb2",
+  "sizeBytes": 109442048,
+  "publishedAtUtc": "2026-09-16T06:59:43Z",
+  "historyUrl": "https://raw.githubusercontent.com/moz9/revelation-launcher-updates/main/manifests/experimental-history.json",
+  "notes": "Точечное обновление: автоматическое восстановление классового оплота через контрольную точку, сбор данных маршрута для фонового восстановления и GitHub-канал обновлений с резервным сервером.",
+  "delta": {
+    "url": "https://raw.githubusercontent.com/moz9/revelation-launcher-updates/main/deltas/delta-2026.9.13.4-2026.9.16.3.json",
+    "baseVersion": "2026.9.13.4",
+    "fileName": "delta-2026.9.13.4-2026.9.16.3.json",
+    "sha256": "634e2045068f6ab89f1960e48df72cc599328050e9f9c459bf9f7ead404e5294"
+  }
+}
