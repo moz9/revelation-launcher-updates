@@ -1,18 +1,18 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.9.16.3",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.9.16.3/RevelationLauncherCanary-0.3.19-Setup-x64.exe",
-  "fileName": "RevelationLauncherCanary-0.3.19-Setup-x64.exe",
-  "sha256": "17faf38961f5719bba6caf9de6fc73abc62c901ca8b150cb0249f4cae9cd2fb2",
-  "sizeBytes": 109442048,
-  "publishedAtUtc": "2026-09-16T06:59:43Z",
+  "version": "2026.9.16.5",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.9.16.5/RevelationLauncherCanary-0.3.21-Setup-x64.exe",
+  "fileName": "RevelationLauncherCanary-0.3.21-Setup-x64.exe",
+  "sha256": "8a19e421794c046e013773ef7df1b903dacc2d8f57477e316ad5331c691cb768",
+  "sizeBytes": 109470208,
+  "publishedAtUtc": "2026-09-16T07:23:57Z",
   "historyUrl": "https://raw.githubusercontent.com/moz9/revelation-launcher-updates/main/manifests/experimental-history.json",
-  "notes": "Точечное обновление: автоматическое восстановление классового оплота через контрольную точку, сбор данных маршрута для фонового восстановления и GitHub-канал обновлений с резервным сервером.",
+  "notes": "Точечное обновление: версия устанавливается по фактическому launcher-build.json; автоматическое восстановление классового оплота через контрольную точку; GitHub — основной канал, HTTPS-серверы — резерв.",
   "delta": {
-    "url": "https://raw.githubusercontent.com/moz9/revelation-launcher-updates/c744a49/deltas/delta-2026.9.13.4-2026.9.16.3.json",
     "baseVersion": "2026.9.13.4",
-    "fileName": "delta-2026.9.13.4-2026.9.16.3.json",
-    "sha256": "634e2045068f6ab89f1960e48df72cc599328050e9f9c459bf9f7ead404e5294"
+    "url": "https://raw.githubusercontent.com/moz9/revelation-launcher-updates/476f1d5a1e60e45928eedcf5b3e52d2da260096b/deltas/delta-2026.9.13.4-2026.9.16.5.json",
+    "sha256": "067145e564ce7e42fac2015c0b0d73dcec6226be70802373e956e2667eea2d41",
+    "fileName": "delta-2026.9.13.4-2026.9.16.5.json"
   }
 }
