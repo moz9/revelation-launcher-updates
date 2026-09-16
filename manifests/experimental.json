@@ -1,18 +1,18 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.9.16.11",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.9.16.11/RevelationLauncherCanary-0.3.27-Setup-x64.exe",
-  "fileName": "RevelationLauncherCanary-0.3.27-Setup-x64.exe",
-  "sha256": "09e6cea9f7931afe2fa1991444b0dfdab36894cbc5442a4a74e29472bab32008",
-  "sizeBytes": 109462528,
-  "publishedAtUtc": "2026-09-16T13:16:46Z",
+  "version": "2026.9.16.12",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.9.16.12/RevelationLauncherCanary-0.3.28-Setup-x64.exe",
+  "fileName": "RevelationLauncherCanary-0.3.28-Setup-x64.exe",
+  "sha256": "f20c5ec243257b33c52665804e16a0cbcd2300e1f990ed281b9a13fdaae63034",
+  "sizeBytes": 109481984,
+  "publishedAtUtc": "2026-09-16T15:17:29Z",
   "historyUrl": "https://raw.githubusercontent.com/moz9/revelation-launcher-updates/main/manifests/experimental-history.json",
-  "notes": "Исправлено сохранение developer-активации и локальных настроек при обновлении. Автопризыв выбранного боевого духа доступен в настройках персонажа.",
+  "notes": "Исправлено чтение списка духов и отключение игрового модуля. Автопризыв приостанавливается при запуске и прохождении башни духов; повторная проверка перед действием предотвращает конфликт.",
   "delta": {
-    "baseVersion": "2026.9.16.10",
-    "url": "https://raw.githubusercontent.com/moz9/revelation-launcher-updates/main/deltas/delta-2026.9.16.10-2026.9.16.11.json",
-    "sha256": "a53822711d29d8dfdbc49cdaed72c830ada5fc923c5e7344894ddfd8c3814dbc",
-    "fileName": "delta-2026.9.16.10-2026.9.16.11.json"
+    "baseVersion": "2026.9.16.11",
+    "url": "https://raw.githubusercontent.com/moz9/revelation-launcher-updates/main/deltas/delta-2026.9.16.11-2026.9.16.12.json",
+    "sha256": "06ab4e4198df666940c167d44613d7c7804065866d952d6483a9ad0fb4c0c55e",
+    "fileName": "delta-2026.9.16.11-2026.9.16.12.json"
   }
 }
