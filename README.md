@@ -1,4 +1,4 @@
-# Revelation Launcher updates
+﻿# Revelation Launcher updates
 
 This repository contains only public release files for Revelation Launcher:
 
@@ -8,4 +8,4 @@ This repository contains only public release files for Revelation Launcher:
 
 It never contains source code, access tokens, private keys, player data, server administration addresses, or license configuration.
 
-The launcher validates a signed manifest and a SHA-256 hash before applying an update. The primary delivery channel is GitHub Releases; the existing update server is retained as a fallback mirror.
+The launcher validates SHA-256 hashes before applying an update. The primary delivery channel is GitHub Releases; the existing update server is retained as a fallback mirror. Ed25519 manifest signing is the next migration step.
