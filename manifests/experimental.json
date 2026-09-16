@@ -1,18 +1,18 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.9.16.12",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.9.16.12/RevelationLauncherCanary-0.3.28-Setup-x64.exe",
-  "fileName": "RevelationLauncherCanary-0.3.28-Setup-x64.exe",
-  "sha256": "f20c5ec243257b33c52665804e16a0cbcd2300e1f990ed281b9a13fdaae63034",
-  "sizeBytes": 109481984,
-  "publishedAtUtc": "2026-09-16T15:17:29Z",
+  "version": "2026.9.16.13",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.9.16.13/RevelationLauncherCanary-0.3.29-Setup-x64.exe",
+  "fileName": "RevelationLauncherCanary-0.3.29-Setup-x64.exe",
+  "sha256": "0e6b90dae359fa10b95d024b23bcee118a1b2f3f46e43f116f8020b38ec5e367",
+  "sizeBytes": 109466624,
+  "publishedAtUtc": "2026-09-16T16:16:59Z",
   "historyUrl": "https://raw.githubusercontent.com/moz9/revelation-launcher-updates/main/manifests/experimental-history.json",
-  "notes": "Исправлено чтение списка духов и отключение игрового модуля. Автопризыв приостанавливается при запуске и прохождении башни духов; повторная проверка перед действием предотвращает конфликт.",
+  "notes": "Оплот: автоматическое продолжение после предупреждения об уменьшенной награде; закрытие оставшихся окон без повторного принятия задания. Исправлена недоступная пауза после ошибки остановки.",
   "delta": {
-    "baseVersion": "2026.9.16.11",
-    "url": "https://raw.githubusercontent.com/moz9/revelation-launcher-updates/main/deltas/delta-2026.9.16.11-2026.9.16.12.json",
-    "sha256": "06ab4e4198df666940c167d44613d7c7804065866d952d6483a9ad0fb4c0c55e",
-    "fileName": "delta-2026.9.16.11-2026.9.16.12.json"
+    "sha256": "c6a929a32056fe92795125f540ca6d57e0f2415ef14abf02b4bf60ada0769260",
+    "baseVersion": "2026.9.16.12",
+    "fileName": "delta-2026.9.16.12-2026.9.16.13.json",
+    "url": "https://raw.githubusercontent.com/moz9/revelation-launcher-updates/main/deltas/delta-2026.9.16.12-2026.9.16.13.json"
   }
 }
