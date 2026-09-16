@@ -1,18 +1,18 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.9.16.10",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.9.16.10/RevelationLauncherCanary-0.3.26-Setup-x64.exe",
-  "fileName": "RevelationLauncherCanary-0.3.26-Setup-x64.exe",
-  "sha256": "0ceec091e06b7f501f7ba95f9d33f36b1612524bb7e39b2bd33936327ccd10dd",
-  "sizeBytes": 109466624,
-  "publishedAtUtc": "2026-09-16T12:33:15Z",
+  "version": "2026.9.16.11",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.9.16.11/RevelationLauncherCanary-0.3.27-Setup-x64.exe",
+  "fileName": "RevelationLauncherCanary-0.3.27-Setup-x64.exe",
+  "sha256": "09e6cea9f7931afe2fa1991444b0dfdab36894cbc5442a4a74e29472bab32008",
+  "sizeBytes": 109462528,
+  "publishedAtUtc": "2026-09-16T13:16:46Z",
   "historyUrl": "https://raw.githubusercontent.com/moz9/revelation-launcher-updates/main/manifests/experimental-history.json",
-  "notes": "Автопризыв выбранного боевого духа в настройках персонажа: выбор сохраняется отдельно для персонажа; при маунте или крыльях сначала выполняется безопасное спешивание; повтор без подтверждения не отправляется.",
+  "notes": "Исправлено сохранение developer-активации и локальных настроек при обновлении. Автопризыв выбранного боевого духа доступен в настройках персонажа.",
   "delta": {
-    "baseVersion": "2026.9.16.9",
-    "url": "https://raw.githubusercontent.com/moz9/revelation-launcher-updates/main/deltas/delta-2026.9.16.9-2026.9.16.10.json",
-    "sha256": "11d4b6e4e14df0af35bf2fea7160e0d52e7969b8b472c84132ebd96e7c11ae27",
-    "fileName": "delta-2026.9.16.9-2026.9.16.10.json"
+    "baseVersion": "2026.9.16.10",
+    "url": "https://raw.githubusercontent.com/moz9/revelation-launcher-updates/main/deltas/delta-2026.9.16.10-2026.9.16.11.json",
+    "sha256": "a53822711d29d8dfdbc49cdaed72c830ada5fc923c5e7344894ddfd8c3814dbc",
+    "fileName": "delta-2026.9.16.10-2026.9.16.11.json"
   }
 }
