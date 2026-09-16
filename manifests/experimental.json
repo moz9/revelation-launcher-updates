@@ -1,18 +1,18 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.9.16.9",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.9.16.9/RevelationLauncherCanary-0.3.25-Setup-x64.exe",
-  "fileName": "RevelationLauncherCanary-0.3.25-Setup-x64.exe",
-  "sha256": "9d8f0369f4c6d76d597ba271bbde351e3368fc1b514ed3b56a744d9527371703",
-  "sizeBytes": 109435904,
-  "publishedAtUtc": "2026-09-16T10:34:17Z",
+  "version": "2026.9.16.10",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.9.16.10/RevelationLauncherCanary-0.3.26-Setup-x64.exe",
+  "fileName": "RevelationLauncherCanary-0.3.26-Setup-x64.exe",
+  "sha256": "0ceec091e06b7f501f7ba95f9d33f36b1612524bb7e39b2bd33936327ccd10dd",
+  "sizeBytes": 109466624,
+  "publishedAtUtc": "2026-09-16T12:33:15Z",
   "historyUrl": "https://raw.githubusercontent.com/moz9/revelation-launcher-updates/main/manifests/experimental-history.json",
-  "notes": "Исправлен запуск от администратора и связь контура с повышенным лаунчером.",
+  "notes": "Автопризыв выбранного боевого духа в настройках персонажа: выбор сохраняется отдельно для персонажа; при маунте или крыльях сначала выполняется безопасное спешивание; повтор без подтверждения не отправляется.",
   "delta": {
-    "baseVersion": "2026.9.16.8",
-    "url": "https://raw.githubusercontent.com/moz9/revelation-launcher-updates/c9d1008324ee345269017d9b5b7618ab59ea419a/deltas/delta-2026.9.16.8-2026.9.16.9.json",
-    "sha256": "4e3edcc93d2ea0192daa19e4ad251130ab337b227884c855988d1d3e8fa3d49f",
-    "fileName": "delta-2026.9.16.8-2026.9.16.9.json"
+    "baseVersion": "2026.9.16.9",
+    "url": "https://raw.githubusercontent.com/moz9/revelation-launcher-updates/main/deltas/delta-2026.9.16.9-2026.9.16.10.json",
+    "sha256": "11d4b6e4e14df0af35bf2fea7160e0d52e7969b8b472c84132ebd96e7c11ae27",
+    "fileName": "delta-2026.9.16.9-2026.9.16.10.json"
   }
 }

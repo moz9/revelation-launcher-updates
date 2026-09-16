@@ -1,0 +1,37 @@
+{
+    "schema":  1,
+    "channel":  "experimental",
+    "baseVersion":  "2026.9.16.9",
+    "version":  "2026.9.16.10",
+    "files":  [
+                  {
+                      "path":  "RevelationLauncher.deps.json",
+                      "baseSha256":  "a1a74fe0a1589bdcd6e961dbda75bbcf8479982a2417ec278b90ecec110b526d",
+                      "sha256":  "a08f41db2a509a567673c7097b9933ef6e6e1741dcfd98a02c3ecad7cdcdc16c",
+                      "size":  46788
+                  },
+                  {
+                      "path":  "RevelationLauncher.dll",
+                      "baseSha256":  "c5e5a89335a2f25208f9ce60cbdc829a3f50a00fede73681ffbf6158a133eff8",
+                      "sha256":  "7a235e93377461a499b9778d6aeba45e3b8df8d6a3c01cc37f9e34d79e6bb76a",
+                      "size":  2375680
+                  },
+                  {
+                      "path":  "RevelationLauncher.exe",
+                      "baseSha256":  "984815cc8f66be02f0c2fd4cfcc832a989f4e79405622d1399db040d234c9577",
+                      "sha256":  "cf2c28f442867708b2a02568ebee6f894eb403c9460740f2d81b748bd3f6a7d3",
+                      "size":  344576
+                  },
+                  {
+                      "path":  "native/core/launcher-build.json",
+                      "baseSha256":  "eb7cf8fff98e14b32533f4c474becd43488fba2d7e81107365d41fffbaa22df5",
+                      "sha256":  "d511b96dd227d66cf77499149e5c0fac40e03d9b9c31e28b934e24233c54bfa3",
+                      "size":  117
+                  }
+              ],
+    "package":  {
+                    "fileName":  "delta-2026.9.16.9-2026.9.16.10.zip",
+                    "sha256":  "eb9af478eda0b02615d23fd2cc4d3e7c66acbc7afd1fb37e7019d02e99f1ee79",
+                    "sizeBytes":  1117765
+                }
+}
