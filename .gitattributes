@@ -1,0 +1,2 @@
+deltas/*.json -text
+deltas/*.zip -text
