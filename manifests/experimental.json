@@ -1,18 +1,18 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.9.17.1",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.9.17.1/RevelationLauncherCanary-0.3.30-Setup-x64.exe",
-  "fileName": "RevelationLauncherCanary-0.3.30-Setup-x64.exe",
-  "sha256": "da4d54df0461eef661c62141f0eef64f7aec146afb153829884599d391a36848",
-  "sizeBytes": 109498880,
-  "publishedAtUtc": "2026-09-17T09:16:49Z",
+  "version": "2026.9.17.2",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.9.17.2/RevelationLauncherCanary-0.3.31-Setup-x64.exe",
+  "fileName": "RevelationLauncherCanary-0.3.31-Setup-x64.exe",
+  "sha256": "170380ec883e2c7ae1e7d2545fdc290b68692514daedba9f9b1dd825a619db9f",
+  "sizeBytes": 109534208,
+  "publishedAtUtc": "2026-09-17T10:33:46Z",
   "historyUrl": "https://raw.githubusercontent.com/moz9/revelation-launcher-updates/main/manifests/experimental-history.json",
-  "notes": "Исправлен автоматический переход между циклами оплота. Недоступные площадные умения пропускаются при выборе боевого навыка.",
+  "notes": "Исправлена остановка оплота при переходе к следующему циклу. Добавлено копирование хода выполнения и уведомлений. Устранена конкуренция фонового макроса с боем ги-квеста.",
   "delta": {
-    "url": "https://raw.githubusercontent.com/moz9/revelation-launcher-updates/main/deltas/delta-2026.9.16.13-2026.9.17.1.json",
-    "baseVersion": "2026.9.16.13",
-    "fileName": "delta-2026.9.16.13-2026.9.17.1.json",
-    "sha256": "6fd606e4b90a7a8574befff0acdd718e0c92438833bcc507a1c0e0238d25ab84"
+    "fileName": "delta-2026.9.17.1-2026.9.17.2.json",
+    "baseVersion": "2026.9.17.1",
+    "url": "https://raw.githubusercontent.com/moz9/revelation-launcher-updates/main/deltas/delta-2026.9.17.1-2026.9.17.2.json",
+    "sha256": "e789b1a630c912d10f282231530460e19f6eab501b8300141ea3cc7e041cf4e9"
   }
 }

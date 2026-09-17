@@ -1,0 +1,61 @@
+{
+  "schema": 1,
+  "channel": "experimental",
+  "baseVersion": "2026.9.17.1",
+  "version": "2026.9.17.2",
+  "files": [
+    {
+      "path": "RevelationLauncher.deps.json",
+      "baseSha256": "aa719b6d62ca101845a7d176ec1676c47cd652d7dbc2217423806e3ef1c7f31d",
+      "sha256": "aface71784d3828ff50965ac1691065cdd8d2a1bc25f3a5279c1aded5d3a98c8",
+      "size": 46788
+    },
+    {
+      "path": "RevelationLauncher.dll",
+      "baseSha256": "1d8709784b67baf3b0589329581455aeba05bebc71255d347c3a8b6dca04e42e",
+      "sha256": "e4aaed3f14e8f4b5b51d687671c9eb8292a388477184f7f03b6f9b979c697ab2",
+      "size": 2392064
+    },
+    {
+      "path": "RevelationLauncher.exe",
+      "baseSha256": "e3b760a5f8f53be8a581fa8e6d165c4b4a917c83d19f73c79986d31cc2ee1d55",
+      "sha256": "dfaa8a9dc43b5b4f066c48041fef847fff2b524adcc000a8dc44471146e3db0d",
+      "size": 344576
+    },
+    {
+      "path": "RevelationLauncher.pri",
+      "baseSha256": "c5c98eef42b7deb020c9f4df8b0a7a173f5e2f9bca2290136ccaa5fdeec1221f",
+      "sha256": "f04908e5f0ca3c270662c2a0369f0905df044a7df9318df14791e6fa7677b6e2",
+      "size": 2243336
+    },
+    {
+      "path": "native/core/launcher-build.json",
+      "baseSha256": "33f96d037cc5717e6e112cc669ea60c46e9b83f6cc6bb4d2f769c4d634cbf9d7",
+      "sha256": "e8a791adfbbf95d193359788699d421979f79c72d5d3de0872e00b3d6930b502",
+      "size": 116
+    },
+    {
+      "path": "native/tower/probe.json",
+      "baseSha256": "abea5cab82d78a930ebaaf932f4d2e767391fc60688c880b457b94de028085fc",
+      "sha256": "e07b38a03bf5f4857ea11e7e9c5532badcf8ba623889c36e40e82f38d47bab84",
+      "size": 90
+    },
+    {
+      "path": "native/tower/RevelationGameBridge.json",
+      "baseSha256": "547e0db57bdaaec462dbabf2aa0e8d7b876910498d44e521a7004adaf451ad2e",
+      "sha256": "9139c91155443087789d53f289e7c054653581037e05129c0e2524d4d7261c40",
+      "size": 316
+    },
+    {
+      "path": "native/tower/TowerCanaryProbe.dll",
+      "baseSha256": "65a25c3ec0efdb08f01c0b3b076f7e462fd1ff6c04c9f31f8bc32d6716f5ac19",
+      "sha256": "19b90edbe54b4dbe6921534fb213017af1f6670e3b5dae6801aaf014ef05a7de",
+      "size": 721920
+    }
+  ],
+  "package": {
+    "fileName": "delta-2026.9.17.1-2026.9.17.2.zip",
+    "sha256": "3cb03e8c0fe5910cb58b98ad82fe499e3ffc254c0a269c09813f21304b28585a",
+    "sizeBytes": 2038408
+  }
+}
