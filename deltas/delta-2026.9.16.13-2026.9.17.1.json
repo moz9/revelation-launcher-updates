@@ -1,0 +1,55 @@
+{
+  "schema": 1,
+  "channel": "experimental",
+  "baseVersion": "2026.9.16.13",
+  "version": "2026.9.17.1",
+  "files": [
+    {
+      "path": "RevelationLauncher.deps.json",
+      "baseSha256": "2fc580aa4ace7572ccf2f73c7752866c119c6c3b22827f0f8cb8578130953922",
+      "sha256": "aa719b6d62ca101845a7d176ec1676c47cd652d7dbc2217423806e3ef1c7f31d",
+      "size": 46788
+    },
+    {
+      "path": "RevelationLauncher.dll",
+      "baseSha256": "9910b255b6bb5a17b927ad363644c8a6dbb2256d0130e118393229c349a26b22",
+      "sha256": "1d8709784b67baf3b0589329581455aeba05bebc71255d347c3a8b6dca04e42e",
+      "size": 2379776
+    },
+    {
+      "path": "RevelationLauncher.exe",
+      "baseSha256": "9e0ff096d1d5c0e9ae820f61714aef1dca3b7f007b7ca2e3caf9b4e56766ffe4",
+      "sha256": "e3b760a5f8f53be8a581fa8e6d165c4b4a917c83d19f73c79986d31cc2ee1d55",
+      "size": 344576
+    },
+    {
+      "path": "native/core/launcher-build.json",
+      "baseSha256": "322ac15f8b4233aa56c5cec42bca4e21d87a81c9e1765583c9df5fd492bede32",
+      "sha256": "33f96d037cc5717e6e112cc669ea60c46e9b83f6cc6bb4d2f769c4d634cbf9d7",
+      "size": 116
+    },
+    {
+      "path": "native/tower/probe.json",
+      "baseSha256": "5e897e0b4e73031eb5b530eb45b704adedfe5ccbfe6c7a680e50ea6b728b30e9",
+      "sha256": "abea5cab82d78a930ebaaf932f4d2e767391fc60688c880b457b94de028085fc",
+      "size": 90
+    },
+    {
+      "path": "native/tower/RevelationGameBridge.json",
+      "baseSha256": "dcab150e7c48ebe8ee9089546703726b7226a06dfc438a0b2e1c996b7a01eb90",
+      "sha256": "547e0db57bdaaec462dbabf2aa0e8d7b876910498d44e521a7004adaf451ad2e",
+      "size": 316
+    },
+    {
+      "path": "native/tower/TowerCanaryProbe.dll",
+      "baseSha256": "4b04eb81f6d2667304c8d67e626d70c0d9319b98740d22f1e509ceb947ad32c4",
+      "sha256": "65a25c3ec0efdb08f01c0b3b076f7e462fd1ff6c04c9f31f8bc32d6716f5ac19",
+      "size": 720384
+    }
+  ],
+  "package": {
+    "fileName": "delta-2026.9.16.13-2026.9.17.1.zip",
+    "sha256": "b655831146b3af5cb3f138692c736e600523c03aba273eb8b82e01ab7d342437",
+    "sizeBytes": 1466552
+  }
+}
