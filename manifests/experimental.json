@@ -1,18 +1,18 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.9.20.1",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.9.20.1/RevelationLauncherCanary-0.3.32-Setup-x64.exe",
-  "fileName": "RevelationLauncherCanary-0.3.32-Setup-x64.exe",
-  "sha256": "ff2686cadf619bcf2b1c43e0b6c76b84ab2da04df05db01b70843390e35fc836",
-  "sizeBytes": 109479936,
-  "publishedAtUtc": "2026-09-20T06:21:14Z",
+  "version": "2026.9.20.2",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.9.20.2/RevelationLauncherCanary-0.3.33-Setup-x64.exe",
+  "fileName": "RevelationLauncherCanary-0.3.33-Setup-x64.exe",
+  "sha256": "8744c8126c419f7a19ec07a6b8d5ab68529f190ead7cbb7f2760d995f5d09a45",
+  "sizeBytes": 109483008,
+  "publishedAtUtc": "2026-09-20T07:23:16Z",
   "historyUrl": "https://raw.githubusercontent.com/moz9/revelation-launcher-updates/main/manifests/experimental-history.json",
-  "notes": "Исправлены остановки оплота при смене задания и переходе к следующему циклу. При отказе действия состояние перечитывается; повторы разрешены только при подтверждённом изменении.",
+  "notes": "Исправлена остановка оплота, когда игра сама отвечает на вопрос наставника раньше лаунчера. При подтверждённой смене состояния прохождение продолжается без повторной отправки ответа.",
   "delta": {
-    "sha256": "51b555ad1764f99fbfa13213efdbd0564dd698c8c705c5e62f098fa6e8bbfdf6",
-    "fileName": "delta-2026.9.17.2-2026.9.20.1.json",
-    "url": "https://raw.githubusercontent.com/moz9/revelation-launcher-updates/main/deltas/delta-2026.9.17.2-2026.9.20.1.json",
-    "baseVersion": "2026.9.17.2"
+    "baseVersion": "2026.9.20.1",
+    "fileName": "delta-2026.9.20.1-2026.9.20.2.json",
+    "url": "https://raw.githubusercontent.com/moz9/revelation-launcher-updates/main/deltas/delta-2026.9.20.1-2026.9.20.2.json",
+    "sha256": "acf7856a1796f856d9e631df25cb3e9fef844f43ddb6329554bf293c52e69891"
   }
 }
