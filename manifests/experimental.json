@@ -1,18 +1,18 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.9.20.2",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.9.20.2/RevelationLauncherCanary-0.3.33-Setup-x64.exe",
-  "fileName": "RevelationLauncherCanary-0.3.33-Setup-x64.exe",
-  "sha256": "8744c8126c419f7a19ec07a6b8d5ab68529f190ead7cbb7f2760d995f5d09a45",
-  "sizeBytes": 109483008,
-  "publishedAtUtc": "2026-09-20T07:23:16Z",
+  "version": "2026.9.20.3",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.9.20.3/RevelationLauncherCanary-0.3.34-Setup-x64.exe",
+  "fileName": "RevelationLauncherCanary-0.3.34-Setup-x64.exe",
+  "sha256": "e5addfde02adcb4d7ed892b4c252449a3a97691b253947ce4c5a2d147a27f5e9",
+  "sizeBytes": 109529600,
+  "publishedAtUtc": "2026-09-20T07:57:36Z",
   "historyUrl": "https://raw.githubusercontent.com/moz9/revelation-launcher-updates/main/manifests/experimental-history.json",
-  "notes": "Исправлена остановка оплота, когда игра сама отвечает на вопрос наставника раньше лаунчера. При подтверждённой смене состояния прохождение продолжается без повторной отправки ответа.",
+  "notes": "Исправлена остановка оплота при смене памятника во время выполнения действия. Лаунчер перечитывает цель и продолжает маршрут. Тестовые события больше не попадают в игровой журнал.",
   "delta": {
-    "baseVersion": "2026.9.20.1",
-    "fileName": "delta-2026.9.20.1-2026.9.20.2.json",
-    "url": "https://raw.githubusercontent.com/moz9/revelation-launcher-updates/main/deltas/delta-2026.9.20.1-2026.9.20.2.json",
-    "sha256": "acf7856a1796f856d9e631df25cb3e9fef844f43ddb6329554bf293c52e69891"
+    "fileName": "delta-2026.9.20.2-2026.9.20.3.json",
+    "baseVersion": "2026.9.20.2",
+    "url": "https://raw.githubusercontent.com/moz9/revelation-launcher-updates/main/deltas/delta-2026.9.20.2-2026.9.20.3.json",
+    "sha256": "112b0cff22e0654f3ec44c4a6b941dd41b65cb571b6be107e4c3201e5b53e7ed"
   }
 }
