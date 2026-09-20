@@ -1,18 +1,18 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.9.20.3",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.9.20.3/RevelationLauncherCanary-0.3.34-Setup-x64.exe",
-  "fileName": "RevelationLauncherCanary-0.3.34-Setup-x64.exe",
-  "sha256": "e5addfde02adcb4d7ed892b4c252449a3a97691b253947ce4c5a2d147a27f5e9",
-  "sizeBytes": 109529600,
-  "publishedAtUtc": "2026-09-20T07:57:36Z",
+  "version": "2026.9.20.4",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.9.20.4/RevelationLauncherCanary-0.3.35-Setup-x64.exe",
+  "fileName": "RevelationLauncherCanary-0.3.35-Setup-x64.exe",
+  "sha256": "2cfc700dd811554050e868fbef9f9cb11f4f65836c918da99d9569464d031107",
+  "sizeBytes": 109515776,
+  "publishedAtUtc": "2026-09-20T08:27:55Z",
   "historyUrl": "https://raw.githubusercontent.com/moz9/revelation-launcher-updates/main/manifests/experimental-history.json",
-  "notes": "Исправлена остановка оплота при смене памятника во время выполнения действия. Лаунчер перечитывает цель и продолжает маршрут. Тестовые события больше не попадают в игровой журнал.",
+  "notes": "Исправлен счётчик циклов оплота, когда игра сразу принимает следующее задание. Выбранное количество циклов учитывается и при переходе без промежуточного пустого задания.",
   "delta": {
-    "fileName": "delta-2026.9.20.2-2026.9.20.3.json",
-    "baseVersion": "2026.9.20.2",
-    "url": "https://raw.githubusercontent.com/moz9/revelation-launcher-updates/main/deltas/delta-2026.9.20.2-2026.9.20.3.json",
-    "sha256": "112b0cff22e0654f3ec44c4a6b941dd41b65cb571b6be107e4c3201e5b53e7ed"
+    "url": "https://raw.githubusercontent.com/moz9/revelation-launcher-updates/main/deltas/delta-2026.9.20.3-2026.9.20.4.json",
+    "sha256": "34852880930f750c193c320b1233438a6a540676b35960916e12513d8757f0d7",
+    "fileName": "delta-2026.9.20.3-2026.9.20.4.json",
+    "baseVersion": "2026.9.20.3"
   }
 }
