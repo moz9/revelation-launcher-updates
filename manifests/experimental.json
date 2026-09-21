@@ -1,18 +1,18 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.9.20.4",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.9.20.4/RevelationLauncherCanary-0.3.35-Setup-x64.exe",
-  "fileName": "RevelationLauncherCanary-0.3.35-Setup-x64.exe",
-  "sha256": "2cfc700dd811554050e868fbef9f9cb11f4f65836c918da99d9569464d031107",
-  "sizeBytes": 109515776,
-  "publishedAtUtc": "2026-09-20T08:27:55Z",
-  "historyUrl": "https://raw.githubusercontent.com/moz9/revelation-launcher-updates/main/manifests/experimental-history.json",
-  "notes": "Исправлен счётчик циклов оплота, когда игра сразу принимает следующее задание. Выбранное количество циклов учитывается и при переходе без промежуточного пустого задания.",
+  "version": "2026.9.21.1",
+  "installerUrl": "https://www.revalib.ru/launcher-updates/v1/RevelationLauncherTest-Setup-x64.exe",
+  "fileName": "RevelationLauncherTest-Setup-x64.exe",
+  "sha256": "ff831f82fa8dddaeff23cc90b82606d651126942a4144ce095d8dfe264622112",
+  "sizeBytes": 109452288,
+  "publishedAtUtc": "2026-09-21T06:17:52Z",
+  "historyUrl": "https://www.revalib.ru/launcher-updates/v1/experimental-history.json",
+  "notes": "Исправлена остановка квестов после закрытия игры: блокировка управления снимается, если игровых процессов больше нет. При работающем клиенте проверка остановки сохранена. Добавлены копирование постоянной ссылки на установщик и выделяемый адрес.",
   "delta": {
-    "url": "https://raw.githubusercontent.com/moz9/revelation-launcher-updates/main/deltas/delta-2026.9.20.3-2026.9.20.4.json",
-    "sha256": "34852880930f750c193c320b1233438a6a540676b35960916e12513d8757f0d7",
-    "fileName": "delta-2026.9.20.3-2026.9.20.4.json",
-    "baseVersion": "2026.9.20.3"
+    "baseVersion": "2026.9.20.4",
+    "url": "https://www.revalib.ru/launcher-updates/v1/delta-2026.9.20.4-2026.9.21.1.json",
+    "fileName": "delta-2026.9.20.4-2026.9.21.1.json",
+    "sha256": "049bc03ae4985875160174420042ede3869fc20bf5a4ea15f4040204b867ce26"
   }
 }
