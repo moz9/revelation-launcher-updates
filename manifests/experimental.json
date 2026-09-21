@@ -1,12 +1,12 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.9.21.2",
+  "version": "2026.9.21.3",
   "installerUrl": "https://www.revalib.ru/launcher-updates/v1/RevelationLauncherTest-Setup-x64.exe",
   "fileName": "RevelationLauncherTest-Setup-x64.exe",
-  "sha256": "39b83fadaf7f6ff05d317e988e4226c1b257492e4f30420463c6a42d19ba7e28",
-  "sizeBytes": 109463040,
-  "publishedAtUtc": "2026-09-21T14:29:33Z",
+  "sha256": "d5ca4f77bc86ef0e9bb27c69aa8c4fdc4a157ee2b1f900aa7b01bac3a952bdc6",
+  "sizeBytes": 109517312,
+  "publishedAtUtc": "2026-09-21T15:12:04Z",
   "historyUrl": "https://www.revalib.ru/launcher-updates/v1/experimental-history.json",
-  "notes": "Исправлено зависание при точечном обновлении: помощник больше не удерживает лаунчер открытым. Для перехода со старых версий используется полный установщик. Сохранены исправление остановки квестов после закрытия игры и копирование ссылки."
+  "notes": "Добавлена проверка совместимости содержимого entities.pg: новый архив игры от 21 сентября поддерживается, изменения разрешённых некритичных таблиц больше не блокируют запуск только из-за общей контрольной суммы. Изменения кода, квестовых данных и неизвестных записей требуют проверки. Сохранены исправления обновлятора и остановки квестов после закрытия игры."
 }
