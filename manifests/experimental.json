@@ -1,12 +1,44 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.9.22.2",
+  "version": "2026.9.22.3",
   "installerUrl": "https://www.revalib.ru/launcher-updates/v1/RevelationLauncherTest-Setup-x64.exe",
   "fileName": "RevelationLauncherTest-Setup-x64.exe",
-  "sha256": "6395b0a709f5ca7c428f02aa0bc941d4e13c820e95b3a81bad9a7f3a64d62a06",
-  "sizeBytes": 109533184,
-  "publishedAtUtc": "2026-09-22T01:46:44Z",
+  "sha256": "7950c5ffd3d5286a2eb23e9a111e97156aafe69164d574c84fee5b4ebeb82f68",
+  "sizeBytes": 109582336,
+  "publishedAtUtc": "2026-09-22T02:41:39Z",
   "historyUrl": "https://www.revalib.ru/launcher-updates/v1/experimental-history.json",
-  "notes": "Гильдейские задания теперь ожидают возвращения персонажа в мир и продолжаются автоматически, если проверка состояния попала на загрузку. Ожидание можно остановить вручную. Исправлено раннее завершение с game_bridge_guild_quest_state_rejected."
+  "notes": "Исправлены точечные обновления: прямые пакеты для четырёх последних версий, ожидание завершения компонентов и проверенный откат файлов. Если точечный пакет отсутствует или не применяется, полный установщик скачивается, проверяется и запускается автоматически той же кнопкой «Обновить лаунчер».",
+  "deltas": [
+    {
+      "fileName": "delta-2026.9.22.2-2026.9.22.3.json",
+      "sha256": "4e81fd257699d1615f7b421b7c0f448bfecb8961c15bc1c129a28d48e72b6b76",
+      "url": "https://www.revalib.ru/launcher-updates/v1/delta-2026.9.22.2-2026.9.22.3.json",
+      "baseVersion": "2026.9.22.2"
+    },
+    {
+      "fileName": "delta-2026.9.22.1-2026.9.22.3.json",
+      "sha256": "8ae89d6d01108b4447902fa61539b3b45adb3cb416fbea239be5c6211c48219c",
+      "url": "https://www.revalib.ru/launcher-updates/v1/delta-2026.9.22.1-2026.9.22.3.json",
+      "baseVersion": "2026.9.22.1"
+    },
+    {
+      "fileName": "delta-2026.9.21.5-2026.9.22.3.json",
+      "sha256": "818a70daf9c08bd49bf18731b7d59454553c4f476b6df0db73fcdebcb0429f30",
+      "url": "https://www.revalib.ru/launcher-updates/v1/delta-2026.9.21.5-2026.9.22.3.json",
+      "baseVersion": "2026.9.21.5"
+    },
+    {
+      "fileName": "delta-2026.9.21.4-2026.9.22.3.json",
+      "sha256": "6e13a8ee6ae357466260c66cd2c832529192fb977c9dead685f38fcc7adc9843",
+      "url": "https://www.revalib.ru/launcher-updates/v1/delta-2026.9.21.4-2026.9.22.3.json",
+      "baseVersion": "2026.9.21.4"
+    }
+  ],
+  "delta": {
+    "fileName": "delta-2026.9.22.2-2026.9.22.3.json",
+    "sha256": "4e81fd257699d1615f7b421b7c0f448bfecb8961c15bc1c129a28d48e72b6b76",
+    "url": "https://www.revalib.ru/launcher-updates/v1/delta-2026.9.22.2-2026.9.22.3.json",
+    "baseVersion": "2026.9.22.2"
+  }
 }
