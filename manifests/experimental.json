@@ -1,12 +1,12 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.9.22.1",
+  "version": "2026.9.22.2",
   "installerUrl": "https://www.revalib.ru/launcher-updates/v1/RevelationLauncherTest-Setup-x64.exe",
   "fileName": "RevelationLauncherTest-Setup-x64.exe",
-  "sha256": "16f03f9dc71dc0b449c31ba6f321b7a33c7bda3987ca86fe10e1d9dc65c647eb",
-  "sizeBytes": 109509120,
-  "publishedAtUtc": "2026-09-21T17:47:24Z",
+  "sha256": "6395b0a709f5ca7c428f02aa0bc941d4e13c820e95b3a81bad9a7f3a64d62a06",
+  "sizeBytes": 109533184,
+  "publishedAtUtc": "2026-09-22T01:46:44Z",
   "historyUrl": "https://www.revalib.ru/launcher-updates/v1/experimental-history.json",
-  "notes": "Исправлено зависание на заданиях с серией F, включая «Обучение мага: проявление судьбы». Механика определяется по данным назначенного объекта; быстрые нажатия выполняются в одном процессе, каждое проверяет цель и состояние персонажа в игровом модуле. Обычные взаимодействия сохранены. После установки перезапустите игру через лаунчер для загрузки нового модуля."
+  "notes": "Гильдейские задания теперь ожидают возвращения персонажа в мир и продолжаются автоматически, если проверка состояния попала на загрузку. Ожидание можно остановить вручную. Исправлено раннее завершение с game_bridge_guild_quest_state_rejected."
 }
