@@ -1,44 +1,14 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.9.22.3",
-  "installerUrl": "https://www.revalib.ru/launcher-updates/v1/RevelationLauncherTest-Setup-x64.exe",
+  "version": "2026.9.24.1",
+  "installerUrl": "https://launch.revalib.ru/launcher-updates/v1/RevelationLauncherTest-Setup-x64.exe",
   "fileName": "RevelationLauncherTest-Setup-x64.exe",
-  "sha256": "7950c5ffd3d5286a2eb23e9a111e97156aafe69164d574c84fee5b4ebeb82f68",
-  "sizeBytes": 109582336,
-  "publishedAtUtc": "2026-09-22T02:41:39Z",
-  "historyUrl": "https://www.revalib.ru/launcher-updates/v1/experimental-history.json",
-  "notes": "Исправлены точечные обновления: прямые пакеты для четырёх последних версий, ожидание завершения компонентов и проверенный откат файлов. Если точечный пакет отсутствует или не применяется, полный установщик скачивается, проверяется и запускается автоматически той же кнопкой «Обновить лаунчер».",
-  "deltas": [
-    {
-      "fileName": "delta-2026.9.22.2-2026.9.22.3.json",
-      "sha256": "4e81fd257699d1615f7b421b7c0f448bfecb8961c15bc1c129a28d48e72b6b76",
-      "url": "https://www.revalib.ru/launcher-updates/v1/delta-2026.9.22.2-2026.9.22.3.json",
-      "baseVersion": "2026.9.22.2"
-    },
-    {
-      "fileName": "delta-2026.9.22.1-2026.9.22.3.json",
-      "sha256": "8ae89d6d01108b4447902fa61539b3b45adb3cb416fbea239be5c6211c48219c",
-      "url": "https://www.revalib.ru/launcher-updates/v1/delta-2026.9.22.1-2026.9.22.3.json",
-      "baseVersion": "2026.9.22.1"
-    },
-    {
-      "fileName": "delta-2026.9.21.5-2026.9.22.3.json",
-      "sha256": "818a70daf9c08bd49bf18731b7d59454553c4f476b6df0db73fcdebcb0429f30",
-      "url": "https://www.revalib.ru/launcher-updates/v1/delta-2026.9.21.5-2026.9.22.3.json",
-      "baseVersion": "2026.9.21.5"
-    },
-    {
-      "fileName": "delta-2026.9.21.4-2026.9.22.3.json",
-      "sha256": "6e13a8ee6ae357466260c66cd2c832529192fb977c9dead685f38fcc7adc9843",
-      "url": "https://www.revalib.ru/launcher-updates/v1/delta-2026.9.21.4-2026.9.22.3.json",
-      "baseVersion": "2026.9.21.4"
-    }
-  ],
-  "delta": {
-    "fileName": "delta-2026.9.22.2-2026.9.22.3.json",
-    "sha256": "4e81fd257699d1615f7b421b7c0f448bfecb8961c15bc1c129a28d48e72b6b76",
-    "url": "https://www.revalib.ru/launcher-updates/v1/delta-2026.9.22.2-2026.9.22.3.json",
-    "baseVersion": "2026.9.22.2"
-  }
+  "sha256": "2c9e4034edbe21e33a9910d9919132fd2f6e04d22090fbcbff27112c6c898464",
+  "sizeBytes": 109519360,
+  "publishedAtUtc": "2026-09-24T09:50:31Z",
+  "historyUrl": "https://launch.revalib.ru/launcher-updates/v1/experimental-history.json",
+  "notes": "Добавлена кнопка отправки небольшого отчёта об ошибке на всех страницах. При необработанной ошибке приложения доступно отдельное окно отправки отчёта. После отправки показан номер обращения. Сохранено исправление запуска через ярлык. Для обновления стартового файла используется полный установщик.",
+  "fullInstallerReason": "launcher-entry-repair",
+  "launcherEntrySha256": "0e12467f273b4e338b54d93477e10183aede7d693caca0d84e62db2ad7e19971"
 }
