@@ -1,26 +1,26 @@
 {
     "channel":  "experimental",
     "displayName":  "Тестовая версия",
-    "version":  "2026.9.26.24",
+    "version":  "2026.9.26.25",
     "installerUrl":  "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
     "fileName":  "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-    "sha256":  "ede410532132a1fda0e20023677e3635e91dfb6df521e7cad0a15d8aaeabf8da",
-    "sizeBytes":  109672960,
-    "publishedAtUtc":  "2026-09-26T16:15:29Z",
+    "sha256":  "badca1ec98f1579b944ea23e030b8ab44afd770bc631138b15560652958c7858",
+    "sizeBytes":  109677056,
+    "publishedAtUtc":  "2026-09-26T16:31:14Z",
     "historyUrl":  "experimental-history.json",
-    "notes":  "Зов АФК: распознавание формы «афка» и объявления со ссылкой на вступление при первом чтении чата.",
+    "notes":  "Зов АФК: форма «афка», ссылка вступления в первом кадре и серверное время на секунду впереди локального.",
     "deltas":  [
                    {
                        "baseVersion":  "2026.9.26.23",
-                       "url":  "delta-2026.9.26.23-2026.9.26.24.json",
-                       "fileName":  "delta-2026.9.26.23-2026.9.26.24.json",
-                       "sha256":  "c8e4a4e505f5380f07ae42561cdd5bdb98191f812b39e2c840a36fdd5774e06a"
+                       "url":  "delta-2026.9.26.23-2026.9.26.25.json",
+                       "fileName":  "delta-2026.9.26.23-2026.9.26.25.json",
+                       "sha256":  "da9f4c7378266905a9c965fefea1093dfb84bdae9622e544c7d283723cdd8b92"
                    }
                ],
     "delta":  {
                   "baseVersion":  "2026.9.26.23",
-                  "url":  "delta-2026.9.26.23-2026.9.26.24.json",
-                  "fileName":  "delta-2026.9.26.23-2026.9.26.24.json",
-                  "sha256":  "c8e4a4e505f5380f07ae42561cdd5bdb98191f812b39e2c840a36fdd5774e06a"
+                  "url":  "delta-2026.9.26.23-2026.9.26.25.json",
+                  "fileName":  "delta-2026.9.26.23-2026.9.26.25.json",
+                  "sha256":  "da9f4c7378266905a9c965fefea1093dfb84bdae9622e544c7d283723cdd8b92"
               }
 }
