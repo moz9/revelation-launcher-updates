@@ -1,26 +1,26 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.9.27.31",
+  "version": "2026.9.27.32",
   "installerUrl": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "37a974fc3fa1fab538771a757377edbf1a4f29a166b7a28965afc6c9d8d5925d",
-  "sizeBytes": 109701632,
-  "publishedAtUtc": "2026-09-26T21:11:31Z",
+  "sha256": "ab236254da8704094beb975de09c936334413ea22ada6d7e0ef6304775fb2b01",
+  "sizeBytes": 109668352,
+  "publishedAtUtc": "2026-09-26T21:29:09Z",
   "historyUrl": "experimental-history.json",
-  "notes": "Добавлена диагностика состояния квеста 65525 и кэша оплота после переходов и релога; повторное принятие без проверки не запускается.",
+  "notes": "Исправлено исключение игрового моста при чтении кэша оплота; диагностика задания 65525 остаётся доступной.",
   "deltas": [
     {
-      "url": "delta-2026.9.27.30-2026.9.27.31.json",
-      "baseVersion": "2026.9.27.30",
-      "fileName": "delta-2026.9.27.30-2026.9.27.31.json",
-      "sha256": "5dd094865ed98f31445ae56ea789aac81d4a9f428f7a5b945039537e7806f364"
+      "fileName": "delta-2026.9.27.31-2026.9.27.32.json",
+      "url": "delta-2026.9.27.31-2026.9.27.32.json",
+      "sha256": "f31291683305c863ca227599ae08a8f6266d2996089c3c57045d43691dc36e08",
+      "baseVersion": "2026.9.27.31"
     }
   ],
   "delta": {
-    "url": "delta-2026.9.27.30-2026.9.27.31.json",
-    "baseVersion": "2026.9.27.30",
-    "fileName": "delta-2026.9.27.30-2026.9.27.31.json",
-    "sha256": "5dd094865ed98f31445ae56ea789aac81d4a9f428f7a5b945039537e7806f364"
+    "fileName": "delta-2026.9.27.31-2026.9.27.32.json",
+    "url": "delta-2026.9.27.31-2026.9.27.32.json",
+    "sha256": "f31291683305c863ca227599ae08a8f6266d2996089c3c57045d43691dc36e08",
+    "baseVersion": "2026.9.27.31"
   }
 }
