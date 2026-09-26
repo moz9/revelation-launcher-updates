@@ -1,26 +1,26 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.9.26.16",
+  "version": "2026.9.26.17",
   "installerUrl": "https://launch.revalib.ru/launcher-updates/v1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "cb199c6ed69e169a98ed4f00fad9b126e8799606c566a4117b8a66e57016c5be",
-  "sizeBytes": 109569024,
-  "publishedAtUtc": "2026-09-26T13:01:18Z",
+  "sha256": "c4b6f14ca6dea606d26ce233261ef120c1d052d85bc424dbb7c36ea9ea0a45f9",
+  "sizeBytes": 109669888,
+  "publishedAtUtc": "2026-09-26T13:38:06Z",
   "historyUrl": "https://launch.revalib.ru/launcher-updates/v1/experimental-history.json",
-  "notes": "Башня духов: после повтора или перехода ждёт готовности подготовки перед стартом, а Репорт включает её статус и последние состояния моста. Зов АФК доступен только лицензии developer. Гильдейский посох применяется на Господине Хмелле.",
+  "notes": "Исправлен единый игровой модуль: восстановлены обработчики квестов, гильдии и AFK Зова после обновления 26.16.",
   "deltas": [
     {
-      "sha256": "4cf5eb6f3b878f0cf11dfcccd7dfab458808f9cb1729c3573bc71b8f0435b3e2",
-      "baseVersion": "2026.9.26.12",
-      "fileName": "delta-2026.9.26.12-2026.9.26.16.json",
-      "url": "https://launch.revalib.ru/launcher-updates/v1/delta-2026.9.26.12-2026.9.26.16.json"
+      "url": "https://launch.revalib.ru/launcher-updates/v1/delta-2026.9.26.16-2026.9.26.17.json",
+      "baseVersion": "2026.9.26.16",
+      "fileName": "delta-2026.9.26.16-2026.9.26.17.json",
+      "sha256": "730d5583f16de8d01372cbddd0a4b0470abdffd165a5c0f87b93273616dc6fc3"
     }
   ],
   "delta": {
-    "sha256": "4cf5eb6f3b878f0cf11dfcccd7dfab458808f9cb1729c3573bc71b8f0435b3e2",
-    "baseVersion": "2026.9.26.12",
-    "fileName": "delta-2026.9.26.12-2026.9.26.16.json",
-    "url": "https://launch.revalib.ru/launcher-updates/v1/delta-2026.9.26.12-2026.9.26.16.json"
+    "url": "https://launch.revalib.ru/launcher-updates/v1/delta-2026.9.26.16-2026.9.26.17.json",
+    "baseVersion": "2026.9.26.16",
+    "fileName": "delta-2026.9.26.16-2026.9.26.17.json",
+    "sha256": "730d5583f16de8d01372cbddd0a4b0470abdffd165a5c0f87b93273616dc6fc3"
   }
 }
