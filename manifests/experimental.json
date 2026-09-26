@@ -1,26 +1,26 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.9.26.18",
+  "version": "2026.9.26.19",
   "installerUrl": "https://launch.revalib.ru/launcher-updates/v1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "c39099df7b2df98f500d74ef69193424acbae965a79b36f546cccc06a31e23f3",
-  "sizeBytes": 109677056,
-  "publishedAtUtc": "2026-09-26T14:08:36Z",
+  "sha256": "9a98b3866cf83f97a003cd59b2d6aa771872fd2272694bde113972228b304437",
+  "sizeBytes": 109661184,
+  "publishedAtUtc": "2026-09-26T14:25:49Z",
   "historyUrl": "https://launch.revalib.ru/launcher-updates/v1/experimental-history.json",
-  "notes": "Квесты оплота: после завершения круга закрывается диалог главы оплота, даже если игра уже приняла следующее ежедневное задание. Следующее задание сохраняется и не выполняется без разрешения повторов.",
+  "notes": "Квесты оплота: закрытие диалога главы оплота после завершения круга подтверждает NPC по зафиксированной цели, даже если игра уже приняла следующий квест. Следующее задание сохраняется.",
   "deltas": [
     {
-      "fileName": "delta-2026.9.26.17-2026.9.26.18.json",
-      "url": "https://launch.revalib.ru/launcher-updates/v1/delta-2026.9.26.17-2026.9.26.18.json",
-      "sha256": "b1280e6d25e3233170318f67ea32ab77d50475e8ece90deb8292caff7e7de9ba",
-      "baseVersion": "2026.9.26.17"
+      "baseVersion": "2026.9.26.18",
+      "sha256": "6aebb1f69365434a617c14ef1835a3fa07dc7bcb91100d3a43cc045b139261e8",
+      "fileName": "delta-2026.9.26.18-2026.9.26.19.json",
+      "url": "https://launch.revalib.ru/launcher-updates/v1/delta-2026.9.26.18-2026.9.26.19.json"
     }
   ],
   "delta": {
-    "fileName": "delta-2026.9.26.17-2026.9.26.18.json",
-    "url": "https://launch.revalib.ru/launcher-updates/v1/delta-2026.9.26.17-2026.9.26.18.json",
-    "sha256": "b1280e6d25e3233170318f67ea32ab77d50475e8ece90deb8292caff7e7de9ba",
-    "baseVersion": "2026.9.26.17"
+    "baseVersion": "2026.9.26.18",
+    "sha256": "6aebb1f69365434a617c14ef1835a3fa07dc7bcb91100d3a43cc045b139261e8",
+    "fileName": "delta-2026.9.26.18-2026.9.26.19.json",
+    "url": "https://launch.revalib.ru/launcher-updates/v1/delta-2026.9.26.18-2026.9.26.19.json"
   }
 }
