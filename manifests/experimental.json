@@ -1,26 +1,26 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.9.26.13",
+  "version": "2026.9.26.14",
   "installerUrl": "https://launch.revalib.ru/launcher-updates/v1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "3fdd535adbb6d5994e91afd5bc65a22807ee091e9fc5cbb33e93f8fbd029c116",
-  "sizeBytes": 109632000,
-  "publishedAtUtc": "2026-09-26T12:17:09Z",
+  "sha256": "b96f87068bb343f0fe3efe67555316794272fab373ab7e7aeb0a73d5467f5b53",
+  "sizeBytes": 109629440,
+  "publishedAtUtc": "2026-09-26T12:31:23Z",
   "historyUrl": "https://launch.revalib.ru/launcher-updates/v1/experimental-history.json",
-  "notes": "Гильдейское задание «Чудесное преображение»: проверка посоха и применение только к согильдийцу рядом на базе. Зов духов: изменения 26.12 сохранены.",
+  "notes": "Зов АФК для developer: постоянный поиск и одна заявка по свежему объявлению. Гильдейское задание «Чудесное преображение»: проверка посоха и согильдийца на базе.",
   "deltas": [
     {
-      "url": "https://launch.revalib.ru/launcher-updates/v1/delta-2026.9.26.12-2026.9.26.13.json",
-      "baseVersion": "2026.9.26.12",
-      "fileName": "delta-2026.9.26.12-2026.9.26.13.json",
-      "sha256": "0e8170ee91df1965c9e32e490351f82cec1260d509e7b31b15659d4c8a205504"
+      "url": "https://launch.revalib.ru/launcher-updates/v1/delta-2026.9.26.12-2026.9.26.14.json",
+      "fileName": "delta-2026.9.26.12-2026.9.26.14.json",
+      "sha256": "6b6aa16c7762b59ea67f1096784490527ac264e552c3923889c3496ee1ad7bae",
+      "baseVersion": "2026.9.26.12"
     }
   ],
   "delta": {
-    "url": "https://launch.revalib.ru/launcher-updates/v1/delta-2026.9.26.12-2026.9.26.13.json",
-    "baseVersion": "2026.9.26.12",
-    "fileName": "delta-2026.9.26.12-2026.9.26.13.json",
-    "sha256": "0e8170ee91df1965c9e32e490351f82cec1260d509e7b31b15659d4c8a205504"
+    "url": "https://launch.revalib.ru/launcher-updates/v1/delta-2026.9.26.12-2026.9.26.14.json",
+    "fileName": "delta-2026.9.26.12-2026.9.26.14.json",
+    "sha256": "6b6aa16c7762b59ea67f1096784490527ac264e552c3923889c3496ee1ad7bae",
+    "baseVersion": "2026.9.26.12"
   }
 }
