@@ -1,26 +1,26 @@
 {
     "channel":  "experimental",
     "displayName":  "Тестовая версия",
-    "version":  "2026.9.26.25",
+    "version":  "2026.9.26.26",
     "installerUrl":  "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
     "fileName":  "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-    "sha256":  "badca1ec98f1579b944ea23e030b8ab44afd770bc631138b15560652958c7858",
-    "sizeBytes":  109677056,
-    "publishedAtUtc":  "2026-09-26T16:31:14Z",
+    "sha256":  "829fc61919b26e6e36e1de9fb662cd4aaaee80e46493072b8108c2ad9f30af8a",
+    "sizeBytes":  109666816,
+    "publishedAtUtc":  "2026-09-26T16:45:45Z",
     "historyUrl":  "experimental-history.json",
-    "notes":  "Зов АФК: форма «афка», ссылка вступления в первом кадре и серверное время на секунду впереди локального.",
+    "notes":  "Диагностика точного отпечатка функции заявки Зова при отказе игрового модуля.",
     "deltas":  [
                    {
-                       "baseVersion":  "2026.9.26.23",
-                       "url":  "delta-2026.9.26.23-2026.9.26.25.json",
-                       "fileName":  "delta-2026.9.26.23-2026.9.26.25.json",
-                       "sha256":  "da9f4c7378266905a9c965fefea1093dfb84bdae9622e544c7d283723cdd8b92"
+                       "baseVersion":  "2026.9.26.25",
+                       "url":  "delta-2026.9.26.25-2026.9.26.26.json",
+                       "fileName":  "delta-2026.9.26.25-2026.9.26.26.json",
+                       "sha256":  "c5ae7e0dd3175b9e63789c64323fc080ba4d5838426b2d78e129ba9830b8242f"
                    }
                ],
     "delta":  {
-                  "baseVersion":  "2026.9.26.23",
-                  "url":  "delta-2026.9.26.23-2026.9.26.25.json",
-                  "fileName":  "delta-2026.9.26.23-2026.9.26.25.json",
-                  "sha256":  "da9f4c7378266905a9c965fefea1093dfb84bdae9622e544c7d283723cdd8b92"
+                  "baseVersion":  "2026.9.26.25",
+                  "url":  "delta-2026.9.26.25-2026.9.26.26.json",
+                  "fileName":  "delta-2026.9.26.25-2026.9.26.26.json",
+                  "sha256":  "c5ae7e0dd3175b9e63789c64323fc080ba4d5838426b2d78e129ba9830b8242f"
               }
 }
