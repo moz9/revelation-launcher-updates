@@ -1,26 +1,26 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.9.26.28",
+  "version": "2026.9.26.29",
   "installerUrl": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "f5c5c6b913cfae2347c631a07bf44ac4b206ec21a7ae6993ef5fd65002101fe5",
-  "sizeBytes": 109670400,
-  "publishedAtUtc": "2026-09-26T17:52:18Z",
+  "sha256": "51c03135f17e218fc8ba5526fd668e1520fdda2bffe1d94771427cbd5b028496",
+  "sizeBytes": 109670912,
+  "publishedAtUtc": "2026-09-26T18:29:13Z",
   "historyUrl": "experimental-history.json",
-  "notes": "Зов АФК: после неподтверждённой заявки поиск продолжается по новым объявлениям без повторной заявки тому же организатору.",
+  "notes": "Зов АФК: после вступления лаунчер наблюдает за группой и переходами; при завершении не считает лечение духа и мешок награды полученными без подтверждения. Поиск после неподтверждённой заявки продолжается без повтора тому же организатору.",
   "deltas": [
     {
-      "fileName": "delta-2026.9.26.27-2026.9.26.28.json",
+      "fileName": "delta-2026.9.26.27-2026.9.26.29.json",
+      "sha256": "ca1fe2dd468aa1891c5df10b7b8f77e5f3354c87364ca25ff1c5e249013ca9ec",
       "baseVersion": "2026.9.26.27",
-      "sha256": "b0a82c3f077f51125d7d293e5a8c71724c0e1e338d8801405ad88a26cf079d5e",
-      "url": "delta-2026.9.26.27-2026.9.26.28.json"
+      "url": "delta-2026.9.26.27-2026.9.26.29.json"
     }
   ],
   "delta": {
-    "fileName": "delta-2026.9.26.27-2026.9.26.28.json",
+    "fileName": "delta-2026.9.26.27-2026.9.26.29.json",
+    "sha256": "ca1fe2dd468aa1891c5df10b7b8f77e5f3354c87364ca25ff1c5e249013ca9ec",
     "baseVersion": "2026.9.26.27",
-    "sha256": "b0a82c3f077f51125d7d293e5a8c71724c0e1e338d8801405ad88a26cf079d5e",
-    "url": "delta-2026.9.26.27-2026.9.26.28.json"
+    "url": "delta-2026.9.26.27-2026.9.26.29.json"
   }
 }
