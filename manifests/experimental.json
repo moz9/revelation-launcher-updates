@@ -1,26 +1,26 @@
 {
-  "channel": "experimental",
-  "displayName": "Тестовая версия",
-  "version": "2026.9.26.21",
-  "installerUrl": "https://launch.revalib.ru/launcher-updates/v1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "6896661a7f151115c36f1b7cad1dd75f5afb0b433896e7b4d1d83c52d0a35554",
-  "sizeBytes": 109658112,
-  "publishedAtUtc": "2026-09-26T15:05:41Z",
-  "historyUrl": "https://launch.revalib.ru/launcher-updates/v1/experimental-history.json",
-  "notes": "Зов духов: распознавание объявлений в игровом чате при запуске поиска и проверка причины отказа заявки. Обновление: защита от повторного запуска во время загрузки.",
-  "deltas": [
-    {
-      "url": "https://launch.revalib.ru/launcher-updates/v1/delta-2026.9.26.20-2026.9.26.21.json",
-      "fileName": "delta-2026.9.26.20-2026.9.26.21.json",
-      "sha256": "436ffed26f27118525aac08b34abfad932ac072f78392d1ffdf31040a5b98dd7",
-      "baseVersion": "2026.9.26.20"
-    }
-  ],
-  "delta": {
-    "url": "https://launch.revalib.ru/launcher-updates/v1/delta-2026.9.26.20-2026.9.26.21.json",
-    "fileName": "delta-2026.9.26.20-2026.9.26.21.json",
-    "sha256": "436ffed26f27118525aac08b34abfad932ac072f78392d1ffdf31040a5b98dd7",
-    "baseVersion": "2026.9.26.20"
-  }
+    "channel":  "experimental",
+    "displayName":  "Тестовая версия",
+    "version":  "2026.9.26.22",
+    "installerUrl":  "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+    "fileName":  "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+    "sha256":  "af78d3b4c367dc7d232e1c6b49577a8ec19de9f639cace26b7a0f24c3e5afbba",
+    "sizeBytes":  109664768,
+    "publishedAtUtc":  "2026-09-26T15:36:32Z",
+    "historyUrl":  "experimental-history.json",
+    "notes":  "Исправлена подача заявки в группу на свежий набор Зова АФК; учтены объявления с игровыми значками, убран повтор маршрута поверх диалога задания, устранены повторный запуск установщика и устаревший манифест.",
+    "deltas":  [
+                   {
+                       "baseVersion":  "2026.9.26.21",
+                       "url":  "delta-2026.9.26.21-2026.9.26.22.json",
+                       "fileName":  "delta-2026.9.26.21-2026.9.26.22.json",
+                       "sha256":  "cbc5b2f8f3c5f9cf12639758c04459a9340937a367942e97c741d00ba953ebb5"
+                   }
+               ],
+    "delta":  {
+                  "baseVersion":  "2026.9.26.21",
+                  "url":  "delta-2026.9.26.21-2026.9.26.22.json",
+                  "fileName":  "delta-2026.9.26.21-2026.9.26.22.json",
+                  "sha256":  "cbc5b2f8f3c5f9cf12639758c04459a9340937a367942e97c741d00ba953ebb5"
+              }
 }
