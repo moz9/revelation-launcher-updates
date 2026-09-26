@@ -1,50 +1,26 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.9.26.12",
+  "version": "2026.9.26.13",
   "installerUrl": "https://launch.revalib.ru/launcher-updates/v1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "85ee18341ebeffdf82f4dcf6c405c649214ed1ae782a67578941faa0a8bb68c0",
-  "sizeBytes": 109646848,
-  "publishedAtUtc": "2026-09-26T10:43:45Z",
+  "sha256": "3fdd535adbb6d5994e91afd5bc65a22807ee091e9fc5cbb33e93f8fbd029c116",
+  "sizeBytes": 109632000,
+  "publishedAtUtc": "2026-09-26T12:17:09Z",
   "historyUrl": "https://launch.revalib.ru/launcher-updates/v1/experimental-history.json",
-  "notes": "Зов духов для developer: заявка в группу теперь возможна по свежему объявлению без ссылки, через имя автора в штатном контекстном меню. Гильдейские правки 26.11 включены.",
+  "notes": "Гильдейское задание «Чудесное преображение»: проверка посоха и применение только к согильдийцу рядом на базе. Зов духов: изменения 26.12 сохранены.",
   "deltas": [
     {
-      "url": "https://launch.revalib.ru/launcher-updates/v1/delta-2026.9.26.11-2026.9.26.12.json",
-      "sha256": "f2af94bce8d4b394adaaa00561f4906174f12b04fabe55e518bb5428f5190098",
-      "fileName": "delta-2026.9.26.11-2026.9.26.12.json",
-      "baseVersion": "2026.9.26.11"
-    },
-    {
-      "sha256": "d8de539b90359679caefdb612c789b5031a6151d6fc52204d14bc9d94ba5c914",
-      "fileName": "delta-2026.9.26.10-2026.9.26.12.json",
-      "baseVersion": "2026.9.26.10",
-      "url": "https://launch.revalib.ru/launcher-updates/v1/delta-2026.9.26.10-2026.9.26.12.json"
-    },
-    {
-      "sha256": "77e473de404141448ee86dfcef52446d973e08294ce8341a3b69582d655247ff",
-      "fileName": "delta-2026.9.26.9-2026.9.26.12.json",
-      "baseVersion": "2026.9.26.9",
-      "url": "https://launch.revalib.ru/launcher-updates/v1/delta-2026.9.26.9-2026.9.26.12.json"
-    },
-    {
-      "sha256": "c650989c01177b96f23222a250d1f12fd2eb23abdbda93b2184b6928f17c2939",
-      "fileName": "delta-2026.9.26.8-2026.9.26.12.json",
-      "baseVersion": "2026.9.26.8",
-      "url": "https://launch.revalib.ru/launcher-updates/v1/delta-2026.9.26.8-2026.9.26.12.json"
-    },
-    {
-      "sha256": "0d7f5569244f445215c38308e0e7665da6c4a9f31902e8d3ab372dc8df3bdb90",
-      "fileName": "delta-2026.9.26.7-2026.9.26.12.json",
-      "baseVersion": "2026.9.26.7",
-      "url": "https://launch.revalib.ru/launcher-updates/v1/delta-2026.9.26.7-2026.9.26.12.json"
+      "url": "https://launch.revalib.ru/launcher-updates/v1/delta-2026.9.26.12-2026.9.26.13.json",
+      "baseVersion": "2026.9.26.12",
+      "fileName": "delta-2026.9.26.12-2026.9.26.13.json",
+      "sha256": "0e8170ee91df1965c9e32e490351f82cec1260d509e7b31b15659d4c8a205504"
     }
   ],
   "delta": {
-    "url": "https://launch.revalib.ru/launcher-updates/v1/delta-2026.9.26.11-2026.9.26.12.json",
-    "sha256": "f2af94bce8d4b394adaaa00561f4906174f12b04fabe55e518bb5428f5190098",
-    "fileName": "delta-2026.9.26.11-2026.9.26.12.json",
-    "baseVersion": "2026.9.26.11"
+    "url": "https://launch.revalib.ru/launcher-updates/v1/delta-2026.9.26.12-2026.9.26.13.json",
+    "baseVersion": "2026.9.26.12",
+    "fileName": "delta-2026.9.26.12-2026.9.26.13.json",
+    "sha256": "0e8170ee91df1965c9e32e490351f82cec1260d509e7b31b15659d4c8a205504"
   }
 }
