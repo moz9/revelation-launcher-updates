@@ -1,26 +1,26 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.9.26.27",
+  "version": "2026.9.26.28",
   "installerUrl": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "47bb0b05eeb2e1b188abab94fc742125b074d35a1ea4cf018220103af8ac4396",
-  "sizeBytes": 109651968,
-  "publishedAtUtc": "2026-09-26T17:09:30Z",
+  "sha256": "f5c5c6b913cfae2347c631a07bf44ac4b206ec21a7ae6993ef5fd65002101fe5",
+  "sizeBytes": 109670400,
+  "publishedAtUtc": "2026-09-26T17:52:18Z",
   "historyUrl": "experimental-history.json",
-  "notes": "Исправлена проверка игрового метода подачи заявки в группу Зова АФК по текущему клиенту. Обнаруженное объявление теперь может пройти проверку перед отправкой заявки.",
+  "notes": "Зов АФК: после неподтверждённой заявки поиск продолжается по новым объявлениям без повторной заявки тому же организатору.",
   "deltas": [
     {
-      "baseVersion": "2026.9.26.26",
-      "fileName": "delta-2026.9.26.26-2026.9.26.27.json",
-      "url": "delta-2026.9.26.26-2026.9.26.27.json",
-      "sha256": "671ee0568ec131e38c1ea74975758de35b62178faae58f43710e443a0d0eb25d"
+      "fileName": "delta-2026.9.26.27-2026.9.26.28.json",
+      "baseVersion": "2026.9.26.27",
+      "sha256": "b0a82c3f077f51125d7d293e5a8c71724c0e1e338d8801405ad88a26cf079d5e",
+      "url": "delta-2026.9.26.27-2026.9.26.28.json"
     }
   ],
   "delta": {
-    "baseVersion": "2026.9.26.26",
-    "fileName": "delta-2026.9.26.26-2026.9.26.27.json",
-    "url": "delta-2026.9.26.26-2026.9.26.27.json",
-    "sha256": "671ee0568ec131e38c1ea74975758de35b62178faae58f43710e443a0d0eb25d"
+    "fileName": "delta-2026.9.26.27-2026.9.26.28.json",
+    "baseVersion": "2026.9.26.27",
+    "sha256": "b0a82c3f077f51125d7d293e5a8c71724c0e1e338d8801405ad88a26cf079d5e",
+    "url": "delta-2026.9.26.27-2026.9.26.28.json"
   }
 }
