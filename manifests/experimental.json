@@ -1,26 +1,26 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.9.26.29",
+  "version": "2026.9.27.30",
   "installerUrl": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "51c03135f17e218fc8ba5526fd668e1520fdda2bffe1d94771427cbd5b028496",
-  "sizeBytes": 109670912,
-  "publishedAtUtc": "2026-09-26T18:29:13Z",
+  "sha256": "ec35529c7d22bacbee658d35a459e5f3a79ef622c49489f3eeaa89d385f76173",
+  "sizeBytes": 109687296,
+  "publishedAtUtc": "2026-09-26T20:25:18Z",
   "historyUrl": "experimental-history.json",
-  "notes": "Зов АФК: после вступления лаунчер наблюдает за группой и переходами; при завершении не считает лечение духа и мешок награды полученными без подтверждения. Поиск после неподтверждённой заявки продолжается без повтора тому же организатору.",
+  "notes": "Оплот: завершение последней реплики у наставницы Юлинь без повторного принятия задания. Иконка лаунчера теперь включена в пакет и отображается независимо от рабочего каталога.",
   "deltas": [
     {
-      "fileName": "delta-2026.9.26.27-2026.9.26.29.json",
-      "sha256": "ca1fe2dd468aa1891c5df10b7b8f77e5f3354c87364ca25ff1c5e249013ca9ec",
-      "baseVersion": "2026.9.26.27",
-      "url": "delta-2026.9.26.27-2026.9.26.29.json"
+      "fileName": "delta-2026.9.26.29-2026.9.27.30.json",
+      "url": "delta-2026.9.26.29-2026.9.27.30.json",
+      "sha256": "c64587e9a125b39235f560799b94af711833894c4a44ad98d726501d953641be",
+      "baseVersion": "2026.9.26.29"
     }
   ],
   "delta": {
-    "fileName": "delta-2026.9.26.27-2026.9.26.29.json",
-    "sha256": "ca1fe2dd468aa1891c5df10b7b8f77e5f3354c87364ca25ff1c5e249013ca9ec",
-    "baseVersion": "2026.9.26.27",
-    "url": "delta-2026.9.26.27-2026.9.26.29.json"
+    "fileName": "delta-2026.9.26.29-2026.9.27.30.json",
+    "url": "delta-2026.9.26.29-2026.9.27.30.json",
+    "sha256": "c64587e9a125b39235f560799b94af711833894c4a44ad98d726501d953641be",
+    "baseVersion": "2026.9.26.29"
   }
 }
