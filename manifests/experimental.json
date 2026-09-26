@@ -1,56 +1,26 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.9.26.7",
+  "version": "2026.9.26.8",
   "installerUrl": "https://launch.revalib.ru/launcher-updates/v1/RevelationLauncherTest-Setup-x64.exe",
   "fileName": "RevelationLauncherTest-Setup-x64.exe",
-  "sha256": "be8d181ed1b355d5c6c8d837312dde96b6bf3bcae55f33bc59185ed47e6a56e9",
-  "sizeBytes": 109590016,
-  "publishedAtUtc": "2026-09-26T08:46:27Z",
+  "sha256": "811544d10d1c42a3834b6ef6f1b4807bd23ea35ec7a43ac08e2fb390ba38db6e",
+  "sizeBytes": 109597184,
+  "publishedAtUtc": "2026-09-26T09:06:41Z",
   "historyUrl": "https://launch.revalib.ru/launcher-updates/v1/experimental-history.json",
-  "notes": "Гильдейские задания: подтверждение результата боя и загадки; точная причина отказа и контекст задания в отчёте; объявление без галочки.",
+  "notes": "Лимит монет для гильдейских заданий сохраняется между запусками. Кнопка отправки отчёта переименована в «Репорт».",
   "deltas": [
     {
-      "fileName": "delta-2026.9.26.6-2026.9.26.7.json",
-      "url": "https://launch.revalib.ru/launcher-updates/v1/delta-2026.9.26.6-2026.9.26.7.json",
-      "sha256": "09e65d7106dfd00fa04c914526730cccb987d12c1a4cf2572009134deb8b265d",
-      "baseVersion": "2026.9.26.6"
-    },
-    {
-      "baseVersion": "2026.9.26.5",
-      "url": "https://launch.revalib.ru/launcher-updates/v1/delta-2026.9.26.5-2026.9.26.7.json",
-      "sha256": "5c32f8e7314aac957d570a76740ff57aad1db28be31ec7ff5270c670b3f4243f",
-      "fileName": "delta-2026.9.26.5-2026.9.26.7.json"
-    },
-    {
-      "baseVersion": "2026.9.26.4",
-      "url": "https://launch.revalib.ru/launcher-updates/v1/delta-2026.9.26.4-2026.9.26.7.json",
-      "sha256": "bc1f0cd709e3e42c89eb4a900a1107d3d2ed7dd63b3644168d770929066956a1",
-      "fileName": "delta-2026.9.26.4-2026.9.26.7.json"
-    },
-    {
-      "baseVersion": "2026.9.26.3",
-      "url": "https://launch.revalib.ru/launcher-updates/v1/delta-2026.9.26.3-2026.9.26.7.json",
-      "sha256": "a5ccf46ef01cb7bb4c4e66eae16c8616151c5aa483f5561ab409099e7689afd3",
-      "fileName": "delta-2026.9.26.3-2026.9.26.7.json"
-    },
-    {
-      "baseVersion": "2026.9.26.2",
-      "url": "https://launch.revalib.ru/launcher-updates/v1/delta-2026.9.26.2-2026.9.26.7.json",
-      "sha256": "d29af7394586698c665b207e605d08e279745c6df1769bec57fc103eea75d8fc",
-      "fileName": "delta-2026.9.26.2-2026.9.26.7.json"
-    },
-    {
-      "baseVersion": "2026.9.26.1",
-      "url": "https://launch.revalib.ru/launcher-updates/v1/delta-2026.9.26.1-2026.9.26.7.json",
-      "sha256": "97875cba07a1baffdd6a39f16557dcf4d6130a14cae761ca7701ca2b50471f4b",
-      "fileName": "delta-2026.9.26.1-2026.9.26.7.json"
+      "url": "https://launch.revalib.ru/launcher-updates/v1/delta-2026.9.26.7-2026.9.26.8.json",
+      "baseVersion": "2026.9.26.7",
+      "fileName": "delta-2026.9.26.7-2026.9.26.8.json",
+      "sha256": "3429778f2161f563f0e79755d0ec135b1473918fc0ce28f2174e6c769f366f35"
     }
   ],
   "delta": {
-    "fileName": "delta-2026.9.26.6-2026.9.26.7.json",
-    "url": "https://launch.revalib.ru/launcher-updates/v1/delta-2026.9.26.6-2026.9.26.7.json",
-    "sha256": "09e65d7106dfd00fa04c914526730cccb987d12c1a4cf2572009134deb8b265d",
-    "baseVersion": "2026.9.26.6"
+    "url": "https://launch.revalib.ru/launcher-updates/v1/delta-2026.9.26.7-2026.9.26.8.json",
+    "baseVersion": "2026.9.26.7",
+    "fileName": "delta-2026.9.26.7-2026.9.26.8.json",
+    "sha256": "3429778f2161f563f0e79755d0ec135b1473918fc0ce28f2174e6c769f366f35"
   }
 }
