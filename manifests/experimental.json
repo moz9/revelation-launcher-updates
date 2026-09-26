@@ -1,26 +1,26 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.9.26.17",
+  "version": "2026.9.26.18",
   "installerUrl": "https://launch.revalib.ru/launcher-updates/v1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "c4b6f14ca6dea606d26ce233261ef120c1d052d85bc424dbb7c36ea9ea0a45f9",
-  "sizeBytes": 109669888,
-  "publishedAtUtc": "2026-09-26T13:38:06Z",
+  "sha256": "c39099df7b2df98f500d74ef69193424acbae965a79b36f546cccc06a31e23f3",
+  "sizeBytes": 109677056,
+  "publishedAtUtc": "2026-09-26T14:08:36Z",
   "historyUrl": "https://launch.revalib.ru/launcher-updates/v1/experimental-history.json",
-  "notes": "Исправлен единый игровой модуль: восстановлены обработчики квестов, гильдии и AFK Зова после обновления 26.16.",
+  "notes": "Квесты оплота: после завершения круга закрывается диалог главы оплота, даже если игра уже приняла следующее ежедневное задание. Следующее задание сохраняется и не выполняется без разрешения повторов.",
   "deltas": [
     {
-      "url": "https://launch.revalib.ru/launcher-updates/v1/delta-2026.9.26.16-2026.9.26.17.json",
-      "baseVersion": "2026.9.26.16",
-      "fileName": "delta-2026.9.26.16-2026.9.26.17.json",
-      "sha256": "730d5583f16de8d01372cbddd0a4b0470abdffd165a5c0f87b93273616dc6fc3"
+      "fileName": "delta-2026.9.26.17-2026.9.26.18.json",
+      "url": "https://launch.revalib.ru/launcher-updates/v1/delta-2026.9.26.17-2026.9.26.18.json",
+      "sha256": "b1280e6d25e3233170318f67ea32ab77d50475e8ece90deb8292caff7e7de9ba",
+      "baseVersion": "2026.9.26.17"
     }
   ],
   "delta": {
-    "url": "https://launch.revalib.ru/launcher-updates/v1/delta-2026.9.26.16-2026.9.26.17.json",
-    "baseVersion": "2026.9.26.16",
-    "fileName": "delta-2026.9.26.16-2026.9.26.17.json",
-    "sha256": "730d5583f16de8d01372cbddd0a4b0470abdffd165a5c0f87b93273616dc6fc3"
+    "fileName": "delta-2026.9.26.17-2026.9.26.18.json",
+    "url": "https://launch.revalib.ru/launcher-updates/v1/delta-2026.9.26.17-2026.9.26.18.json",
+    "sha256": "b1280e6d25e3233170318f67ea32ab77d50475e8ece90deb8292caff7e7de9ba",
+    "baseVersion": "2026.9.26.17"
   }
 }
