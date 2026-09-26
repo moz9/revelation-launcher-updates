@@ -1,26 +1,26 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.9.27.30",
+  "version": "2026.9.27.31",
   "installerUrl": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "ec35529c7d22bacbee658d35a459e5f3a79ef622c49489f3eeaa89d385f76173",
-  "sizeBytes": 109687296,
-  "publishedAtUtc": "2026-09-26T20:25:18Z",
+  "sha256": "37a974fc3fa1fab538771a757377edbf1a4f29a166b7a28965afc6c9d8d5925d",
+  "sizeBytes": 109701632,
+  "publishedAtUtc": "2026-09-26T21:11:31Z",
   "historyUrl": "experimental-history.json",
-  "notes": "Оплот: завершение последней реплики у наставницы Юлинь без повторного принятия задания. Иконка лаунчера теперь включена в пакет и отображается независимо от рабочего каталога.",
+  "notes": "Добавлена диагностика состояния квеста 65525 и кэша оплота после переходов и релога; повторное принятие без проверки не запускается.",
   "deltas": [
     {
-      "fileName": "delta-2026.9.26.29-2026.9.27.30.json",
-      "url": "delta-2026.9.26.29-2026.9.27.30.json",
-      "sha256": "c64587e9a125b39235f560799b94af711833894c4a44ad98d726501d953641be",
-      "baseVersion": "2026.9.26.29"
+      "url": "delta-2026.9.27.30-2026.9.27.31.json",
+      "baseVersion": "2026.9.27.30",
+      "fileName": "delta-2026.9.27.30-2026.9.27.31.json",
+      "sha256": "5dd094865ed98f31445ae56ea789aac81d4a9f428f7a5b945039537e7806f364"
     }
   ],
   "delta": {
-    "fileName": "delta-2026.9.26.29-2026.9.27.30.json",
-    "url": "delta-2026.9.26.29-2026.9.27.30.json",
-    "sha256": "c64587e9a125b39235f560799b94af711833894c4a44ad98d726501d953641be",
-    "baseVersion": "2026.9.26.29"
+    "url": "delta-2026.9.27.30-2026.9.27.31.json",
+    "baseVersion": "2026.9.27.30",
+    "fileName": "delta-2026.9.27.30-2026.9.27.31.json",
+    "sha256": "5dd094865ed98f31445ae56ea789aac81d4a9f428f7a5b945039537e7806f364"
   }
 }
