@@ -1,26 +1,26 @@
 {
     "channel":  "experimental",
     "displayName":  "Тестовая версия",
-    "version":  "2026.9.26.22",
+    "version":  "2026.9.26.23",
     "installerUrl":  "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
     "fileName":  "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-    "sha256":  "af78d3b4c367dc7d232e1c6b49577a8ec19de9f639cace26b7a0f24c3e5afbba",
-    "sizeBytes":  109664768,
-    "publishedAtUtc":  "2026-09-26T15:36:32Z",
+    "sha256":  "dfd094c6d56ce88a2a7cda1b65a06a58e80bb9d2f5838c009104e5b73a9aa99e",
+    "sizeBytes":  109671424,
+    "publishedAtUtc":  "2026-09-26T15:53:40Z",
     "historyUrl":  "experimental-history.json",
-    "notes":  "Исправлена подача заявки в группу на свежий набор Зова АФК; учтены объявления с игровыми значками, убран повтор маршрута поверх диалога задания, устранены повторный запуск установщика и устаревший манифест.",
+    "notes":  "Добавлена диагностика разговора задания 65525 после перехода сцены и защита от повторного маршрута при неопределённом состоянии квеста.",
     "deltas":  [
                    {
-                       "baseVersion":  "2026.9.26.21",
-                       "url":  "delta-2026.9.26.21-2026.9.26.22.json",
-                       "fileName":  "delta-2026.9.26.21-2026.9.26.22.json",
-                       "sha256":  "cbc5b2f8f3c5f9cf12639758c04459a9340937a367942e97c741d00ba953ebb5"
+                       "baseVersion":  "2026.9.26.22",
+                       "url":  "delta-2026.9.26.22-2026.9.26.23.json",
+                       "fileName":  "delta-2026.9.26.22-2026.9.26.23.json",
+                       "sha256":  "2d3da485889a52f8e5e6230f80eba4e313a00f77ca3fae8ca4f6dab9e2446c64"
                    }
                ],
     "delta":  {
-                  "baseVersion":  "2026.9.26.21",
-                  "url":  "delta-2026.9.26.21-2026.9.26.22.json",
-                  "fileName":  "delta-2026.9.26.21-2026.9.26.22.json",
-                  "sha256":  "cbc5b2f8f3c5f9cf12639758c04459a9340937a367942e97c741d00ba953ebb5"
+                  "baseVersion":  "2026.9.26.22",
+                  "url":  "delta-2026.9.26.22-2026.9.26.23.json",
+                  "fileName":  "delta-2026.9.26.22-2026.9.26.23.json",
+                  "sha256":  "2d3da485889a52f8e5e6230f80eba4e313a00f77ca3fae8ca4f6dab9e2446c64"
               }
 }
