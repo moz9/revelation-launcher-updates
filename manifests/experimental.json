@@ -1,26 +1,44 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.9.27.32",
-  "installerUrl": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+  "version": "2026.9.28.22",
+  "installerUrl": "https://launch.revalib.ru/launcher-updates/v1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "ab236254da8704094beb975de09c936334413ea22ada6d7e0ef6304775fb2b01",
-  "sizeBytes": 109668352,
-  "publishedAtUtc": "2026-09-26T21:29:09Z",
+  "sha256": "36012e3897d309fd80effec89d7b199a945cb2621d2d66ca600acdbc737b8cb3",
+  "sizeBytes": 109882880,
+  "publishedAtUtc": "2026-09-28T12:15:58Z",
   "historyUrl": "experimental-history.json",
-  "notes": "Исправлено исключение игрового моста при чтении кэша оплота; диагностика задания 65525 остаётся доступной.",
+  "notes": "Совместимость с обновлёнными игровыми данными после профилактики; обновлён защищённый каталог игрового модуля и исправлено восстановление поиска Зова в общем сценарии.",
   "deltas": [
     {
-      "fileName": "delta-2026.9.27.31-2026.9.27.32.json",
-      "url": "delta-2026.9.27.31-2026.9.27.32.json",
-      "sha256": "f31291683305c863ca227599ae08a8f6266d2996089c3c57045d43691dc36e08",
-      "baseVersion": "2026.9.27.31"
+      "baseVersion": "2026.9.28.21",
+      "fileName": "delta-2026.9.28.21-2026.9.28.22.json",
+      "url": "https://launch.revalib.ru/launcher-updates/v1/delta-2026.9.28.21-2026.9.28.22.json",
+      "sha256": "571bc215f0f5dbc938f215bb7407d735c54913d9605e16f95bc73f1d8e8c0058"
+    },
+    {
+      "baseVersion": "2026.9.28.20",
+      "fileName": "delta-2026.9.28.20-2026.9.28.22.json",
+      "url": "https://launch.revalib.ru/launcher-updates/v1/delta-2026.9.28.20-2026.9.28.22.json",
+      "sha256": "a6b823233889200297bb52547b0b44c62b294e5fa5ca816fa80cc3f2471e39e5"
+    },
+    {
+      "baseVersion": "2026.9.28.19",
+      "fileName": "delta-2026.9.28.19-2026.9.28.22.json",
+      "url": "https://launch.revalib.ru/launcher-updates/v1/delta-2026.9.28.19-2026.9.28.22.json",
+      "sha256": "02813cf3fd3028fb6f3ce16ddd9731e35261c1db76544b687d66b35abde81f27"
+    },
+    {
+      "baseVersion": "2026.9.28.18",
+      "fileName": "delta-2026.9.28.18-2026.9.28.22.json",
+      "url": "https://launch.revalib.ru/launcher-updates/v1/delta-2026.9.28.18-2026.9.28.22.json",
+      "sha256": "05a584814cc8900681546ab6b398e9b699394cbd016ca6a3752dd8f9da1ad58e"
     }
   ],
   "delta": {
-    "fileName": "delta-2026.9.27.31-2026.9.27.32.json",
-    "url": "delta-2026.9.27.31-2026.9.27.32.json",
-    "sha256": "f31291683305c863ca227599ae08a8f6266d2996089c3c57045d43691dc36e08",
-    "baseVersion": "2026.9.27.31"
+    "baseVersion": "2026.9.28.21",
+    "fileName": "delta-2026.9.28.21-2026.9.28.22.json",
+    "url": "https://launch.revalib.ru/launcher-updates/v1/delta-2026.9.28.21-2026.9.28.22.json",
+    "sha256": "571bc215f0f5dbc938f215bb7407d735c54913d9605e16f95bc73f1d8e8c0058"
   }
 }
