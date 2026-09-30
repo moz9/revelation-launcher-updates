@@ -1,44 +1,44 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.9.28.24",
+  "version": "2026.9.30.8",
   "installerUrl": "https://launch.revalib.ru/launcher-updates/v1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "73ea56ffd55b972b3055b2efc076bc2e5cd62d9e764ddd485bd9935ddf0cbe90",
-  "sizeBytes": 109901824,
-  "publishedAtUtc": "2026-09-28T14:56:11Z",
-  "historyUrl": "experimental-history.json",
-  "notes": "Зов духов: понятные состояния группы и задания; проверка сегодняшних 55/55 перед новой заявкой; корректное чтение нулевого прогресса.",
+  "sha256": "aaed81046a52f968403e95335f03f080f39a5e5e5d789d541095d9a2bc091014",
+  "sizeBytes": 111327744,
+  "publishedAtUtc": "2026-09-30T11:28:31Z",
+  "historyUrl": "https://launch.revalib.ru/launcher-updates/v1/experimental-history.json",
+  "notes": "Гильдейские задания: подтверждение проверенного свитка перегруппировки, ограниченное ожидание входа на базу и отложенный повтор после подтверждённой остановки. Остальные активности и поиск Зова продолжаются. Оплот: точная диагностика проверки завершающего диалога и сохранение этих данных в репорте.",
   "deltas": [
     {
-      "baseVersion": "2026.9.28.23",
-      "url": "https://launch.revalib.ru/launcher-updates/v1/delta-2026.9.28.23-2026.9.28.24.json",
-      "fileName": "delta-2026.9.28.23-2026.9.28.24.json",
-      "sha256": "6ed1a9cd4d2796828424c8bbf58d1f22eed8b7ba454701273719a7ed84e43bcf"
+      "baseVersion": "2026.9.30.7",
+      "sha256": "33be4fea3410596069fca85b20b4fc80035cc342883fd0ea52728a1e89c810a1",
+      "url": "https://launch.revalib.ru/launcher-updates/v1/delta-2026.9.30.7-2026.9.30.8.json",
+      "fileName": "delta-2026.9.30.7-2026.9.30.8.json"
     },
     {
-      "baseVersion": "2026.9.28.22",
-      "url": "https://launch.revalib.ru/launcher-updates/v1/delta-2026.9.28.22-2026.9.28.24.json",
-      "fileName": "delta-2026.9.28.22-2026.9.28.24.json",
-      "sha256": "2e932f16c16a7a5dbd20987745334c79e55c294abedabffcbae2f34ff26ee99b"
+      "baseVersion": "2026.9.30.6",
+      "sha256": "af1e6e35ee1f612dab09c6b12404ac211a44d3655fa184c4e012a2d4f8d4f3dc",
+      "url": "https://launch.revalib.ru/launcher-updates/v1/delta-2026.9.30.6-2026.9.30.8.json",
+      "fileName": "delta-2026.9.30.6-2026.9.30.8.json"
     },
     {
-      "baseVersion": "2026.9.28.21",
-      "url": "https://launch.revalib.ru/launcher-updates/v1/delta-2026.9.28.21-2026.9.28.24.json",
-      "fileName": "delta-2026.9.28.21-2026.9.28.24.json",
-      "sha256": "3fe8a02bfe626c5c3b68d44b235646e83b01a3bd6087a74e6710dfeade6963c0"
+      "baseVersion": "2026.9.30.5",
+      "sha256": "4bec6a96ad63b1eca709704c7758b8482bce0d4c371f2e7b050c93a13eed5c2d",
+      "url": "https://launch.revalib.ru/launcher-updates/v1/delta-2026.9.30.5-2026.9.30.8.json",
+      "fileName": "delta-2026.9.30.5-2026.9.30.8.json"
     },
     {
-      "baseVersion": "2026.9.28.20",
-      "url": "https://launch.revalib.ru/launcher-updates/v1/delta-2026.9.28.20-2026.9.28.24.json",
-      "fileName": "delta-2026.9.28.20-2026.9.28.24.json",
-      "sha256": "a29905eafb306e53e571344ab020e98f7be10c19196b9e730821d725c2a32673"
+      "baseVersion": "2026.9.30.4",
+      "sha256": "66695b3d384759054bf361c9f1ba419fb932acc3a0236331bb9348e7e574cb84",
+      "url": "https://launch.revalib.ru/launcher-updates/v1/delta-2026.9.30.4-2026.9.30.8.json",
+      "fileName": "delta-2026.9.30.4-2026.9.30.8.json"
     }
   ],
   "delta": {
-    "baseVersion": "2026.9.28.23",
-    "url": "https://launch.revalib.ru/launcher-updates/v1/delta-2026.9.28.23-2026.9.28.24.json",
-    "fileName": "delta-2026.9.28.23-2026.9.28.24.json",
-    "sha256": "6ed1a9cd4d2796828424c8bbf58d1f22eed8b7ba454701273719a7ed84e43bcf"
+    "baseVersion": "2026.9.30.7",
+    "sha256": "33be4fea3410596069fca85b20b4fc80035cc342883fd0ea52728a1e89c810a1",
+    "url": "https://launch.revalib.ru/launcher-updates/v1/delta-2026.9.30.7-2026.9.30.8.json",
+    "fileName": "delta-2026.9.30.7-2026.9.30.8.json"
   }
 }
