@@ -1,44 +1,44 @@
 {
-  "channel": "experimental",
-  "displayName": "Тестовая версия",
-  "version": "2026.9.30.8",
-  "installerUrl": "https://launch.revalib.ru/launcher-updates/v1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "aaed81046a52f968403e95335f03f080f39a5e5e5d789d541095d9a2bc091014",
-  "sizeBytes": 111327744,
-  "publishedAtUtc": "2026-09-30T11:28:31Z",
-  "historyUrl": "https://launch.revalib.ru/launcher-updates/v1/experimental-history.json",
-  "notes": "Гильдейские задания: подтверждение проверенного свитка перегруппировки, ограниченное ожидание входа на базу и отложенный повтор после подтверждённой остановки. Остальные активности и поиск Зова продолжаются. Оплот: точная диагностика проверки завершающего диалога и сохранение этих данных в репорте.",
-  "deltas": [
-    {
-      "baseVersion": "2026.9.30.7",
-      "sha256": "33be4fea3410596069fca85b20b4fc80035cc342883fd0ea52728a1e89c810a1",
-      "url": "https://launch.revalib.ru/launcher-updates/v1/delta-2026.9.30.7-2026.9.30.8.json",
-      "fileName": "delta-2026.9.30.7-2026.9.30.8.json"
-    },
-    {
-      "baseVersion": "2026.9.30.6",
-      "sha256": "af1e6e35ee1f612dab09c6b12404ac211a44d3655fa184c4e012a2d4f8d4f3dc",
-      "url": "https://launch.revalib.ru/launcher-updates/v1/delta-2026.9.30.6-2026.9.30.8.json",
-      "fileName": "delta-2026.9.30.6-2026.9.30.8.json"
-    },
-    {
-      "baseVersion": "2026.9.30.5",
-      "sha256": "4bec6a96ad63b1eca709704c7758b8482bce0d4c371f2e7b050c93a13eed5c2d",
-      "url": "https://launch.revalib.ru/launcher-updates/v1/delta-2026.9.30.5-2026.9.30.8.json",
-      "fileName": "delta-2026.9.30.5-2026.9.30.8.json"
-    },
-    {
-      "baseVersion": "2026.9.30.4",
-      "sha256": "66695b3d384759054bf361c9f1ba419fb932acc3a0236331bb9348e7e574cb84",
-      "url": "https://launch.revalib.ru/launcher-updates/v1/delta-2026.9.30.4-2026.9.30.8.json",
-      "fileName": "delta-2026.9.30.4-2026.9.30.8.json"
-    }
-  ],
-  "delta": {
-    "baseVersion": "2026.9.30.7",
-    "sha256": "33be4fea3410596069fca85b20b4fc80035cc342883fd0ea52728a1e89c810a1",
-    "url": "https://launch.revalib.ru/launcher-updates/v1/delta-2026.9.30.7-2026.9.30.8.json",
-    "fileName": "delta-2026.9.30.7-2026.9.30.8.json"
-  }
+    "channel":  "experimental",
+    "displayName":  "Тестовая версия",
+    "version":  "2026.9.30.9",
+    "installerUrl":  "https://launch.revalib.ru/launcher-updates/v1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+    "fileName":  "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+    "sha256":  "693c073ed61f14a8738d4cf34c4d378a4a07dbf15190795df5cd65f3f5f2d4cd",
+    "sizeBytes":  111335424,
+    "publishedAtUtc":  "2026-09-30T14:04:10Z",
+    "historyUrl":  "https://launch.revalib.ru/launcher-updates/v1/experimental-history.json",
+    "notes":  "Оплот: подтверждённая функция «Пробел» для сдачи задания в финальном диалоге; без повтора при неизвестном результате. Восстановление пути при отклонённом открытии квестового магазина с ограничением попыток. Башня: проверка активного диалога перед открытием этажа и точная диагностика неподтверждённого перехода. Убрана прямоугольная подсветка поверх округлого выбранного пункта меню. Синхронизация манифеста обновлений для старых клиентов.",
+    "deltas":  [
+                   {
+                       "baseVersion":  "2026.9.30.8",
+                       "fileName":  "delta-2026.9.30.8-2026.9.30.9.json",
+                       "sha256":  "20ff993186f9f4408ea0e909dcb0d8580e5311d862135a3f478540ccbbe28970",
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.9.30.8-2026.9.30.9.json"
+                   },
+                   {
+                       "baseVersion":  "2026.9.30.7",
+                       "fileName":  "delta-2026.9.30.7-2026.9.30.9.json",
+                       "sha256":  "d0ddeb6e69350c523d9c0652aeedeac674a18b32c56d522bf9cef7d01d3125be",
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.9.30.7-2026.9.30.9.json"
+                   },
+                   {
+                       "baseVersion":  "2026.9.30.6",
+                       "fileName":  "delta-2026.9.30.6-2026.9.30.9.json",
+                       "sha256":  "e8c22aa9ac40eb4cea86e4cdf7c2964c1d8ac490ca29a3d2518fd029c3cd07c3",
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.9.30.6-2026.9.30.9.json"
+                   },
+                   {
+                       "baseVersion":  "2026.9.30.5",
+                       "fileName":  "delta-2026.9.30.5-2026.9.30.9.json",
+                       "sha256":  "78f92a29295d73ae7abaa1a1810edb63b18ae91979f39bf5c43ca943dc69a349",
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.9.30.5-2026.9.30.9.json"
+                   }
+               ],
+    "delta":  {
+                  "baseVersion":  "2026.9.30.8",
+                  "fileName":  "delta-2026.9.30.8-2026.9.30.9.json",
+                  "sha256":  "20ff993186f9f4408ea0e909dcb0d8580e5311d862135a3f478540ccbbe28970",
+                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.9.30.8-2026.9.30.9.json"
+              }
 }
