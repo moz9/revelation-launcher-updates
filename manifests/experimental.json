@@ -1,50 +1,50 @@
 {
     "channel":  "experimental",
     "displayName":  "Тестовая версия",
-    "version":  "2026.10.3.3",
+    "version":  "2026.10.3.6",
     "installerUrl":  "https://launch.revalib.ru/launcher-updates/v1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
     "fileName":  "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-    "sha256":  "4b78b76b44b11a935d848323a9e8131d42ce0dd2703664588e10506c2bb6b266",
-    "sizeBytes":  111904256,
-    "publishedAtUtc":  "2026-10-03T08:16:33Z",
+    "sha256":  "666e484f7562cf693934762595f06a3840b67a7f800e0de4327914841521cd8c",
+    "sizeBytes":  111984128,
+    "publishedAtUtc":  "2026-10-03T11:27:37Z",
     "historyUrl":  "https://launch.revalib.ru/launcher-updates/v1/experimental-history.json",
-    "notes":  "Исправлены зависания при остановке заданий и выходе из лаунчера, завершение торговых поручений у Онгара и продолжение работы после выхода из игры. Добавлен крафт для торговок: база рецептов, расчёт цепочек изготовления из имеющихся ресурсов, приоритет и отдельные лимиты ОР и ОВ.\nЗов АФК: восстановление маршрута к старту, использование имеющегося сока мандрагоры, сохранение следования за лидером, забор содержимого личного мешка и наград активности после сдачи, включая роспуск группы лидером. Добавлены получение наград за время в игре на выходных и обработка превращения на базе гильдии. Исправлены стеклянные подложки меню и уведомлений, кнопка репорта при свёрнутой панели.",
+    "notes":  "Сценарий сохраняет очередь и пропускает подтверждённые выполненные шаги после перезапуска. Незавершённые шаги перечисляются в статусе.\r\n\r\nИсточники и лимиты торговок применяются во время выполнения. После отказа покупки до отправки запроса изменение лимита позволяет повторить попытку.\r\n\r\nДля яиц выходного дня из раздела «Время в игре» проверяются серверный таймер и этап награды. Сохранённая попытка получения защищает от повторного запроса после перезапуска.\r\n\r\nИсправлены подтверждение свитка перегруппировки и чтение занятых данных Башни. На базе гильдии сценарий распознаёт подтверждённое превращение в гриб и ждёт окончания неснимаемого эффекта.\r\n\r\nПрочитанный текущий PvE-комплект позволяет продолжить при неполном втором комплекте. Два PvP-комплекта больше не разрешают бой; неподтверждённая автоматическая смена остаётся заблокированной.\r\n\r\nВход по сохранённому профилю проверяет сервер, имя и ID персонажа до выбора и после входа в мир. После сдачи Зова уже отключённое следование обрабатывается без повторного переключения. Добавлены причины ошибок открытия мешка и отправки благодарности. Получение мешка требует подтверждения содержимого.\r\n\r\nШтатный выход и релог поддерживают экран выбора персонажа. Вход по профилю требует наличия этого персонажа в текущем аккаунте VK Play.\r\n",
     "deltas":  [
                    {
-                       "sha256":  "ca9d583270b9f9ebe0a12069ad7ab687b1c8b689cdc8880aae9c453c2b037bea",
-                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.3.2-2026.10.3.3.json",
-                       "fileName":  "delta-2026.10.3.2-2026.10.3.3.json",
+                       "fileName":  "delta-2026.10.3.5-2026.10.3.6.json",
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.3.5-2026.10.3.6.json",
+                       "sha256":  "642bdf4648d8bd0fd3ffe910aeecdfc43d38afe471d71c8d2b1adbddfecc0e98",
+                       "baseVersion":  "2026.10.3.5"
+                   },
+                   {
+                       "fileName":  "delta-2026.10.3.4-2026.10.3.6.json",
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.3.4-2026.10.3.6.json",
+                       "sha256":  "de968c409fad3475f72f022f03bbab9e4e326af9a62577166b137276f81223bc",
+                       "baseVersion":  "2026.10.3.4"
+                   },
+                   {
+                       "fileName":  "delta-2026.10.3.3-2026.10.3.6.json",
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.3.3-2026.10.3.6.json",
+                       "sha256":  "6677a958854b79b9c649d1c1df3c6155902b3ee989bc5fb559b3a4eed5ed5a79",
+                       "baseVersion":  "2026.10.3.3"
+                   },
+                   {
+                       "fileName":  "delta-2026.10.3.2-2026.10.3.6.json",
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.3.2-2026.10.3.6.json",
+                       "sha256":  "6a3cdce563a4b3d2664bb91747c600d7e2b336d89e68a980ae3402b6b515bc57",
                        "baseVersion":  "2026.10.3.2"
                    },
                    {
-                       "sha256":  "c97c8a95415c8c73e16c5a359deb698dba3fa1036aa7375692ce6cbb630aacde",
-                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.3.1-2026.10.3.3.json",
-                       "fileName":  "delta-2026.10.3.1-2026.10.3.3.json",
-                       "baseVersion":  "2026.10.3.1"
-                   },
-                   {
-                       "sha256":  "c75f1068767e625c3273271745e7597e6baa4348e453d9c943b588b0678d2235",
-                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.2.25-2026.10.3.3.json",
-                       "fileName":  "delta-2026.10.2.25-2026.10.3.3.json",
-                       "baseVersion":  "2026.10.2.25"
-                   },
-                   {
-                       "sha256":  "a2faad42ac737c6cde13ae1aa4ab9d2f8e27fac662bc08bd293fb1241c590e85",
-                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.2.24-2026.10.3.3.json",
-                       "fileName":  "delta-2026.10.2.24-2026.10.3.3.json",
-                       "baseVersion":  "2026.10.2.24"
-                   },
-                   {
-                       "fileName":  "delta-2026.10.2.3-2026.10.3.3.json",
-                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.2.3-2026.10.3.3.json",
-                       "sha256":  "5db47a061245797a820e977f0479c649079486cf7cb23d1dc82554a6b734cc06",
+                       "fileName":  "delta-2026.10.2.3-2026.10.3.6.json",
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.2.3-2026.10.3.6.json",
+                       "sha256":  "4e466efaebb456a8864888912c70606704fd9ae545f9f6ad7dec3d88737010fc",
                        "baseVersion":  "2026.10.2.3"
                    }
                ],
     "delta":  {
-                  "sha256":  "ca9d583270b9f9ebe0a12069ad7ab687b1c8b689cdc8880aae9c453c2b037bea",
-                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.3.2-2026.10.3.3.json",
-                  "fileName":  "delta-2026.10.3.2-2026.10.3.3.json",
-                  "baseVersion":  "2026.10.3.2"
+                  "fileName":  "delta-2026.10.3.5-2026.10.3.6.json",
+                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.3.5-2026.10.3.6.json",
+                  "sha256":  "642bdf4648d8bd0fd3ffe910aeecdfc43d38afe471d71c8d2b1adbddfecc0e98",
+                  "baseVersion":  "2026.10.3.5"
               }
 }
