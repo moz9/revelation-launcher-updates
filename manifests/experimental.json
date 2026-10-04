@@ -1,50 +1,44 @@
 {
     "channel":  "experimental",
     "displayName":  "Тестовая версия",
-    "version":  "2026.10.3.9",
+    "version":  "2026.10.4.5",
     "installerUrl":  "https://launch.revalib.ru/launcher-updates/v1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
     "fileName":  "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-    "sha256":  "d7228b2fa59363b420a38f5e0fa30d04721c9812458371fab3a0f833311035b5",
-    "sizeBytes":  112120832,
-    "publishedAtUtc":  "2026-10-03T13:55:17Z",
+    "sha256":  "b5ebd5b4071ab03589fc71f659f4b79c990a2a047703a877d25e6104460d4f13",
+    "sizeBytes":  112231936,
+    "publishedAtUtc":  "2026-10-04T09:43:08Z",
     "historyUrl":  "https://launch.revalib.ru/launcher-updates/v1/experimental-history.json",
-    "notes":  "Ремесло: отдельные вкладки «Сбор» и «Крафт», поиск по названию и выбор по группам. Очередь сбора с количеством ресурсов; расчёт материалов из сумки и хранилища; изготовление заготовок и готового предмета по цепочке. Восстановлены точки древесины и продолжение сбора после загрузки локации. Исправлены повторное добавление ресурсов, чтение таймеров наград за время в игре, ожидание закрытия VK Play и возвращение в Сулан после финальной награды у Онгара.",
+    "notes":  "Получение конвертов во всех каналах, в гильдии и свадебном списке через игровые окна. Исправлена обработка Unicode и названия валют; снежный ком требует подтверждения оплаты. Крафт, синтез и перенос брактеата открывают соответствующие игровые интерфейсы и проверяют результат по ресурсам персонажа. Сбор ресурсов выбирает реально доступные объекты и пропускает пустые узлы. Учтена межсерверная сумка в крафте; исправлен выбор рецепта в игровом окне. Исправлено распознавание видимого окна синтеза брактеата. Во вкладке Зова добавлены настройки использования сока мандрагоры и покупки одной бутылки с лимитом цены. Исправлены сбор награды из мешка Зова, выход с базы гильдии к Зову, подтверждение свитка перегруппировки, продолжение ги-квеста после долгого боя, призыв духа перед сдачей и распознавание превращения в гриб.",
     "deltas":  [
                    {
-                       "sha256":  "4fea51c574a89bb932a681d1861d6ae9b727971a2a8839df6dff66c89db5e1d0",
-                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.3.8-2026.10.3.9.json",
-                       "baseVersion":  "2026.10.3.8",
-                       "fileName":  "delta-2026.10.3.8-2026.10.3.9.json"
+                       "baseVersion":  "2026.10.3.10",
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.3.10-2026.10.4.5.json",
+                       "fileName":  "delta-2026.10.3.10-2026.10.4.5.json",
+                       "sha256":  "1e33480a550fd01b2e287f5e9b506ee5c59aaaf17efe1e0726c36fa498d27da0"
                    },
                    {
-                       "sha256":  "3bcf285da4d8292757db719e32471ee80b64678b9dd5bd82f1fc4a0d5053bb56",
-                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.3.7-2026.10.3.9.json",
-                       "baseVersion":  "2026.10.3.7",
-                       "fileName":  "delta-2026.10.3.7-2026.10.3.9.json"
+                       "fileName":  "delta-2026.10.4.2-2026.10.4.5.json",
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.4.2-2026.10.4.5.json",
+                       "sha256":  "f64d4bb8b8aa9013cacdc90bde4e5de5188b5cf2a1936dcdbc812f5c22ce5c6a",
+                       "baseVersion":  "2026.10.4.2"
                    },
                    {
-                       "sha256":  "6e61d42f0c498e06f2b451b56356bf1fe9668b44b2e358e9e1b708c49b94594a",
-                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.3.6-2026.10.3.9.json",
-                       "baseVersion":  "2026.10.3.6",
-                       "fileName":  "delta-2026.10.3.6-2026.10.3.9.json"
+                       "fileName":  "delta-2026.10.3.9-2026.10.4.5.json",
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.3.9-2026.10.4.5.json",
+                       "sha256":  "8436c17ee8f0046633623b303898b3d26742e9db80600586e9f1bbf2d9378d70",
+                       "baseVersion":  "2026.10.3.9"
                    },
                    {
-                       "sha256":  "2c9a4148e30894bb29133d0fa4675c843f95617feeaf0b60f8007ad4c0258f1c",
-                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.3.5-2026.10.3.9.json",
-                       "baseVersion":  "2026.10.3.5",
-                       "fileName":  "delta-2026.10.3.5-2026.10.3.9.json"
-                   },
-                   {
-                       "fileName":  "delta-2026.10.2.3-2026.10.3.9.json",
-                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.2.3-2026.10.3.9.json",
-                       "sha256":  "a439dcd3136c0f492cb0d3a9127ceed6190ebfe6cf57a346056373ca5cd7fc20",
+                       "fileName":  "delta-2026.10.2.3-2026.10.4.5.json",
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.2.3-2026.10.4.5.json",
+                       "sha256":  "3054c53d72511ffd5ef71e0e265a3c5fbb52654f7cdbb7554ae27bcf66fc20e3",
                        "baseVersion":  "2026.10.2.3"
                    }
                ],
     "delta":  {
-                  "sha256":  "4fea51c574a89bb932a681d1861d6ae9b727971a2a8839df6dff66c89db5e1d0",
-                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.3.8-2026.10.3.9.json",
-                  "baseVersion":  "2026.10.3.8",
-                  "fileName":  "delta-2026.10.3.8-2026.10.3.9.json"
+                  "baseVersion":  "2026.10.3.10",
+                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.3.10-2026.10.4.5.json",
+                  "fileName":  "delta-2026.10.3.10-2026.10.4.5.json",
+                  "sha256":  "1e33480a550fd01b2e287f5e9b506ee5c59aaaf17efe1e0726c36fa498d27da0"
               }
 }
