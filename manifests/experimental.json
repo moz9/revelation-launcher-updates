@@ -1,50 +1,56 @@
 {
     "channel":  "experimental",
     "displayName":  "Тестовая версия",
-    "version":  "2026.10.4.6",
+    "version":  "2026.10.4.7",
     "installerUrl":  "https://launch.revalib.ru/launcher-updates/v1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
     "fileName":  "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-    "sha256":  "a86011338967ba9f0552f422682dbc6b9dce7bd93f27ae5c6e6dcb52f340422d",
-    "sizeBytes":  112243200,
-    "publishedAtUtc":  "2026-10-04T11:12:18Z",
+    "sha256":  "cb1484b884ed4c5b98a8bc07d5c1f3c69be2381f6137a30291aa7930ef05b671",
+    "sizeBytes":  112261632,
+    "publishedAtUtc":  "2026-10-04T12:00:04Z",
     "historyUrl":  "https://launch.revalib.ru/launcher-updates/v1/experimental-history.json",
-    "notes":  "Исправлено переключение всего комплекта PvP/PvE штатной кнопкой: пустой слот плаща больше не считается неизвестным предметом. Проверяются реальные UUID надетых вещей и готовность PvE-комплекта. Добавлена предварительная проверка комплекта перед подходом к мобам в ги-квестах и классовом оплоте, а также перед переходом, следованием и входом в Зов. В торговках комплект повторно проверяется непосредственно перед маршрутом к мобу.",
+    "notes":  "Исправлено закрытие VK Play: процессы проверяются по реальному пути и времени запуска; завершившийся процесс больше не вызывает ошибку NULL. При отмене запуска сохраняются ранее открытые процессы VK Play. Подтверждение закрытия ожидает также BrowserProxy. Уточнены отчёты о неполученной награде из личного мешка Зова.",
     "deltas":  [
                    {
-                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.4.5-2026.10.4.6.json",
-                       "fileName":  "delta-2026.10.4.5-2026.10.4.6.json",
-                       "baseVersion":  "2026.10.4.5",
-                       "sha256":  "12c2850f726d5a7c5fdae5e87d87ab8d566a5be334cf5ebeb02fe744c1ecaabb"
+                       "baseVersion":  "2026.10.4.6",
+                       "fileName":  "delta-2026.10.4.6-2026.10.4.7.json",
+                       "sha256":  "4ac30d921ceb510bd1efce13011ede6964ba6e0111600899931f5e9b8e42b5ea",
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.4.6-2026.10.4.7.json"
                    },
                    {
-                       "fileName":  "delta-2026.10.4.2-2026.10.4.6.json",
-                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.4.2-2026.10.4.6.json",
-                       "sha256":  "989c3053670adf67de171032a56e14801eec70eff068e43f7da013cceddf0e29",
+                       "fileName":  "delta-2026.10.4.5-2026.10.4.7.json",
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.4.5-2026.10.4.7.json",
+                       "sha256":  "639beeb0356ec03af3af16ccb9a3550356fd6c730b4facec98f9e095d1d48137",
+                       "baseVersion":  "2026.10.4.5"
+                   },
+                   {
+                       "fileName":  "delta-2026.10.4.2-2026.10.4.7.json",
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.4.2-2026.10.4.7.json",
+                       "sha256":  "3a11e71600faab40962b753f4019abd6ba3631b88dbc8de87572967ee9e3e3f9",
                        "baseVersion":  "2026.10.4.2"
                    },
                    {
-                       "fileName":  "delta-2026.10.3.10-2026.10.4.6.json",
-                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.3.10-2026.10.4.6.json",
-                       "sha256":  "b588072d636ca837742bba71100eba6d316d0d4f7276acca0b0bf13c67c7aab5",
+                       "fileName":  "delta-2026.10.3.10-2026.10.4.7.json",
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.3.10-2026.10.4.7.json",
+                       "sha256":  "2ce1d367a8ab5dfecb4ef060f30efe8b6612d39d1852d07421bec64695fba575",
                        "baseVersion":  "2026.10.3.10"
                    },
                    {
-                       "fileName":  "delta-2026.10.3.9-2026.10.4.6.json",
-                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.3.9-2026.10.4.6.json",
-                       "sha256":  "41fdc7130854db148880501badf605d4f5e16493b9908a3717a3c4963293c435",
+                       "fileName":  "delta-2026.10.3.9-2026.10.4.7.json",
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.3.9-2026.10.4.7.json",
+                       "sha256":  "726e708a671ea1668a519fba9ddbc9a0bfc32b94a0439a3be43c30a5354bcc45",
                        "baseVersion":  "2026.10.3.9"
                    },
                    {
-                       "fileName":  "delta-2026.10.2.3-2026.10.4.6.json",
-                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.2.3-2026.10.4.6.json",
-                       "sha256":  "01a9bc3088f7c0e17b4237b5de0f177513208ce75c0be8ce080b5559eb54ecd2",
+                       "fileName":  "delta-2026.10.2.3-2026.10.4.7.json",
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.2.3-2026.10.4.7.json",
+                       "sha256":  "1574917fd176fab0760d08772f93bcaa52f1e8cc68a3c688cbf655f0b1e44596",
                        "baseVersion":  "2026.10.2.3"
                    }
                ],
     "delta":  {
-                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.4.5-2026.10.4.6.json",
-                  "fileName":  "delta-2026.10.4.5-2026.10.4.6.json",
-                  "baseVersion":  "2026.10.4.5",
-                  "sha256":  "12c2850f726d5a7c5fdae5e87d87ab8d566a5be334cf5ebeb02fe744c1ecaabb"
+                  "baseVersion":  "2026.10.4.6",
+                  "fileName":  "delta-2026.10.4.6-2026.10.4.7.json",
+                  "sha256":  "4ac30d921ceb510bd1efce13011ede6964ba6e0111600899931f5e9b8e42b5ea",
+                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.4.6-2026.10.4.7.json"
               }
 }
