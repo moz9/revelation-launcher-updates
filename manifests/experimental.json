@@ -1,32 +1,38 @@
 {
     "channel":  "experimental",
     "displayName":  "Тестовая версия",
-    "version":  "2026.10.8.1",
+    "version":  "2026.10.8.10",
     "installerUrl":  "https://launch.revalib.ru/launcher-updates/v1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
     "fileName":  "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-    "sha256":  "9f45bb1f134fbcd71acfa8dfe316c896b32b645dc1b1fd8f47697780af649897",
-    "sizeBytes":  112780800,
-    "publishedAtUtc":  "2026-10-07T18:35:50Z",
+    "sha256":  "b1c76b066e701ea97312fcef549201b6b90631166af220c34d3da8999a3f38c6",
+    "sizeBytes":  112820736,
+    "publishedAtUtc":  "2026-10-07T21:51:59Z",
     "historyUrl":  "https://launch.revalib.ru/launcher-updates/v1/experimental-history.json",
-    "notes":  "Пакетное ремесло средствами игры и отдельные очереди персонажей. Сбор ресурсов без ложных угроз от NPC и манекенов; защита при настоящем нападении и восстановление после смерти. Исправления диалогов, повторов заданий, приоритета Зова и подготовки сока мандрагоры. Пояснения интерфейса перенесены под кнопку информации; исправлена остановка сценария во время паузы.",
+    "notes":  "Исправлена остановка башни до запуска собственной команды. Сбор ресурсов выходит с базы гильдии, сохраняет выбранную область после телепорта и использует обычное наземное движение. Частичный шаг продолжается при подтверждённом приближении; движение без прогресса останавливается. Устранены лишние телепорты из-за расстояния до земли при обычной ходьбе. Исправлена обработка окна трофеев Зова при неизвестном флаге загрузки; добавлена диагностика оставшихся ошибок диалогов.",
     "deltas":  [
                    {
-                       "baseVersion":  "2026.10.6.10",
-                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.6.10-2026.10.8.1.json",
-                       "fileName":  "delta-2026.10.6.10-2026.10.8.1.json",
-                       "sha256":  "eca7b54ffbf825c6581fd7932bfb5bf7bf3c8cf218986e049065702c92e0e083"
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.8.1-2026.10.8.10.json",
+                       "sha256":  "6cf8d32f498d1efe6ece4ec29fee34a4fe9c6cc2b4d3c93939b845af13ca1063",
+                       "baseVersion":  "2026.10.8.1",
+                       "fileName":  "delta-2026.10.8.1-2026.10.8.10.json"
                    },
                    {
-                       "fileName":  "delta-2026.10.7.9-2026.10.8.1.json",
-                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.7.9-2026.10.8.1.json",
-                       "sha256":  "719ed3149dac8ea1b4425a5281383af7952db9238e6622b96ac53a785932b60a",
-                       "baseVersion":  "2026.10.7.9"
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.6.10-2026.10.8.10.json",
+                       "sha256":  "2cc9731b89a5fa5b689bed6243d98eed9ea357f06942ffbd52e81bf261a7e939",
+                       "baseVersion":  "2026.10.6.10",
+                       "fileName":  "delta-2026.10.6.10-2026.10.8.10.json"
+                   },
+                   {
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.8.8-2026.10.8.10.json",
+                       "sha256":  "3feeb773a516abacab7845e668a802970f97200e054d0888e870b490ed870823",
+                       "baseVersion":  "2026.10.8.8",
+                       "fileName":  "delta-2026.10.8.8-2026.10.8.10.json"
                    }
                ],
     "delta":  {
-                  "baseVersion":  "2026.10.6.10",
-                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.6.10-2026.10.8.1.json",
-                  "fileName":  "delta-2026.10.6.10-2026.10.8.1.json",
-                  "sha256":  "eca7b54ffbf825c6581fd7932bfb5bf7bf3c8cf218986e049065702c92e0e083"
+                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.8.1-2026.10.8.10.json",
+                  "sha256":  "6cf8d32f498d1efe6ece4ec29fee34a4fe9c6cc2b4d3c93939b845af13ca1063",
+                  "baseVersion":  "2026.10.8.1",
+                  "fileName":  "delta-2026.10.8.1-2026.10.8.10.json"
               }
 }
