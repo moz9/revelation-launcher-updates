@@ -1,110 +1,116 @@
 {
     "channel":  "experimental",
     "displayName":  "Тестовая версия",
-    "version":  "2026.10.8.23",
+    "version":  "2026.10.8.24",
     "installerUrl":  "https://launch.revalib.ru/launcher-updates/v1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
     "fileName":  "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-    "sha256":  "58dafc67a6b555c760493e1926948bb6d054372d3487a954eb1526995e5c57ff",
-    "sizeBytes":  112792064,
-    "publishedAtUtc":  "2026-10-08T09:26:14Z",
+    "sha256":  "67fdd0d31413e15bbe45d617457b2d4b9bfa5cc31b7559cdc229e0e0d61421f7",
+    "sizeBytes":  112824320,
+    "publishedAtUtc":  "2026-10-08T10:10:44Z",
     "historyUrl":  "https://launch.revalib.ru/launcher-updates/v1/experimental-history.json",
-    "notes":  "Исправлен сбор ресурсов: штатный маршрут не прерывается при ожидании и раскрытии крыльев; неудачные маршруты больше не запрещают навсегда соседние точки; завершённый сбор без случайного выпадения нужного предмета подтверждается по количеству узла, затратам ОР/ОВ и полученному гарантированному материалу; после исчерпания дерева или неудачного подхода выбирается следующая близкая точка до телепорта восстановления. Очередь и её цель сохраняются.",
+    "notes":  "Исправлены сбор и закупка материалов: при прибытии к ресурсу маршрут останавливается до посадки и сбора; кратковременная занятость персонажа проверяется повторно. Покупки гильдейских заданий учитывают подтверждённый текущий цикл и время приёма задания; старые подтверждённые покупки сохраняются в истории. Статус и репорты показывают причину блокировки покупки.",
     "deltas":  [
                    {
-                       "fileName":  "delta-2026.10.8.1-2026.10.8.23.json",
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.8.1-2026.10.8.24.json",
                        "baseVersion":  "2026.10.8.1",
-                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.8.1-2026.10.8.23.json",
-                       "sha256":  "780135f9f28c2acb8fb430e7307f10171016251834c327cd7847f9e0877f8016"
+                       "fileName":  "delta-2026.10.8.1-2026.10.8.24.json",
+                       "sha256":  "4594a3c8b14a13dabed8574370b147b5fd9eab83c9639d8f557f9fa39cd6377d"
                    },
                    {
-                       "fileName":  "delta-2026.10.6.10-2026.10.8.23.json",
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.6.10-2026.10.8.24.json",
                        "baseVersion":  "2026.10.6.10",
-                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.6.10-2026.10.8.23.json",
-                       "sha256":  "8891bce3890913c03f7f8b0be8958c4863c4bf2a6f42e2d0eb9bb6fd52337579"
+                       "fileName":  "delta-2026.10.6.10-2026.10.8.24.json",
+                       "sha256":  "79ccd4912df3b1d644a2dc37d0861b2b165ecba443da609b8905a222e088aa59"
                    },
                    {
-                       "fileName":  "delta-2026.10.8.10-2026.10.8.23.json",
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.8.10-2026.10.8.24.json",
                        "baseVersion":  "2026.10.8.10",
-                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.8.10-2026.10.8.23.json",
-                       "sha256":  "a2f4369dd3739602dd3d75dc04cc1e6f312fe40f360dc34314e7cd6280f64890"
+                       "fileName":  "delta-2026.10.8.10-2026.10.8.24.json",
+                       "sha256":  "69de67dd37b74f51134ab576f61aac548716899995dfd2cd80749f0973705392"
                    },
                    {
-                       "fileName":  "delta-2026.10.8.11-2026.10.8.23.json",
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.8.11-2026.10.8.24.json",
                        "baseVersion":  "2026.10.8.11",
-                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.8.11-2026.10.8.23.json",
-                       "sha256":  "b75ab2cc3ee9f20007c329b4e969b311dd57461346a8365aa358dae671daaac7"
+                       "fileName":  "delta-2026.10.8.11-2026.10.8.24.json",
+                       "sha256":  "b3044da824a4d9b8affd6dd21e558b8aee5f57d525f8d74605882c9260155b03"
                    },
                    {
-                       "fileName":  "delta-2026.10.8.12-2026.10.8.23.json",
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.8.12-2026.10.8.24.json",
                        "baseVersion":  "2026.10.8.12",
-                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.8.12-2026.10.8.23.json",
-                       "sha256":  "d10b8824f00bc8f61ed0368847c8250a0913acc5c62a07edb7e1dc723a29344a"
+                       "fileName":  "delta-2026.10.8.12-2026.10.8.24.json",
+                       "sha256":  "48806e439b23754bb9aec3db037b5d672ec46ba3dac9329034e58628e9550c83"
                    },
                    {
-                       "fileName":  "delta-2026.10.8.13-2026.10.8.23.json",
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.8.13-2026.10.8.24.json",
                        "baseVersion":  "2026.10.8.13",
-                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.8.13-2026.10.8.23.json",
-                       "sha256":  "c9adcdca499591f34088eb9724639ddc18b715c8d4174e982089804178d4d039"
+                       "fileName":  "delta-2026.10.8.13-2026.10.8.24.json",
+                       "sha256":  "67b4dc49881c5f3d8c84a0e26c6846455e01d820847034a5ad495388ac24548f"
                    },
                    {
-                       "fileName":  "delta-2026.10.8.14-2026.10.8.23.json",
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.8.14-2026.10.8.24.json",
                        "baseVersion":  "2026.10.8.14",
-                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.8.14-2026.10.8.23.json",
-                       "sha256":  "a4e10c14c5acfcc713b3244c4ee0acdde11d2189b99d4cf130102c03504db4b7"
+                       "fileName":  "delta-2026.10.8.14-2026.10.8.24.json",
+                       "sha256":  "323c3c80e652c5ebf31d95e8bb3b1f16e78022d7bbcc0d33bc23f4f42eaabe23"
                    },
                    {
-                       "fileName":  "delta-2026.10.8.15-2026.10.8.23.json",
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.8.15-2026.10.8.24.json",
                        "baseVersion":  "2026.10.8.15",
-                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.8.15-2026.10.8.23.json",
-                       "sha256":  "5cd0c8dba728949d0308cb9785f0a979500feb2d570cad4db8bee53855785bbb"
+                       "fileName":  "delta-2026.10.8.15-2026.10.8.24.json",
+                       "sha256":  "7165b2606e0965c597eec510d2b28c36c41dc6180b65a4ab0cf48fba6b8e27a2"
                    },
                    {
-                       "fileName":  "delta-2026.10.8.16-2026.10.8.23.json",
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.8.16-2026.10.8.24.json",
                        "baseVersion":  "2026.10.8.16",
-                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.8.16-2026.10.8.23.json",
-                       "sha256":  "7c5b7381e2e82372a7f7be7b0a87e0e3cfd4ebf4e84e671424bdf5dd30aa4e34"
+                       "fileName":  "delta-2026.10.8.16-2026.10.8.24.json",
+                       "sha256":  "bf8d5850da037cc4a23140513df3b87d05c937af3051dfedd6faadb4ce8da848"
                    },
                    {
-                       "fileName":  "delta-2026.10.8.17-2026.10.8.23.json",
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.8.17-2026.10.8.24.json",
                        "baseVersion":  "2026.10.8.17",
-                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.8.17-2026.10.8.23.json",
-                       "sha256":  "44a204b648326f18cae5776d1d903326ce57d24946c7ca084a1b9e4685498c17"
+                       "fileName":  "delta-2026.10.8.17-2026.10.8.24.json",
+                       "sha256":  "1c6a11de05557c9e3051d6735705672948b9cdcaa254ffadca9a0dee15cc9a36"
                    },
                    {
-                       "fileName":  "delta-2026.10.8.18-2026.10.8.23.json",
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.8.18-2026.10.8.24.json",
                        "baseVersion":  "2026.10.8.18",
-                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.8.18-2026.10.8.23.json",
-                       "sha256":  "89d17b24578866f05f322a1146f803df31c8233644c056e0dcee3ce11b0a8125"
+                       "fileName":  "delta-2026.10.8.18-2026.10.8.24.json",
+                       "sha256":  "441eedb5aa2775a3768cb536b030d8d4bd64f24d6226093cbe626c47e5f42344"
                    },
                    {
-                       "fileName":  "delta-2026.10.8.19-2026.10.8.23.json",
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.8.19-2026.10.8.24.json",
                        "baseVersion":  "2026.10.8.19",
-                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.8.19-2026.10.8.23.json",
-                       "sha256":  "98463b855116666af1a9e47ce7ebb680a46f605e90260db78c894b7ceb65e269"
+                       "fileName":  "delta-2026.10.8.19-2026.10.8.24.json",
+                       "sha256":  "afee9908bebde7aa011443a218a025b030909e0f08db969e344f97212fa2c465"
                    },
                    {
-                       "fileName":  "delta-2026.10.8.20-2026.10.8.23.json",
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.8.20-2026.10.8.24.json",
                        "baseVersion":  "2026.10.8.20",
-                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.8.20-2026.10.8.23.json",
-                       "sha256":  "f5c47e53c9787ecaf524bc93e73aa9609c3698f13e193d0e101398823530cf42"
+                       "fileName":  "delta-2026.10.8.20-2026.10.8.24.json",
+                       "sha256":  "78527bde4a3b33d91fde11535747654bf9d3e5331ae2c1131102b6c05ac09893"
                    },
                    {
-                       "fileName":  "delta-2026.10.8.21-2026.10.8.23.json",
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.8.21-2026.10.8.24.json",
                        "baseVersion":  "2026.10.8.21",
-                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.8.21-2026.10.8.23.json",
-                       "sha256":  "fb983fbbe312770850e338b05f1e49234ad53664547d6fd5ccb5ecf117a00737"
+                       "fileName":  "delta-2026.10.8.21-2026.10.8.24.json",
+                       "sha256":  "df276ca2933da7cdce810435945e8600b50d37f7d74050d627937a2535996077"
                    },
                    {
-                       "fileName":  "delta-2026.10.8.22-2026.10.8.23.json",
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.8.22-2026.10.8.24.json",
                        "baseVersion":  "2026.10.8.22",
-                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.8.22-2026.10.8.23.json",
-                       "sha256":  "217bdc89e878a7caf2982c05883310126f8e033128ae4c8117dc48217d37d162"
+                       "fileName":  "delta-2026.10.8.22-2026.10.8.24.json",
+                       "sha256":  "6bd520b834e108ea5ec53ed1ff34ace339b7864fd06d68c1fbccd3352b53820f"
+                   },
+                   {
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.8.23-2026.10.8.24.json",
+                       "baseVersion":  "2026.10.8.23",
+                       "fileName":  "delta-2026.10.8.23-2026.10.8.24.json",
+                       "sha256":  "197d8da61326725df13ae970ce1e3dea87043436ac4e10dd13f864f5d5e26231"
                    }
                ],
     "delta":  {
-                  "fileName":  "delta-2026.10.8.1-2026.10.8.23.json",
+                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.8.1-2026.10.8.24.json",
                   "baseVersion":  "2026.10.8.1",
-                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.8.1-2026.10.8.23.json",
-                  "sha256":  "780135f9f28c2acb8fb430e7307f10171016251834c327cd7847f9e0877f8016"
+                  "fileName":  "delta-2026.10.8.1-2026.10.8.24.json",
+                  "sha256":  "4594a3c8b14a13dabed8574370b147b5fd9eab83c9639d8f557f9fa39cd6377d"
               }
 }
