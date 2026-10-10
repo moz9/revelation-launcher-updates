@@ -1,26 +1,26 @@
 {
     "channel":  "experimental",
     "displayName":  "Тестовая версия",
-    "version":  "2026.10.11.1",
+    "version":  "2026.10.11.2",
     "installerUrl":  "https://launch.revalib.ru/launcher-updates/v1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
     "fileName":  "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-    "sha256":  "ff5b6f0800dbd4826a10450b466da07ab237493f9eee4cd57ef1fc91a9aabe9e",
-    "sizeBytes":  113159168,
-    "publishedAtUtc":  "2026-10-10T21:27:22Z",
+    "sha256":  "9dd267f5104e72837d649a3b7853c15837f3c9fe2efe1ee764cd010c95def32e",
+    "sizeBytes":  113190400,
+    "publishedAtUtc":  "2026-10-10T22:25:20Z",
     "historyUrl":  "https://launch.revalib.ru/launcher-updates/v1/experimental-history.json",
-    "notes":  "Исправлена закупка материалов в гильдейских заданиях и торговых поручениях: запись о прежней покупке больше не блокирует новое подтверждённое получение задания, включая ежедневные задания с тем же номером. Старые записи сохраняются для диагностики. Перезапуск лаунчера не разрешает повторно отправить оплату, результат которой ещё неизвестен. Исправлено завершение гильдейской активности при наличии старой записи покупки у торговца.",
+    "notes":  "Исправлен ложный отказ запуска при повышенных правах игры: лаунчер проверяет точный путь процесса через Windows, сохраняя проверку чужих и нескольких клиентов. В активности «Баня» добавлено ожидание временной загрузки игрового мира перед посадкой и контрольными чтениями. Повторяется только чтение состояния, без повторной отправки покупки или использования вина.",
     "deltas":  [
                    {
-                       "fileName":  "delta-2026.10.10.5-2026.10.11.1.json",
-                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.10.5-2026.10.11.1.json",
-                       "baseVersion":  "2026.10.10.5",
-                       "sha256":  "9cdb90a45e2c5f8028179d758ffcf8b8c4a7201dbd4ad6234ce9e644b23d255e"
+                       "baseVersion":  "2026.10.11.1",
+                       "sha256":  "1f57781d3631992619274dfe3f2cd8deb5a43bbccfe9b9868034b77c1d550dbe",
+                       "fileName":  "delta-2026.10.11.1-2026.10.11.2.json",
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.11.1-2026.10.11.2.json"
                    }
                ],
     "delta":  {
-                  "fileName":  "delta-2026.10.10.5-2026.10.11.1.json",
-                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.10.5-2026.10.11.1.json",
-                  "baseVersion":  "2026.10.10.5",
-                  "sha256":  "9cdb90a45e2c5f8028179d758ffcf8b8c4a7201dbd4ad6234ce9e644b23d255e"
+                  "baseVersion":  "2026.10.11.1",
+                  "sha256":  "1f57781d3631992619274dfe3f2cd8deb5a43bbccfe9b9868034b77c1d550dbe",
+                  "fileName":  "delta-2026.10.11.1-2026.10.11.2.json",
+                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.11.1-2026.10.11.2.json"
               }
 }
