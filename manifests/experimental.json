@@ -1,26 +1,26 @@
 {
     "channel":  "experimental",
     "displayName":  "Тестовая версия",
-    "version":  "2026.10.10.4",
+    "version":  "2026.10.10.5",
     "installerUrl":  "https://launch.revalib.ru/launcher-updates/v1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
     "fileName":  "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-    "sha256":  "9eb540277cf7b2350021fdcdeec98e9432c79bd76928006267261758c70d786e",
-    "sizeBytes":  113133056,
-    "publishedAtUtc":  "2026-10-10T11:38:31Z",
+    "sha256":  "6617effb930ca2e5d36bc94aae7ab84d7f61c3d2e69832ef2bc38fbbfb0c94b4",
+    "sizeBytes":  113140736,
+    "publishedAtUtc":  "2026-10-10T13:51:11Z",
     "historyUrl":  "https://launch.revalib.ru/launcher-updates/v1/experimental-history.json",
-    "notes":  "Кнопки главного окна используют единый прозрачный материал без повторного затемнения. В Торговках уменьшены стрелки приоритета и уплотнены строки; дополнительные валюты раскрываются внутри источника, сохраняя лимиты и порядок.",
+    "notes":  "После подтверждённого принятия в группу Зова лаунчер передаёт управление Зову, в том числе при выходе из Башни и после ошибки предыдущей остановки. Исправлены данные подключения, из-за которых выход из Башни не отправлялся, и конфликт чтения/записи журнала активностей.\r\n\r\nИсправлено наложение текста в выпадающих списках. Закрытые списки, поля ввода и вложенные раскрывающиеся блоки используют общий материал окна во всех состояниях фокуса; акцентные кнопки больше не получают плотную заливку.",
     "deltas":  [
                    {
-                       "baseVersion":  "2026.10.10.3",
-                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.10.3-2026.10.10.4.json",
-                       "fileName":  "delta-2026.10.10.3-2026.10.10.4.json",
-                       "sha256":  "93852b0463d22e6eb1a403d8152ec89d1c7d0e09cb0baa89756c054783eb7ac6"
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.10.4-2026.10.10.5.json",
+                       "fileName":  "delta-2026.10.10.4-2026.10.10.5.json",
+                       "baseVersion":  "2026.10.10.4",
+                       "sha256":  "9c12afb3cb448bcd8a8466fb8eec0dfd980a2b711c02d285db13f86918955a54"
                    }
                ],
     "delta":  {
-                  "baseVersion":  "2026.10.10.3",
-                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.10.3-2026.10.10.4.json",
-                  "fileName":  "delta-2026.10.10.3-2026.10.10.4.json",
-                  "sha256":  "93852b0463d22e6eb1a403d8152ec89d1c7d0e09cb0baa89756c054783eb7ac6"
+                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.10.4-2026.10.10.5.json",
+                  "fileName":  "delta-2026.10.10.4-2026.10.10.5.json",
+                  "baseVersion":  "2026.10.10.4",
+                  "sha256":  "9c12afb3cb448bcd8a8466fb8eec0dfd980a2b711c02d285db13f86918955a54"
               }
 }
