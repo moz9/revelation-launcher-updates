@@ -1,26 +1,26 @@
 {
     "channel":  "experimental",
     "displayName":  "Тестовая версия",
-    "version":  "2026.10.11.4",
+    "version":  "2026.10.11.5",
     "installerUrl":  "https://launch.revalib.ru/launcher-updates/v1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
     "fileName":  "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-    "sha256":  "4fd001de151b5c308961164d6f7cbee30c4eb3ba95ee38c381e955011ffeb426",
-    "sizeBytes":  113145856,
-    "publishedAtUtc":  "2026-10-11T06:47:31Z",
+    "sha256":  "051fbbe4b49a913bf01b1977a2a548676ad8fdecf4c02eb57556729369cc10e1",
+    "sizeBytes":  113171968,
+    "publishedAtUtc":  "2026-10-11T07:35:27Z",
     "historyUrl":  "https://launch.revalib.ru/launcher-updates/v1/experimental-history.json",
-    "notes":  "Исправлен маршрут к купальням: перед полётом проверяется подходящая точка старта; при необходимости выполняется телепорт с подтверждением прибытия.\nЕдиничный тайм-аут чтения больше не останавливает наблюдение за Зовом духов. Игровые действия при повторном чтении не повторяются.\nКалендарь повторно проверяется после явного отказа игры во время перехода между картами. Неопределённый результат отправки по-прежнему блокирует повтор.",
+    "notes":  "Уточнён журнал отказа при остановке гильдейского авто-выполнения перед применением квестового предмета: отдельно фиксируются проверка задания, владение сценарием и восстановление штатной команды остановки.\nЭти сведения сохраняются в отчёте даже при одновременном наблюдении за другими активностями. Правила остановки и применения предметов не изменены; причина повторного сбоя с посохом пока уточняется.",
     "deltas":  [
                    {
-                       "baseVersion":  "2026.10.11.3",
-                       "fileName":  "delta-2026.10.11.3-2026.10.11.4.json",
-                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.11.3-2026.10.11.4.json",
-                       "sha256":  "22e354b5a4028af0e356126af01d9b5377b8d465b8c6f4efc8d413e4d36b06fb"
+                       "fileName":  "delta-2026.10.11.4-2026.10.11.5.json",
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.11.4-2026.10.11.5.json",
+                       "sha256":  "ebd41c8033469fefc6b40cd43be99088a353c7793bde78c7d6e16673c30ad2c3",
+                       "baseVersion":  "2026.10.11.4"
                    }
                ],
     "delta":  {
-                  "baseVersion":  "2026.10.11.3",
-                  "fileName":  "delta-2026.10.11.3-2026.10.11.4.json",
-                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.11.3-2026.10.11.4.json",
-                  "sha256":  "22e354b5a4028af0e356126af01d9b5377b8d465b8c6f4efc8d413e4d36b06fb"
+                  "fileName":  "delta-2026.10.11.4-2026.10.11.5.json",
+                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.11.4-2026.10.11.5.json",
+                  "sha256":  "ebd41c8033469fefc6b40cd43be99088a353c7793bde78c7d6e16673c30ad2c3",
+                  "baseVersion":  "2026.10.11.4"
               }
 }
