@@ -1,26 +1,26 @@
 {
     "channel":  "experimental",
     "displayName":  "Тестовая версия",
-    "version":  "2026.10.11.7",
+    "version":  "2026.10.11.8",
     "installerUrl":  "https://launch.revalib.ru/launcher-updates/v1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
     "fileName":  "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-    "sha256":  "7c5672a7b347f679dc183424ca974069375a3dc71690c2679f8254181b4005f9",
-    "sizeBytes":  113297920,
-    "publishedAtUtc":  "2026-10-11T10:47:47Z",
+    "sha256":  "005ad54a41cbff693b49c454c62c36f98c8cdd1ef24af7816ff8a65a6f405890",
+    "sizeBytes":  113311744,
+    "publishedAtUtc":  "2026-10-11T12:03:15Z",
     "historyUrl":  "https://launch.revalib.ru/launcher-updates/v1/experimental-history.json",
-    "notes":  "Добавлен выключенный по умолчанию фоновый поиск средних мешков удачи за симпатию в анкетах игроков. Источники — ссылки мирового чата и штатные списки анкет. Переключатель находится в настройках лаунчера; состояние поиска и результат видны рядом.\n\nВоркер уступает управление другим действиям лаунчера и Зову. Он проверяет текущую награду открытой анкеты и подтверждает получение по изменению инвентаря. Неизвестный исход симпатии сохраняется в журнале и не повторяется автоматически.",
+    "notes":  "Добавлена кнопка «Закрыть игру и VK Play» на главной странице. Она отменяет прежнюю команду лаунчера, завершает проверенные процессы игры и VK Play и проверяет их отсутствие. Повторный запуск выполняется отдельно.\n\nПри ручном нажатии «Выйти» лаунчер сначала запрашивает штатный выход; если клиент не завершился, закрывает тот же проверенный процесс принудительно. Автоматические сценарии не получили принудительного выхода. Во время подтверждённого Зова аварийное закрытие заблокировано.\r\n\r\nПосле полного закрытия старый владелец Башни освобождается по подтверждённому завершению исходного процесса, чтобы не мешать свежему запуску.",
     "deltas":  [
                    {
-                       "baseVersion":  "2026.10.11.6",
-                       "fileName":  "delta-2026.10.11.6-2026.10.11.7.json",
-                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.11.6-2026.10.11.7.json",
-                       "sha256":  "5666006c581aa6bbf077224b52fd11abe813ae278fc84a7d054f2c8419c92f80"
+                       "sha256":  "e766d3ead586cb00b1c34ec517c1a064d38912d89ae07f1f3c8fb726bbfbb565",
+                       "baseVersion":  "2026.10.11.7",
+                       "fileName":  "delta-2026.10.11.7-2026.10.11.8.json",
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.11.7-2026.10.11.8.json"
                    }
                ],
     "delta":  {
-                  "baseVersion":  "2026.10.11.6",
-                  "fileName":  "delta-2026.10.11.6-2026.10.11.7.json",
-                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.11.6-2026.10.11.7.json",
-                  "sha256":  "5666006c581aa6bbf077224b52fd11abe813ae278fc84a7d054f2c8419c92f80"
+                  "sha256":  "e766d3ead586cb00b1c34ec517c1a064d38912d89ae07f1f3c8fb726bbfbb565",
+                  "baseVersion":  "2026.10.11.7",
+                  "fileName":  "delta-2026.10.11.7-2026.10.11.8.json",
+                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.11.7-2026.10.11.8.json"
               }
 }
