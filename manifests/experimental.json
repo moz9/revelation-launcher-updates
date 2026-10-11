@@ -1,26 +1,26 @@
 {
     "channel":  "experimental",
     "displayName":  "Тестовая версия",
-    "version":  "2026.10.11.2",
+    "version":  "2026.10.11.3",
     "installerUrl":  "https://launch.revalib.ru/launcher-updates/v1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
     "fileName":  "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-    "sha256":  "9dd267f5104e72837d649a3b7853c15837f3c9fe2efe1ee764cd010c95def32e",
-    "sizeBytes":  113190400,
-    "publishedAtUtc":  "2026-10-10T22:25:20Z",
+    "sha256":  "3d2f2bfe89beb5446e5bf94bf9bb0ff7148decc06d504c5b10a7c01e53ad301d",
+    "sizeBytes":  113175552,
+    "publishedAtUtc":  "2026-10-11T05:59:25Z",
     "historyUrl":  "https://launch.revalib.ru/launcher-updates/v1/experimental-history.json",
-    "notes":  "Исправлен ложный отказ запуска при повышенных правах игры: лаунчер проверяет точный путь процесса через Windows, сохраняя проверку чужих и нескольких клиентов. В активности «Баня» добавлено ожидание временной загрузки игрового мира перед посадкой и контрольными чтениями. Повторяется только чтение состояния, без повторной отправки покупки или использования вина.",
+    "notes":  "Исправлены всплывающие подсказки: фон страницы под ними размывается и преломляется, а текст подсказки остаётся чётким. Убрано наложение нижележащих надписей. Подсказки учитывают общие настройки плотности, темы и закругления.",
     "deltas":  [
                    {
-                       "baseVersion":  "2026.10.11.1",
-                       "sha256":  "1f57781d3631992619274dfe3f2cd8deb5a43bbccfe9b9868034b77c1d550dbe",
-                       "fileName":  "delta-2026.10.11.1-2026.10.11.2.json",
-                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.11.1-2026.10.11.2.json"
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.11.2-2026.10.11.3.json",
+                       "baseVersion":  "2026.10.11.2",
+                       "sha256":  "73b6ec483c48dd444c326825c10361057992055f0f3308c46c64312e016a5e96",
+                       "fileName":  "delta-2026.10.11.2-2026.10.11.3.json"
                    }
                ],
     "delta":  {
-                  "baseVersion":  "2026.10.11.1",
-                  "sha256":  "1f57781d3631992619274dfe3f2cd8deb5a43bbccfe9b9868034b77c1d550dbe",
-                  "fileName":  "delta-2026.10.11.1-2026.10.11.2.json",
-                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.11.1-2026.10.11.2.json"
+                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.11.2-2026.10.11.3.json",
+                  "baseVersion":  "2026.10.11.2",
+                  "sha256":  "73b6ec483c48dd444c326825c10361057992055f0f3308c46c64312e016a5e96",
+                  "fileName":  "delta-2026.10.11.2-2026.10.11.3.json"
               }
 }
