@@ -1,26 +1,26 @@
 {
     "channel":  "experimental",
     "displayName":  "Тестовая версия",
-    "version":  "2026.10.11.8",
+    "version":  "2026.10.12.1",
     "installerUrl":  "https://launch.revalib.ru/launcher-updates/v1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
     "fileName":  "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-    "sha256":  "005ad54a41cbff693b49c454c62c36f98c8cdd1ef24af7816ff8a65a6f405890",
-    "sizeBytes":  113311744,
-    "publishedAtUtc":  "2026-10-11T12:03:15Z",
+    "sha256":  "377cd88defbbe2c935e31e71b54aaa08160144b64b69694d8194f19e0d539097",
+    "sizeBytes":  113647616,
+    "publishedAtUtc":  "2026-10-12T10:51:30Z",
     "historyUrl":  "https://launch.revalib.ru/launcher-updates/v1/experimental-history.json",
-    "notes":  "Добавлена кнопка «Закрыть игру и VK Play» на главной странице. Она отменяет прежнюю команду лаунчера, завершает проверенные процессы игры и VK Play и проверяет их отсутствие. Повторный запуск выполняется отдельно.\n\nПри ручном нажатии «Выйти» лаунчер сначала запрашивает штатный выход; если клиент не завершился, закрывает тот же проверенный процесс принудительно. Автоматические сценарии не получили принудительного выхода. Во время подтверждённого Зова аварийное закрытие заблокировано.\r\n\r\nПосле полного закрытия старый владелец Башни освобождается по подтверждённому завершению исходного процесса, чтобы не мешать свежему запуску.",
+    "notes":  "Обновлена совместимость с данными игры после профилактики 12 октября. Исправлен запуск с включённой настройкой «Запускать игру сразу, без окна VK Play». Добавлена тестовая поддержка исследования мира духов.",
     "deltas":  [
                    {
-                       "sha256":  "e766d3ead586cb00b1c34ec517c1a064d38912d89ae07f1f3c8fb726bbfbb565",
-                       "baseVersion":  "2026.10.11.7",
-                       "fileName":  "delta-2026.10.11.7-2026.10.11.8.json",
-                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.11.7-2026.10.11.8.json"
+                       "fileName":  "delta-2026.10.11.8-2026.10.12.1.json",
+                       "sha256":  "dac26c7a87f3f61fe6c060bf9c4a10ce0d655669103fec07388c633614f086bc",
+                       "baseVersion":  "2026.10.11.8",
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.11.8-2026.10.12.1.json"
                    }
                ],
     "delta":  {
-                  "sha256":  "e766d3ead586cb00b1c34ec517c1a064d38912d89ae07f1f3c8fb726bbfbb565",
-                  "baseVersion":  "2026.10.11.7",
-                  "fileName":  "delta-2026.10.11.7-2026.10.11.8.json",
-                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.11.7-2026.10.11.8.json"
+                  "fileName":  "delta-2026.10.11.8-2026.10.12.1.json",
+                  "sha256":  "dac26c7a87f3f61fe6c060bf9c4a10ce0d655669103fec07388c633614f086bc",
+                  "baseVersion":  "2026.10.11.8",
+                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.11.8-2026.10.12.1.json"
               }
 }
