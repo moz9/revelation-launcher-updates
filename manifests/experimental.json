@@ -1,26 +1,26 @@
 {
     "channel":  "experimental",
     "displayName":  "Тестовая версия",
-    "version":  "2026.10.13.3",
+    "version":  "2026.10.14.1",
     "installerUrl":  "https://launch.revalib.ru/launcher-updates/v1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
     "fileName":  "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-    "sha256":  "fd4423bcb35cf146dd0b40657bb784c9605f96b220c0d6da14bc7a09b6cdd771",
-    "sizeBytes":  113838592,
-    "publishedAtUtc":  "2026-10-13T12:28:39Z",
+    "sha256":  "b62d3676cad15f5b51275fb825742b8daedd74956bbab6efa8de254bc5ed3554",
+    "sizeBytes":  113844224,
+    "publishedAtUtc":  "2026-10-13T18:09:17Z",
     "historyUrl":  "https://launch.revalib.ru/launcher-updates/v1/experimental-history.json",
-    "notes":  "При принятии в группу на Зов лаунчер закрывает открытый магазин и диалог NPC штатными действиями игры и проверяет, что предыдущее действие остановилось. Это помогает перейти к Зову из других активностей без повторных команд закрытия.\n\nКогда остальные выбранные ежедневные активности завершены, персонаж заранее направляется к старту Зова; поиск группы продолжается.\n\nИзменения проверены сборкой и автоматическими тестами. Проверка этих переходов в игре после установки ещё предстоит.\r\n\nИсправлена остановка общего сценария при временно недоступном чтении состояния бани после Зова: такой отказ теперь обрабатывается предусмотренным повторным чтением, без повторения игровых действий.",
+    "notes":  "Исправлено открытие настроек башни: устаревшая необязательная служебная запись больше не прерывает чтение. Кнопка «Изменить» показывает загрузку и защищена от повторных нажатий.\nОстановка общего сценария больше не создаёт ложный отчёт об ошибке отмены Зова.\nИсправлена блокировка остановки гильдейского сценария, когда задания уже нет и свежие данные подтверждают отсутствие автоцикла. Незавершённые команды и покупки сохраняют защиту от повторов.",
     "deltas":  [
                    {
-                       "baseVersion":  "2026.10.13.2",
-                       "fileName":  "delta-2026.10.13.2-2026.10.13.3.json",
-                       "sha256":  "378454876901a81c2012fdd02f994cd18eecc7bf7788a34bee084a69f2b22a0a",
-                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.13.2-2026.10.13.3.json"
+                       "baseVersion":  "2026.10.13.3",
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.13.3-2026.10.14.1.json",
+                       "sha256":  "87c768c7457dad3c215a884f7f1c2a5a8d76fa4b1a4f9c00706b72468e0b7f99",
+                       "fileName":  "delta-2026.10.13.3-2026.10.14.1.json"
                    }
                ],
     "delta":  {
-                  "baseVersion":  "2026.10.13.2",
-                  "fileName":  "delta-2026.10.13.2-2026.10.13.3.json",
-                  "sha256":  "378454876901a81c2012fdd02f994cd18eecc7bf7788a34bee084a69f2b22a0a",
-                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.13.2-2026.10.13.3.json"
+                  "baseVersion":  "2026.10.13.3",
+                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.13.3-2026.10.14.1.json",
+                  "sha256":  "87c768c7457dad3c215a884f7f1c2a5a8d76fa4b1a4f9c00706b72468e0b7f99",
+                  "fileName":  "delta-2026.10.13.3-2026.10.14.1.json"
               }
 }
