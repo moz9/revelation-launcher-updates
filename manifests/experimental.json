@@ -1,26 +1,26 @@
 {
     "channel":  "experimental",
     "displayName":  "Тестовая версия",
-    "version":  "2026.10.12.1",
+    "version":  "2026.10.13.2",
     "installerUrl":  "https://launch.revalib.ru/launcher-updates/v1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
     "fileName":  "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-    "sha256":  "377cd88defbbe2c935e31e71b54aaa08160144b64b69694d8194f19e0d539097",
-    "sizeBytes":  113647616,
-    "publishedAtUtc":  "2026-10-12T10:51:30Z",
+    "sha256":  "6527c8e43928b55d17c78a4b2a94323056d714f81fe8fc16022dca7785268999",
+    "sizeBytes":  113860608,
+    "publishedAtUtc":  "2026-10-13T10:42:48Z",
     "historyUrl":  "https://launch.revalib.ru/launcher-updates/v1/experimental-history.json",
-    "notes":  "Обновлена совместимость с данными игры после профилактики 12 октября. Исправлен запуск с включённой настройкой «Запускать игру сразу, без окна VK Play». Добавлена тестовая поддержка исследования мира духов.",
+    "notes":  "Для текущего архива entities.pg подтверждена совместимость игрового модуля. Каталоги рецептов и товаров теперь сверяются с защищёнными данными архива: изменение общего хеша файла при неизменных нужных таблицах больше не прерывает работу.\r\n\r\nУточнена обработка квитанций игровых команд: неизвестный результат не разрешает повтор действия. Исправлены переходы заданий гильдии и Оплота и чтение прогресса Башни.\r\n\r\nЕсли торговое поручение сменилось до отправки команды, лаунчер перечитывает цель и продолжает. Резервы такой неотправленной покупки, крафта или переноса освобождаются; операции с неизвестным результатом не повторяются.\r\n\r\nОбщий протокол действий пока не включён.",
     "deltas":  [
                    {
-                       "fileName":  "delta-2026.10.11.8-2026.10.12.1.json",
-                       "sha256":  "dac26c7a87f3f61fe6c060bf9c4a10ce0d655669103fec07388c633614f086bc",
-                       "baseVersion":  "2026.10.11.8",
-                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.11.8-2026.10.12.1.json"
+                       "sha256":  "c25cd989eec420744bb97b41f6d9982bf1054e4f97207238fd58d22f71b02227",
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.12.1-2026.10.13.2.json",
+                       "baseVersion":  "2026.10.12.1",
+                       "fileName":  "delta-2026.10.12.1-2026.10.13.2.json"
                    }
                ],
     "delta":  {
-                  "fileName":  "delta-2026.10.11.8-2026.10.12.1.json",
-                  "sha256":  "dac26c7a87f3f61fe6c060bf9c4a10ce0d655669103fec07388c633614f086bc",
-                  "baseVersion":  "2026.10.11.8",
-                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.11.8-2026.10.12.1.json"
+                  "sha256":  "c25cd989eec420744bb97b41f6d9982bf1054e4f97207238fd58d22f71b02227",
+                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.12.1-2026.10.13.2.json",
+                  "baseVersion":  "2026.10.12.1",
+                  "fileName":  "delta-2026.10.12.1-2026.10.13.2.json"
               }
 }
