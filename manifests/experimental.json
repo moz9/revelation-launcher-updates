@@ -1,26 +1,26 @@
 {
     "channel":  "experimental",
     "displayName":  "Тестовая версия",
-    "version":  "2026.10.14.6",
+    "version":  "2026.10.14.7",
     "installerUrl":  "https://launch.revalib.ru/launcher-updates/v1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
     "fileName":  "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-    "sha256":  "04e21989b8bf22ba01fb69b892e4ad30d6425a64a0acc1249a118cbb10f7b7de",
-    "sizeBytes":  131823616,
-    "publishedAtUtc":  "2026-10-14T11:25:06Z",
+    "sha256":  "39a4cd12e355effdfdcad3596028745e52a5166ecea76cd3c02423147a191616",
+    "sizeBytes":  131774464,
+    "publishedAtUtc":  "2026-10-14T12:51:32Z",
     "historyUrl":  "https://launch.revalib.ru/launcher-updates/v1/experimental-history.json",
-    "notes":  "Для добычи ресурсов в торговых поручениях точки на карте теперь служат ориентиром. После прилёта лаунчер проверяет объекты рядом по данным игры, выбирает нужный ресурс и подходит к его реальному положению. Если повторная проверка подтверждает отсутствие ресурса, место временно исключается и проверяется следующая точка. При неподтверждённом сборе поручение сохраняется без автоматической покупки на аукционе. Повторный запуск ожидает подтверждения результата по данным игры.\r\n\r\nУточнена проверка закрытия VK Play: уже завершившийся процесс перепроверяется по текущему состоянию системы. Работающий или недоступный для проверки процесс по-прежнему не считается закрытым.",
+    "notes":  "Исправлен сбор в «Ремесле»: короткие наземные переходы к ресурсам больше не запускают маршрут с автоматическим полётом. Лаунчер быстрее проверяет движение, сохраняет конечную точку при промежуточных шагах и выбирает другой телепорт при повторном застревании на одном месте.",
     "deltas":  [
                    {
-                       "sha256":  "38aabe677278482fbc6ccaece1ea6547d7920d224ea1f77574d6dd72c640b2a0",
-                       "fileName":  "delta-2026.10.14.5-2026.10.14.6.json",
-                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.14.5-2026.10.14.6.json",
-                       "baseVersion":  "2026.10.14.5"
+                       "baseVersion":  "2026.10.14.6",
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.14.6-2026.10.14.7.json",
+                       "fileName":  "delta-2026.10.14.6-2026.10.14.7.json",
+                       "sha256":  "760c550a760e36e8a2974846d1ae026f097a96d409e281e1a9d5a6b2a2e58a0d"
                    }
                ],
     "delta":  {
-                  "sha256":  "38aabe677278482fbc6ccaece1ea6547d7920d224ea1f77574d6dd72c640b2a0",
-                  "fileName":  "delta-2026.10.14.5-2026.10.14.6.json",
-                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.14.5-2026.10.14.6.json",
-                  "baseVersion":  "2026.10.14.5"
+                  "baseVersion":  "2026.10.14.6",
+                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.14.6-2026.10.14.7.json",
+                  "fileName":  "delta-2026.10.14.6-2026.10.14.7.json",
+                  "sha256":  "760c550a760e36e8a2974846d1ae026f097a96d409e281e1a9d5a6b2a2e58a0d"
               }
 }
