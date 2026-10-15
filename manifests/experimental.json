@@ -1,26 +1,26 @@
 {
     "channel":  "experimental",
     "displayName":  "Тестовая версия",
-    "version":  "2026.10.14.7",
+    "version":  "2026.10.15.1",
     "installerUrl":  "https://launch.revalib.ru/launcher-updates/v1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
     "fileName":  "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-    "sha256":  "39a4cd12e355effdfdcad3596028745e52a5166ecea76cd3c02423147a191616",
-    "sizeBytes":  131774464,
-    "publishedAtUtc":  "2026-10-14T12:51:32Z",
+    "sha256":  "a2dd90dc3a9bdd0090ba8133fbb06ce6dc844435abc4ff6efac4f7571934cfdf",
+    "sizeBytes":  131846656,
+    "publishedAtUtc":  "2026-10-15T02:10:02Z",
     "historyUrl":  "https://launch.revalib.ru/launcher-updates/v1/experimental-history.json",
-    "notes":  "Исправлен сбор в «Ремесле»: короткие наземные переходы к ресурсам больше не запускают маршрут с автоматическим полётом. Лаунчер быстрее проверяет движение, сохраняет конечную точку при промежуточных шагах и выбирает другой телепорт при повторном застревании на одном месте.",
+    "notes":  "Исправлена остановка фоновых наград: неизвестный результат получения сохраняется без блокировки всего лаунчера и без повторной отправки. Уточнены подтверждение остановки конвертов и владение гильдейской цепочкой. Выбранное в сценарии исследование духов выполняется с сохранённой парой и лимитами независимо от фонового переключателя. Ускорены проверки сбора ресурсов, исправлены подход к живым объектам, выбор телепорта и завершение полёта возле ресурса. При закрытии VK Play сначала подтверждается выход основного процесса, затем закрываются его фоновые окна.",
     "deltas":  [
                    {
-                       "baseVersion":  "2026.10.14.6",
-                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.14.6-2026.10.14.7.json",
-                       "fileName":  "delta-2026.10.14.6-2026.10.14.7.json",
-                       "sha256":  "760c550a760e36e8a2974846d1ae026f097a96d409e281e1a9d5a6b2a2e58a0d"
+                       "fileName":  "delta-2026.10.14.7-2026.10.15.1.json",
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.14.7-2026.10.15.1.json",
+                       "sha256":  "0702e8b74d1b1dad25090546d29bff9f4762aab270d203196bee5ef888037830",
+                       "baseVersion":  "2026.10.14.7"
                    }
                ],
     "delta":  {
-                  "baseVersion":  "2026.10.14.6",
-                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.14.6-2026.10.14.7.json",
-                  "fileName":  "delta-2026.10.14.6-2026.10.14.7.json",
-                  "sha256":  "760c550a760e36e8a2974846d1ae026f097a96d409e281e1a9d5a6b2a2e58a0d"
+                  "fileName":  "delta-2026.10.14.7-2026.10.15.1.json",
+                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.14.7-2026.10.15.1.json",
+                  "sha256":  "0702e8b74d1b1dad25090546d29bff9f4762aab270d203196bee5ef888037830",
+                  "baseVersion":  "2026.10.14.7"
               }
 }
