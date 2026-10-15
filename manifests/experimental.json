@@ -1,26 +1,26 @@
 {
     "channel":  "experimental",
     "displayName":  "Тестовая версия",
-    "version":  "2026.10.15.7",
+    "version":  "2026.10.15.8",
     "installerUrl":  "https://launch.revalib.ru/launcher-updates/v1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
     "fileName":  "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-    "sha256":  "b0689582127b6d7bda5ade660e6b029b08146d782c46e8397b49cafaf7a0589f",
-    "sizeBytes":  114311168,
-    "publishedAtUtc":  "2026-10-15T15:36:51Z",
+    "sha256":  "b032673e78ba483e2307e6fb5e3740a1954f0baa09ce2ed9044d24e12e5e71f1",
+    "sizeBytes":  114343936,
+    "publishedAtUtc":  "2026-10-15T17:22:24Z",
     "historyUrl":  "https://launch.revalib.ru/launcher-updates/v1/experimental-history.json",
-    "notes":  "Исправлен сбой при открытии раздела «Прочее». Ожидание заявки в группу Зова ограничено сроком её действия: 30 секунд с проверкой состава группы. Исправлено продолжение классового оплота при уже открытом магазине, чтение состояния превращения и ожидание загрузки после выхода с базы гильдии для Зова.",
+    "notes":  "Исследование ожидает позднее подтверждение добавления припаса без повторного расхода. Убраны лишние чтения между подтверждёнными шагами подготовки. Уточнена диагностика исследования. Исправлено распознавание завершённой цепочки гильдейских заданий после ручной сдачи. Если окно исследования ещё не появилось, лаунчер ожидает его перед привязкой, без повторного открытия.",
     "deltas":  [
                    {
-                       "baseVersion":  "2026.10.15.6",
-                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.15.6-2026.10.15.7.json",
-                       "fileName":  "delta-2026.10.15.6-2026.10.15.7.json",
-                       "sha256":  "70f9dc7ece4a37e16897bfc72bd2d37de74a02d7ed5f3856abae873f5bf18c2d"
+                       "sha256":  "144bff4e0da443bfa3bb68fa6c1a5d46021c5c7773f9ee1bfaadb386d5d33088",
+                       "baseVersion":  "2026.10.15.7",
+                       "fileName":  "delta-2026.10.15.7-2026.10.15.8.json",
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.15.7-2026.10.15.8.json"
                    }
                ],
     "delta":  {
-                  "baseVersion":  "2026.10.15.6",
-                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.15.6-2026.10.15.7.json",
-                  "fileName":  "delta-2026.10.15.6-2026.10.15.7.json",
-                  "sha256":  "70f9dc7ece4a37e16897bfc72bd2d37de74a02d7ed5f3856abae873f5bf18c2d"
+                  "sha256":  "144bff4e0da443bfa3bb68fa6c1a5d46021c5c7773f9ee1bfaadb386d5d33088",
+                  "baseVersion":  "2026.10.15.7",
+                  "fileName":  "delta-2026.10.15.7-2026.10.15.8.json",
+                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.15.7-2026.10.15.8.json"
               }
 }
