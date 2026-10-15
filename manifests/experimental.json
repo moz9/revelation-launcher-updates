@@ -1,26 +1,26 @@
 {
     "channel":  "experimental",
     "displayName":  "Тестовая версия",
-    "version":  "2026.10.15.5",
+    "version":  "2026.10.15.6",
     "installerUrl":  "https://launch.revalib.ru/launcher-updates/v1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
     "fileName":  "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-    "sha256":  "3178ca78bc71a66acea81b42ef5a8628cc983d8e58d58e25c22599443438f2d2",
-    "sizeBytes":  114234880,
-    "publishedAtUtc":  "2026-10-15T13:17:27Z",
+    "sha256":  "ea8e96041783d848f8c4f796e8be4e96ca708dfa3d594cc22b68c1152044665c",
+    "sizeBytes":  114307584,
+    "publishedAtUtc":  "2026-10-15T14:46:38Z",
     "historyUrl":  "https://launch.revalib.ru/launcher-updates/v1/experimental-history.json",
-    "notes":  "Исправлены лимит шагов исследования и восстановление контакта с Лией по подтверждённому маршруту. Для каждого действия отдельное контрольное чтение игры выполняется в уже загруженном процессе, без повторного запуска PowerShell.",
+    "notes":  "Добавлен раздел «Прочее» с последовательным использованием карт сокровищ гоблинов и сокровищ фантомов. Следующая карта запускается после подтверждения результата предыдущей. Исправлена ошибка Stop торговок после завершения 120 поручений. Исправлено перетаскивание источников торговок за ручки приоритета.",
     "deltas":  [
                    {
-                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.15.4-2026.10.15.5.json",
-                       "fileName":  "delta-2026.10.15.4-2026.10.15.5.json",
-                       "sha256":  "0d19e520e8dc385ed80a3ec814112d64387a8371d6fd26d5af60ff3bc9e09a50",
-                       "baseVersion":  "2026.10.15.4"
+                       "fileName":  "delta-2026.10.15.5-2026.10.15.6.json",
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.15.5-2026.10.15.6.json",
+                       "sha256":  "fab3f01f81d8a46073be4245dd8a5064f951d6005bf2f7d84f223640a0f7eb3c",
+                       "baseVersion":  "2026.10.15.5"
                    }
                ],
     "delta":  {
-                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.15.4-2026.10.15.5.json",
-                  "fileName":  "delta-2026.10.15.4-2026.10.15.5.json",
-                  "sha256":  "0d19e520e8dc385ed80a3ec814112d64387a8371d6fd26d5af60ff3bc9e09a50",
-                  "baseVersion":  "2026.10.15.4"
+                  "fileName":  "delta-2026.10.15.5-2026.10.15.6.json",
+                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.15.5-2026.10.15.6.json",
+                  "sha256":  "fab3f01f81d8a46073be4245dd8a5064f951d6005bf2f7d84f223640a0f7eb3c",
+                  "baseVersion":  "2026.10.15.5"
               }
 }
