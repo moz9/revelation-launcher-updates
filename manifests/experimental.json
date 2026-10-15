@@ -1,26 +1,26 @@
 {
     "channel":  "experimental",
     "displayName":  "Тестовая версия",
-    "version":  "2026.10.15.8",
+    "version":  "2026.10.16.1",
     "installerUrl":  "https://launch.revalib.ru/launcher-updates/v1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
     "fileName":  "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-    "sha256":  "b032673e78ba483e2307e6fb5e3740a1954f0baa09ce2ed9044d24e12e5e71f1",
-    "sizeBytes":  114343936,
-    "publishedAtUtc":  "2026-10-15T17:22:24Z",
+    "sha256":  "17a6733ad46928e1e35e2c48c1e1e06f0e62cd92f21ff786cee93130d71085b5",
+    "sizeBytes":  114348544,
+    "publishedAtUtc":  "2026-10-15T18:43:40Z",
     "historyUrl":  "https://launch.revalib.ru/launcher-updates/v1/experimental-history.json",
-    "notes":  "Исследование ожидает позднее подтверждение добавления припаса без повторного расхода. Убраны лишние чтения между подтверждёнными шагами подготовки. Уточнена диагностика исследования. Исправлено распознавание завершённой цепочки гильдейских заданий после ручной сдачи. Если окно исследования ещё не появилось, лаунчер ожидает его перед привязкой, без повторного открытия.",
+    "notes":  "Исправлено подтверждение собственного запуска гильдейского автоквеста, когда игра обновляет номер цепочки после запуска. Этап с посохом по-прежнему выполняет лаунчер с проверкой цели и результата.\r\nИсправлена остановка исследования после завершённого чтения состояния. Добавлена точная диагностика отказа переноса предметов со склада; сам отказ переноса пока не устранён.",
     "deltas":  [
                    {
-                       "sha256":  "144bff4e0da443bfa3bb68fa6c1a5d46021c5c7773f9ee1bfaadb386d5d33088",
-                       "baseVersion":  "2026.10.15.7",
-                       "fileName":  "delta-2026.10.15.7-2026.10.15.8.json",
-                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.15.7-2026.10.15.8.json"
+                       "baseVersion":  "2026.10.15.8",
+                       "fileName":  "delta-2026.10.15.8-2026.10.16.1.json",
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.15.8-2026.10.16.1.json",
+                       "sha256":  "6e03a83039cd993f7cfb1c84a4719a1a91340c36123fe61c15b7b23ee5494f7c"
                    }
                ],
     "delta":  {
-                  "sha256":  "144bff4e0da443bfa3bb68fa6c1a5d46021c5c7773f9ee1bfaadb386d5d33088",
-                  "baseVersion":  "2026.10.15.7",
-                  "fileName":  "delta-2026.10.15.7-2026.10.15.8.json",
-                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.15.7-2026.10.15.8.json"
+                  "baseVersion":  "2026.10.15.8",
+                  "fileName":  "delta-2026.10.15.8-2026.10.16.1.json",
+                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.15.8-2026.10.16.1.json",
+                  "sha256":  "6e03a83039cd993f7cfb1c84a4719a1a91340c36123fe61c15b7b23ee5494f7c"
               }
 }
