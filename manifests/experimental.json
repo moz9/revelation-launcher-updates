@@ -1,26 +1,26 @@
 {
     "channel":  "experimental",
     "displayName":  "Тестовая версия",
-    "version":  "2026.10.15.4",
+    "version":  "2026.10.15.5",
     "installerUrl":  "https://launch.revalib.ru/launcher-updates/v1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
     "fileName":  "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-    "sha256":  "8226373deaebf6bbe9cc164cd65183ff44fd8658b61908c85bfa856a7bf1273d",
-    "sizeBytes":  114246144,
-    "publishedAtUtc":  "2026-10-15T10:21:23Z",
+    "sha256":  "3178ca78bc71a66acea81b42ef5a8628cc983d8e58d58e25c22599443438f2d2",
+    "sizeBytes":  114234880,
+    "publishedAtUtc":  "2026-10-15T13:17:27Z",
     "historyUrl":  "https://launch.revalib.ru/launcher-updates/v1/experimental-history.json",
-    "notes":  "Добавлена вкладка «Исследование» в разделе «Актив». Настройки пары духов также открываются шестерёнкой рядом с исследованием в общем сценарии.\n\nЗавершённое исследование проверяется отдельно от новой отправки: лаунчер подходит к Лии, получает награду и ждёт подтверждённого возвращения духов. Новая пара отправляется после этой проверки, с учётом настроек и дневного лимита. Неподтверждённое получение награды автоматически не повторяется.\n\nИсправлена обработка повторного сканирования ресурсов для торговок. Ответ о незавершённом сканировании передаётся обработчику сбора; квитанция проверяется по свежему чтению игрового модуля.",
+    "notes":  "Исправлены лимит шагов исследования и восстановление контакта с Лией по подтверждённому маршруту. Для каждого действия отдельное контрольное чтение игры выполняется в уже загруженном процессе, без повторного запуска PowerShell.",
     "deltas":  [
                    {
-                       "sha256":  "fd3729c53bc75adedb48530799cda5f02a983fc11760d7bd60dc5ec3177d345a",
-                       "fileName":  "delta-2026.10.15.3-2026.10.15.4.json",
-                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.15.3-2026.10.15.4.json",
-                       "baseVersion":  "2026.10.15.3"
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.15.4-2026.10.15.5.json",
+                       "fileName":  "delta-2026.10.15.4-2026.10.15.5.json",
+                       "sha256":  "0d19e520e8dc385ed80a3ec814112d64387a8371d6fd26d5af60ff3bc9e09a50",
+                       "baseVersion":  "2026.10.15.4"
                    }
                ],
     "delta":  {
-                  "sha256":  "fd3729c53bc75adedb48530799cda5f02a983fc11760d7bd60dc5ec3177d345a",
-                  "fileName":  "delta-2026.10.15.3-2026.10.15.4.json",
-                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.15.3-2026.10.15.4.json",
-                  "baseVersion":  "2026.10.15.3"
+                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.15.4-2026.10.15.5.json",
+                  "fileName":  "delta-2026.10.15.4-2026.10.15.5.json",
+                  "sha256":  "0d19e520e8dc385ed80a3ec814112d64387a8371d6fd26d5af60ff3bc9e09a50",
+                  "baseVersion":  "2026.10.15.4"
               }
 }
