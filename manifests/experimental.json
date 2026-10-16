@@ -1,26 +1,26 @@
 {
     "channel":  "experimental",
     "displayName":  "Тестовая версия",
-    "version":  "2026.10.16.5",
+    "version":  "2026.10.16.6",
     "installerUrl":  "https://launch.revalib.ru/launcher-updates/v1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
     "fileName":  "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-    "sha256":  "2d91125dd34a067eb793bfbc0983be32c2368fa328ed39e6ae2a920291429283",
-    "sizeBytes":  114289664,
-    "publishedAtUtc":  "2026-10-16T04:46:43Z",
+    "sha256":  "81c0e40625c0a45f892c9f0c0f7923590c80dea5997e762dfd0d9d9cf2598a97",
+    "sizeBytes":  114284544,
+    "publishedAtUtc":  "2026-10-16T05:42:33Z",
     "historyUrl":  "https://launch.revalib.ru/launcher-updates/v1/experimental-history.json",
-    "notes":  "В автоматические отчёты добавлены время захвата и часовой пояс, источник данных персонажа, число отброшенных событий и обрезанных полей. Причина отчёта сохраняется перед ограниченной историей. Явно обозначено, что хеш игрового модуля относится к файлу на диске, а полнота исходных журналов не гарантируется. Добавлена обязательная проверка соответствия страниц лаунчера серверному приёмнику.\r\nСтрока статуса общего сценария и кнопки управления закреплены у нижней границы окна рядом со значком пояснений. Настройки над ними прокручиваются отдельно; остальные вкладки сохраняют прежнюю компоновку.\r\nОплот больше не отправляет подтверждение продолжения или новое действие, пока прежняя пауза не подтверждена свежим состоянием персонажа. Повтор неподтверждённой команды остановки не выполняется.",
+    "notes":  "Исправлено чтение исследования в штатном режиме получения награды (isCarryItem=2). Режим теперь передаётся явно и участвует в проверке свежести состояния. Неожиданные значения остаются запрещены; наличие режима награды не подменяет подтверждение её получения.",
     "deltas":  [
                    {
-                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.16.4-2026.10.16.5.json",
-                       "sha256":  "3b9135e0264ef5c23925a524887540ea76cbec24361c26f7eb820de0742d9c60",
-                       "fileName":  "delta-2026.10.16.4-2026.10.16.5.json",
-                       "baseVersion":  "2026.10.16.4"
+                       "fileName":  "delta-2026.10.16.5-2026.10.16.6.json",
+                       "sha256":  "5f5ed33a0564c2294b2cb8e76fc173da1df4d3a2cc18dfe1cd78435fe20bfc25",
+                       "baseVersion":  "2026.10.16.5",
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.16.5-2026.10.16.6.json"
                    }
                ],
     "delta":  {
-                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.16.4-2026.10.16.5.json",
-                  "sha256":  "3b9135e0264ef5c23925a524887540ea76cbec24361c26f7eb820de0742d9c60",
-                  "fileName":  "delta-2026.10.16.4-2026.10.16.5.json",
-                  "baseVersion":  "2026.10.16.4"
+                  "fileName":  "delta-2026.10.16.5-2026.10.16.6.json",
+                  "sha256":  "5f5ed33a0564c2294b2cb8e76fc173da1df4d3a2cc18dfe1cd78435fe20bfc25",
+                  "baseVersion":  "2026.10.16.5",
+                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.16.5-2026.10.16.6.json"
               }
 }
