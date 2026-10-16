@@ -1,26 +1,26 @@
 {
     "channel":  "experimental",
     "displayName":  "Тестовая версия",
-    "version":  "2026.10.16.7",
+    "version":  "2026.10.16.8",
     "installerUrl":  "https://launch.revalib.ru/launcher-updates/v1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
     "fileName":  "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-    "sha256":  "fdc19e6dcb45282cdb9aaa16ffbd2695344e4a68b2ed9491c95653f4bcfb78d7",
-    "sizeBytes":  114302976,
-    "publishedAtUtc":  "2026-10-16T06:51:49Z",
+    "sha256":  "76f8ea7a0747b4d44fae8ce4eced37110d39b5e3a00e4bd7f1e30483d5f04150",
+    "sizeBytes":  114327040,
+    "publishedAtUtc":  "2026-10-16T10:37:58Z",
     "historyUrl":  "https://launch.revalib.ru/launcher-updates/v1/experimental-history.json",
-    "notes":  "Исследование духов: дополнительная волна без припасов использует доступные один или два слота и первых духов из порядка в настройках. Стоимость и подтверждение отправки учитывают фактическое число духов. Новая подтверждённая бонусная фаза может продолжаться после перезапуска, сохраняя запрет повтора неподтверждённого старого получения награды.\r\nЗов духов: после остановки наблюдателя сохранённые сведения помечаются как последние данные; убраны вводящие в заблуждение сообщения о продолжающемся наблюдении.",
+    "notes":  "Общий сценарий автоматически продолжает незавершённые этапы после подтверждённого завершения Зова и освобождения управления. Выполненные этапы не повторяются; Pause, Stop, смена персонажа и неподтверждённые операции сохраняют свои ограничения.",
     "deltas":  [
                    {
-                       "sha256":  "0e615bbad2117d71090dd3a56ae0b5da26e3953af368dfa9d01565291d8c01bd",
-                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.16.6-2026.10.16.7.json",
-                       "fileName":  "delta-2026.10.16.6-2026.10.16.7.json",
-                       "baseVersion":  "2026.10.16.6"
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.16.7-2026.10.16.8.json",
+                       "baseVersion":  "2026.10.16.7",
+                       "fileName":  "delta-2026.10.16.7-2026.10.16.8.json",
+                       "sha256":  "f01fac1109bdedd0d867f69909677bd5d2a8c8cb3be2a34cdf58014fd844cd18"
                    }
                ],
     "delta":  {
-                  "sha256":  "0e615bbad2117d71090dd3a56ae0b5da26e3953af368dfa9d01565291d8c01bd",
-                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.16.6-2026.10.16.7.json",
-                  "fileName":  "delta-2026.10.16.6-2026.10.16.7.json",
-                  "baseVersion":  "2026.10.16.6"
+                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.16.7-2026.10.16.8.json",
+                  "baseVersion":  "2026.10.16.7",
+                  "fileName":  "delta-2026.10.16.7-2026.10.16.8.json",
+                  "sha256":  "f01fac1109bdedd0d867f69909677bd5d2a8c8cb3be2a34cdf58014fd844cd18"
               }
 }
