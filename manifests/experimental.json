@@ -1,26 +1,26 @@
 {
     "channel":  "experimental",
     "displayName":  "Тестовая версия",
-    "version":  "2026.10.16.3",
+    "version":  "2026.10.16.4",
     "installerUrl":  "https://launch.revalib.ru/launcher-updates/v1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
     "fileName":  "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-    "sha256":  "3ab2018f5d6a90b823489a8e9292f0d2dd1bfad029aa9c9968354cf0be86e2f3",
-    "sizeBytes":  114255360,
-    "publishedAtUtc":  "2026-10-16T02:30:46Z",
+    "sha256":  "755aa947cd747cfeee76b73e441b90575637a7e45ffd4ee181346cf695751ff5",
+    "sizeBytes":  114237952,
+    "publishedAtUtc":  "2026-10-16T03:32:11Z",
     "historyUrl":  "https://launch.revalib.ru/launcher-updates/v1/experimental-history.json",
-    "notes":  "Исправлено продолжение исследования после остановки и исчезновения старого окна: новый запуск открывает новое окно с отдельным запросом и свежей проверкой. Отменённые и неизвестные расходующие действия не повторяются.",
+    "notes":  "Исправлена ложная смена персонажа перед путём к Зову: корректное сопоставление полного идентификатора и игрового gbId с сохранением проверок процесса, времени запуска и отмены. В диагностику сбоев рабочего процесса ремесла добавлены безопасные коды компилятора без содержимого журналов и приватных путей.",
     "deltas":  [
                    {
-                       "fileName":  "delta-2026.10.16.2-2026.10.16.3.json",
-                       "baseVersion":  "2026.10.16.2",
-                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.16.2-2026.10.16.3.json",
-                       "sha256":  "5d35e8c85e76ae77e6370856ef0305faae3b1b039e7a35bf2e15ca831367f3ca"
+                       "sha256":  "0699c76e0bf95f86d5d3085cf4416eb96c4e009ae53984f9683fb92cd3590b57",
+                       "fileName":  "delta-2026.10.16.3-2026.10.16.4.json",
+                       "baseVersion":  "2026.10.16.3",
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.16.3-2026.10.16.4.json"
                    }
                ],
     "delta":  {
-                  "fileName":  "delta-2026.10.16.2-2026.10.16.3.json",
-                  "baseVersion":  "2026.10.16.2",
-                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.16.2-2026.10.16.3.json",
-                  "sha256":  "5d35e8c85e76ae77e6370856ef0305faae3b1b039e7a35bf2e15ca831367f3ca"
+                  "sha256":  "0699c76e0bf95f86d5d3085cf4416eb96c4e009ae53984f9683fb92cd3590b57",
+                  "fileName":  "delta-2026.10.16.3-2026.10.16.4.json",
+                  "baseVersion":  "2026.10.16.3",
+                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.16.3-2026.10.16.4.json"
               }
 }
