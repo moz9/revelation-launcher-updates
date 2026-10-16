@@ -1,26 +1,26 @@
 {
     "channel":  "experimental",
     "displayName":  "Тестовая версия",
-    "version":  "2026.10.16.6",
+    "version":  "2026.10.16.7",
     "installerUrl":  "https://launch.revalib.ru/launcher-updates/v1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
     "fileName":  "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-    "sha256":  "81c0e40625c0a45f892c9f0c0f7923590c80dea5997e762dfd0d9d9cf2598a97",
-    "sizeBytes":  114284544,
-    "publishedAtUtc":  "2026-10-16T05:42:33Z",
+    "sha256":  "fdc19e6dcb45282cdb9aaa16ffbd2695344e4a68b2ed9491c95653f4bcfb78d7",
+    "sizeBytes":  114302976,
+    "publishedAtUtc":  "2026-10-16T06:51:49Z",
     "historyUrl":  "https://launch.revalib.ru/launcher-updates/v1/experimental-history.json",
-    "notes":  "Исправлено чтение исследования в штатном режиме получения награды (isCarryItem=2). Режим теперь передаётся явно и участвует в проверке свежести состояния. Неожиданные значения остаются запрещены; наличие режима награды не подменяет подтверждение её получения.",
+    "notes":  "Исследование духов: дополнительная волна без припасов использует доступные один или два слота и первых духов из порядка в настройках. Стоимость и подтверждение отправки учитывают фактическое число духов. Новая подтверждённая бонусная фаза может продолжаться после перезапуска, сохраняя запрет повтора неподтверждённого старого получения награды.\r\nЗов духов: после остановки наблюдателя сохранённые сведения помечаются как последние данные; убраны вводящие в заблуждение сообщения о продолжающемся наблюдении.",
     "deltas":  [
                    {
-                       "fileName":  "delta-2026.10.16.5-2026.10.16.6.json",
-                       "sha256":  "5f5ed33a0564c2294b2cb8e76fc173da1df4d3a2cc18dfe1cd78435fe20bfc25",
-                       "baseVersion":  "2026.10.16.5",
-                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.16.5-2026.10.16.6.json"
+                       "sha256":  "0e615bbad2117d71090dd3a56ae0b5da26e3953af368dfa9d01565291d8c01bd",
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.16.6-2026.10.16.7.json",
+                       "fileName":  "delta-2026.10.16.6-2026.10.16.7.json",
+                       "baseVersion":  "2026.10.16.6"
                    }
                ],
     "delta":  {
-                  "fileName":  "delta-2026.10.16.5-2026.10.16.6.json",
-                  "sha256":  "5f5ed33a0564c2294b2cb8e76fc173da1df4d3a2cc18dfe1cd78435fe20bfc25",
-                  "baseVersion":  "2026.10.16.5",
-                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.16.5-2026.10.16.6.json"
+                  "sha256":  "0e615bbad2117d71090dd3a56ae0b5da26e3953af368dfa9d01565291d8c01bd",
+                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.16.6-2026.10.16.7.json",
+                  "fileName":  "delta-2026.10.16.6-2026.10.16.7.json",
+                  "baseVersion":  "2026.10.16.6"
               }
 }
