@@ -1,26 +1,26 @@
 {
     "channel":  "experimental",
     "displayName":  "Тестовая версия",
-    "version":  "2026.10.16.9",
+    "version":  "2026.10.17.1",
     "installerUrl":  "https://launch.revalib.ru/launcher-updates/v1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
     "fileName":  "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-    "sha256":  "16852dc9d130497ae22938906d4d69eae5dee7286de6587a6914d13182d48f9a",
-    "sizeBytes":  114294784,
-    "publishedAtUtc":  "2026-10-16T12:39:46Z",
+    "sha256":  "00bb2545ee775fa7a4f946c4964e6118b00a6284dea2e997cff7844fe28c38e9",
+    "sizeBytes":  114274304,
+    "publishedAtUtc":  "2026-10-16T18:06:09Z",
     "historyUrl":  "https://launch.revalib.ru/launcher-updates/v1/experimental-history.json",
-    "notes":  "Исправлена остановка гильдейской цепочки при кратком исчезновении выбранного пункта навигации после сдачи задания. Лаунчер ожидает свежие данные без повторной отправки действий; ограничения Stop, смены персонажа и неподтверждённых операций сохранены. Статусы общего сценария и известные ошибки стали короче и понятнее; подробности сохранены в журнале.",
+    "notes":  "Ускорены готовые флирты на Зове и подтверждённые переходы после сбора ресурсов, отметки календаря и получения награды за время в игре. Исправлены сбор мешка при следовании за лидером и зависание готового вопроса в классовом оплоте за старым диалогом. Добавлена обработка поддерживаемой ловушки A/D при сборе: завершение подтверждается получением ресурса. Сохранены ограничения остановки, смены персонажа и повторения неподтверждённых действий.\r\nИсправлена блокировка Stop после завершённого подхода к Лие: уход от NPC больше не превращает завершённый маршрут в незавершённый.",
     "deltas":  [
                    {
-                       "baseVersion":  "2026.10.16.8",
-                       "sha256":  "d20e30a30e172067cb7acc874f87fefe9a820d7daef9674d85bc64f744b3c32a",
-                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.16.8-2026.10.16.9.json",
-                       "fileName":  "delta-2026.10.16.8-2026.10.16.9.json"
+                       "sha256":  "2c9952a0c176d627837cb29a0b807739f0aee822db79e39dd5ec81ac4ab1a3b5",
+                       "baseVersion":  "2026.10.16.9",
+                       "fileName":  "delta-2026.10.16.9-2026.10.17.1.json",
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.16.9-2026.10.17.1.json"
                    }
                ],
     "delta":  {
-                  "baseVersion":  "2026.10.16.8",
-                  "sha256":  "d20e30a30e172067cb7acc874f87fefe9a820d7daef9674d85bc64f744b3c32a",
-                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.16.8-2026.10.16.9.json",
-                  "fileName":  "delta-2026.10.16.8-2026.10.16.9.json"
+                  "sha256":  "2c9952a0c176d627837cb29a0b807739f0aee822db79e39dd5ec81ac4ab1a3b5",
+                  "baseVersion":  "2026.10.16.9",
+                  "fileName":  "delta-2026.10.16.9-2026.10.17.1.json",
+                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.16.9-2026.10.17.1.json"
               }
 }
