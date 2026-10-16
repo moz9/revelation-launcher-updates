@@ -1,26 +1,26 @@
 {
     "channel":  "experimental",
     "displayName":  "Тестовая версия",
-    "version":  "2026.10.16.2",
+    "version":  "2026.10.16.3",
     "installerUrl":  "https://launch.revalib.ru/launcher-updates/v1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
     "fileName":  "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-    "sha256":  "2fbc61acfd54db81617caefe463fc255e679b7d0bcd2ff1dd324710f5305dcd8",
-    "sizeBytes":  114339328,
-    "publishedAtUtc":  "2026-10-16T02:00:14Z",
+    "sha256":  "3ab2018f5d6a90b823489a8e9292f0d2dd1bfad029aa9c9968354cf0be86e2f3",
+    "sizeBytes":  114255360,
+    "publishedAtUtc":  "2026-10-16T02:30:46Z",
     "historyUrl":  "https://launch.revalib.ru/launcher-updates/v1/experimental-history.json",
-    "notes":  "Исправлено преждевременное прерывание подготовки исследования в бане. Время ожидания согласовано между сценарием и игровым помощником; ручная остановка сохраняет приоритет. Уведомления проверки интерфейса отделены от пользовательской истории.\r\nУскорена подготовка припасов: устранены четыре лишних отдельных чтения на слот, сохранены серверное подтверждение, проверки владельца и приоритет остановки.\r\nИсправлена остановка собственного зависшего открытия исследования: старый запуск теряет право продолжать команды. Подтверждённое видимое окно исследования можно продолжить без лишнего подхода к Лии; готовая награда обрабатывается штатным получением. Убраны повторные обновления одинакового состояния Зова в интерфейсе.\r\nИсправлено открытие магазина на последнем этапе оплота при сброшенном поле NPC интерфейса. Остановка исследования учитывает уже подтверждённую сдачу припасов без повторного расходования.",
+    "notes":  "Исправлено продолжение исследования после остановки и исчезновения старого окна: новый запуск открывает новое окно с отдельным запросом и свежей проверкой. Отменённые и неизвестные расходующие действия не повторяются.",
     "deltas":  [
                    {
-                       "baseVersion":  "2026.10.16.1",
-                       "fileName":  "delta-2026.10.16.1-2026.10.16.2.json",
-                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.16.1-2026.10.16.2.json",
-                       "sha256":  "b006eb1ed63dc8f9e670f67b0632f5d8471d04c1c8396d2a2e8a82674f9829ca"
+                       "fileName":  "delta-2026.10.16.2-2026.10.16.3.json",
+                       "baseVersion":  "2026.10.16.2",
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.16.2-2026.10.16.3.json",
+                       "sha256":  "5d35e8c85e76ae77e6370856ef0305faae3b1b039e7a35bf2e15ca831367f3ca"
                    }
                ],
     "delta":  {
-                  "baseVersion":  "2026.10.16.1",
-                  "fileName":  "delta-2026.10.16.1-2026.10.16.2.json",
-                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.16.1-2026.10.16.2.json",
-                  "sha256":  "b006eb1ed63dc8f9e670f67b0632f5d8471d04c1c8396d2a2e8a82674f9829ca"
+                  "fileName":  "delta-2026.10.16.2-2026.10.16.3.json",
+                  "baseVersion":  "2026.10.16.2",
+                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.16.2-2026.10.16.3.json",
+                  "sha256":  "5d35e8c85e76ae77e6370856ef0305faae3b1b039e7a35bf2e15ca831367f3ca"
               }
 }
