@@ -1,26 +1,26 @@
 {
     "channel":  "experimental",
     "displayName":  "Тестовая версия",
-    "version":  "2026.10.17.9",
+    "version":  "2026.10.17.10",
     "installerUrl":  "https://launch.revalib.ru/launcher-updates/v1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
     "fileName":  "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-    "sha256":  "2592ef27cadf58cab8f070c0dd207a3191135454edbdac54e6b071d7fbaf4dd6",
-    "sizeBytes":  114360320,
-    "publishedAtUtc":  "2026-10-17T15:02:42Z",
+    "sha256":  "c1440ba7d1c2fb60adbc62c4d1da767e04ee68b00fd6977579f45cae80ddfa23",
+    "sizeBytes":  114340864,
+    "publishedAtUtc":  "2026-10-17T15:30:37Z",
     "historyUrl":  "https://launch.revalib.ru/launcher-updates/v1/experimental-history.json",
-    "notes":  "Исследование: исправлено сохранение блокировки старого игрового процесса после его завершения при быстром повторном входе. Диагностика старого неподтверждённого получения награды теперь доступна из основного запуска. Неподтверждённые расходы и награды сохраняются; автоматический повтор не выполняется.",
+    "notes":  "Зов духов: исправлена постоянная блокировка передачи управления после подтверждённого отказа до отправки команды. Лаунчер повторно проверяет принятую группу и пробует освободить управление. Если команда уже могла начаться, её результат по-прежнему проверяется без повторной отправки.",
     "deltas":  [
                    {
-                       "fileName":  "delta-2026.10.17.8-2026.10.17.9.json",
-                       "baseVersion":  "2026.10.17.8",
-                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.17.8-2026.10.17.9.json",
-                       "sha256":  "12e122ca25795669b805e8f0fab0766a10ce90556c6e0bc0b42014c5f01d1b46"
+                       "sha256":  "87f432ce7a9a4f48bf91797a22913053a98db0235f94dbb28430b19b14bacdd5",
+                       "baseVersion":  "2026.10.17.9",
+                       "fileName":  "delta-2026.10.17.9-2026.10.17.10.json",
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.17.9-2026.10.17.10.json"
                    }
                ],
     "delta":  {
-                  "fileName":  "delta-2026.10.17.8-2026.10.17.9.json",
-                  "baseVersion":  "2026.10.17.8",
-                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.17.8-2026.10.17.9.json",
-                  "sha256":  "12e122ca25795669b805e8f0fab0766a10ce90556c6e0bc0b42014c5f01d1b46"
+                  "sha256":  "87f432ce7a9a4f48bf91797a22913053a98db0235f94dbb28430b19b14bacdd5",
+                  "baseVersion":  "2026.10.17.9",
+                  "fileName":  "delta-2026.10.17.9-2026.10.17.10.json",
+                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.17.9-2026.10.17.10.json"
               }
 }
