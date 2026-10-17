@@ -1,26 +1,26 @@
 {
     "channel":  "experimental",
     "displayName":  "Тестовая версия",
-    "version":  "2026.10.17.3",
+    "version":  "2026.10.17.4",
     "installerUrl":  "https://launch.revalib.ru/launcher-updates/v1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
     "fileName":  "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-    "sha256":  "775a184e2306ac9ca212d98e23b8ec52cd98cc66d88051dd39245194a213dd30",
-    "sizeBytes":  114313728,
-    "publishedAtUtc":  "2026-10-17T08:05:38Z",
+    "sha256":  "f189617e41b49d4e21256d9e0411d1652524ae6263d5eabd9cb728cb874d552d",
+    "sizeBytes":  114362880,
+    "publishedAtUtc":  "2026-10-17T09:48:33Z",
     "historyUrl":  "https://launch.revalib.ru/launcher-updates/v1/experimental-history.json",
-    "notes":  "Исправлено чтение и получение наград активности по реальным порогам текущего персонажа. Личные мешки после лечения духа проверяются по фактическому объекту и владельцу, без ожидания скрытого серверного эффекта. Защита от повторного открытия, подбора и неподтверждённых получений сохранена.",
+    "notes":  "Добавлена диагностика зависшего исследования: лаунчер запрашивает состояние у сервера без повторного получения награды и отправки духов. Результат проверки сохраняется для разбора отчётов. Уточнён текст блокировки и добавлена отмена диагностического запроса. Автоматическое восстановление старой неподтверждённой награды пока не включено.",
     "deltas":  [
                    {
-                       "sha256":  "92911d76676959468d5d5625fe8139277e446ff949ada6b012d4f1db8e84ff59",
-                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.17.2-2026.10.17.3.json",
-                       "baseVersion":  "2026.10.17.2",
-                       "fileName":  "delta-2026.10.17.2-2026.10.17.3.json"
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.17.3-2026.10.17.4.json",
+                       "fileName":  "delta-2026.10.17.3-2026.10.17.4.json",
+                       "sha256":  "ed458eaa10f7cbfcf385d14daed4f6ee5229861538d40348ec080eb70921e97a",
+                       "baseVersion":  "2026.10.17.3"
                    }
                ],
     "delta":  {
-                  "sha256":  "92911d76676959468d5d5625fe8139277e446ff949ada6b012d4f1db8e84ff59",
-                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.17.2-2026.10.17.3.json",
-                  "baseVersion":  "2026.10.17.2",
-                  "fileName":  "delta-2026.10.17.2-2026.10.17.3.json"
+                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.17.3-2026.10.17.4.json",
+                  "fileName":  "delta-2026.10.17.3-2026.10.17.4.json",
+                  "sha256":  "ed458eaa10f7cbfcf385d14daed4f6ee5229861538d40348ec080eb70921e97a",
+                  "baseVersion":  "2026.10.17.3"
               }
 }
