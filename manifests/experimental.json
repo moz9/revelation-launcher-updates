@@ -1,26 +1,26 @@
 {
     "channel":  "experimental",
     "displayName":  "Тестовая версия",
-    "version":  "2026.10.17.8",
+    "version":  "2026.10.17.9",
     "installerUrl":  "https://launch.revalib.ru/launcher-updates/v1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
     "fileName":  "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-    "sha256":  "6f39fdf5168bb4a46f3823bd5316fc2b57a941a1f7ef88a5bb8063700411c7d8",
-    "sizeBytes":  114336768,
-    "publishedAtUtc":  "2026-10-17T14:00:26Z",
+    "sha256":  "2592ef27cadf58cab8f070c0dd207a3191135454edbdac54e6b071d7fbaf4dd6",
+    "sizeBytes":  114360320,
+    "publishedAtUtc":  "2026-10-17T15:02:42Z",
     "historyUrl":  "https://launch.revalib.ru/launcher-updates/v1/experimental-history.json",
-    "notes":  "Исправлена остановка сценария, ремесла и действий Зова при незавершённом открытии исследования. Stop сначала запрещает новые действия и останавливает текущих владельцев; очистка фоновых окон проверяется отдельно. Подтверждённая группа Зова получает управление через остановку, закрытие окон и выход из бани или базы. Исторический неизвестный результат исследования сохраняется и не повторяется. Исправление не подтверждает старую награду и не разрешает повтор неизвестной расходной операции.",
+    "notes":  "Исследование: исправлено сохранение блокировки старого игрового процесса после его завершения при быстром повторном входе. Диагностика старого неподтверждённого получения награды теперь доступна из основного запуска. Неподтверждённые расходы и награды сохраняются; автоматический повтор не выполняется.",
     "deltas":  [
                    {
-                       "fileName":  "delta-2026.10.17.7-2026.10.17.8.json",
-                       "baseVersion":  "2026.10.17.7",
-                       "sha256":  "8bd78515b6c15f7ffb8dcdd46f4e7b6994feee271217ab7b9dfeedd4f2174a99",
-                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.17.7-2026.10.17.8.json"
+                       "fileName":  "delta-2026.10.17.8-2026.10.17.9.json",
+                       "baseVersion":  "2026.10.17.8",
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.17.8-2026.10.17.9.json",
+                       "sha256":  "12e122ca25795669b805e8f0fab0766a10ce90556c6e0bc0b42014c5f01d1b46"
                    }
                ],
     "delta":  {
-                  "fileName":  "delta-2026.10.17.7-2026.10.17.8.json",
-                  "baseVersion":  "2026.10.17.7",
-                  "sha256":  "8bd78515b6c15f7ffb8dcdd46f4e7b6994feee271217ab7b9dfeedd4f2174a99",
-                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.17.7-2026.10.17.8.json"
+                  "fileName":  "delta-2026.10.17.8-2026.10.17.9.json",
+                  "baseVersion":  "2026.10.17.8",
+                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.17.8-2026.10.17.9.json",
+                  "sha256":  "12e122ca25795669b805e8f0fab0766a10ce90556c6e0bc0b42014c5f01d1b46"
               }
 }
