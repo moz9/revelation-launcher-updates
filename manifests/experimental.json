@@ -1,26 +1,26 @@
 {
     "channel":  "experimental",
     "displayName":  "Тестовая версия",
-    "version":  "2026.10.17.10",
+    "version":  "2026.10.17.11",
     "installerUrl":  "https://launch.revalib.ru/launcher-updates/v1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
     "fileName":  "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-    "sha256":  "c1440ba7d1c2fb60adbc62c4d1da767e04ee68b00fd6977579f45cae80ddfa23",
-    "sizeBytes":  114340864,
-    "publishedAtUtc":  "2026-10-17T15:30:37Z",
+    "sha256":  "2ea5b46dc887802c1ae662dbd906d634c6ae52facfb1f6d868f0e343bacfc543",
+    "sizeBytes":  114371584,
+    "publishedAtUtc":  "2026-10-17T16:50:42Z",
     "historyUrl":  "https://launch.revalib.ru/launcher-updates/v1/experimental-history.json",
-    "notes":  "Зов духов: исправлена постоянная блокировка передачи управления после подтверждённого отказа до отправки команды. Лаунчер повторно проверяет принятую группу и пробует освободить управление. Если команда уже могла начаться, её результат по-прежнему проверяется без повторной отправки.",
+    "notes":  "Фоновые награды за время в игре больше не занимают управление при обычном чтении. Перед получением они уступают основному сценарию, Зову и картам. Остановка ждёт завершения помощника чтения; неизвестный результат уже начатого получения сохраняется без повторной отправки. Отмена до отправки больше не оставляет ложную блокировку награды.",
     "deltas":  [
                    {
-                       "sha256":  "87f432ce7a9a4f48bf91797a22913053a98db0235f94dbb28430b19b14bacdd5",
-                       "baseVersion":  "2026.10.17.9",
-                       "fileName":  "delta-2026.10.17.9-2026.10.17.10.json",
-                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.17.9-2026.10.17.10.json"
+                       "sha256":  "242d186d89b1cadb7df961ab98dc9d1e3097ebbfdb4c0e777fdff80ce48d1023",
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.17.10-2026.10.17.11.json",
+                       "fileName":  "delta-2026.10.17.10-2026.10.17.11.json",
+                       "baseVersion":  "2026.10.17.10"
                    }
                ],
     "delta":  {
-                  "sha256":  "87f432ce7a9a4f48bf91797a22913053a98db0235f94dbb28430b19b14bacdd5",
-                  "baseVersion":  "2026.10.17.9",
-                  "fileName":  "delta-2026.10.17.9-2026.10.17.10.json",
-                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.17.9-2026.10.17.10.json"
+                  "sha256":  "242d186d89b1cadb7df961ab98dc9d1e3097ebbfdb4c0e777fdff80ce48d1023",
+                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.17.10-2026.10.17.11.json",
+                  "fileName":  "delta-2026.10.17.10-2026.10.17.11.json",
+                  "baseVersion":  "2026.10.17.10"
               }
 }
