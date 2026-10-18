@@ -1,26 +1,26 @@
 {
     "channel":  "experimental",
     "displayName":  "Тестовая версия",
-    "version":  "2026.10.18.4",
+    "version":  "2026.10.18.5",
     "installerUrl":  "https://launch.revalib.ru/launcher-updates/v1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
     "fileName":  "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-    "sha256":  "a888c23ce5c150ce1724cfbc91db577ee0731e9b680ce947f40c72f69d361508",
-    "sizeBytes":  114380800,
-    "publishedAtUtc":  "2026-10-18T05:39:26Z",
+    "sha256":  "e0b04002a506ce06fe6ca11dd61feffa58b494e52f64ec10ea4e27a3544e85cc",
+    "sizeBytes":  114402304,
+    "publishedAtUtc":  "2026-10-18T09:30:57Z",
     "historyUrl":  "https://launch.revalib.ru/launcher-updates/v1/experimental-history.json",
-    "notes":  "Исправлена остановка бани после ошибки чтения перед выходом к Зову. Если выход ещё не отправлялся, лаунчер заново проверяет состояние; неизвестный результат уже отправленного выхода сохраняет защиту от повтора.",
+    "notes":  "Сохранено исправление остановки бани. Добавлен сбор данных исследования после полного закрытия и нового запуска игры через лаунчер: проверяется завершение прежнего процесса и один раз запрашивается состояние без открытия окон и расходов. Старое получение награды не повторяется. Эта версия собирает недостающие подтверждения; автоматическое восстановление старого заблокированного исследования пока не включено.\r\nДиагностические данные сохраняются локально в защищённом виде, чтобы результат одной проверки не терялся после следующего обновления лаунчера.",
     "deltas":  [
                    {
-                       "fileName":  "delta-2026.10.18.3-2026.10.18.4.json",
-                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.18.3-2026.10.18.4.json",
-                       "baseVersion":  "2026.10.18.3",
-                       "sha256":  "915f53a597b8e8ed7280593356f670f036c2d98a1fd8c629221d8e3499a360b5"
+                       "baseVersion":  "2026.10.18.4",
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.18.4-2026.10.18.5.json",
+                       "sha256":  "dc4224ed12e9b1317aa2ab00e28a90bb4d31daa40c6d3f11c22315947444dd1c",
+                       "fileName":  "delta-2026.10.18.4-2026.10.18.5.json"
                    }
                ],
     "delta":  {
-                  "fileName":  "delta-2026.10.18.3-2026.10.18.4.json",
-                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.18.3-2026.10.18.4.json",
-                  "baseVersion":  "2026.10.18.3",
-                  "sha256":  "915f53a597b8e8ed7280593356f670f036c2d98a1fd8c629221d8e3499a360b5"
+                  "baseVersion":  "2026.10.18.4",
+                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.18.4-2026.10.18.5.json",
+                  "sha256":  "dc4224ed12e9b1317aa2ab00e28a90bb4d31daa40c6d3f11c22315947444dd1c",
+                  "fileName":  "delta-2026.10.18.4-2026.10.18.5.json"
               }
 }
