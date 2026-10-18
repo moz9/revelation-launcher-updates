@@ -1,26 +1,26 @@
 {
     "channel":  "experimental",
     "displayName":  "Тестовая версия",
-    "version":  "2026.10.19.2",
+    "version":  "2026.10.19.3",
     "installerUrl":  "https://launch.revalib.ru/launcher-updates/v1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
     "fileName":  "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-    "sha256":  "e9355d287e2c49ce9d1e7a144d5b8698d1a7b0c03b8cc1509f59a9b00aa5973e",
-    "sizeBytes":  114254336,
-    "publishedAtUtc":  "2026-10-18T20:50:15Z",
+    "sha256":  "3aefbde8d697a6ce6b8a80a838320b439b4176efdc7e667650ee0a37372ec9c7",
+    "sizeBytes":  114266112,
+    "publishedAtUtc":  "2026-10-18T22:56:39Z",
     "historyUrl":  "https://launch.revalib.ru/launcher-updates/v1/experimental-history.json",
-    "notes":  "Снижена временная нагрузка на память при переключении страниц. Убрано накопление ненужных записей оформления. Стекло, анимации, настройки и игровые сценарии сохранены. Включены исправления предыдущей версии.",
+    "notes":  "Ускорено обновление настроек персонажа: одинаковые строки источников торговок сохраняются без повторного создания. Изменённые значения, порядок, дополнительные валюты и незавершённый ввод продолжают обновляться полностью.",
     "deltas":  [
                    {
-                       "sha256":  "2b7ebde2b0e40cf6541059da209ddf7353a60b0020dea15e10a989b690ac0dcc",
-                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.19.1-2026.10.19.2.json",
-                       "baseVersion":  "2026.10.19.1",
-                       "fileName":  "delta-2026.10.19.1-2026.10.19.2.json"
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.19.2-2026.10.19.3.json",
+                       "baseVersion":  "2026.10.19.2",
+                       "fileName":  "delta-2026.10.19.2-2026.10.19.3.json",
+                       "sha256":  "005d8e752c5fed630a7d4160eb2ae4940d0d907d414d9b15ec4a7f7fd13950e4"
                    }
                ],
     "delta":  {
-                  "sha256":  "2b7ebde2b0e40cf6541059da209ddf7353a60b0020dea15e10a989b690ac0dcc",
-                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.19.1-2026.10.19.2.json",
-                  "baseVersion":  "2026.10.19.1",
-                  "fileName":  "delta-2026.10.19.1-2026.10.19.2.json"
+                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.19.2-2026.10.19.3.json",
+                  "baseVersion":  "2026.10.19.2",
+                  "fileName":  "delta-2026.10.19.2-2026.10.19.3.json",
+                  "sha256":  "005d8e752c5fed630a7d4160eb2ae4940d0d907d414d9b15ec4a7f7fd13950e4"
               }
 }
