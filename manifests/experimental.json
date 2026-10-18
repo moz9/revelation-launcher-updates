@@ -1,26 +1,26 @@
 {
     "channel":  "experimental",
     "displayName":  "Тестовая версия",
-    "version":  "2026.10.18.3",
+    "version":  "2026.10.18.4",
     "installerUrl":  "https://launch.revalib.ru/launcher-updates/v1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
     "fileName":  "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-    "sha256":  "35bdf938bd11f9cb7fdf168b7fa586a14a91c9562ea6a4c4a3406a1ff7361944",
-    "sizeBytes":  114410496,
-    "publishedAtUtc":  "2026-10-17T23:18:59Z",
+    "sha256":  "a888c23ce5c150ce1724cfbc91db577ee0731e9b680ce947f40c72f69d361508",
+    "sizeBytes":  114380800,
+    "publishedAtUtc":  "2026-10-18T05:39:26Z",
     "historyUrl":  "https://launch.revalib.ru/launcher-updates/v1/experimental-history.json",
-    "notes":  "Добавлена обработка A/D-ловушки во время автоматического сбора ресурсов в ремесле.\nУбрана фиксированная пауза после начала сбора: состояние проверяется сразу, получение ресурса подтверждается отдельно.\nНеподтверждённое нажатие не повторяется; прежний результат сбора сохраняется для проверки.",
+    "notes":  "Исправлена остановка бани после ошибки чтения перед выходом к Зову. Если выход ещё не отправлялся, лаунчер заново проверяет состояние; неизвестный результат уже отправленного выхода сохраняет защиту от повтора.",
     "deltas":  [
                    {
-                       "fileName":  "delta-2026.10.18.2-2026.10.18.3.json",
-                       "baseVersion":  "2026.10.18.2",
-                       "sha256":  "9647e41408db4874aa386abd32dd304908928b8602b9e737cc9ffc14c8dbf661",
-                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.18.2-2026.10.18.3.json"
+                       "fileName":  "delta-2026.10.18.3-2026.10.18.4.json",
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.18.3-2026.10.18.4.json",
+                       "baseVersion":  "2026.10.18.3",
+                       "sha256":  "915f53a597b8e8ed7280593356f670f036c2d98a1fd8c629221d8e3499a360b5"
                    }
                ],
     "delta":  {
-                  "fileName":  "delta-2026.10.18.2-2026.10.18.3.json",
-                  "baseVersion":  "2026.10.18.2",
-                  "sha256":  "9647e41408db4874aa386abd32dd304908928b8602b9e737cc9ffc14c8dbf661",
-                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.18.2-2026.10.18.3.json"
+                  "fileName":  "delta-2026.10.18.3-2026.10.18.4.json",
+                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.18.3-2026.10.18.4.json",
+                  "baseVersion":  "2026.10.18.3",
+                  "sha256":  "915f53a597b8e8ed7280593356f670f036c2d98a1fd8c629221d8e3499a360b5"
               }
 }
