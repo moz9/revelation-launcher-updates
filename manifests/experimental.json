@@ -1,26 +1,26 @@
 {
     "channel":  "experimental",
     "displayName":  "Тестовая версия",
-    "version":  "2026.10.19.4",
+    "version":  "2026.10.19.5",
     "installerUrl":  "https://launch.revalib.ru/launcher-updates/v1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
     "fileName":  "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-    "sha256":  "122aa7e867e4dfe1eaf46852436e5ed3ded5246d721694bdae3355a461d1e4f2",
-    "sizeBytes":  114273280,
-    "publishedAtUtc":  "2026-10-18T23:52:49Z",
+    "sha256":  "1411776e0a9a8fdb47d7693996d4580a543b8dce9d9a2eb6e1740845f51f1da4",
+    "sizeBytes":  114283520,
+    "publishedAtUtc":  "2026-10-19T00:37:20Z",
     "historyUrl":  "https://launch.revalib.ru/launcher-updates/v1/experimental-history.json",
-    "notes":  "Ускорено чтение состояния бани при накопленном журнале игры: старые события отбрасываются до разбора. Проверки персонажа, номера команды и полного ответа сохранены.",
+    "notes":  "Ускорено чтение состояния Зова при накопленном журнале игры: старые события отбрасываются до разбора. Проверки персонажа, номера команды и полного ответа сохранены.",
     "deltas":  [
                    {
-                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.19.3-2026.10.19.4.json",
-                       "sha256":  "0993f6f4cb628f17a0ae52e66d923d1a5f36e9bd534b2c7a0ce49e9aadcb3e76",
-                       "baseVersion":  "2026.10.19.3",
-                       "fileName":  "delta-2026.10.19.3-2026.10.19.4.json"
+                       "fileName":  "delta-2026.10.19.4-2026.10.19.5.json",
+                       "baseVersion":  "2026.10.19.4",
+                       "sha256":  "89c96a7d29de5898d923c07a8e3e55c1363e592efa1740ebd4d910e9170a16c1",
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.19.4-2026.10.19.5.json"
                    }
                ],
     "delta":  {
-                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.19.3-2026.10.19.4.json",
-                  "sha256":  "0993f6f4cb628f17a0ae52e66d923d1a5f36e9bd534b2c7a0ce49e9aadcb3e76",
-                  "baseVersion":  "2026.10.19.3",
-                  "fileName":  "delta-2026.10.19.3-2026.10.19.4.json"
+                  "fileName":  "delta-2026.10.19.4-2026.10.19.5.json",
+                  "baseVersion":  "2026.10.19.4",
+                  "sha256":  "89c96a7d29de5898d923c07a8e3e55c1363e592efa1740ebd4d910e9170a16c1",
+                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.19.4-2026.10.19.5.json"
               }
 }
