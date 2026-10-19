@@ -1,26 +1,26 @@
 {
     "channel":  "experimental",
     "displayName":  "Тестовая версия",
-    "version":  "2026.10.19.10",
+    "version":  "2026.10.19.11",
     "installerUrl":  "https://launch.revalib.ru/launcher-updates/v1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
     "fileName":  "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-    "sha256":  "37b56f5fbdc729f792772f2049fa51704da409cd0a14ee07a8b761d1b37c7d97",
-    "sizeBytes":  114324480,
-    "publishedAtUtc":  "2026-10-19T15:23:36Z",
+    "sha256":  "b0f9dd2c39085d00c79ac91e2d36db6050ee73ea254f4a392c146f7563a2f99a",
+    "sizeBytes":  114301440,
+    "publishedAtUtc":  "2026-10-19T17:09:29Z",
     "historyUrl":  "https://launch.revalib.ru/launcher-updates/v1/experimental-history.json",
-    "notes":  "Виджет теперь показывает подробный прогресс Башни и Зова, в том числе при отдельном запуске активности. Исправлена обработка остановки во время ожидания входа в игру. Временно недоступное исследование откладывается до освобождения персонажа. Исправлена ошибка остановки после отказа в запуске маршрута к Лии. Убраны лишние уведомления диагностики исследования до появления персонажа.",
+    "notes":  "Торговки продолжают добычу, если завершённая попытка принесла другой ресурс: сбор идёт до получения нужного количества. Исправлена остановка общего сценария при временной блокировке файла во время фоновой проверки боевого духа.",
     "deltas":  [
                    {
-                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.19.8-2026.10.19.10.json",
-                       "sha256":  "e3c4a23b55103ce021f883e9ea1d3a8890e537e87fdaa92e736f4053258a1c28",
-                       "baseVersion":  "2026.10.19.8",
-                       "fileName":  "delta-2026.10.19.8-2026.10.19.10.json"
+                       "sha256":  "a33bab41c8be1a47b4698def90d4135aeaaa61a14311aea0cab51db1547e1d4b",
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.19.10-2026.10.19.11.json",
+                       "baseVersion":  "2026.10.19.10",
+                       "fileName":  "delta-2026.10.19.10-2026.10.19.11.json"
                    }
                ],
     "delta":  {
-                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.19.8-2026.10.19.10.json",
-                  "sha256":  "e3c4a23b55103ce021f883e9ea1d3a8890e537e87fdaa92e736f4053258a1c28",
-                  "baseVersion":  "2026.10.19.8",
-                  "fileName":  "delta-2026.10.19.8-2026.10.19.10.json"
+                  "sha256":  "a33bab41c8be1a47b4698def90d4135aeaaa61a14311aea0cab51db1547e1d4b",
+                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.19.10-2026.10.19.11.json",
+                  "baseVersion":  "2026.10.19.10",
+                  "fileName":  "delta-2026.10.19.10-2026.10.19.11.json"
               }
 }
