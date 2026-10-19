@@ -1,26 +1,26 @@
 {
     "channel":  "experimental",
     "displayName":  "Тестовая версия",
-    "version":  "2026.10.19.5",
+    "version":  "2026.10.19.6",
     "installerUrl":  "https://launch.revalib.ru/launcher-updates/v1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
     "fileName":  "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-    "sha256":  "1411776e0a9a8fdb47d7693996d4580a543b8dce9d9a2eb6e1740845f51f1da4",
-    "sizeBytes":  114283520,
-    "publishedAtUtc":  "2026-10-19T00:37:20Z",
+    "sha256":  "4050b97e6209670b1706c5f6475ffe84f1e05fbcb3b86bbfa9852cc03ad145ec",
+    "sizeBytes":  114251264,
+    "publishedAtUtc":  "2026-10-19T02:11:24Z",
     "historyUrl":  "https://launch.revalib.ru/launcher-updates/v1/experimental-history.json",
-    "notes":  "Ускорено чтение состояния Зова при накопленном журнале игры: старые события отбрасываются до разбора. Проверки персонажа, номера команды и полного ответа сохранены.",
+    "notes":  "Исправлено продолжение бани и сценария после старого неподтверждённого исследования: завершение проверяется отдельно от освобождения управления. Исправлен отказ карт до начала использования; подтверждённо не отправленная команда больше не оставляет ложную блокировку расхода. Сохранена защита от повторного получения наград и использования карт с неизвестным результатом.",
     "deltas":  [
                    {
-                       "fileName":  "delta-2026.10.19.4-2026.10.19.5.json",
-                       "baseVersion":  "2026.10.19.4",
-                       "sha256":  "89c96a7d29de5898d923c07a8e3e55c1363e592efa1740ebd4d910e9170a16c1",
-                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.19.4-2026.10.19.5.json"
+                       "baseVersion":  "2026.10.19.5",
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.19.5-2026.10.19.6.json",
+                       "fileName":  "delta-2026.10.19.5-2026.10.19.6.json",
+                       "sha256":  "5c5aaeca49efa8aca6bf550703434dc3fea2f1642be977e6650a29ca1c2897b3"
                    }
                ],
     "delta":  {
-                  "fileName":  "delta-2026.10.19.4-2026.10.19.5.json",
-                  "baseVersion":  "2026.10.19.4",
-                  "sha256":  "89c96a7d29de5898d923c07a8e3e55c1363e592efa1740ebd4d910e9170a16c1",
-                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.19.4-2026.10.19.5.json"
+                  "baseVersion":  "2026.10.19.5",
+                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.19.5-2026.10.19.6.json",
+                  "fileName":  "delta-2026.10.19.5-2026.10.19.6.json",
+                  "sha256":  "5c5aaeca49efa8aca6bf550703434dc3fea2f1642be977e6650a29ca1c2897b3"
               }
 }
