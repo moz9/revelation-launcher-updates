@@ -1,26 +1,26 @@
 {
     "channel":  "experimental",
     "displayName":  "Тестовая версия",
-    "version":  "2026.10.19.7",
+    "version":  "2026.10.19.8",
     "installerUrl":  "https://launch.revalib.ru/launcher-updates/v1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
     "fileName":  "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-    "sha256":  "afefbbf81ebedfcc2d9ad26b0f84d99656a6e4f96fee43b8ee831b4d20aa0bd7",
-    "sizeBytes":  114341888,
-    "publishedAtUtc":  "2026-10-19T09:04:29Z",
+    "sha256":  "64a5c89d8d942238a09669f73bef575bac6e90ba93dc338008fd88a0303650e9",
+    "sizeBytes":  114351616,
+    "publishedAtUtc":  "2026-10-19T10:00:45Z",
     "historyUrl":  "https://launch.revalib.ru/launcher-updates/v1/experimental-history.json",
-    "notes":  "Добавлен компактный виджет с закреплением поверх окон, запуском игры, управлением сценарием и ремеслом, общей остановкой и возвратом в полное окно. Виджет показывает текущий этап сценария и задачу ремесла; отдельные счётчики этажей Башни и прогресса Зова пока не выведены. Убрана задержка проверки запущенной игры, ускорен расчёт запасов материалов, улучшено размещение настроек и лимита закупок. Исправлено распознавание техработ VK Play без лишней повторной попытки запуска. Настройки фарма Башни отделены от ручного прохождения; уточнены проверки продолжения исследования с сохранением защиты от повторного получения наград.",
+    "notes":  "Сохраняется стекло окна и компактного виджета, когда фокус переходит в игру или другое приложение. Добавлена поддержка игрового архива 65E086… вместе с 788A5C…; проверка защищённых игровых данных сохранена.",
     "deltas":  [
                    {
-                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.19.6-2026.10.19.7.json",
-                       "fileName":  "delta-2026.10.19.6-2026.10.19.7.json",
-                       "sha256":  "ae8311b68acf3b3648502b43aaecf005615a2e7f266950eca7ea96829a194f5f",
-                       "baseVersion":  "2026.10.19.6"
+                       "baseVersion":  "2026.10.19.7",
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.19.7-2026.10.19.8.json",
+                       "sha256":  "a4895d0e28425f949e6bd3ac6ae19a4dd13641a428851595beaae152270ec813",
+                       "fileName":  "delta-2026.10.19.7-2026.10.19.8.json"
                    }
                ],
     "delta":  {
-                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.19.6-2026.10.19.7.json",
-                  "fileName":  "delta-2026.10.19.6-2026.10.19.7.json",
-                  "sha256":  "ae8311b68acf3b3648502b43aaecf005615a2e7f266950eca7ea96829a194f5f",
-                  "baseVersion":  "2026.10.19.6"
+                  "baseVersion":  "2026.10.19.7",
+                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.19.7-2026.10.19.8.json",
+                  "sha256":  "a4895d0e28425f949e6bd3ac6ae19a4dd13641a428851595beaae152270ec813",
+                  "fileName":  "delta-2026.10.19.7-2026.10.19.8.json"
               }
 }
