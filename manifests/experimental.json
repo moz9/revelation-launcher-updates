@@ -1,26 +1,26 @@
 {
     "channel":  "experimental",
     "displayName":  "Тестовая версия",
-    "version":  "2026.10.20.2",
+    "version":  "2026.10.20.3",
     "installerUrl":  "https://launch.revalib.ru/launcher-updates/v1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
     "fileName":  "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-    "sha256":  "5dddbd7ca092d9c7db8ecd2f0e84442d6f6853fd19d645ac95b7f4a779ddbf3d",
-    "sizeBytes":  114341888,
-    "publishedAtUtc":  "2026-10-20T03:01:45Z",
+    "sha256":  "630320f3590dfebb81f92704d6f927c833c3f42c0f53214aad741535e4950e12",
+    "sizeBytes":  114312704,
+    "publishedAtUtc":  "2026-10-20T07:30:02Z",
     "historyUrl":  "https://launch.revalib.ru/launcher-updates/v1/experimental-history.json",
-    "notes":  "Исправлена остановка после отправки духов в исследование: старое ожидание окна больше не удерживает управление после подтверждённой отправки. Общий Stop завершает сценарий после остановки отдельных исполнителей. Stop из полного окна отменяет и подготовку команды виджета; отложенные команды запуска и ремесла не возобновляются после остановки. Новый явный запуск остаётся доступен после освобождения управления.",
+    "notes":  "Исправлена остановка торговок после завершения 120/120: проверка ремесленного окна теперь работает и после сдачи последнего поручения.\n\nИсправлена остановка подтверждённого автоквеста торговок после ручного завершения добычи. Старый маршрут к ресурсу больше не мешает остановить текущий автоквест.\n\nИсправлен вход в данж Зова вслед за ПЛ и участником группы: лаунчер теперь отправляет оба запроса обычной игровой кнопки входа.\n\nРасширена диагностика зависших попыток добычи: сохраняются количество ресурса, расход энергии и состояние персонажа. Причина отдельных пропусков добычи ещё проверяется.",
     "deltas":  [
                    {
-                       "baseVersion":  "2026.10.20.1",
-                       "sha256":  "30f4eddc163e4b6b77261e582493b0f45f16b95b5b3fe20e4869a8ce6afbb5fe",
-                       "fileName":  "delta-2026.10.20.1-2026.10.20.2.json",
-                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.20.1-2026.10.20.2.json"
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.20.2-2026.10.20.3.json",
+                       "sha256":  "6f7ae4ce484dac27b61205ac0c2e649b84912855414c7c9603f03a2758c7d4c3",
+                       "baseVersion":  "2026.10.20.2",
+                       "fileName":  "delta-2026.10.20.2-2026.10.20.3.json"
                    }
                ],
     "delta":  {
-                  "baseVersion":  "2026.10.20.1",
-                  "sha256":  "30f4eddc163e4b6b77261e582493b0f45f16b95b5b3fe20e4869a8ce6afbb5fe",
-                  "fileName":  "delta-2026.10.20.1-2026.10.20.2.json",
-                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.20.1-2026.10.20.2.json"
+                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.20.2-2026.10.20.3.json",
+                  "sha256":  "6f7ae4ce484dac27b61205ac0c2e649b84912855414c7c9603f03a2758c7d4c3",
+                  "baseVersion":  "2026.10.20.2",
+                  "fileName":  "delta-2026.10.20.2-2026.10.20.3.json"
               }
 }
