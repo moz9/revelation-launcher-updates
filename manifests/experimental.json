@@ -1,26 +1,26 @@
 {
     "channel":  "experimental",
     "displayName":  "Тестовая версия",
-    "version":  "2026.10.20.1",
+    "version":  "2026.10.20.2",
     "installerUrl":  "https://launch.revalib.ru/launcher-updates/v1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
     "fileName":  "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-    "sha256":  "c36c17ec0f679e7cfc7b270354367b6ca08e6f22afc7c2e379768bf6e2722487",
-    "sizeBytes":  114342400,
-    "publishedAtUtc":  "2026-10-20T01:29:22Z",
+    "sha256":  "5dddbd7ca092d9c7db8ecd2f0e84442d6f6853fd19d645ac95b7f4a779ddbf3d",
+    "sizeBytes":  114341888,
+    "publishedAtUtc":  "2026-10-20T03:01:45Z",
     "historyUrl":  "https://launch.revalib.ru/launcher-updates/v1/experimental-history.json",
-    "notes":  "Исправлена остановка общего сценария на Бане после получения награды исследования: лаунчер продолжает работу, когда игра снимает выделение Лии, если прибытие и получение награды подтверждены. Проверки владельца, остановки и запрет повторного получения неподтверждённой награды сохранены.",
+    "notes":  "Исправлена остановка после отправки духов в исследование: старое ожидание окна больше не удерживает управление после подтверждённой отправки. Общий Stop завершает сценарий после остановки отдельных исполнителей. Stop из полного окна отменяет и подготовку команды виджета; отложенные команды запуска и ремесла не возобновляются после остановки. Новый явный запуск остаётся доступен после освобождения управления.",
     "deltas":  [
                    {
-                       "baseVersion":  "2026.10.19.11",
-                       "sha256":  "8684a89cfa2622023b6c725f27682788f0457e38ace2e1023aa558dfb64e765b",
-                       "fileName":  "delta-2026.10.19.11-2026.10.20.1.json",
-                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.19.11-2026.10.20.1.json"
+                       "baseVersion":  "2026.10.20.1",
+                       "sha256":  "30f4eddc163e4b6b77261e582493b0f45f16b95b5b3fe20e4869a8ce6afbb5fe",
+                       "fileName":  "delta-2026.10.20.1-2026.10.20.2.json",
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.20.1-2026.10.20.2.json"
                    }
                ],
     "delta":  {
-                  "baseVersion":  "2026.10.19.11",
-                  "sha256":  "8684a89cfa2622023b6c725f27682788f0457e38ace2e1023aa558dfb64e765b",
-                  "fileName":  "delta-2026.10.19.11-2026.10.20.1.json",
-                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.19.11-2026.10.20.1.json"
+                  "baseVersion":  "2026.10.20.1",
+                  "sha256":  "30f4eddc163e4b6b77261e582493b0f45f16b95b5b3fe20e4869a8ce6afbb5fe",
+                  "fileName":  "delta-2026.10.20.1-2026.10.20.2.json",
+                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.20.1-2026.10.20.2.json"
               }
 }
