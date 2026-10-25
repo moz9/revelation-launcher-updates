@@ -1,26 +1,26 @@
 {
     "channel":  "experimental",
     "displayName":  "Тестовая версия",
-    "version":  "2026.10.25.3",
+    "version":  "2026.10.25.4",
     "installerUrl":  "https://launch.revalib.ru/launcher-updates/v1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
     "fileName":  "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-    "sha256":  "9a4a0f2547902a949c960a9df03a62204b16af7a7fab7caf76ad7263198d9aa8",
-    "sizeBytes":  114302464,
-    "publishedAtUtc":  "2026-10-25T15:37:52Z",
+    "sha256":  "b48d24a320a676945ff98dbc837103269a259e05aa448166208e39c322adccf3",
+    "sizeBytes":  114308096,
+    "publishedAtUtc":  "2026-10-25T16:32:26Z",
     "historyUrl":  "https://launch.revalib.ru/launcher-updates/v1/experimental-history.json",
-    "notes":  "Исправлена остановка гильдейского задания при кратковременной недоступности игрового мира. Если предварительная проверка отклонена до отправки действия, лаунчер заново читает текущее состояние задания и продолжает его по подтверждённым данным. Защита от повторного выполнения действий с неизвестным результатом сохранена.\n",
+    "notes":  "Исправлен переход к старту Зова после принятия в группу: пустой запасной комплект или надетая PvP-экипировка больше не задерживают прямой переход, притяжку и начальный групповой перенос к лидеру. Проверки персонажа, группы и защиты от повторной отправки неизвестных действий сохранены.\r\n\r\nИсправлено зависание гильдейского этапа при перезарядке переноса на базу и отсутствии свитков перегруппировки. Лаунчер откладывает вход до восстановления переноса и продолжает остальные активности вместо ожидания неоткрытого окна. Уже отправленные действия с неизвестным результатом не повторяются.\r\n",
     "deltas":  [
                    {
-                       "fileName":  "delta-2026.10.25.2-2026.10.25.3.json",
-                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.25.2-2026.10.25.3.json",
-                       "sha256":  "1047b13164d1cdf175f3a61a2313e87fc55044a6c8b5195f76eefd05b0a14605",
-                       "baseVersion":  "2026.10.25.2"
+                       "sha256":  "b6f87bc8b059e6efcdaea600a0f972c930019392c51b259a592d0383c7bcddae",
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.25.3-2026.10.25.4.json",
+                       "baseVersion":  "2026.10.25.3",
+                       "fileName":  "delta-2026.10.25.3-2026.10.25.4.json"
                    }
                ],
     "delta":  {
-                  "fileName":  "delta-2026.10.25.2-2026.10.25.3.json",
-                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.25.2-2026.10.25.3.json",
-                  "sha256":  "1047b13164d1cdf175f3a61a2313e87fc55044a6c8b5195f76eefd05b0a14605",
-                  "baseVersion":  "2026.10.25.2"
+                  "sha256":  "b6f87bc8b059e6efcdaea600a0f972c930019392c51b259a592d0383c7bcddae",
+                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.25.3-2026.10.25.4.json",
+                  "baseVersion":  "2026.10.25.3",
+                  "fileName":  "delta-2026.10.25.3-2026.10.25.4.json"
               }
 }
