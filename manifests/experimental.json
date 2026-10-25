@@ -1,26 +1,26 @@
 {
     "channel":  "experimental",
     "displayName":  "Тестовая версия",
-    "version":  "2026.10.24.1",
+    "version":  "2026.10.25.1",
     "installerUrl":  "https://launch.revalib.ru/launcher-updates/v1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
     "fileName":  "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-    "sha256":  "18af5a5f7062ac0372131d33d63f1cd9f2ae6b09f2f1f85724c7491d5cde0087",
-    "sizeBytes":  114260480,
-    "publishedAtUtc":  "2026-10-24T10:09:35Z",
+    "sha256":  "188bdfcb25924b641381c59d17e7b29b8da9f669eb1ff9a977c828261f826707",
+    "sizeBytes":  114304512,
+    "publishedAtUtc":  "2026-10-25T08:24:37Z",
     "historyUrl":  "https://launch.revalib.ru/launcher-updates/v1/experimental-history.json",
-    "notes":  "Исправлены высадка между этапами классового оплота и остановка исследования при ожидании окна или маршрута. Заявка на Зов сохраняет текущее управление до принятия. Ускорена выдача управления помощнику «Оружие разума»: без запуска отдельного PowerShell на каждое нажатие.\r\n",
+    "notes":  "Исправлено подтверждение контакта с Лией: устаревшая цель больше не удерживает баню и исследование после подхода к NPC. Завершение бани и переход к следующим заданиям проверены в игре; получение таймерного яйца также подтверждено.\nДобавлен ограниченный возврат к Гурену после лечения для оставшегося единственного лидера группы. Проверен тестами; следующий подходящий живой Зов ещё требуется для окончательной проверки.\nСохранены проверки остановки, владельца команды и неизвестного результата. Причина отдельного вылета клиента расследуется; это обновление не заявляет его исправление.\r\n",
     "deltas":  [
                    {
-                       "sha256":  "fc8e425b273a02eb6db9fb9c7dd59f6e66c243ab652e20e6b4aeb61b455fecad",
-                       "fileName":  "delta-2026.10.23.20-2026.10.24.1.json",
-                       "baseVersion":  "2026.10.23.20",
-                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.23.20-2026.10.24.1.json"
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.24.1-2026.10.25.1.json",
+                       "fileName":  "delta-2026.10.24.1-2026.10.25.1.json",
+                       "baseVersion":  "2026.10.24.1",
+                       "sha256":  "31e8e6c1724e47463b26be997dc083e0ba75e9034984101d86887af9b3462fee"
                    }
                ],
     "delta":  {
-                  "sha256":  "fc8e425b273a02eb6db9fb9c7dd59f6e66c243ab652e20e6b4aeb61b455fecad",
-                  "fileName":  "delta-2026.10.23.20-2026.10.24.1.json",
-                  "baseVersion":  "2026.10.23.20",
-                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.23.20-2026.10.24.1.json"
+                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.24.1-2026.10.25.1.json",
+                  "fileName":  "delta-2026.10.24.1-2026.10.25.1.json",
+                  "baseVersion":  "2026.10.24.1",
+                  "sha256":  "31e8e6c1724e47463b26be997dc083e0ba75e9034984101d86887af9b3462fee"
               }
 }
