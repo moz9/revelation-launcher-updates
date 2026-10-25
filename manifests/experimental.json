@@ -1,26 +1,26 @@
 {
     "channel":  "experimental",
     "displayName":  "Тестовая версия",
-    "version":  "2026.10.25.2",
+    "version":  "2026.10.25.3",
     "installerUrl":  "https://launch.revalib.ru/launcher-updates/v1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
     "fileName":  "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-    "sha256":  "39bc0efd03877f841dde62ae68bd53136bf1ab752688877dd246923fb5838b4d",
-    "sizeBytes":  114286080,
-    "publishedAtUtc":  "2026-10-25T12:23:21Z",
+    "sha256":  "9a4a0f2547902a949c960a9df03a62204b16af7a7fab7caf76ad7263198d9aa8",
+    "sizeBytes":  114302464,
+    "publishedAtUtc":  "2026-10-25T15:37:52Z",
     "historyUrl":  "https://launch.revalib.ru/launcher-updates/v1/experimental-history.json",
-    "notes":  "Исправлено чтение нескольких дополнительных заданий оплота: готовое задание сдаётся первым, после его сдачи обработка оставшихся продолжается.\nДобавлена обработка маршрута дополнительного задания магов 67236 и сдача готовых дополнительных заданий. Исключён повтор уже отправленного маршрута при запоздавшем состоянии игры.\nПроверено в игре: сдача дополнительного задания Торы; последовательная сдача «Охотников» и «Запаха пионов» у Ресты.\nВключает предыдущие исправления бани, исследования и наград за время в игре. Причина отдельных вылетов ещё исследуется.\r\n",
+    "notes":  "Исправлена остановка гильдейского задания при кратковременной недоступности игрового мира. Если предварительная проверка отклонена до отправки действия, лаунчер заново читает текущее состояние задания и продолжает его по подтверждённым данным. Защита от повторного выполнения действий с неизвестным результатом сохранена.\n",
     "deltas":  [
                    {
-                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.25.1-2026.10.25.2.json",
-                       "fileName":  "delta-2026.10.25.1-2026.10.25.2.json",
-                       "sha256":  "e31c3bfc267ee3263ad5304a245acb96b0d868c19abc29c3bbe141cbf7e48ed3",
-                       "baseVersion":  "2026.10.25.1"
+                       "fileName":  "delta-2026.10.25.2-2026.10.25.3.json",
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.25.2-2026.10.25.3.json",
+                       "sha256":  "1047b13164d1cdf175f3a61a2313e87fc55044a6c8b5195f76eefd05b0a14605",
+                       "baseVersion":  "2026.10.25.2"
                    }
                ],
     "delta":  {
-                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.25.1-2026.10.25.2.json",
-                  "fileName":  "delta-2026.10.25.1-2026.10.25.2.json",
-                  "sha256":  "e31c3bfc267ee3263ad5304a245acb96b0d868c19abc29c3bbe141cbf7e48ed3",
-                  "baseVersion":  "2026.10.25.1"
+                  "fileName":  "delta-2026.10.25.2-2026.10.25.3.json",
+                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.25.2-2026.10.25.3.json",
+                  "sha256":  "1047b13164d1cdf175f3a61a2313e87fc55044a6c8b5195f76eefd05b0a14605",
+                  "baseVersion":  "2026.10.25.2"
               }
 }
