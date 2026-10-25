@@ -1,26 +1,26 @@
 {
     "channel":  "experimental",
     "displayName":  "Тестовая версия",
-    "version":  "2026.10.25.4",
+    "version":  "2026.10.26.1",
     "installerUrl":  "https://launch.revalib.ru/launcher-updates/v1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
     "fileName":  "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-    "sha256":  "b48d24a320a676945ff98dbc837103269a259e05aa448166208e39c322adccf3",
-    "sizeBytes":  114308096,
-    "publishedAtUtc":  "2026-10-25T16:32:26Z",
+    "sha256":  "da2bb8b2279de00225416b4e345d63559c06e8bb4fd151f796f4ef741325fe31",
+    "sizeBytes":  114322944,
+    "publishedAtUtc":  "2026-10-25T18:26:12Z",
     "historyUrl":  "https://launch.revalib.ru/launcher-updates/v1/experimental-history.json",
-    "notes":  "Исправлен переход к старту Зова после принятия в группу: пустой запасной комплект или надетая PvP-экипировка больше не задерживают прямой переход, притяжку и начальный групповой перенос к лидеру. Проверки персонажа, группы и защиты от повторной отправки неизвестных действий сохранены.\r\n\r\nИсправлено зависание гильдейского этапа при перезарядке переноса на базу и отсутствии свитков перегруппировки. Лаунчер откладывает вход до восстановления переноса и продолжает остальные активности вместо ожидания неоткрытого окна. Уже отправленные действия с неизвестным результатом не повторяются.\r\n",
+    "notes":  "Фоновые награды продолжают собираться автоматически после общей кнопки Stop, когда остановка подтверждена и игра снова готова. Для наград за время в игре и таймерных яиц добавлен сохраняемый переключатель. Явно выключенные сборщики остаются выключенными. Неподтверждённые операции не повторяются.\r\n\r\nДля новых персонажей задан единый порядок источников, начальные лимиты и запас предметов. Этот набор используется торговками и закупками по гильдейским заданиям. Сохранённые настройки других персонажей не меняются; торговки и бесконечный повтор автоматически не включаются.\r\n",
     "deltas":  [
                    {
-                       "sha256":  "b6f87bc8b059e6efcdaea600a0f972c930019392c51b259a592d0383c7bcddae",
-                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.25.3-2026.10.25.4.json",
-                       "baseVersion":  "2026.10.25.3",
-                       "fileName":  "delta-2026.10.25.3-2026.10.25.4.json"
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.25.4-2026.10.26.1.json",
+                       "baseVersion":  "2026.10.25.4",
+                       "sha256":  "b2ac3c59344d502f78a61540d210d4a527156caed31398e4ea8ccbf0b02f5dc7",
+                       "fileName":  "delta-2026.10.25.4-2026.10.26.1.json"
                    }
                ],
     "delta":  {
-                  "sha256":  "b6f87bc8b059e6efcdaea600a0f972c930019392c51b259a592d0383c7bcddae",
-                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.25.3-2026.10.25.4.json",
-                  "baseVersion":  "2026.10.25.3",
-                  "fileName":  "delta-2026.10.25.3-2026.10.25.4.json"
+                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.25.4-2026.10.26.1.json",
+                  "baseVersion":  "2026.10.25.4",
+                  "sha256":  "b2ac3c59344d502f78a61540d210d4a527156caed31398e4ea8ccbf0b02f5dc7",
+                  "fileName":  "delta-2026.10.25.4-2026.10.26.1.json"
               }
 }
