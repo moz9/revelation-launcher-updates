@@ -1,26 +1,26 @@
 {
     "channel":  "experimental",
     "displayName":  "Тестовая версия",
-    "version":  "2026.10.27.1",
+    "version":  "2026.10.27.3",
     "installerUrl":  "https://launch.revalib.ru/launcher-updates/v1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
     "fileName":  "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-    "sha256":  "f917b663ec0bad9de980428817cc6e2c90325e482c5dd79500cecb8b6c10d390",
-    "sizeBytes":  114465792,
-    "publishedAtUtc":  "2026-10-27T00:41:23Z",
+    "sha256":  "f026c23f28aac63d700ad1ef3794b713910d5d1caa6664cce2fd1220a0fea437",
+    "sizeBytes":  114475008,
+    "publishedAtUtc":  "2026-10-27T17:28:11Z",
     "historyUrl":  "https://launch.revalib.ru/launcher-updates/v1/experimental-history.json",
-    "notes":  "Торговки: приоритетный подбор нужной добычи и подтверждение нескольких стопок; ускорен переход от поворота к удару. Магазин восстанавливается после временного отказа до покупки в сохранённых лимитах. Исправлены переход исследования и отчёты об источниках. Сборка и обновление с 26.4 проверены; полный прогон в игре ещё не завершён.",
+    "notes":  "Зов: восстановление передачи управления после временно нечитаемого задания без повторной заявки в группу; подтверждено распознавание «zov +2 afk». Торговки и исследование: точнее обработаны промежуточные переходы и завершение маршрутов; неизвестный результат остановки не считается успешным. Продолжение после закрытия прежнего игрового клиента исправлено. Сборка и обновление проверены автоматически; полный игровой прогон остаётся незавершённым.",
     "deltas":  [
                    {
-                       "baseVersion":  "2026.10.26.4",
-                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.26.4-2026.10.27.1.json",
-                       "fileName":  "delta-2026.10.26.4-2026.10.27.1.json",
-                       "sha256":  "f0531f3939088373c7f47ae0ecd72c30ff14d16be8024cf4a1c8fecbaa44e560"
+                       "baseVersion":  "2026.10.27.1",
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.27.1-2026.10.27.3.json",
+                       "fileName":  "delta-2026.10.27.1-2026.10.27.3.json",
+                       "sha256":  "43f18e2cd95d0d21d900b58f357db79041883402ecb68a29d716d2a97cffa4de"
                    }
                ],
     "delta":  {
-                  "baseVersion":  "2026.10.26.4",
-                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.26.4-2026.10.27.1.json",
-                  "fileName":  "delta-2026.10.26.4-2026.10.27.1.json",
-                  "sha256":  "f0531f3939088373c7f47ae0ecd72c30ff14d16be8024cf4a1c8fecbaa44e560"
+                  "baseVersion":  "2026.10.27.1",
+                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.27.1-2026.10.27.3.json",
+                  "fileName":  "delta-2026.10.27.1-2026.10.27.3.json",
+                  "sha256":  "43f18e2cd95d0d21d900b58f357db79041883402ecb68a29d716d2a97cffa4de"
               }
 }
