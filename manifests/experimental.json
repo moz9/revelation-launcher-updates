@@ -1,13 +1,13 @@
 {
-    "channel":  "experimental",
-    "displayName":  "Тестовая версия",
-    "version":  "2026.10.28.4",
-    "installerUrl":  "https://launch.revalib.ru/launcher-updates/v1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-    "fileName":  "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-    "sha256":  "8e02e06f8eefc9adb2c0e13750912ae7d3a457d93abc917a8479f570c1deb8f4",
-    "sizeBytes":  133757440,
-    "publishedAtUtc":  "2026-10-29T03:35:14Z",
-    "historyUrl":  "https://launch.revalib.ru/launcher-updates/v1/experimental-history.json",
-    "notes":  "Исправлены приём в группу Зова, срочный телепорт к своему NPC, передача управления и продолжение сценария после распада группы. Ускорена обработка F/QTE с сохранением ограничений повторов и ожидания.\n\nОбновлены палитра, подписи и читаемость интерфейса. Улучшены адаптация раздела «Активности» и боковой панели, перетаскивание заданий и динамические уведомления. Убрано автоматическое перелистывание страниц.\n\nЭтот выпуск устанавливается полным установщиком; .NET 9 входит в комплект. Если игра была открыта во время обновления, перезапустите её обычным способом, чтобы загрузить новый игровой модуль.",
-    "fullInstallerReason":  "runtime-component-change"
+  "channel": "experimental",
+  "displayName": "Тестовая версия",
+  "version": "2026.10.29.1",
+  "installerUrl": "https://launch.revalib.ru/launcher-updates/v1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+  "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+  "sha256": "952edd6e846daae7999d3ca6466ddc35a0d954cc299e750ecf06995bab4f447b",
+  "sizeBytes": 133947392,
+  "publishedAtUtc": "2026-10-29T10:15:20Z",
+  "historyUrl": "https://launch.revalib.ru/launcher-updates/v1/experimental-history.json",
+  "notes": "Зов духов: скорректирована срочная передача управления, приоритет принятия призыва и прибытия к старту до подготовки персонажа.\n\nИсправлены освобождение управления у остановившихся торговок, восстановление бани после неподтверждённого окна исследования и повторные проверки боевого духа. Награды за время автоматически собираются только по субботам и воскресеньям по московскому времени.\n\nВ «Обновлениях» версия, канал и основные действия видны сразу; дополнительные сведения раскрываются на той же странице. Исправлена прокрутка фоновых сборщиков в настройках, убраны лишние штрихи в кнопках главного экрана.\n\nВыпуск устанавливается полным установщиком; .NET 9 входит в комплект. Если игра открыта, перезапустите её обычным способом в удобное время, чтобы загрузить новый игровой модуль.",
+  "fullInstallerReason": "runtime-component-change"
 }
