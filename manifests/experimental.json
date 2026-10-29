@@ -1,32 +1,13 @@
 {
-  "channel": "experimental",
-  "displayName": "Тестовая версия",
-  "version": "2026.10.28.3",
-  "installerUrl": "https://launch.revalib.ru/launcher-updates/v1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "4bcb05c20ff99791c84c8edbfa3a43659c44d044882129723ab6f24e7c0893da",
-  "sizeBytes": 114518016,
-  "publishedAtUtc": "2026-10-28T10:09:13Z",
-  "historyUrl": "https://launch.revalib.ru/launcher-updates/v1/experimental-history.json",
-  "notes": [
-    "Исправлено самопроизвольное закрытие подробностей при обновлении состояния.",
-    "Все разделы адаптированы к стандартному размеру окна без прокрутки.",
-    "Обновлены цветные значки, навигация и динамическая шапка.",
-    "Добавлены упругая линза выбора, отклик стеклянных кнопок и раскрытие панели уведомлений.",
-    "Материал обновляет геометрию без покадровой пересборки графа эффектов."
-  ],
-  "deltas": [
-    {
-      "baseVersion": "2026.10.28.2",
-      "url": "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.28.2-2026.10.28.3.json",
-      "fileName": "delta-2026.10.28.2-2026.10.28.3.json",
-      "sha256": "da366d36ff2fd3c2666c046d8ffb8d0dbb9edcc159a7a9ae5fea360708f378b6"
-    }
-  ],
-  "delta": {
-    "baseVersion": "2026.10.28.2",
-    "url": "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.28.2-2026.10.28.3.json",
-    "fileName": "delta-2026.10.28.2-2026.10.28.3.json",
-    "sha256": "da366d36ff2fd3c2666c046d8ffb8d0dbb9edcc159a7a9ae5fea360708f378b6"
-  }
+    "channel":  "experimental",
+    "displayName":  "Тестовая версия",
+    "version":  "2026.10.28.4",
+    "installerUrl":  "https://launch.revalib.ru/launcher-updates/v1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+    "fileName":  "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+    "sha256":  "8e02e06f8eefc9adb2c0e13750912ae7d3a457d93abc917a8479f570c1deb8f4",
+    "sizeBytes":  133757440,
+    "publishedAtUtc":  "2026-10-29T03:35:14Z",
+    "historyUrl":  "https://launch.revalib.ru/launcher-updates/v1/experimental-history.json",
+    "notes":  "Исправлены приём в группу Зова, срочный телепорт к своему NPC, передача управления и продолжение сценария после распада группы. Ускорена обработка F/QTE с сохранением ограничений повторов и ожидания.\n\nОбновлены палитра, подписи и читаемость интерфейса. Улучшены адаптация раздела «Активности» и боковой панели, перетаскивание заданий и динамические уведомления. Убрано автоматическое перелистывание страниц.\n\nЭтот выпуск устанавливается полным установщиком; .NET 9 входит в комплект. Если игра была открыта во время обновления, перезапустите её обычным способом, чтобы загрузить новый игровой модуль.",
+    "fullInstallerReason":  "runtime-component-change"
 }
