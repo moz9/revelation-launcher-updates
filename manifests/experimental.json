@@ -1,13 +1,13 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.10.30.4",
+  "version": "2026.10.31.1",
   "installerUrl": "https://launch.revalib.ru/launcher-updates/v1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "b760a07f1f30cd14055c2d9eec2bc75003759eb574a49d7782c63620fae3e9cf",
-  "sizeBytes": 134034944,
-  "publishedAtUtc": "2026-10-30T13:50:34Z",
+  "sha256": "93faf9ee1509edafb23e4809b8242b55963893a835cd48ec1a061af10724dc70",
+  "sizeBytes": 134034432,
+  "publishedAtUtc": "2026-10-30T20:50:00Z",
   "historyUrl": "https://launch.revalib.ru/launcher-updates/v1/experimental-history.json",
-  "notes": "Исправлена передача управления Зову во время исследования и маршрута к Лии.\n\nПосле перезапуска наблюдения восстанавливается уже подтверждённое игрой принятие в группу.\n\nПризыв «Боевое братство» от текущего участника группы Зова допускается и в бою; отправителем может быть любой участник этой группы.\n\nРыбалка в этот выпуск не входит. .NET 9 включён в полный установщик. После обновления штатно перезапустите игру в удобное время, чтобы загрузить новый игровой модуль.",
+  "notes": "Исправлена остановка гильдейских заданий при подготовке PvE-комплекта для задания с объявлением в чате.\n\nРыбалка в этот выпуск не входит. .NET 9 включён в полный установщик. После обновления штатно перезапустите игру в удобное время, чтобы загрузить новый игровой модуль.",
   "fullInstallerReason": "runtime-component-change"
 }
