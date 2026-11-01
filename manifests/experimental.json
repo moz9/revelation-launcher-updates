@@ -1,13 +1,26 @@
 {
-  "channel": "experimental",
-  "displayName": "Тестовая версия",
-  "version": "2026.10.31.2",
-  "installerUrl": "https://launch.revalib.ru/launcher-updates/v1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "f7112f01f7e4e9bb4c1b14f949e711094f75d061fb9e9b74dc815728125a9d1e",
-  "sizeBytes": 134051328,
-  "publishedAtUtc": "2026-10-31T15:28:38Z",
-  "historyUrl": "https://launch.revalib.ru/launcher-updates/v1/experimental-history.json",
-  "notes": "Подтверждённое принятие в группу Зова получает приоритет над текущими гильдейскими заданиями, башней и торговками. Неизвестные результаты прежних действий сохраняются отдельно без повторного расхода; ручные Stop и выход из игры отменяют передачу.\n\nИсправлены многошаговый переход к старту Зова и обработка позднего отказа в заявке. Добавлены отдельные подтверждения для команд перемещения и принятия призыва.\n\nИсправлено продолжение собственного маршрута к Лии после штатного телепорта. Ускорена обработка повторного взаимодействия F за счёт сокращения разбора истории команд.\n\nИсправлены сохранение дневного завершения гильдейской цепочки и разрешение телепорта после подтверждённого использования свитка сброса.\n\nНачальные лимиты покупок взяты из настроек ngls. Сохранённые настройки других профилей не заменяются.\n\nРыбалка в этот выпуск не входит. .NET 9 включён в полный установщик. После обновления штатно перезапустите игру в удобное время, чтобы загрузить новый игровой модуль.",
-  "fullInstallerReason": "runtime-component-change"
+    "channel":  "experimental",
+    "displayName":  "Тестовая версия",
+    "version":  "2026.11.2.1",
+    "installerUrl":  "https://launch.revalib.ru/launcher-updates/v1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+    "fileName":  "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+    "sha256":  "c8a0c7c6467b649e2a78efdcd161b8cc30beb8a8927ecd26080c025af1cba93c",
+    "sizeBytes":  138697728,
+    "publishedAtUtc":  "2026-11-01T19:34:08Z",
+    "historyUrl":  "https://launch.revalib.ru/launcher-updates/v1/experimental-history.json",
+    "notes":  "Исправлено продолжение очереди после завершения Башни и восстановление маршрутов торговок после подтверждённой остановки. Уточнён статус неподтверждённого гильдейского объявления без повторной отправки. Включено ранее проверенное уменьшение задержки закрытия инвентаря.",
+    "deltas":  [
+                   {
+                       "baseVersion":  "2026.10.31.2",
+                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.31.2-2026.11.2.1.json",
+                       "fileName":  "delta-2026.10.31.2-2026.11.2.1.json",
+                       "sha256":  "517e44e67263096fa1e0a2917540a3eb7dbd10ef49a1ad54baafa8a024f4c7c1"
+                   }
+               ],
+    "delta":  {
+                  "baseVersion":  "2026.10.31.2",
+                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.31.2-2026.11.2.1.json",
+                  "fileName":  "delta-2026.10.31.2-2026.11.2.1.json",
+                  "sha256":  "517e44e67263096fa1e0a2917540a3eb7dbd10ef49a1ad54baafa8a024f4c7c1"
+              }
 }
