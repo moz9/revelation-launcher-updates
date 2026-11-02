@@ -1,26 +1,26 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.11.2.4",
-  "installerUrl": "http://217.60.5.98/api/launcher-updates/v1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+  "version": "2026.11.2.5",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.2.5/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "eec9bfda0f93e2eb17272e9f671f7fc0e6b77f60ee0deb6263b2191ba69b2550",
-  "sizeBytes": 139358720,
-  "publishedAtUtc": "2026-11-02T13:26:18Z",
-  "historyUrl": "http://217.60.5.98/api/launcher-updates/v1/experimental-history.json",
-  "notes": "Лаунчер автоматически проверяет изменившийся entities.pg и запоминает совместимую версию. При несовместимых изменениях лаунчер сообщит, что требуется обновление.",
+  "sha256": "a78e6c749349edb7b2ba9aa6c2b266ee8979889e79b85860e3911118675564ce",
+  "sizeBytes": 139333120,
+  "publishedAtUtc": "2026-11-02T15:43:22Z",
+  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.2.5/experimental-history.json",
+  "notes": "Исправлено сохранение профиля NVIDIA с Profile Inspector 3.x. Карты сокровищ доступны в группе, причины блокировки выводятся в лаунчере. Исправлена прозрачность выпадающих списков.",
   "deltas": [
     {
-      "baseVersion": "2026.11.2.2",
-      "url": "http://217.60.5.98/api/launcher-updates/v1/delta-2026.11.2.2-2026.11.2.4.json",
-      "fileName": "delta-2026.11.2.2-2026.11.2.4.json",
-      "sha256": "7ec0ced8d2bf0eca761ea2a36283512935eca5d7ac122bf3824f27c66cefe6d7"
+      "baseVersion": "2026.11.2.4",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.2.5/delta-2026.11.2.4-2026.11.2.5.json",
+      "fileName": "delta-2026.11.2.4-2026.11.2.5.json",
+      "sha256": "4e4a5dc3eb520a3de57876f92f2f6f7700e8ab00a76bb2cb965540a87810dbbc"
     }
   ],
   "delta": {
-    "baseVersion": "2026.11.2.2",
-    "url": "http://217.60.5.98/api/launcher-updates/v1/delta-2026.11.2.2-2026.11.2.4.json",
-    "fileName": "delta-2026.11.2.2-2026.11.2.4.json",
-    "sha256": "7ec0ced8d2bf0eca761ea2a36283512935eca5d7ac122bf3824f27c66cefe6d7"
+    "baseVersion": "2026.11.2.4",
+    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.2.5/delta-2026.11.2.4-2026.11.2.5.json",
+    "fileName": "delta-2026.11.2.4-2026.11.2.5.json",
+    "sha256": "4e4a5dc3eb520a3de57876f92f2f6f7700e8ab00a76bb2cb965540a87810dbbc"
   }
 }
