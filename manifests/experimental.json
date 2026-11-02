@@ -1,26 +1,26 @@
 {
     "channel":  "experimental",
     "displayName":  "Тестовая версия",
-    "version":  "2026.11.2.1",
-    "installerUrl":  "https://launch.revalib.ru/launcher-updates/v1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+    "version":  "2026.11.2.2",
+    "installerUrl":  "http://217.60.5.98/api/launcher-updates/v1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
     "fileName":  "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-    "sha256":  "c8a0c7c6467b649e2a78efdcd161b8cc30beb8a8927ecd26080c025af1cba93c",
-    "sizeBytes":  138697728,
-    "publishedAtUtc":  "2026-11-01T19:34:08Z",
-    "historyUrl":  "https://launch.revalib.ru/launcher-updates/v1/experimental-history.json",
-    "notes":  "Исправлено продолжение очереди после завершения Башни и восстановление маршрутов торговок после подтверждённой остановки. Уточнён статус неподтверждённого гильдейского объявления без повторной отправки. Включено ранее проверенное уменьшение задержки закрытия инвентаря.",
+    "sha256":  "7baa79cdaa859a7c5632d18e96df0d2679c6e9050739f3dd1499b03a32877e50",
+    "sizeBytes":  138737664,
+    "publishedAtUtc":  "2026-11-02T02:08:11Z",
+    "historyUrl":  "http://217.60.5.98/api/launcher-updates/v1/experimental-history.json",
+    "notes":  "Гильдейские задания: подхват текущего этапа независимо от запуска автоквеста. Исправлено продолжение сценария после ручного завершения цепочки с оставшимся флагом автоквеста; остановка подтверждается свежим состоянием игры.",
     "deltas":  [
                    {
-                       "baseVersion":  "2026.10.31.2",
-                       "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.31.2-2026.11.2.1.json",
-                       "fileName":  "delta-2026.10.31.2-2026.11.2.1.json",
-                       "sha256":  "517e44e67263096fa1e0a2917540a3eb7dbd10ef49a1ad54baafa8a024f4c7c1"
+                       "baseVersion":  "2026.11.2.1",
+                       "url":  "http://217.60.5.98/api/launcher-updates/v1/delta-2026.11.2.1-2026.11.2.2.json",
+                       "fileName":  "delta-2026.11.2.1-2026.11.2.2.json",
+                       "sha256":  "83809105b718ae4551bd3767faff8509a737ac74c020f8901d3604eaf595e7ab"
                    }
                ],
     "delta":  {
-                  "baseVersion":  "2026.10.31.2",
-                  "url":  "https://launch.revalib.ru/launcher-updates/v1/delta-2026.10.31.2-2026.11.2.1.json",
-                  "fileName":  "delta-2026.10.31.2-2026.11.2.1.json",
-                  "sha256":  "517e44e67263096fa1e0a2917540a3eb7dbd10ef49a1ad54baafa8a024f4c7c1"
+                  "baseVersion":  "2026.11.2.1",
+                  "url":  "http://217.60.5.98/api/launcher-updates/v1/delta-2026.11.2.1-2026.11.2.2.json",
+                  "fileName":  "delta-2026.11.2.1-2026.11.2.2.json",
+                  "sha256":  "83809105b718ae4551bd3767faff8509a737ac74c020f8901d3604eaf595e7ab"
               }
 }
