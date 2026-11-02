@@ -1,26 +1,26 @@
 {
-    "channel":  "experimental",
-    "displayName":  "Тестовая версия",
-    "version":  "2026.11.2.2",
-    "installerUrl":  "http://217.60.5.98/api/launcher-updates/v1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-    "fileName":  "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-    "sha256":  "7baa79cdaa859a7c5632d18e96df0d2679c6e9050739f3dd1499b03a32877e50",
-    "sizeBytes":  138737664,
-    "publishedAtUtc":  "2026-11-02T02:08:11Z",
-    "historyUrl":  "http://217.60.5.98/api/launcher-updates/v1/experimental-history.json",
-    "notes":  "Гильдейские задания: подхват текущего этапа независимо от запуска автоквеста. Исправлено продолжение сценария после ручного завершения цепочки с оставшимся флагом автоквеста; остановка подтверждается свежим состоянием игры.",
-    "deltas":  [
-                   {
-                       "baseVersion":  "2026.11.2.1",
-                       "url":  "http://217.60.5.98/api/launcher-updates/v1/delta-2026.11.2.1-2026.11.2.2.json",
-                       "fileName":  "delta-2026.11.2.1-2026.11.2.2.json",
-                       "sha256":  "83809105b718ae4551bd3767faff8509a737ac74c020f8901d3604eaf595e7ab"
-                   }
-               ],
-    "delta":  {
-                  "baseVersion":  "2026.11.2.1",
-                  "url":  "http://217.60.5.98/api/launcher-updates/v1/delta-2026.11.2.1-2026.11.2.2.json",
-                  "fileName":  "delta-2026.11.2.1-2026.11.2.2.json",
-                  "sha256":  "83809105b718ae4551bd3767faff8509a737ac74c020f8901d3604eaf595e7ab"
-              }
+  "channel": "experimental",
+  "displayName": "Тестовая версия",
+  "version": "2026.11.2.4",
+  "installerUrl": "http://217.60.5.98/api/launcher-updates/v1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+  "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+  "sha256": "eec9bfda0f93e2eb17272e9f671f7fc0e6b77f60ee0deb6263b2191ba69b2550",
+  "sizeBytes": 139358720,
+  "publishedAtUtc": "2026-11-02T13:26:18Z",
+  "historyUrl": "http://217.60.5.98/api/launcher-updates/v1/experimental-history.json",
+  "notes": "Лаунчер автоматически проверяет изменившийся entities.pg и запоминает совместимую версию. При несовместимых изменениях лаунчер сообщит, что требуется обновление.",
+  "deltas": [
+    {
+      "baseVersion": "2026.11.2.2",
+      "url": "http://217.60.5.98/api/launcher-updates/v1/delta-2026.11.2.2-2026.11.2.4.json",
+      "fileName": "delta-2026.11.2.2-2026.11.2.4.json",
+      "sha256": "7ec0ced8d2bf0eca761ea2a36283512935eca5d7ac122bf3824f27c66cefe6d7"
+    }
+  ],
+  "delta": {
+    "baseVersion": "2026.11.2.2",
+    "url": "http://217.60.5.98/api/launcher-updates/v1/delta-2026.11.2.2-2026.11.2.4.json",
+    "fileName": "delta-2026.11.2.2-2026.11.2.4.json",
+    "sha256": "7ec0ced8d2bf0eca761ea2a36283512935eca5d7ac122bf3824f27c66cefe6d7"
+  }
 }
