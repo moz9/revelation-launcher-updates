@@ -1,38 +1,26 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.11.4.4",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.4.4/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+  "version": "2026.11.4.5",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.4.5/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "91a431ac8638bc1d7c74c9917667544d527e9a435d9073c8e5cb18f95c46cd50",
-  "sizeBytes": 139379712,
-  "publishedAtUtc": "2026-11-04T04:06:31Z",
-  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.4.4/experimental-history.json",
-  "notes": "Исследование мира духов: маршрут к Лии продолжается после промежуточного телепорта.",
+  "sha256": "0331fe715f4b71ab5453dc62220ece900cec5e56cd18c39818205fae16ce311c",
+  "sizeBytes": 139377664,
+  "publishedAtUtc": "2026-11-04T05:45:19Z",
+  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.4.5/experimental-history.json",
+  "notes": "Исправлено продолжение маршрута к Лии после промежуточного телепорта, когда клиент передаёт координаты списком или кортежем.",
   "deltas": [
     {
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.4.4/delta-2026.11.4.3-2026.11.4.4.json",
-      "baseVersion": "2026.11.4.3",
-      "sha256": "d7438e8ccc7efbcbdc83c2b0e9b6be96e94ed97021d57d7c67ba466a67d9ba25",
-      "fileName": "delta-2026.11.4.3-2026.11.4.4.json"
-    },
-    {
-      "fileName": "delta-2026.11.2.5-2026.11.4.4.json",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.4.4/delta-2026.11.2.5-2026.11.4.4.json",
-      "sha256": "e0fefe366ea7efd4a583c17a0c9e1b9322bac3487a45795fbfb2f42bfdc5d076",
-      "baseVersion": "2026.11.2.5"
-    },
-    {
-      "fileName": "delta-2026.11.2.4-2026.11.4.4.json",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.4.4/delta-2026.11.2.4-2026.11.4.4.json",
-      "sha256": "23a1c75b602d5fc032cd913497905d566accbfe5c755573b9c02cd36ab074a8a",
-      "baseVersion": "2026.11.2.4"
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.4.5/delta-2026.11.4.4-2026.11.4.5.json",
+      "fileName": "delta-2026.11.4.4-2026.11.4.5.json",
+      "sha256": "2fe62b01ccead0f514b14a7eecc301ba65fcd4b1fd131c3b58ad108baba01897",
+      "baseVersion": "2026.11.4.4"
     }
   ],
   "delta": {
-    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.4.4/delta-2026.11.4.3-2026.11.4.4.json",
-    "baseVersion": "2026.11.4.3",
-    "sha256": "d7438e8ccc7efbcbdc83c2b0e9b6be96e94ed97021d57d7c67ba466a67d9ba25",
-    "fileName": "delta-2026.11.4.3-2026.11.4.4.json"
+    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.4.5/delta-2026.11.4.4-2026.11.4.5.json",
+    "fileName": "delta-2026.11.4.4-2026.11.4.5.json",
+    "sha256": "2fe62b01ccead0f514b14a7eecc301ba65fcd4b1fd131c3b58ad108baba01897",
+    "baseVersion": "2026.11.4.4"
   }
 }
