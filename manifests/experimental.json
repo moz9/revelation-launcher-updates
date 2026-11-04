@@ -1,26 +1,26 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.11.4.5",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.4.5/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+  "version": "2026.11.4.6",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.4.6/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "0331fe715f4b71ab5453dc62220ece900cec5e56cd18c39818205fae16ce311c",
-  "sizeBytes": 139377664,
-  "publishedAtUtc": "2026-11-04T05:45:19Z",
-  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.4.5/experimental-history.json",
-  "notes": "Исправлено продолжение маршрута к Лии после промежуточного телепорта, когда клиент передаёт координаты списком или кортежем.",
+  "sha256": "6d7c5332bbbcdd80a0bd01d3134cd091ef326047affae1ca2372e8ed04c73b31",
+  "sizeBytes": 139429376,
+  "publishedAtUtc": "2026-11-04T07:17:23Z",
+  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.4.6/experimental-history.json",
+  "notes": "Классовый оплот: лаунчер засчитывает подтверждённую сдачу, если чтение товаров совпало с завершением задания.",
   "deltas": [
     {
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.4.5/delta-2026.11.4.4-2026.11.4.5.json",
-      "fileName": "delta-2026.11.4.4-2026.11.4.5.json",
-      "sha256": "2fe62b01ccead0f514b14a7eecc301ba65fcd4b1fd131c3b58ad108baba01897",
-      "baseVersion": "2026.11.4.4"
+      "baseVersion": "2026.11.4.5",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.4.6/delta-2026.11.4.5-2026.11.4.6.json",
+      "sha256": "6f2d3960c696def33297275e8d6ab1a307dd78877f5beefc65c5d0dec16efcaf",
+      "fileName": "delta-2026.11.4.5-2026.11.4.6.json"
     }
   ],
   "delta": {
-    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.4.5/delta-2026.11.4.4-2026.11.4.5.json",
-    "fileName": "delta-2026.11.4.4-2026.11.4.5.json",
-    "sha256": "2fe62b01ccead0f514b14a7eecc301ba65fcd4b1fd131c3b58ad108baba01897",
-    "baseVersion": "2026.11.4.4"
+    "baseVersion": "2026.11.4.5",
+    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.4.6/delta-2026.11.4.5-2026.11.4.6.json",
+    "sha256": "6f2d3960c696def33297275e8d6ab1a307dd78877f5beefc65c5d0dec16efcaf",
+    "fileName": "delta-2026.11.4.5-2026.11.4.6.json"
   }
 }
