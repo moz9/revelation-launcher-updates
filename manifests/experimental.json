@@ -1,26 +1,26 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.11.4.7",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.4.7/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+  "version": "2026.11.4.8",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.4.8/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "088d9a16bcb5e6a35da134241d91f2b101fdb2324f3857aae4068528e9bb7161",
-  "sizeBytes": 139407360,
-  "publishedAtUtc": "2026-11-04T14:07:25Z",
-  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.4.7/experimental-history.json",
-  "notes": "Награды активности и продолжение общего сценария теперь доступны, даже если отдельная строка мирового чата не читается.",
+  "sha256": "f9e3e4fb721d8ab4951397e5fd754aaa5d06480535a5167b95956a18c69d9534",
+  "sizeBytes": 139410432,
+  "publishedAtUtc": "2026-11-04T15:33:06Z",
+  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.4.8/experimental-history.json",
+  "notes": "Торговки наблюдают вручную включённый автоквест и подхватывают текущее поручение после подтверждения освобождения маршрута.",
   "deltas": [
     {
-      "baseVersion": "2026.11.4.6",
-      "sha256": "1b7b4376594c3f0de8a375270aacbde23ddf9f9c4f60b6569bd75df91d96c489",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.4.7/delta-2026.11.4.6-2026.11.4.7.json",
-      "fileName": "delta-2026.11.4.6-2026.11.4.7.json"
+      "baseVersion": "2026.11.4.7",
+      "fileName": "delta-2026.11.4.7-2026.11.4.8.json",
+      "sha256": "0f8d248b6145e79946b7eb05f915667a6927a4369c5baac5b43386719553d4ea",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.4.8/delta-2026.11.4.7-2026.11.4.8.json"
     }
   ],
   "delta": {
-    "baseVersion": "2026.11.4.6",
-    "sha256": "1b7b4376594c3f0de8a375270aacbde23ddf9f9c4f60b6569bd75df91d96c489",
-    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.4.7/delta-2026.11.4.6-2026.11.4.7.json",
-    "fileName": "delta-2026.11.4.6-2026.11.4.7.json"
+    "baseVersion": "2026.11.4.7",
+    "fileName": "delta-2026.11.4.7-2026.11.4.8.json",
+    "sha256": "0f8d248b6145e79946b7eb05f915667a6927a4369c5baac5b43386719553d4ea",
+    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.4.8/delta-2026.11.4.7-2026.11.4.8.json"
   }
 }
