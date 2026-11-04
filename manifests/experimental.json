@@ -1,26 +1,26 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.11.4.8",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.4.8/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+  "version": "2026.11.4.9",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.4.9/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "f9e3e4fb721d8ab4951397e5fd754aaa5d06480535a5167b95956a18c69d9534",
-  "sizeBytes": 139410432,
-  "publishedAtUtc": "2026-11-04T15:33:06Z",
-  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.4.8/experimental-history.json",
-  "notes": "Торговки наблюдают вручную включённый автоквест и подхватывают текущее поручение после подтверждения освобождения маршрута.",
+  "sha256": "dbe8cfe500c1cee1cb31dad5a3dfed52cffaf99c7b560e3929890d05d7dee1c5",
+  "sizeBytes": 139384320,
+  "publishedAtUtc": "2026-11-04T17:54:48Z",
+  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.4.9/experimental-history.json",
+  "notes": "Торговки подтверждают остановку своего зависшего маршрута сбора. Карты сокровищ распознают штатный промежуточный маршрут к телепорту и прямое продолжение после проверки телепорта.",
   "deltas": [
     {
-      "baseVersion": "2026.11.4.7",
-      "fileName": "delta-2026.11.4.7-2026.11.4.8.json",
-      "sha256": "0f8d248b6145e79946b7eb05f915667a6927a4369c5baac5b43386719553d4ea",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.4.8/delta-2026.11.4.7-2026.11.4.8.json"
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.4.9/delta-2026.11.4.8-2026.11.4.9.json",
+      "sha256": "041d6e677be5002d3540f883915d73b04d8f0dd7584fc5b4cb1d1d576dae80e5",
+      "fileName": "delta-2026.11.4.8-2026.11.4.9.json",
+      "baseVersion": "2026.11.4.8"
     }
   ],
   "delta": {
-    "baseVersion": "2026.11.4.7",
-    "fileName": "delta-2026.11.4.7-2026.11.4.8.json",
-    "sha256": "0f8d248b6145e79946b7eb05f915667a6927a4369c5baac5b43386719553d4ea",
-    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.4.8/delta-2026.11.4.7-2026.11.4.8.json"
+    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.4.9/delta-2026.11.4.8-2026.11.4.9.json",
+    "sha256": "041d6e677be5002d3540f883915d73b04d8f0dd7584fc5b4cb1d1d576dae80e5",
+    "fileName": "delta-2026.11.4.8-2026.11.4.9.json",
+    "baseVersion": "2026.11.4.8"
   }
 }
