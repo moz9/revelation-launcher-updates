@@ -1,26 +1,26 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.11.5.1",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.5.1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+  "version": "2026.11.5.5",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.5.5/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "23b50727a9c71701a2d8bf0903f721fb1215ca68d96b74ca919066689e01554a",
+  "sha256": "1505dc6162a90cde9ca8666268ed858776ba64d7ab2f149b37a53f81efdf6b00",
   "sizeBytes": 139393536,
-  "publishedAtUtc": "2026-11-05T07:06:14Z",
-  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.5.1/experimental-history.json",
-  "notes": "Обычный выход из игры получает приоритет над текущей командой и ожиданиями окон сценария. Повторные нажатия ожидают один выход. Общий Stop корректно подтверждает уже завершённую команду.",
+  "publishedAtUtc": "2026-11-05T16:13:55Z",
+  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.5.5/experimental-history.json",
+  "notes": "Исправлено продолжение автонавигации после телепорта, переход от завершённой точки охоты к новой цели, подход к добыче и продолжение боя после подтверждённого изменения дистанции. После подтверждённого завершения очистки маршрута доступен новый запуск без перелогина. Сохранены проверки владельца, цели и ручной остановки.",
   "deltas": [
     {
-      "fileName": "delta-2026.11.4.9-2026.11.5.1.json",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.5.1/delta-2026.11.4.9-2026.11.5.1.json",
-      "sha256": "ce612aaa0e7ace51f670e83b8253fd32ef90d6fc17307fcf517e6c753e373391",
-      "baseVersion": "2026.11.4.9"
+      "baseVersion": "2026.11.5.1",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.5.5/delta-2026.11.5.1-2026.11.5.5.json",
+      "fileName": "delta-2026.11.5.1-2026.11.5.5.json",
+      "sha256": "5c23851fb53d9a57f89f62f3e66f5bb1aadb9cf50360bb555a3ca1c5bf778961"
     }
   ],
   "delta": {
-    "fileName": "delta-2026.11.4.9-2026.11.5.1.json",
-    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.5.1/delta-2026.11.4.9-2026.11.5.1.json",
-    "sha256": "ce612aaa0e7ace51f670e83b8253fd32ef90d6fc17307fcf517e6c753e373391",
-    "baseVersion": "2026.11.4.9"
+    "baseVersion": "2026.11.5.1",
+    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.5.5/delta-2026.11.5.1-2026.11.5.5.json",
+    "fileName": "delta-2026.11.5.1-2026.11.5.5.json",
+    "sha256": "5c23851fb53d9a57f89f62f3e66f5bb1aadb9cf50360bb555a3ca1c5bf778961"
   }
 }
