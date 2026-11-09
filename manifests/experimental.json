@@ -1,32 +1,32 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.11.9.7",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.9.7/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+  "version": "2026.11.9.8",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.9.8/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "a61dcf97434efdcfa299f2a3eeddec3a4276dd83ecb79bb2e02bef1ef38116cc",
-  "sizeBytes": 141377024,
-  "publishedAtUtc": "2026-11-09T12:23:49Z",
-  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.9.7/experimental-history.json",
-  "notes": "Лаунчер сам проверяет обновлённые игровые данные после профилактики: если изменились только строки таблиц, которые лаунчер не использует, игра запускается без обновления лаунчера. Поддержан клиент сборки 780.",
+  "sha256": "b7beefdc5d91ed01c7ce3118c0d872d8e9e8f3dd17b187f04e92dc31f617f922",
+  "sizeBytes": 141355520,
+  "publishedAtUtc": "2026-11-09T13:21:26Z",
+  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.9.8/experimental-history.json",
+  "notes": "Исправлена работа активностей, журнала и определения персонажа, если папку данных лаунчера перенесли на другой диск (например, программой освобождения места): команды игре теперь доходят и через такую ссылку на папку.",
   "deltas": [
     {
-      "baseVersion": "2026.11.9.6",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.9.7/delta-2026.11.9.6-2026.11.9.7.json",
-      "fileName": "delta-2026.11.9.6-2026.11.9.7.json",
-      "sha256": "38b64180ddec0b724a07d03c9294f6a136eea9f46c86b8b53e10e05234d3a123"
+      "baseVersion": "2026.11.9.7",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.9.8/delta-2026.11.9.7-2026.11.9.8.json",
+      "fileName": "delta-2026.11.9.7-2026.11.9.8.json",
+      "sha256": "e24c7c0325d3dc12548a1cda37a4d41230743b5a0c84998748574b5fcfadde07"
     },
     {
-      "baseVersion": "2026.11.9.5",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.9.7/delta-2026.11.9.5-2026.11.9.7.json",
-      "fileName": "delta-2026.11.9.5-2026.11.9.7.json",
-      "sha256": "f24e19c0d1bf9f0c9c608e72d0c0c44bf384e5e35a4b558b74452139a38677d6"
+      "baseVersion": "2026.11.9.6",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.9.8/delta-2026.11.9.6-2026.11.9.8.json",
+      "fileName": "delta-2026.11.9.6-2026.11.9.8.json",
+      "sha256": "a4c04afd8985c5167398d8233dd3560a70a5e587966b7c85d81bfa3e104ff5ad"
     }
   ],
   "delta": {
-    "baseVersion": "2026.11.9.6",
-    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.9.7/delta-2026.11.9.6-2026.11.9.7.json",
-    "fileName": "delta-2026.11.9.6-2026.11.9.7.json",
-    "sha256": "38b64180ddec0b724a07d03c9294f6a136eea9f46c86b8b53e10e05234d3a123"
+    "baseVersion": "2026.11.9.7",
+    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.9.8/delta-2026.11.9.7-2026.11.9.8.json",
+    "fileName": "delta-2026.11.9.7-2026.11.9.8.json",
+    "sha256": "e24c7c0325d3dc12548a1cda37a4d41230743b5a0c84998748574b5fcfadde07"
   }
 }
