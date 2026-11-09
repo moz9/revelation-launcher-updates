@@ -1,32 +1,32 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.11.8.2",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.8.2/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+  "version": "2026.11.9.1",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.9.1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "ce24adb7b349ef9b4f9fd41f5e48771b1faa1a4071272551bea59dd8a0617473",
-  "sizeBytes": 139472896,
-  "publishedAtUtc": "2026-11-08T15:36:09Z",
-  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.8.2/experimental-history.json",
-  "notes": "Отчёты об ошибках теперь доставляются, даже когда основной сервер недоступен: лаунчер шифрует отчёт и отправляет его в резервное хранилище. Переполненная очередь больше не блокирует новые отчёты: самый старый неотправленный откладывается в сторону.\n",
+  "sha256": "84c56b78cfd6de258100511406e79b19324f226aa30207f11555620949180bbe",
+  "sizeBytes": 139457024,
+  "publishedAtUtc": "2026-11-09T03:41:13Z",
+  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.9.1/experimental-history.json",
+  "notes": "Исследование больше не зависает после повторного открытия окна: если окно уже открыто, лаунчер сначала привязывает его и продолжает подготовку, даже когда Лия не рядом. Раньше шаг останавливался с сообщением «Не подтверждено закрытие своего окна исследования».\n",
   "deltas": [
     {
-      "baseVersion": "2026.11.8.1",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.8.2/delta-2026.11.8.1-2026.11.8.2.json",
-      "fileName": "delta-2026.11.8.1-2026.11.8.2.json",
-      "sha256": "869d4d510c5be97cdb031662411df9d1842d3ab1d6f84b33ac7238fa58fef908"
+      "baseVersion": "2026.11.8.2",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.9.1/delta-2026.11.8.2-2026.11.9.1.json",
+      "fileName": "delta-2026.11.8.2-2026.11.9.1.json",
+      "sha256": "8fbde96b29ee70d4df4c6adcca29fb5732c1c7e4156dcbc968a3c32b6cb9662c"
     },
     {
-      "baseVersion": "2026.11.5.5",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.8.2/delta-2026.11.5.5-2026.11.8.2.json",
-      "fileName": "delta-2026.11.5.5-2026.11.8.2.json",
-      "sha256": "a9c5fa21d9c6e1ba02dac24d887de5ddaef4f15a8c0d574fcc915a6896af3645"
+      "baseVersion": "2026.11.8.1",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.9.1/delta-2026.11.8.1-2026.11.9.1.json",
+      "fileName": "delta-2026.11.8.1-2026.11.9.1.json",
+      "sha256": "90b4a1b9cfaaf6db094f36d812ee6da00679d60dba991f09888c4247950e1936"
     }
   ],
   "delta": {
-    "baseVersion": "2026.11.8.1",
-    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.8.2/delta-2026.11.8.1-2026.11.8.2.json",
-    "fileName": "delta-2026.11.8.1-2026.11.8.2.json",
-    "sha256": "869d4d510c5be97cdb031662411df9d1842d3ab1d6f84b33ac7238fa58fef908"
+    "baseVersion": "2026.11.8.2",
+    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.9.1/delta-2026.11.8.2-2026.11.9.1.json",
+    "fileName": "delta-2026.11.8.2-2026.11.9.1.json",
+    "sha256": "8fbde96b29ee70d4df4c6adcca29fb5732c1c7e4156dcbc968a3c32b6cb9662c"
   }
 }
