@@ -1,32 +1,32 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.11.9.11",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.9.11/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+  "version": "2026.11.9.12",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.9.12/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "b46d74d693066451347942d5693f5cd6755b90e42704153dc654d06442e99143",
-  "sizeBytes": 141368320,
-  "publishedAtUtc": "2026-11-09T15:19:26Z",
-  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.9.11/experimental-history.json",
-  "notes": "Исправлено: кнопка «Играть» не запускала игру, если VK Play после перезапуска закрывал окно ожидания раньше, чем завершал вход в аккаунт. Также содержит облегчённое чтение Торговок из 2026.11.9.10.",
+  "sha256": "c4218d978c1335c1453e52ec6e1b451e270cc17b696f4b43512795ed48931fd0",
+  "sizeBytes": 141378560,
+  "publishedAtUtc": "2026-11-09T15:33:30Z",
+  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.9.12/experimental-history.json",
+  "notes": "Запуск быстрее: если VK Play принял команду «Играть», но не открыл игру (бывает сразу после его запуска), лаунчер повторяет команду через 10 секунд вместо 30. Также содержит облегчённое чтение Торговок и исправление готовности VK Play.",
   "deltas": [
     {
-      "baseVersion": "2026.11.9.10",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.9.11/delta-2026.11.9.10-2026.11.9.11.json",
-      "fileName": "delta-2026.11.9.10-2026.11.9.11.json",
-      "sha256": "6c00e20327de4fa498f4c7d09b4bdc016b5ae5699235d1166bad38dd9a89ddd9"
+      "baseVersion": "2026.11.9.11",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.9.12/delta-2026.11.9.11-2026.11.9.12.json",
+      "fileName": "delta-2026.11.9.11-2026.11.9.12.json",
+      "sha256": "0afc1e958408e82261df67d13a7613b3418469edf9a781c5d57a4a882a522523"
     },
     {
-      "baseVersion": "2026.11.9.9",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.9.11/delta-2026.11.9.9-2026.11.9.11.json",
-      "fileName": "delta-2026.11.9.9-2026.11.9.11.json",
-      "sha256": "13d6a5f821dab837019d708da074cd40c35e1e04a98bfc0b6812a8206a5365dc"
+      "baseVersion": "2026.11.9.10",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.9.12/delta-2026.11.9.10-2026.11.9.12.json",
+      "fileName": "delta-2026.11.9.10-2026.11.9.12.json",
+      "sha256": "b2f393736da4b7ab7d6bfd762d0b33e960d25f0a81675ec031c8fa8b5b7304df"
     }
   ],
   "delta": {
-    "baseVersion": "2026.11.9.10",
-    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.9.11/delta-2026.11.9.10-2026.11.9.11.json",
-    "fileName": "delta-2026.11.9.10-2026.11.9.11.json",
-    "sha256": "6c00e20327de4fa498f4c7d09b4bdc016b5ae5699235d1166bad38dd9a89ddd9"
+    "baseVersion": "2026.11.9.11",
+    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.9.12/delta-2026.11.9.11-2026.11.9.12.json",
+    "fileName": "delta-2026.11.9.11-2026.11.9.12.json",
+    "sha256": "0afc1e958408e82261df67d13a7613b3418469edf9a781c5d57a4a882a522523"
   }
 }
