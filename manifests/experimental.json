@@ -1,32 +1,32 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.11.9.1",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.9.1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+  "version": "2026.11.9.2",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.9.2/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "84c56b78cfd6de258100511406e79b19324f226aa30207f11555620949180bbe",
-  "sizeBytes": 139457024,
-  "publishedAtUtc": "2026-11-09T03:41:13Z",
-  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.9.1/experimental-history.json",
-  "notes": "Исследование больше не зависает после повторного открытия окна: если окно уже открыто, лаунчер сначала привязывает его и продолжает подготовку, даже когда Лия не рядом. Раньше шаг останавливался с сообщением «Не подтверждено закрытие своего окна исследования».\n",
+  "sha256": "d262a282a14153d9035428eab4702e65e09ddffe4e3936b9af71680a41965f54",
+  "sizeBytes": 139445760,
+  "publishedAtUtc": "2026-11-09T04:15:40Z",
+  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.9.2/experimental-history.json",
+  "notes": "Неподтверждённые действия теперь сверяются с игрой, а не блокируют шаги навсегда. Исследование закрывает старую неподтверждённую награду, если у Лии нечего забирать. Зов духов один раз повторяет сок, если игра показывает, что он не использован. Торговки освобождают покупку, которая так и не дошла: тот же квест, клиент перезапускался, прошло 30 минут, а предмета нет.\n",
   "deltas": [
     {
-      "baseVersion": "2026.11.8.2",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.9.1/delta-2026.11.8.2-2026.11.9.1.json",
-      "fileName": "delta-2026.11.8.2-2026.11.9.1.json",
-      "sha256": "8fbde96b29ee70d4df4c6adcca29fb5732c1c7e4156dcbc968a3c32b6cb9662c"
+      "baseVersion": "2026.11.9.1",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.9.2/delta-2026.11.9.1-2026.11.9.2.json",
+      "fileName": "delta-2026.11.9.1-2026.11.9.2.json",
+      "sha256": "598c4d1ab70872034b82eaa43eb69ce99d3517979e9a29eab34f2cb0a9e7f175"
     },
     {
-      "baseVersion": "2026.11.8.1",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.9.1/delta-2026.11.8.1-2026.11.9.1.json",
-      "fileName": "delta-2026.11.8.1-2026.11.9.1.json",
-      "sha256": "90b4a1b9cfaaf6db094f36d812ee6da00679d60dba991f09888c4247950e1936"
+      "baseVersion": "2026.11.8.2",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.9.2/delta-2026.11.8.2-2026.11.9.2.json",
+      "fileName": "delta-2026.11.8.2-2026.11.9.2.json",
+      "sha256": "41bc47b9ba2bc42418b7a9308bdcbc05970ac6c21ed6ba02f5784085d54b3c3e"
     }
   ],
   "delta": {
-    "baseVersion": "2026.11.8.2",
-    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.9.1/delta-2026.11.8.2-2026.11.9.1.json",
-    "fileName": "delta-2026.11.8.2-2026.11.9.1.json",
-    "sha256": "8fbde96b29ee70d4df4c6adcca29fb5732c1c7e4156dcbc968a3c32b6cb9662c"
+    "baseVersion": "2026.11.9.1",
+    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.9.2/delta-2026.11.9.1-2026.11.9.2.json",
+    "fileName": "delta-2026.11.9.1-2026.11.9.2.json",
+    "sha256": "598c4d1ab70872034b82eaa43eb69ce99d3517979e9a29eab34f2cb0a9e7f175"
   }
 }
