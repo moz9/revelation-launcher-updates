@@ -1,32 +1,32 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.11.9.13",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.9.13/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+  "version": "2026.11.9.14",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.9.14/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "f023e118da4740abeb172c848b68718045dcc93602328b437a6311821d47aab2",
-  "sizeBytes": 141366272,
-  "publishedAtUtc": "2026-11-09T15:47:41Z",
-  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.9.13/experimental-history.json",
-  "notes": "Сценарий активностей быстрее: уже выполненные сегодня календарь, награды за прем, демоны, баня, гильдейские задания, классовый оплот и награды башни пропускаются сразу по журналу дня — без проверки в игре, подготовки экипировки и перелётов. Исследование и Торговки по-прежнему проверяются в игре.",
+  "sha256": "61a9724c12d848f810a9b7f68b063fffd63c21bc03f517afa5aca38453b8440b",
+  "sizeBytes": 141350400,
+  "publishedAtUtc": "2026-11-09T16:56:09Z",
+  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.9.14/experimental-history.json",
+  "notes": "Классовый оплот быстрее: ожидания посадки, подхода к цели, разговоров и остановки проверяются каждые полсекунды вместо двух секунд, пауза между противниками сокращена с 2 до 0,75 секунды. Также содержит пропуск уже выполненных активностей из 2026.11.9.13.",
   "deltas": [
     {
-      "baseVersion": "2026.11.9.12",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.9.13/delta-2026.11.9.12-2026.11.9.13.json",
-      "fileName": "delta-2026.11.9.12-2026.11.9.13.json",
-      "sha256": "ac5fbcf82e65b6c79482b8c70adb79b559b194a22b52b26be54b571bdb90d814"
+      "baseVersion": "2026.11.9.13",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.9.14/delta-2026.11.9.13-2026.11.9.14.json",
+      "fileName": "delta-2026.11.9.13-2026.11.9.14.json",
+      "sha256": "fb3ffdee710ef831853979b510a1c521937cca1958adc824bee52490905cbb30"
     },
     {
-      "baseVersion": "2026.11.9.11",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.9.13/delta-2026.11.9.11-2026.11.9.13.json",
-      "fileName": "delta-2026.11.9.11-2026.11.9.13.json",
-      "sha256": "48d3dc0199eaff072be6713b3c643c66c1a7b5e1eb2d6219b27e9d14f52ca8a7"
+      "baseVersion": "2026.11.9.12",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.9.14/delta-2026.11.9.12-2026.11.9.14.json",
+      "fileName": "delta-2026.11.9.12-2026.11.9.14.json",
+      "sha256": "103b49ffc38c2c3e716cf1e2d8f1786b2b8f8381b9cf56abe40b93672a41aeab"
     }
   ],
   "delta": {
-    "baseVersion": "2026.11.9.12",
-    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.9.13/delta-2026.11.9.12-2026.11.9.13.json",
-    "fileName": "delta-2026.11.9.12-2026.11.9.13.json",
-    "sha256": "ac5fbcf82e65b6c79482b8c70adb79b559b194a22b52b26be54b571bdb90d814"
+    "baseVersion": "2026.11.9.13",
+    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.9.14/delta-2026.11.9.13-2026.11.9.14.json",
+    "fileName": "delta-2026.11.9.13-2026.11.9.14.json",
+    "sha256": "fb3ffdee710ef831853979b510a1c521937cca1958adc824bee52490905cbb30"
   }
 }
