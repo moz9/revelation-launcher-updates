@@ -1,32 +1,32 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.11.9.4",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.9.4/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+  "version": "2026.11.9.5",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.9.5/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "e9d2157de75a8efc19babd2bd9c549a01f56a3cb699f5262ff507ac529a7a5ec",
-  "sizeBytes": 139422208,
-  "publishedAtUtc": "2026-11-09T05:10:08Z",
-  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.9.4/experimental-history.json",
-  "notes": "Оформление «Пестрый»: главная целиком помещается в окно без прокрутки. Карточки компактнее, а подробный блок запуска (VK Play, параметры входа, тест входа) свёрнут в панель «Запуск, VK Play и параметры входа».\r\n",
+  "sha256": "e0377fd40cc025c566b1d9414e18bb1de18a9cfa147c0fa8b53e7ebd3efc9481",
+  "sizeBytes": 139440128,
+  "publishedAtUtc": "2026-11-09T05:47:45Z",
+  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.9.5/experimental-history.json",
+  "notes": "Оформление «Пестрый» убрано. Лаунчер снова только в привычном виде, главная с блоком запуска и параметрами входа как раньше.\r\n",
   "deltas": [
     {
-      "baseVersion": "2026.11.9.3",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.9.4/delta-2026.11.9.3-2026.11.9.4.json",
-      "fileName": "delta-2026.11.9.3-2026.11.9.4.json",
-      "sha256": "03ba1c2460cc752e5a926287b5b1a1b2287da59d0a43766b881021e9ceb66db2"
+      "baseVersion": "2026.11.9.4",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.9.5/delta-2026.11.9.4-2026.11.9.5.json",
+      "fileName": "delta-2026.11.9.4-2026.11.9.5.json",
+      "sha256": "d6f8a1460eff23f92c1f108ae77393b0b41c8d9cdacd9b636ed0f32fc007bfd2"
     },
     {
-      "baseVersion": "2026.11.9.2",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.9.4/delta-2026.11.9.2-2026.11.9.4.json",
-      "fileName": "delta-2026.11.9.2-2026.11.9.4.json",
-      "sha256": "998d0a95e8d5ab8e35bea330cf53d7496d9431070a92334030100fa5571c15de"
+      "baseVersion": "2026.11.9.3",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.9.5/delta-2026.11.9.3-2026.11.9.5.json",
+      "fileName": "delta-2026.11.9.3-2026.11.9.5.json",
+      "sha256": "b37b8f977d8a48c6da90bb1d9ff263900166a928f3a16e33256207e23cc4920f"
     }
   ],
   "delta": {
-    "baseVersion": "2026.11.9.3",
-    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.9.4/delta-2026.11.9.3-2026.11.9.4.json",
-    "fileName": "delta-2026.11.9.3-2026.11.9.4.json",
-    "sha256": "03ba1c2460cc752e5a926287b5b1a1b2287da59d0a43766b881021e9ceb66db2"
+    "baseVersion": "2026.11.9.4",
+    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.9.5/delta-2026.11.9.4-2026.11.9.5.json",
+    "fileName": "delta-2026.11.9.4-2026.11.9.5.json",
+    "sha256": "d6f8a1460eff23f92c1f108ae77393b0b41c8d9cdacd9b636ed0f32fc007bfd2"
   }
 }
