@@ -1,32 +1,32 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.11.10.1",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.10.1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+  "version": "2026.11.10.2",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.10.2/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "45209a3658c260456c4e04ecabcd6e5f4e2aefda247664b93a9398dc59827900",
-  "sizeBytes": 141337088,
-  "publishedAtUtc": "2026-11-09T17:27:55Z",
-  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.10.1/experimental-history.json",
-  "notes": "Быстрее команды сценариев: квестовые команды (классовый оплот) выполняются в одном постоянно запущенном помощнике вместо нового процесса PowerShell на каждую — примерно 0,35 с вместо 1,4 с на команду. Ограничение фонового трафика VK Play включается только когда персонаж в мире и снимается при релоге, выходе на выбор персонажа и закрытии игры.",
+  "sha256": "694aeab1cffe5a877901088c9f4e8f6d6a50776979a1ab40c662b668c8807268",
+  "sizeBytes": 141383168,
+  "publishedAtUtc": "2026-11-09T17:41:14Z",
+  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.10.2/experimental-history.json",
+  "notes": "Классовый оплот: если Зов приходит в момент сдачи задания главе, оплот сам закрывает свой диалог и уступает управление (раньше просил закрыть диалог вручную). Торговки: проверка перед боевыми, маршрутными и диалоговыми действиями использует облегчённое чтение без каталога лавок и склада — меньше фризов; закупка и склад по-прежнему проверяются полным чтением.",
   "deltas": [
     {
-      "baseVersion": "2026.11.9.14",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.10.1/delta-2026.11.9.14-2026.11.10.1.json",
-      "fileName": "delta-2026.11.9.14-2026.11.10.1.json",
-      "sha256": "0be2dd2c62402f4ec4f65cb5a7a02c4bcee8fcb218f5e6e4486de5aac364ed6d"
+      "baseVersion": "2026.11.10.1",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.10.2/delta-2026.11.10.1-2026.11.10.2.json",
+      "fileName": "delta-2026.11.10.1-2026.11.10.2.json",
+      "sha256": "c7993ee665549affb8d8a675d093abc698f7e8984e1b6b8543fdb9c2c17641b4"
     },
     {
-      "baseVersion": "2026.11.9.13",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.10.1/delta-2026.11.9.13-2026.11.10.1.json",
-      "fileName": "delta-2026.11.9.13-2026.11.10.1.json",
-      "sha256": "122b05694dfd8dc8f76253c0337e6365e096ce74bb041a1fe7cafdb94c1dba23"
+      "baseVersion": "2026.11.9.14",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.10.2/delta-2026.11.9.14-2026.11.10.2.json",
+      "fileName": "delta-2026.11.9.14-2026.11.10.2.json",
+      "sha256": "c5e5c8448e212d0c56902ac6a9971d47a9847b5c8841c4647536420e550a341c"
     }
   ],
   "delta": {
-    "baseVersion": "2026.11.9.14",
-    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.10.1/delta-2026.11.9.14-2026.11.10.1.json",
-    "fileName": "delta-2026.11.9.14-2026.11.10.1.json",
-    "sha256": "0be2dd2c62402f4ec4f65cb5a7a02c4bcee8fcb218f5e6e4486de5aac364ed6d"
+    "baseVersion": "2026.11.10.1",
+    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.10.2/delta-2026.11.10.1-2026.11.10.2.json",
+    "fileName": "delta-2026.11.10.1-2026.11.10.2.json",
+    "sha256": "c7993ee665549affb8d8a675d093abc698f7e8984e1b6b8543fdb9c2c17641b4"
   }
 }
