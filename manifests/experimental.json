@@ -1,32 +1,32 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.11.11.1",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+  "version": "2026.11.11.2",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.2/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "9091730c03f738d0395827d1a1c1d04d76858f15b8d63cc5d352609afc919879",
-  "sizeBytes": 141747712,
-  "publishedAtUtc": "2026-11-10T17:51:15Z",
-  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.1/experimental-history.json",
-  "notes": "Исправлено сохранение настроек NVIDIA («Настройки игры» → профиль видеокарты): ошибка «Имя Invoke-RevelationFileReplace не распознано» при записи квитанции профиля. Вспомогательные функции безопасной замены файлов теперь видны во всех частях сценариев лаунчера.",
+  "sha256": "5cfff2fa07aa70fd66175fd3c752fb6babf646b416ab03b727e1f0ad86a8a75d",
+  "sizeBytes": 141747200,
+  "publishedAtUtc": "2026-11-10T18:08:36Z",
+  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.2/experimental-history.json",
+  "notes": "Запуск без лишних блокировок: если видео-профиль (ограничение FPS) не удалось применить, игра всё равно запускается, а в уведомлении появляется предупреждение «Видео-профиль не применён». Главный экран: режимы и параметры входа выровнены в ровные строки, кнопки VK Play собраны в аккуратную сетку, пояснения убраны с экрана и показываются подсказкой при наведении мыши дольше 2 секунд.",
   "deltas": [
     {
-      "baseVersion": "2026.11.10.24",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.1/delta-2026.11.10.24-2026.11.11.1.json",
-      "fileName": "delta-2026.11.10.24-2026.11.11.1.json",
-      "sha256": "693e3f13eb806922ee15cef9051f2a8344f15068dc764978b7d2802afca03573"
+      "baseVersion": "2026.11.11.1",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.2/delta-2026.11.11.1-2026.11.11.2.json",
+      "fileName": "delta-2026.11.11.1-2026.11.11.2.json",
+      "sha256": "11d6908def2ab8dd9475e579fed272fa10673fee545be56cbab80c3f44baf404"
     },
     {
-      "baseVersion": "2026.11.10.23",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.1/delta-2026.11.10.23-2026.11.11.1.json",
-      "fileName": "delta-2026.11.10.23-2026.11.11.1.json",
-      "sha256": "8d479270cad0095f3cc279dacd74995c2531a48a112a799a5c60a8904769782a"
+      "baseVersion": "2026.11.10.24",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.2/delta-2026.11.10.24-2026.11.11.2.json",
+      "fileName": "delta-2026.11.10.24-2026.11.11.2.json",
+      "sha256": "fbc1d9692a26bc2f9b9f2218ee8f74de3cb23f6407695744f5767c81161281af"
     }
   ],
   "delta": {
-    "baseVersion": "2026.11.10.24",
-    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.1/delta-2026.11.10.24-2026.11.11.1.json",
-    "fileName": "delta-2026.11.10.24-2026.11.11.1.json",
-    "sha256": "693e3f13eb806922ee15cef9051f2a8344f15068dc764978b7d2802afca03573"
+    "baseVersion": "2026.11.11.1",
+    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.2/delta-2026.11.11.1-2026.11.11.2.json",
+    "fileName": "delta-2026.11.11.1-2026.11.11.2.json",
+    "sha256": "11d6908def2ab8dd9475e579fed272fa10673fee545be56cbab80c3f44baf404"
   }
 }
