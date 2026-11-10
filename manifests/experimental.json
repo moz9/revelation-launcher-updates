@@ -1,32 +1,32 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.11.10.11",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.10.11/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+  "version": "2026.11.10.12",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.10.12/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "89e757eb294d322625476d0bb87ed79881c8a8c6cb982e903b34d8214341f9ff",
-  "sizeBytes": 141766144,
-  "publishedAtUtc": "2026-11-10T07:33:44Z",
-  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.10.11/experimental-history.json",
-  "notes": "Запуск игры: если VK Play принимает команду «Играть», но не запускает игру (бывает после сетевой ошибки авторизации VK Play), лаунчер сам закрывает VK Play и один раз запускает игру заново. Пока игра на экране входа, лаунчер реже обращается к ней за данными персонажа. Включает автоматический перезапуск после отказа сервера во входе из 2026.11.10.10.",
+  "sha256": "fc465fbf43fc8986b0cd1249bd4fa7c8dda7e74ff54798c7dc1a418bfd9f6149",
+  "sizeBytes": 141744640,
+  "publishedAtUtc": "2026-11-10T07:45:14Z",
+  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.10.12/experimental-history.json",
+  "notes": "Диагностика входа на сервер: пока лаунчер ждёт вход в мир, он записывает, к каким серверам подключается игра и какие из них не ответили; при отказе «Не удалось войти на сервер» это сохраняется для разбора. Игровой модуль один раз на экране выбора сервера снимает (только чтением) устройство окна входа и окон сообщений — это нужно, чтобы следующая версия могла сама нажимать «ОК» и «Войти» вместо перезапуска игры.",
   "deltas": [
     {
-      "baseVersion": "2026.11.10.10",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.10.11/delta-2026.11.10.10-2026.11.10.11.json",
-      "fileName": "delta-2026.11.10.10-2026.11.10.11.json",
-      "sha256": "f4a287f285c5ae9e2f5a9eac0f1670bcaa781f277ef4be7f9e0c9371d9aaf171"
+      "baseVersion": "2026.11.10.11",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.10.12/delta-2026.11.10.11-2026.11.10.12.json",
+      "fileName": "delta-2026.11.10.11-2026.11.10.12.json",
+      "sha256": "dd81dc9fa95393ebb4b073bd7e1b96b6936222c678cacc0001e136934739d49b"
     },
     {
-      "baseVersion": "2026.11.10.9",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.10.11/delta-2026.11.10.9-2026.11.10.11.json",
-      "fileName": "delta-2026.11.10.9-2026.11.10.11.json",
-      "sha256": "7feb6b3f28d118e43e7379bc6a9fee8b86e61315acbc22ec223b69a17ec540e5"
+      "baseVersion": "2026.11.10.10",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.10.12/delta-2026.11.10.10-2026.11.10.12.json",
+      "fileName": "delta-2026.11.10.10-2026.11.10.12.json",
+      "sha256": "9da8196e78f51504a7136a4ed40fe1748cdd7954e0e3f719525a2ca5ab15e344"
     }
   ],
   "delta": {
-    "baseVersion": "2026.11.10.10",
-    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.10.11/delta-2026.11.10.10-2026.11.10.11.json",
-    "fileName": "delta-2026.11.10.10-2026.11.10.11.json",
-    "sha256": "f4a287f285c5ae9e2f5a9eac0f1670bcaa781f277ef4be7f9e0c9371d9aaf171"
+    "baseVersion": "2026.11.10.11",
+    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.10.12/delta-2026.11.10.11-2026.11.10.12.json",
+    "fileName": "delta-2026.11.10.11-2026.11.10.12.json",
+    "sha256": "dd81dc9fa95393ebb4b073bd7e1b96b6936222c678cacc0001e136934739d49b"
   }
 }
