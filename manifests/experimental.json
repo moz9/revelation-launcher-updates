@@ -1,32 +1,32 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.11.10.13",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.10.13/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+  "version": "2026.11.10.14",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.10.14/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "25941abb0c393978d0125a499da993363642687d83f97299a92cb75642d50179",
-  "sizeBytes": 141744128,
-  "publishedAtUtc": "2026-11-10T10:59:27Z",
-  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.10.13/experimental-history.json",
-  "notes": "Для живых тестов: на главном экране переключатель «Ускорение окон интерфейса (тест)». Экспериментальный режим, при открытии окон игра обходит только изменённую часть интерфейса (в замерах +5–12% среднего FPS при открытии окон). Включается автоматически после входа персонажа в мир для каждого запуска игры; при выключении код игры восстанавливается. По умолчанию выключен.",
+  "sha256": "7692f52862ec50921162b9d5be60833e79435756b2f347ee8a7ea1b5c6379ffc",
+  "sizeBytes": 141793792,
+  "publishedAtUtc": "2026-11-10T11:15:31Z",
+  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.10.14/experimental-history.json",
+  "notes": "Исправлено: при выключении переключателя «Ускорение окон интерфейса (тест)» лаунчер больше не сообщает об ошибке — режим выключается и код игры восстанавливается, как и раньше, но теперь это корректно подтверждается.",
   "deltas": [
     {
-      "baseVersion": "2026.11.10.12",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.10.13/delta-2026.11.10.12-2026.11.10.13.json",
-      "fileName": "delta-2026.11.10.12-2026.11.10.13.json",
-      "sha256": "895e782ccd6694ccc1cd05aae9ea69813e01e2b8c3fdf38ba674519538329979"
+      "baseVersion": "2026.11.10.13",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.10.14/delta-2026.11.10.13-2026.11.10.14.json",
+      "fileName": "delta-2026.11.10.13-2026.11.10.14.json",
+      "sha256": "a572110a6d57f7f8211a6432321d23c3923c79e120706b10e1d525b1279be3c2"
     },
     {
-      "baseVersion": "2026.11.10.11",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.10.13/delta-2026.11.10.11-2026.11.10.13.json",
-      "fileName": "delta-2026.11.10.11-2026.11.10.13.json",
-      "sha256": "52d1c907f8cff1b1e3a0c4d984d51198a140b7b30eb9f35298f9eb5e4bbe3537"
+      "baseVersion": "2026.11.10.12",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.10.14/delta-2026.11.10.12-2026.11.10.14.json",
+      "fileName": "delta-2026.11.10.12-2026.11.10.14.json",
+      "sha256": "53398fc2abdd638beac518ceca57b499ae1ca6b3902a5874c93e7994293af1ef"
     }
   ],
   "delta": {
-    "baseVersion": "2026.11.10.12",
-    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.10.13/delta-2026.11.10.12-2026.11.10.13.json",
-    "fileName": "delta-2026.11.10.12-2026.11.10.13.json",
-    "sha256": "895e782ccd6694ccc1cd05aae9ea69813e01e2b8c3fdf38ba674519538329979"
+    "baseVersion": "2026.11.10.13",
+    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.10.14/delta-2026.11.10.13-2026.11.10.14.json",
+    "fileName": "delta-2026.11.10.13-2026.11.10.14.json",
+    "sha256": "a572110a6d57f7f8211a6432321d23c3923c79e120706b10e1d525b1279be3c2"
   }
 }
