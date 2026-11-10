@@ -1,32 +1,32 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.11.10.4",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.10.4/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+  "version": "2026.11.10.5",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.10.5/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "cf1cbc1696f46162f3e8b6c1e8d18e5fb6761157e0f109ddb9851c006e6c5718",
-  "sizeBytes": 141347328,
-  "publishedAtUtc": "2026-11-10T02:59:07Z",
-  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.10.4/experimental-history.json",
-  "notes": "Исследование: после «помощи гильдии» лаунчер больше не блокирует повторное открытие окна припасов (ошибка ui_open_previous_unknown). Гильдейские задания: если маршрут до Господина Хмелля сразу после входа на базу принят игрой, но персонаж не тронулся, маршрут повторяется (не более 2 раз). Включает исправление оплота и Зова из 2026.11.10.3.",
+  "sha256": "4fb83ced2a96eac0896123a190394e5d25c3d849a84b17231703b5e15fe0e1d2",
+  "sizeBytes": 141384704,
+  "publishedAtUtc": "2026-11-10T03:24:59Z",
+  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.10.5/experimental-history.json",
+  "notes": "Ремесло: исправлен сбой «workshop_worker_response_unconfirmed» сразу после входа в мир — помощник ремесла не мог загрузить свою библиотеку из-за рабочей папки лаунчера. Включает исправления 2026.11.10.3–2026.11.10.4 (оплот/Зов, исследование, гильдия).",
   "deltas": [
     {
-      "baseVersion": "2026.11.10.3",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.10.4/delta-2026.11.10.3-2026.11.10.4.json",
-      "fileName": "delta-2026.11.10.3-2026.11.10.4.json",
-      "sha256": "cdaf5d67058c8325ad4f1eefda57d7a20eaa78046ffcc7596d8e9eeac8f851d3"
+      "baseVersion": "2026.11.10.4",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.10.5/delta-2026.11.10.4-2026.11.10.5.json",
+      "fileName": "delta-2026.11.10.4-2026.11.10.5.json",
+      "sha256": "0fa5f771f4c90a80938400319769c925b7162b97f0c3f4af59e4ae433c18910b"
     },
     {
-      "baseVersion": "2026.11.10.2",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.10.4/delta-2026.11.10.2-2026.11.10.4.json",
-      "fileName": "delta-2026.11.10.2-2026.11.10.4.json",
-      "sha256": "2c85d5ce203331b94989a792d17f85e75c24f45c11741d6ef690e83463c65928"
+      "baseVersion": "2026.11.10.3",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.10.5/delta-2026.11.10.3-2026.11.10.5.json",
+      "fileName": "delta-2026.11.10.3-2026.11.10.5.json",
+      "sha256": "b033754293ea827916f35fa2446b952281f7625a54126be874ad7dfc1480a19e"
     }
   ],
   "delta": {
-    "baseVersion": "2026.11.10.3",
-    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.10.4/delta-2026.11.10.3-2026.11.10.4.json",
-    "fileName": "delta-2026.11.10.3-2026.11.10.4.json",
-    "sha256": "cdaf5d67058c8325ad4f1eefda57d7a20eaa78046ffcc7596d8e9eeac8f851d3"
+    "baseVersion": "2026.11.10.4",
+    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.10.5/delta-2026.11.10.4-2026.11.10.5.json",
+    "fileName": "delta-2026.11.10.4-2026.11.10.5.json",
+    "sha256": "0fa5f771f4c90a80938400319769c925b7162b97f0c3f4af59e4ae433c18910b"
   }
 }
