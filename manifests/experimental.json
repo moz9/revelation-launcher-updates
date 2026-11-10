@@ -1,32 +1,32 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.11.10.18",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.10.18/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+  "version": "2026.11.10.19",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.10.19/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "05626a5b0a746342316568e98596106bd9a1fbc9498d924f1fae96ca9749d7ad",
-  "sizeBytes": 141772800,
-  "publishedAtUtc": "2026-11-10T12:38:31Z",
-  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.10.18/experimental-history.json",
-  "notes": "Зов: объявления с ограничением по уровню («до 69», «60-79», «<70», «лвл 69») больше не принимаются за подходящие. Заявка в группу Зова не подаётся, пока прежняя активность (оплот или торговки) не подтвердила остановку — чтобы персонаж не оставался стоять в группе без управления.",
+  "sha256": "e9cb9b57042d06de50c0a8faf8d38f697bd87ea97f20ea2e40a7b24acb335a73",
+  "sizeBytes": 141733376,
+  "publishedAtUtc": "2026-11-10T12:57:23Z",
+  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.10.19/experimental-history.json",
+  "notes": "Торговки, добыча: лаунчер теперь сам выбирается из ловушки при добыче (нажатия влево-вправо) — раньше игровой модуль отклонял их, потому что ловушка вводит персонажа в бой. Если добычу прервали (ловушка, отмена), а ресурс и энергия не списались, попытка больше не «зависает» и торговки могут остановиться или продолжить.",
   "deltas": [
     {
-      "baseVersion": "2026.11.10.17",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.10.18/delta-2026.11.10.17-2026.11.10.18.json",
-      "fileName": "delta-2026.11.10.17-2026.11.10.18.json",
-      "sha256": "6bd7255610dd4f026ee7190e1bba9f0c14dd06babde3fa05d2560b721afa68b3"
+      "baseVersion": "2026.11.10.18",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.10.19/delta-2026.11.10.18-2026.11.10.19.json",
+      "fileName": "delta-2026.11.10.18-2026.11.10.19.json",
+      "sha256": "d945d855a661c95c1f23e4a976c023191410d6a4a2d57a4f0eec41f8c5016c78"
     },
     {
-      "baseVersion": "2026.11.10.16",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.10.18/delta-2026.11.10.16-2026.11.10.18.json",
-      "fileName": "delta-2026.11.10.16-2026.11.10.18.json",
-      "sha256": "4f1b394f3473392082627f60bd477bac9adc4bcf1ca5d1729703a39e43aefe0f"
+      "baseVersion": "2026.11.10.17",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.10.19/delta-2026.11.10.17-2026.11.10.19.json",
+      "fileName": "delta-2026.11.10.17-2026.11.10.19.json",
+      "sha256": "7a6315a78b94f86ed0489f6e469907f0fd6a9eff71f897a4c4587ff139d997db"
     }
   ],
   "delta": {
-    "baseVersion": "2026.11.10.17",
-    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.10.18/delta-2026.11.10.17-2026.11.10.18.json",
-    "fileName": "delta-2026.11.10.17-2026.11.10.18.json",
-    "sha256": "6bd7255610dd4f026ee7190e1bba9f0c14dd06babde3fa05d2560b721afa68b3"
+    "baseVersion": "2026.11.10.18",
+    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.10.19/delta-2026.11.10.18-2026.11.10.19.json",
+    "fileName": "delta-2026.11.10.18-2026.11.10.19.json",
+    "sha256": "d945d855a661c95c1f23e4a976c023191410d6a4a2d57a4f0eec41f8c5016c78"
   }
 }
