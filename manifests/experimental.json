@@ -1,32 +1,32 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.11.10.5",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.10.5/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+  "version": "2026.11.10.6",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.10.6/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "4fb83ced2a96eac0896123a190394e5d25c3d849a84b17231703b5e15fe0e1d2",
-  "sizeBytes": 141384704,
-  "publishedAtUtc": "2026-11-10T03:24:59Z",
-  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.10.5/experimental-history.json",
-  "notes": "Ремесло: исправлен сбой «workshop_worker_response_unconfirmed» сразу после входа в мир — помощник ремесла не мог загрузить свою библиотеку из-за рабочей папки лаунчера. Включает исправления 2026.11.10.3–2026.11.10.4 (оплот/Зов, исследование, гильдия).",
+  "sha256": "b91fd7230ce42274d5e03755ce18948c3277c37ee233734587288fb5122730e5",
+  "sizeBytes": 141728256,
+  "publishedAtUtc": "2026-11-10T04:34:30Z",
+  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.10.6/experimental-history.json",
+  "notes": "Лаунчер переведён на .NET 10 (LTS): поддержка .NET 9 заканчивается 10.11.2026. Поведение сценариев не менялось; обновление крупнее обычного (~65 МБ), так как заменяется весь встроенный рантайм. Включает исправления 2026.11.10.3–2026.11.10.5.",
   "deltas": [
     {
-      "baseVersion": "2026.11.10.4",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.10.5/delta-2026.11.10.4-2026.11.10.5.json",
-      "fileName": "delta-2026.11.10.4-2026.11.10.5.json",
-      "sha256": "0fa5f771f4c90a80938400319769c925b7162b97f0c3f4af59e4ae433c18910b"
+      "baseVersion": "2026.11.10.5",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.10.6/delta-2026.11.10.5-2026.11.10.6.json",
+      "fileName": "delta-2026.11.10.5-2026.11.10.6.json",
+      "sha256": "217517d2c347547a3da85c8d52fb56f7eef9d6126788e9b459bd010810025bf5"
     },
     {
-      "baseVersion": "2026.11.10.3",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.10.5/delta-2026.11.10.3-2026.11.10.5.json",
-      "fileName": "delta-2026.11.10.3-2026.11.10.5.json",
-      "sha256": "b033754293ea827916f35fa2446b952281f7625a54126be874ad7dfc1480a19e"
+      "fileName": "delta-2026.11.10.4-2026.11.10.6.json",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.10.6/delta-2026.11.10.4-2026.11.10.6.json",
+      "sha256": "3ff445292f745257468605040db7e0e2dbe3f7ec09a9fa4ba419120cdb64a9da",
+      "baseVersion": "2026.11.10.4"
     }
   ],
   "delta": {
-    "baseVersion": "2026.11.10.4",
-    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.10.5/delta-2026.11.10.4-2026.11.10.5.json",
-    "fileName": "delta-2026.11.10.4-2026.11.10.5.json",
-    "sha256": "0fa5f771f4c90a80938400319769c925b7162b97f0c3f4af59e4ae433c18910b"
+    "baseVersion": "2026.11.10.5",
+    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.10.6/delta-2026.11.10.5-2026.11.10.6.json",
+    "fileName": "delta-2026.11.10.5-2026.11.10.6.json",
+    "sha256": "217517d2c347547a3da85c8d52fb56f7eef9d6126788e9b459bd010810025bf5"
   }
 }
