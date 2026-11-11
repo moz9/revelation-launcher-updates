@@ -1,32 +1,32 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.11.11.3",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.3/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+  "version": "2026.11.11.4",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.4/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "6734964614def8bbbcd7d8a3679a21bde5f99501702438333d234ab1cfa5d300",
-  "sizeBytes": 141749760,
-  "publishedAtUtc": "2026-11-11T02:59:03Z",
-  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.3/experimental-history.json",
-  "notes": "Гильдейские конверты: лаунчер забирает всю очередь, а не один конверт. Конверты берутся прямо из списка гильдии в момент появления (чат для этого не нужен) и запрашиваются сразу по нескольку за проход, без открытия окна на каждый. Зов: если у собирающего ещё нет группы и в ответ на заявку приходит приглашение в его группу, лаунчер принимает приглашение этого игрока и продолжает как обычно (перелёт на старт Зова, подготовка). Нужен перезапуск игры, чтобы загрузился новый игровой модуль.",
+  "sha256": "ea5e7711092c668c9c7c247db701106e70b459472a8d11d6ce4041c35098c8bb",
+  "sizeBytes": 141769216,
+  "publishedAtUtc": "2026-11-11T05:07:53Z",
+  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.4/experimental-history.json",
+  "notes": "Зов: возврат к Гурену для сдачи задания больше не застревает. Если команда перехода не дошла до игры, лаунчер помечает её как неотправленную и повторяет переход (первый повтор сразу, дальше с паузами), а не ждёт бесконечно; оставшаяся от прошлой неудачи запись о намерении снимается сама, когда игра подтверждает, что перехода не было. В репорт теперь попадает настоящая причина сбоя.",
   "deltas": [
     {
-      "baseVersion": "2026.11.11.2",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.3/delta-2026.11.11.2-2026.11.11.3.json",
-      "fileName": "delta-2026.11.11.2-2026.11.11.3.json",
-      "sha256": "efd13e8e106b161cd1c6799d40a3df6e88ef20b5b095eb01d93ec0f83f099548"
+      "baseVersion": "2026.11.11.3",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.4/delta-2026.11.11.3-2026.11.11.4.json",
+      "fileName": "delta-2026.11.11.3-2026.11.11.4.json",
+      "sha256": "f7e29c870895b744a778074617c233ffa4ea64a910bbacac26c995fbbd7df52b"
     },
     {
-      "baseVersion": "2026.11.11.1",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.3/delta-2026.11.11.1-2026.11.11.3.json",
-      "fileName": "delta-2026.11.11.1-2026.11.11.3.json",
-      "sha256": "50a11a5e14a32f73bddf66e7b224e0e621898f7f5b62a45a4e13351aceee15f8"
+      "baseVersion": "2026.11.11.2",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.4/delta-2026.11.11.2-2026.11.11.4.json",
+      "fileName": "delta-2026.11.11.2-2026.11.11.4.json",
+      "sha256": "a95d378a318ff0c770d6cc0df9c237f23e6c0015dff4edbb4a841eb744d79809"
     }
   ],
   "delta": {
-    "baseVersion": "2026.11.11.2",
-    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.3/delta-2026.11.11.2-2026.11.11.3.json",
-    "fileName": "delta-2026.11.11.2-2026.11.11.3.json",
-    "sha256": "efd13e8e106b161cd1c6799d40a3df6e88ef20b5b095eb01d93ec0f83f099548"
+    "baseVersion": "2026.11.11.3",
+    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.4/delta-2026.11.11.3-2026.11.11.4.json",
+    "fileName": "delta-2026.11.11.3-2026.11.11.4.json",
+    "sha256": "f7e29c870895b744a778074617c233ffa4ea64a910bbacac26c995fbbd7df52b"
   }
 }
