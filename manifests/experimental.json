@@ -1,32 +1,32 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.11.11.7",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.7/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+  "version": "2026.11.11.8",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.8/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "2acf7c9dcac68d1aedc455fff948bc46ca3924cfb2bf09c7c4d364716fdbca7b",
-  "sizeBytes": 141774848,
-  "publishedAtUtc": "2026-11-11T09:30:34Z",
-  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.7/experimental-history.json",
-  "notes": "Торговки: исправлена блокировка маршрута к ресурсу. Если игра не смогла проложить путь и персонаж остался на месте, лаунчер теперь подтверждает остановку своего маршрута и продолжает поручение (контрольная точка, новый маршрут). Раньше после такой остановки все новые маршруты отклонялись до перезапуска игры, а сценарий раз за разом откладывал торговок. Обновлён игровой модуль: изменение начнёт действовать после перезапуска игры.\nЗов духов: закрытие игры больше не отправляет автоматический отчёт об ошибке, поиск просто останавливается с пометкой «Игра закрыта». Долгий экран загрузки (до 90 секунд) тоже не считается сбоем.",
+  "sha256": "ce736142b4fed553439e2a25263b07d349b36545aded19bb6df027a91b8aae2e",
+  "sizeBytes": 141761024,
+  "publishedAtUtc": "2026-11-11T10:10:56Z",
+  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.8/experimental-history.json",
+  "notes": "Торговки: после телепорта на контрольную точку сбор больше не останавливается с «Остановка торговок не подтверждена: trade_route_objective_invalid». Если путь к точкам сбора ресурса не строится, Торговки в течение 30 минут берут следующий включённый источник по вашему порядку (например, аукцион в пределах лимита), а не повторяют те же маршруты. Обновлён игровой модуль; исправление работает и до перезапуска игры.",
   "deltas": [
     {
-      "baseVersion": "2026.11.11.6",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.7/delta-2026.11.11.6-2026.11.11.7.json",
-      "fileName": "delta-2026.11.11.6-2026.11.11.7.json",
-      "sha256": "c9f50e3fe1fd229468c1c7910ff9ac351df073a40c7106bbd93f35497047d9a0"
+      "baseVersion": "2026.11.11.7",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.8/delta-2026.11.11.7-2026.11.11.8.json",
+      "fileName": "delta-2026.11.11.7-2026.11.11.8.json",
+      "sha256": "89dcc873ee087bdd08f04c4e3501fe2d8d6a8cfb19eaaef728cb6d3ccfc38d47"
     },
     {
-      "baseVersion": "2026.11.11.5",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.7/delta-2026.11.11.5-2026.11.11.7.json",
-      "fileName": "delta-2026.11.11.5-2026.11.11.7.json",
-      "sha256": "440fced04625ccdbbda7c4b46af6cb971534e70eb7fe6c17bf6a3593c169704c"
+      "baseVersion": "2026.11.11.6",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.8/delta-2026.11.11.6-2026.11.11.8.json",
+      "fileName": "delta-2026.11.11.6-2026.11.11.8.json",
+      "sha256": "d6b7c7f5f500f75bf465c692eca05697cb42571e5aa79058a831b656a01102cd"
     }
   ],
   "delta": {
-    "baseVersion": "2026.11.11.6",
-    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.7/delta-2026.11.11.6-2026.11.11.7.json",
-    "fileName": "delta-2026.11.11.6-2026.11.11.7.json",
-    "sha256": "c9f50e3fe1fd229468c1c7910ff9ac351df073a40c7106bbd93f35497047d9a0"
+    "baseVersion": "2026.11.11.7",
+    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.8/delta-2026.11.11.7-2026.11.11.8.json",
+    "fileName": "delta-2026.11.11.7-2026.11.11.8.json",
+    "sha256": "89dcc873ee087bdd08f04c4e3501fe2d8d6a8cfb19eaaef728cb6d3ccfc38d47"
   }
 }
