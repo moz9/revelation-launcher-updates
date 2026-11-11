@@ -1,32 +1,32 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.11.11.12",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.12/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+  "version": "2026.11.11.13",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.13/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "1017e681247d7a7dd81c703ffa7a30737a39e28412454bbe3a90551ff9afa440",
-  "sizeBytes": 141774336,
-  "publishedAtUtc": "2026-11-11T11:45:44Z",
-  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.12/experimental-history.json",
-  "notes": "Торговки: после телепорта на контрольную точку следующий маршрут к ресурсу больше не отклоняется («route_rejected_diagnostic»), а строится заново с чистого листа. Обновлён игровой модуль: изменение начнёт действовать после перезапуска игры.",
+  "sha256": "b99c45f7d609e67160cca840f60c7dc6228dff395077b0731a40128dfdda0dd6",
+  "sizeBytes": 141737984,
+  "publishedAtUtc": "2026-11-11T11:51:03Z",
+  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.13/experimental-history.json",
+  "notes": "Исследование: после неудачной попытки маршрута к Лии этап больше не блокируется до следующего дня сообщением «Предыдущее действие исследования ещё не подтверждено» — карта открывается снова и попытка повторяется.",
   "deltas": [
     {
-      "baseVersion": "2026.11.11.11",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.12/delta-2026.11.11.11-2026.11.11.12.json",
-      "fileName": "delta-2026.11.11.11-2026.11.11.12.json",
-      "sha256": "dd1592cc3339df7596499d22be9d2804c11b5c01ccea043974fd3e1c01a1a9bc"
+      "baseVersion": "2026.11.11.12",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.13/delta-2026.11.11.12-2026.11.11.13.json",
+      "fileName": "delta-2026.11.11.12-2026.11.11.13.json",
+      "sha256": "acdf0c36ff5cb843d1d22aea5f9796d2028ecc29efdd629cf66f0a67d3ffb18d"
     },
     {
-      "baseVersion": "2026.11.11.10",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.12/delta-2026.11.11.10-2026.11.11.12.json",
-      "fileName": "delta-2026.11.11.10-2026.11.11.12.json",
-      "sha256": "541cdce56959a98323047f2428954f3e381714062f88dff5d16870e13f1e1deb"
+      "baseVersion": "2026.11.11.11",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.13/delta-2026.11.11.11-2026.11.11.13.json",
+      "fileName": "delta-2026.11.11.11-2026.11.11.13.json",
+      "sha256": "7f6bc3fa6a8beed101a55ca6c5c66e3462ef03a718214d9c2669fedd6472a52c"
     }
   ],
   "delta": {
-    "baseVersion": "2026.11.11.11",
-    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.12/delta-2026.11.11.11-2026.11.11.12.json",
-    "fileName": "delta-2026.11.11.11-2026.11.11.12.json",
-    "sha256": "dd1592cc3339df7596499d22be9d2804c11b5c01ccea043974fd3e1c01a1a9bc"
+    "baseVersion": "2026.11.11.12",
+    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.13/delta-2026.11.11.12-2026.11.11.13.json",
+    "fileName": "delta-2026.11.11.12-2026.11.11.13.json",
+    "sha256": "acdf0c36ff5cb843d1d22aea5f9796d2028ecc29efdd629cf66f0a67d3ffb18d"
   }
 }
