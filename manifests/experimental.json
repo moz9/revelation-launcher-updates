@@ -1,32 +1,32 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.11.11.5",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.5/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+  "version": "2026.11.11.6",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.6/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "700dfa1e1996d4f83e392859e13f52f4c10ee5479713752c9f5120c4121a8262",
-  "sizeBytes": 141772800,
-  "publishedAtUtc": "2026-11-11T06:27:25Z",
-  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.5/experimental-history.json",
-  "notes": "Исследование: если персонаж ещё двигался в момент отправки (например, сразу после сдачи Зова) и игра поэтому ничего не отправила, лаунчер через несколько секунд пробует снова — до трёх раз — вместо статуса «нужна проверка». Причина теперь показывается по-русски: «персонаж ещё двигался».",
+  "sha256": "b5ae2f4a6d5f163f5ef9d059812c7c8f0967df0bb779e796ce9d5ec00a509b5c",
+  "sizeBytes": 141785088,
+  "publishedAtUtc": "2026-11-11T08:54:58Z",
+  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.6/experimental-history.json",
+  "notes": "Классовый оплот: если после команды «завершить разговор» тот же диалог остался открыт на той же реплике, лаунчер завершает его ещё раз (до двух повторов), а не останавливает сценарий с сообщением «Игра не подтвердила завершение разговора и сдачу задания». Повтор делается только когда свежее чтение игры показывает, что ничего не изменилось.",
   "deltas": [
     {
-      "baseVersion": "2026.11.11.4",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.5/delta-2026.11.11.4-2026.11.11.5.json",
-      "fileName": "delta-2026.11.11.4-2026.11.11.5.json",
-      "sha256": "d4ccbc3e769e61129ebb13c2816312fa368deb58bc4d566b892355ef14703a73"
+      "baseVersion": "2026.11.11.5",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.6/delta-2026.11.11.5-2026.11.11.6.json",
+      "fileName": "delta-2026.11.11.5-2026.11.11.6.json",
+      "sha256": "f94dff1e29c6ea1649cbc3486a95480a20cd2542e895a5dc966ebe5add66c3fd"
     },
     {
-      "baseVersion": "2026.11.11.3",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.5/delta-2026.11.11.3-2026.11.11.5.json",
-      "fileName": "delta-2026.11.11.3-2026.11.11.5.json",
-      "sha256": "99576b9a845e92ef7f412e237ece61094c14946a54c91127b45219492e216233"
+      "baseVersion": "2026.11.11.4",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.6/delta-2026.11.11.4-2026.11.11.6.json",
+      "fileName": "delta-2026.11.11.4-2026.11.11.6.json",
+      "sha256": "a8e49c2aaeed055ffce161efe8ad0036724f94cb624667f9a75b7ca65cf27d7b"
     }
   ],
   "delta": {
-    "baseVersion": "2026.11.11.4",
-    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.5/delta-2026.11.11.4-2026.11.11.5.json",
-    "fileName": "delta-2026.11.11.4-2026.11.11.5.json",
-    "sha256": "d4ccbc3e769e61129ebb13c2816312fa368deb58bc4d566b892355ef14703a73"
+    "baseVersion": "2026.11.11.5",
+    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.6/delta-2026.11.11.5-2026.11.11.6.json",
+    "fileName": "delta-2026.11.11.5-2026.11.11.6.json",
+    "sha256": "f94dff1e29c6ea1649cbc3486a95480a20cd2542e895a5dc966ebe5add66c3fd"
   }
 }
