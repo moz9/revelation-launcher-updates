@@ -1,32 +1,32 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.11.11.6",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.6/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+  "version": "2026.11.11.7",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.7/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "b5ae2f4a6d5f163f5ef9d059812c7c8f0967df0bb779e796ce9d5ec00a509b5c",
-  "sizeBytes": 141785088,
-  "publishedAtUtc": "2026-11-11T08:54:58Z",
-  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.6/experimental-history.json",
-  "notes": "Классовый оплот: если после команды «завершить разговор» тот же диалог остался открыт на той же реплике, лаунчер завершает его ещё раз (до двух повторов), а не останавливает сценарий с сообщением «Игра не подтвердила завершение разговора и сдачу задания». Повтор делается только когда свежее чтение игры показывает, что ничего не изменилось.",
+  "sha256": "2acf7c9dcac68d1aedc455fff948bc46ca3924cfb2bf09c7c4d364716fdbca7b",
+  "sizeBytes": 141774848,
+  "publishedAtUtc": "2026-11-11T09:30:34Z",
+  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.7/experimental-history.json",
+  "notes": "Торговки: исправлена блокировка маршрута к ресурсу. Если игра не смогла проложить путь и персонаж остался на месте, лаунчер теперь подтверждает остановку своего маршрута и продолжает поручение (контрольная точка, новый маршрут). Раньше после такой остановки все новые маршруты отклонялись до перезапуска игры, а сценарий раз за разом откладывал торговок. Обновлён игровой модуль: изменение начнёт действовать после перезапуска игры.\nЗов духов: закрытие игры больше не отправляет автоматический отчёт об ошибке, поиск просто останавливается с пометкой «Игра закрыта». Долгий экран загрузки (до 90 секунд) тоже не считается сбоем.",
   "deltas": [
     {
-      "baseVersion": "2026.11.11.5",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.6/delta-2026.11.11.5-2026.11.11.6.json",
-      "fileName": "delta-2026.11.11.5-2026.11.11.6.json",
-      "sha256": "f94dff1e29c6ea1649cbc3486a95480a20cd2542e895a5dc966ebe5add66c3fd"
+      "baseVersion": "2026.11.11.6",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.7/delta-2026.11.11.6-2026.11.11.7.json",
+      "fileName": "delta-2026.11.11.6-2026.11.11.7.json",
+      "sha256": "c9f50e3fe1fd229468c1c7910ff9ac351df073a40c7106bbd93f35497047d9a0"
     },
     {
-      "baseVersion": "2026.11.11.4",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.6/delta-2026.11.11.4-2026.11.11.6.json",
-      "fileName": "delta-2026.11.11.4-2026.11.11.6.json",
-      "sha256": "a8e49c2aaeed055ffce161efe8ad0036724f94cb624667f9a75b7ca65cf27d7b"
+      "baseVersion": "2026.11.11.5",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.7/delta-2026.11.11.5-2026.11.11.7.json",
+      "fileName": "delta-2026.11.11.5-2026.11.11.7.json",
+      "sha256": "440fced04625ccdbbda7c4b46af6cb971534e70eb7fe6c17bf6a3593c169704c"
     }
   ],
   "delta": {
-    "baseVersion": "2026.11.11.5",
-    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.6/delta-2026.11.11.5-2026.11.11.6.json",
-    "fileName": "delta-2026.11.11.5-2026.11.11.6.json",
-    "sha256": "f94dff1e29c6ea1649cbc3486a95480a20cd2542e895a5dc966ebe5add66c3fd"
+    "baseVersion": "2026.11.11.6",
+    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.7/delta-2026.11.11.6-2026.11.11.7.json",
+    "fileName": "delta-2026.11.11.6-2026.11.11.7.json",
+    "sha256": "c9f50e3fe1fd229468c1c7910ff9ac351df073a40c7106bbd93f35497047d9a0"
   }
 }
