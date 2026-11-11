@@ -1,32 +1,32 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.11.11.15",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.15/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+  "version": "2026.11.11.16",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.16/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "9a4416c7efbf58917d23f5ab04416f84d9e37198f08bfe0c5fbb5a49cf7956c8",
-  "sizeBytes": 141766144,
-  "publishedAtUtc": "2026-11-11T14:05:40Z",
-  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.15/experimental-history.json",
-  "notes": "Перезаход в игру через лаунчер работает и сразу после обновления, которое поставило новый игровой модуль, пока игра ещё запущена со старым: лаунчер распознаёт персонажа по уже загруженному модулю, штатно выходит и при новом входе загружает новый модуль. Раньше перезаход отказывал с «guild_probe_not_loaded», и игру приходилось закрывать вручную.",
+  "sha256": "3cdaf62de4ef060851ed2bd51c9d642190dfefafa6effdae07c6a2edc3be544b",
+  "sizeBytes": 141773312,
+  "publishedAtUtc": "2026-11-11T16:59:48Z",
+  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.16/experimental-history.json",
+  "notes": "Лаунчер, открытый из другого приложения (например Codex или Claude), сам перезапускается через Проводник. Раньше в таком случае игра не запускалась: «Не удалось подготовить игровой модуль … SetAccessControl», если папка данных лаунчера перенесена на другой диск.",
   "deltas": [
     {
-      "baseVersion": "2026.11.11.14",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.15/delta-2026.11.11.14-2026.11.11.15.json",
-      "fileName": "delta-2026.11.11.14-2026.11.11.15.json",
-      "sha256": "ff2e91c0eb0739b7bf3602b8d723754084d7bbfeab2d899996bcdeccf83bc911"
+      "baseVersion": "2026.11.11.15",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.16/delta-2026.11.11.15-2026.11.11.16.json",
+      "fileName": "delta-2026.11.11.15-2026.11.11.16.json",
+      "sha256": "166ca3ad5627bb315ed03c5e2ddbc0cde6f417aee57048af5d02cf0eccf7f4f4"
     },
     {
-      "baseVersion": "2026.11.11.13",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.15/delta-2026.11.11.13-2026.11.11.15.json",
-      "fileName": "delta-2026.11.11.13-2026.11.11.15.json",
-      "sha256": "becdbf6a26a49dec1ebf152f193bbd7d946c1ec0ae4af715957e9e593b9802ed"
+      "baseVersion": "2026.11.11.14",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.16/delta-2026.11.11.14-2026.11.11.16.json",
+      "fileName": "delta-2026.11.11.14-2026.11.11.16.json",
+      "sha256": "1b95158419314418853b18a6c8da37512c9ca1a90b496624a636f5993afde5c5"
     }
   ],
   "delta": {
-    "baseVersion": "2026.11.11.14",
-    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.15/delta-2026.11.11.14-2026.11.11.15.json",
-    "fileName": "delta-2026.11.11.14-2026.11.11.15.json",
-    "sha256": "ff2e91c0eb0739b7bf3602b8d723754084d7bbfeab2d899996bcdeccf83bc911"
+    "baseVersion": "2026.11.11.15",
+    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.16/delta-2026.11.11.15-2026.11.11.16.json",
+    "fileName": "delta-2026.11.11.15-2026.11.11.16.json",
+    "sha256": "166ca3ad5627bb315ed03c5e2ddbc0cde6f417aee57048af5d02cf0eccf7f4f4"
   }
 }
