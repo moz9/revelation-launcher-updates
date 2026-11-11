@@ -1,32 +1,32 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.11.11.8",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.8/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+  "version": "2026.11.11.9",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.9/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "ce736142b4fed553439e2a25263b07d349b36545aded19bb6df027a91b8aae2e",
-  "sizeBytes": 141761024,
-  "publishedAtUtc": "2026-11-11T10:10:56Z",
-  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.8/experimental-history.json",
-  "notes": "Торговки: после телепорта на контрольную точку сбор больше не останавливается с «Остановка торговок не подтверждена: trade_route_objective_invalid». Если путь к точкам сбора ресурса не строится, Торговки в течение 30 минут берут следующий включённый источник по вашему порядку (например, аукцион в пределах лимита), а не повторяют те же маршруты. Обновлён игровой модуль; исправление работает и до перезапуска игры.",
+  "sha256": "d5bd8c8153daafb60c9362b7e90d1e0d22d1a022a21fd0106fafb475861c6f35",
+  "sizeBytes": 141734912,
+  "publishedAtUtc": "2026-11-11T11:06:18Z",
+  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.9/experimental-history.json",
+  "notes": "Обновления: кнопка «Обновить лаунчер» сама останавливает все действия (как «Остановить всё») и ставит обновление; больше не нужно отдельно останавливать сценарий или Торговки. Скачивание обновления не зависит от занятости игры.",
   "deltas": [
     {
-      "baseVersion": "2026.11.11.7",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.8/delta-2026.11.11.7-2026.11.11.8.json",
-      "fileName": "delta-2026.11.11.7-2026.11.11.8.json",
-      "sha256": "89dcc873ee087bdd08f04c4e3501fe2d8d6a8cfb19eaaef728cb6d3ccfc38d47"
+      "baseVersion": "2026.11.11.8",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.9/delta-2026.11.11.8-2026.11.11.9.json",
+      "fileName": "delta-2026.11.11.8-2026.11.11.9.json",
+      "sha256": "c287200263fb1484a379c775ad16da0fc98d024dd5dd5adcf0fd664b8f7ee883"
     },
     {
-      "baseVersion": "2026.11.11.6",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.8/delta-2026.11.11.6-2026.11.11.8.json",
-      "fileName": "delta-2026.11.11.6-2026.11.11.8.json",
-      "sha256": "d6b7c7f5f500f75bf465c692eca05697cb42571e5aa79058a831b656a01102cd"
+      "baseVersion": "2026.11.11.7",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.9/delta-2026.11.11.7-2026.11.11.9.json",
+      "fileName": "delta-2026.11.11.7-2026.11.11.9.json",
+      "sha256": "c005eb403bee9b5a4e7f090c0b432c4c42949b44a9ac4293720de637dcfebb6a"
     }
   ],
   "delta": {
-    "baseVersion": "2026.11.11.7",
-    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.8/delta-2026.11.11.7-2026.11.11.8.json",
-    "fileName": "delta-2026.11.11.7-2026.11.11.8.json",
-    "sha256": "89dcc873ee087bdd08f04c4e3501fe2d8d6a8cfb19eaaef728cb6d3ccfc38d47"
+    "baseVersion": "2026.11.11.8",
+    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.11.9/delta-2026.11.11.8-2026.11.11.9.json",
+    "fileName": "delta-2026.11.11.8-2026.11.11.9.json",
+    "sha256": "c287200263fb1484a379c775ad16da0fc98d024dd5dd5adcf0fd664b8f7ee883"
   }
 }
