@@ -1,32 +1,32 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.11.12.17",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.12.17/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+  "version": "2026.11.12.18",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.12.18/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "8f9a7ddc47e57d5ce9e95ef81140fd29d9bc634b58549f727f55ad86d73896c7",
-  "sizeBytes": 142113792,
-  "publishedAtUtc": "2026-11-12T13:00:31Z",
-  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.12.17/experimental-history.json",
-  "notes": "Исследование духов забирает награду завершённой экспедиции, отправленной не полным составом, без перезахода в игру, когда персонаж спокойно стоит. Торговля больше не держит игру после телепорта к получателю, если персонаж уже 90 секунд стоит на месте после прыжка: «Стоп» подтверждается, и остальные занятия идут дальше.",
+  "sha256": "d00f5591bf511015e3f784304b1893fb5da81efe4066aec18f77fe91e8612e87",
+  "sizeBytes": 142117888,
+  "publishedAtUtc": "2026-11-12T13:17:26Z",
+  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.12.18/experimental-history.json",
+  "notes": "Исследование забирает награду завершённой экспедиции и тогда, когда старый маршрут к Лии ещё числится за лаунчером, но уже закончен. «Игра только на производительных ядрах» держится постоянно: если игра сама возвращает себе все ядра (например, когда её окно становится активным), лаунчер в течение двух секунд снова переводит её на P-ядра; выключение по-прежнему возвращает исходную маску.",
   "deltas": [
     {
-      "baseVersion": "2026.11.12.16",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.12.17/delta-2026.11.12.16-2026.11.12.17.json",
-      "fileName": "delta-2026.11.12.16-2026.11.12.17.json",
-      "sha256": "22878238b879f732fb93dc520f6eb41663e707973403b8ebeb896c1cf8ea9a49"
+      "baseVersion": "2026.11.12.17",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.12.18/delta-2026.11.12.17-2026.11.12.18.json",
+      "fileName": "delta-2026.11.12.17-2026.11.12.18.json",
+      "sha256": "f7cbd36c110b201350b03ad112401e26c04fada835ae0521db0b56c478cee010"
     },
     {
-      "baseVersion": "2026.11.12.15",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.12.17/delta-2026.11.12.15-2026.11.12.17.json",
-      "fileName": "delta-2026.11.12.15-2026.11.12.17.json",
-      "sha256": "9ee4dd6eebc474f68523c785fa029763152d7fc155a2ec83a335a02b6d62c8bc"
+      "baseVersion": "2026.11.12.16",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.12.18/delta-2026.11.12.16-2026.11.12.18.json",
+      "fileName": "delta-2026.11.12.16-2026.11.12.18.json",
+      "sha256": "431f1990413cb2b3b8247c5bc38566868e937ab1157d11dfe99779092fe3cc87"
     }
   ],
   "delta": {
-    "baseVersion": "2026.11.12.16",
-    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.12.17/delta-2026.11.12.16-2026.11.12.17.json",
-    "fileName": "delta-2026.11.12.16-2026.11.12.17.json",
-    "sha256": "22878238b879f732fb93dc520f6eb41663e707973403b8ebeb896c1cf8ea9a49"
+    "baseVersion": "2026.11.12.17",
+    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.12.18/delta-2026.11.12.17-2026.11.12.18.json",
+    "fileName": "delta-2026.11.12.17-2026.11.12.18.json",
+    "sha256": "f7cbd36c110b201350b03ad112401e26c04fada835ae0521db0b56c478cee010"
   }
 }
