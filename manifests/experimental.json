@@ -1,32 +1,32 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.11.12.18",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.12.18/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+  "version": "2026.11.12.19",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.12.19/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "d00f5591bf511015e3f784304b1893fb5da81efe4066aec18f77fe91e8612e87",
-  "sizeBytes": 142117888,
-  "publishedAtUtc": "2026-11-12T13:17:26Z",
-  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.12.18/experimental-history.json",
-  "notes": "Исследование забирает награду завершённой экспедиции и тогда, когда старый маршрут к Лии ещё числится за лаунчером, но уже закончен. «Игра только на производительных ядрах» держится постоянно: если игра сама возвращает себе все ядра (например, когда её окно становится активным), лаунчер в течение двух секунд снова переводит её на P-ядра; выключение по-прежнему возвращает исходную маску.",
+  "sha256": "57d0eb72ea5dec486f4b5c27a0cb57c2913a1453ccf5954648413a58786ef9dc",
+  "sizeBytes": 142071296,
+  "publishedAtUtc": "2026-11-12T13:35:58Z",
+  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.12.19/experimental-history.json",
+  "notes": "Исследование снова идёт к Лии за наградой, если прежний подход к ней давно завершён, а персонаж с тех пор ушёл дальше 20 м: раньше лаунчер бесконечно ждал «точного прибытия» по старому маршруту. «Игра только на производительных ядрах» продолжает работать после обновления лаунчера: старый фоновый наблюдатель заменяется новым без сброса маски.",
   "deltas": [
     {
-      "baseVersion": "2026.11.12.17",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.12.18/delta-2026.11.12.17-2026.11.12.18.json",
-      "fileName": "delta-2026.11.12.17-2026.11.12.18.json",
-      "sha256": "f7cbd36c110b201350b03ad112401e26c04fada835ae0521db0b56c478cee010"
+      "baseVersion": "2026.11.12.18",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.12.19/delta-2026.11.12.18-2026.11.12.19.json",
+      "fileName": "delta-2026.11.12.18-2026.11.12.19.json",
+      "sha256": "c7ebb83ad6883cd6b6747840bc29d783cf497e7804fb6a56aaf7f8eaefa2ee67"
     },
     {
-      "baseVersion": "2026.11.12.16",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.12.18/delta-2026.11.12.16-2026.11.12.18.json",
-      "fileName": "delta-2026.11.12.16-2026.11.12.18.json",
-      "sha256": "431f1990413cb2b3b8247c5bc38566868e937ab1157d11dfe99779092fe3cc87"
+      "baseVersion": "2026.11.12.17",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.12.19/delta-2026.11.12.17-2026.11.12.19.json",
+      "fileName": "delta-2026.11.12.17-2026.11.12.19.json",
+      "sha256": "efbfbe0da3eca0b484d90e255ce000d866b4ffb0fc19e3f4adf8524dfffabb79"
     }
   ],
   "delta": {
-    "baseVersion": "2026.11.12.17",
-    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.12.18/delta-2026.11.12.17-2026.11.12.18.json",
-    "fileName": "delta-2026.11.12.17-2026.11.12.18.json",
-    "sha256": "f7cbd36c110b201350b03ad112401e26c04fada835ae0521db0b56c478cee010"
+    "baseVersion": "2026.11.12.18",
+    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.12.19/delta-2026.11.12.18-2026.11.12.19.json",
+    "fileName": "delta-2026.11.12.18-2026.11.12.19.json",
+    "sha256": "c7ebb83ad6883cd6b6747840bc29d783cf497e7804fb6a56aaf7f8eaefa2ee67"
   }
 }
