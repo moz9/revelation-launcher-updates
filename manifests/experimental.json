@@ -1,32 +1,32 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.11.12.8",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.12.8/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+  "version": "2026.11.12.9",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.12.9/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "460011b6998cf70684df30eec516b27b5447fce773bd37007497f30f3afa7ba3",
-  "sizeBytes": 142078976,
-  "publishedAtUtc": "2026-11-12T09:27:15Z",
-  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.12.8/experimental-history.json",
-  "notes": "Исследование снова может открыть карту Лии после прошлой неудачной попытки и забрать награду. Этап, завершившийся как «пропущен» или требующий проверки, больше не останавливает остальные активности сценария: пропущенный этап повторяется позже, а остальное идёт дальше.",
+  "sha256": "fbe899cfe096023a7ef1d54204b4e5883e831388fc98af53fb730299efb0fe41",
+  "sizeBytes": 142111744,
+  "publishedAtUtc": "2026-11-12T09:40:58Z",
+  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.12.9/experimental-history.json",
+  "notes": "Отложенный после сбоя этап теперь чередуется с другими отложенными этапами: например, Исследование повторяется, даже если Торговки раз за разом откладываются.",
   "deltas": [
     {
-      "baseVersion": "2026.11.12.7",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.12.8/delta-2026.11.12.7-2026.11.12.8.json",
-      "fileName": "delta-2026.11.12.7-2026.11.12.8.json",
-      "sha256": "42a507a28ccadc57e866828ddd599ee63cf811ccdf14a3aff3fb8d18fe60b479"
+      "baseVersion": "2026.11.12.8",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.12.9/delta-2026.11.12.8-2026.11.12.9.json",
+      "fileName": "delta-2026.11.12.8-2026.11.12.9.json",
+      "sha256": "37840fefb1c7c6b5f27a5c3bdf51ff43c3870b1e6d445866013f0aaab3dd9035"
     },
     {
-      "baseVersion": "2026.11.12.6",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.12.8/delta-2026.11.12.6-2026.11.12.8.json",
-      "fileName": "delta-2026.11.12.6-2026.11.12.8.json",
-      "sha256": "7b1db675a255048cea3f1554dd650cc9b79137646ee04e20e7d8ea90a8cb7f7f"
+      "baseVersion": "2026.11.12.7",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.12.9/delta-2026.11.12.7-2026.11.12.9.json",
+      "fileName": "delta-2026.11.12.7-2026.11.12.9.json",
+      "sha256": "2be364ab4315b3f3bf34a801c95d783f978c7db63f06bea2226e3cb4b2e84d79"
     }
   ],
   "delta": {
-    "baseVersion": "2026.11.12.7",
-    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.12.8/delta-2026.11.12.7-2026.11.12.8.json",
-    "fileName": "delta-2026.11.12.7-2026.11.12.8.json",
-    "sha256": "42a507a28ccadc57e866828ddd599ee63cf811ccdf14a3aff3fb8d18fe60b479"
+    "baseVersion": "2026.11.12.8",
+    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.12.9/delta-2026.11.12.8-2026.11.12.9.json",
+    "fileName": "delta-2026.11.12.8-2026.11.12.9.json",
+    "sha256": "37840fefb1c7c6b5f27a5c3bdf51ff43c3870b1e6d445866013f0aaab3dd9035"
   }
 }
