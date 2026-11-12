@@ -1,32 +1,32 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.11.12.6",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.12.6/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+  "version": "2026.11.12.7",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.12.7/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "d7c2ce0c6bdf6986f6519d32f34b919593147d1338e6e310f36839e0cbe68f9d",
-  "sizeBytes": 142098432,
-  "publishedAtUtc": "2026-11-12T09:05:28Z",
-  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.12.6/experimental-history.json",
-  "notes": "Исследование больше не застревает до перезапуска лаунчера, если его команда совпала по времени с чтением игры другой активностью: отзыв разрешения ждёт, пока канал освободится, а незавершённая команда досверяется при следующей очистке.",
+  "sha256": "26d945e2db4477c8566bd488b60e06729f5709dff6d8764b3879ff8520d3a10d",
+  "sizeBytes": 142120960,
+  "publishedAtUtc": "2026-11-12T09:17:04Z",
+  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.12.7/experimental-history.json",
+  "notes": "Исследование снова забирает награду готового исследования после сбойной команды открытия карты Лии: неподтверждённое открытие карты закрывается, если карта в игре фактически не открыта.",
   "deltas": [
     {
-      "baseVersion": "2026.11.12.5",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.12.6/delta-2026.11.12.5-2026.11.12.6.json",
-      "fileName": "delta-2026.11.12.5-2026.11.12.6.json",
-      "sha256": "85c2bf54d4a7056e9e8064aa40159cb5a08cacd0ba4ecf6507842482054642c3"
+      "baseVersion": "2026.11.12.6",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.12.7/delta-2026.11.12.6-2026.11.12.7.json",
+      "fileName": "delta-2026.11.12.6-2026.11.12.7.json",
+      "sha256": "92169df749eca3020be3928e7fd578c0fc5f400de0a45b6d025e02f5476b945b"
     },
     {
-      "baseVersion": "2026.11.12.4",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.12.6/delta-2026.11.12.4-2026.11.12.6.json",
-      "fileName": "delta-2026.11.12.4-2026.11.12.6.json",
-      "sha256": "14e0ac12bd070ad8fd4bff7347710cb0ae444abfd0c62a38bd15c88804f8290a"
+      "baseVersion": "2026.11.12.5",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.12.7/delta-2026.11.12.5-2026.11.12.7.json",
+      "fileName": "delta-2026.11.12.5-2026.11.12.7.json",
+      "sha256": "c34c19a60c8d1f5c0460dad7934ee61887e49e2c05cbd6b76fbd132aa65fc3a1"
     }
   ],
   "delta": {
-    "baseVersion": "2026.11.12.5",
-    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.12.6/delta-2026.11.12.5-2026.11.12.6.json",
-    "fileName": "delta-2026.11.12.5-2026.11.12.6.json",
-    "sha256": "85c2bf54d4a7056e9e8064aa40159cb5a08cacd0ba4ecf6507842482054642c3"
+    "baseVersion": "2026.11.12.6",
+    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.12.7/delta-2026.11.12.6-2026.11.12.7.json",
+    "fileName": "delta-2026.11.12.6-2026.11.12.7.json",
+    "sha256": "92169df749eca3020be3928e7fd578c0fc5f400de0a45b6d025e02f5476b945b"
   }
 }
