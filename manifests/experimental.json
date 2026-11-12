@@ -1,32 +1,32 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.11.12.3",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.12.3/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+  "version": "2026.11.12.4",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.12.4/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "6c8bfdfc5b5a1d32bb774d0daf13275e103f2269a041b9387546cf614594b60c",
-  "sizeBytes": 142095360,
-  "publishedAtUtc": "2026-11-12T08:23:43Z",
-  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.12.3/experimental-history.json",
-  "notes": "Торговки: аукцион выбирает только лот, на который хватает монет. Если монет мало, в причинах пишется «Аукцион: не хватает монет — нужно N, есть M» вместо «предыдущая попытка не подтвердилась».",
+  "sha256": "151156bb5a97ccb8af6037eea48d243f337ce13333a083d119ce5f112bc25a40",
+  "sizeBytes": 142106112,
+  "publishedAtUtc": "2026-11-12T08:33:09Z",
+  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.12.4/experimental-history.json",
+  "notes": "Исследование больше не блокирует сценарий, если игра так и не показала окно исследования, а лаунчер уже снял с него управление: такое окно считается освобождённым.",
   "deltas": [
     {
-      "baseVersion": "2026.11.12.2",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.12.3/delta-2026.11.12.2-2026.11.12.3.json",
-      "fileName": "delta-2026.11.12.2-2026.11.12.3.json",
-      "sha256": "e05f4be5ad5a3dc2c21564b43dab9c8668e8934c95603fb1418057272fe31ad1"
+      "baseVersion": "2026.11.12.3",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.12.4/delta-2026.11.12.3-2026.11.12.4.json",
+      "fileName": "delta-2026.11.12.3-2026.11.12.4.json",
+      "sha256": "cd4693d11982ab46c3961e9e8f3a5a2a34f56bb4077686d68312bcba5a338ef1"
     },
     {
-      "baseVersion": "2026.11.12.1",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.12.3/delta-2026.11.12.1-2026.11.12.3.json",
-      "fileName": "delta-2026.11.12.1-2026.11.12.3.json",
-      "sha256": "c1361c4be36377ede7c4f1ef05bf9d717c85970b617b173fb28ba595c02717b3"
+      "baseVersion": "2026.11.12.2",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.12.4/delta-2026.11.12.2-2026.11.12.4.json",
+      "fileName": "delta-2026.11.12.2-2026.11.12.4.json",
+      "sha256": "0eea1a287d1b682ffc975ed30bdf80a6ab9be7ea7000a6e9f53d556e98a36a19"
     }
   ],
   "delta": {
-    "baseVersion": "2026.11.12.2",
-    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.12.3/delta-2026.11.12.2-2026.11.12.3.json",
-    "fileName": "delta-2026.11.12.2-2026.11.12.3.json",
-    "sha256": "e05f4be5ad5a3dc2c21564b43dab9c8668e8934c95603fb1418057272fe31ad1"
+    "baseVersion": "2026.11.12.3",
+    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.12.4/delta-2026.11.12.3-2026.11.12.4.json",
+    "fileName": "delta-2026.11.12.3-2026.11.12.4.json",
+    "sha256": "cd4693d11982ab46c3961e9e8f3a5a2a34f56bb4077686d68312bcba5a338ef1"
   }
 }
