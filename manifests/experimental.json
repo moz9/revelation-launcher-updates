@@ -1,32 +1,32 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.11.13.2",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.13.2/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+  "version": "2026.11.13.3",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.13.3/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "7d5d9845912c47f46e07c05b5825f7497cda7f83e1c6290ad64111629b059428",
-  "sizeBytes": 142127616,
-  "publishedAtUtc": "2026-11-13T10:05:18Z",
-  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.13.2/experimental-history.json",
-  "notes": "Исследование засчитывает подход к Лии, когда персонаж реально пришёл к ней, даже если игра не признала маршрут своим: раньше лаунчер полторы минуты ждал подтверждения, которого не будет, и останавливал сценарий.",
+  "sha256": "85dc159b0cf1ceb49f2c1f75999e51bbdfe40953b181b008e2acf487d2ce6a17",
+  "sizeBytes": 142130176,
+  "publishedAtUtc": "2026-11-13T10:49:20Z",
+  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.13.3/experimental-history.json",
+  "notes": "Башня больше не останавливает сценарий, если на экране остался открытый диалог с NPC (например, после гильдейского задания): лаунчер сам закрывает такой диалог и открывает этаж, а если закрыть не удаётся — пропускает Башню, отпускает игру, и остальные активности идут дальше.",
   "deltas": [
     {
-      "baseVersion": "2026.11.13.1",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.13.2/delta-2026.11.13.1-2026.11.13.2.json",
-      "fileName": "delta-2026.11.13.1-2026.11.13.2.json",
-      "sha256": "db6757129d32e55965556d6f59167669e183696f5a1f5d1489e2e4fa60ac9053"
+      "baseVersion": "2026.11.13.2",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.13.3/delta-2026.11.13.2-2026.11.13.3.json",
+      "fileName": "delta-2026.11.13.2-2026.11.13.3.json",
+      "sha256": "af21bd22f667594f19b6e2ad6720efbc945230796cd35ab0971149dcce70bb23"
     },
     {
-      "baseVersion": "2026.11.12.23",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.13.2/delta-2026.11.12.23-2026.11.13.2.json",
-      "fileName": "delta-2026.11.12.23-2026.11.13.2.json",
-      "sha256": "e3f13ffbac8c938995853e5d44f390101787cc5039c4400a7af3a7ba7e3535b6"
+      "baseVersion": "2026.11.13.1",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.13.3/delta-2026.11.13.1-2026.11.13.3.json",
+      "fileName": "delta-2026.11.13.1-2026.11.13.3.json",
+      "sha256": "a8f4fca7d60059595a8db16cb4f8b8e0e0eef2b537e78512d1bcd59c7667d787"
     }
   ],
   "delta": {
-    "baseVersion": "2026.11.13.1",
-    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.13.2/delta-2026.11.13.1-2026.11.13.2.json",
-    "fileName": "delta-2026.11.13.1-2026.11.13.2.json",
-    "sha256": "db6757129d32e55965556d6f59167669e183696f5a1f5d1489e2e4fa60ac9053"
+    "baseVersion": "2026.11.13.2",
+    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.13.3/delta-2026.11.13.2-2026.11.13.3.json",
+    "fileName": "delta-2026.11.13.2-2026.11.13.3.json",
+    "sha256": "af21bd22f667594f19b6e2ad6720efbc945230796cd35ab0971149dcce70bb23"
   }
 }
