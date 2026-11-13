@@ -1,32 +1,32 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.11.13.1",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.13.1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+  "version": "2026.11.13.2",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.13.2/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "b8186a1a531d54b5afc2eb5f7cb2ff22fb67acd2451eac38accb7c72d8d5b759",
-  "sizeBytes": 142132224,
-  "publishedAtUtc": "2026-11-13T07:05:41Z",
-  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.13.1/experimental-history.json",
-  "notes": "Торговки больше не повторяют поручение всю ночь, если телепорт к получателю закончился не у точки назначения: игра в этом сеансе не даёт его продолжить, поэтому этап один раз отмечается как невыполненный с подсказкой (перезаход или подход к точке вручную), а остальные активности идут дальше.",
+  "sha256": "7d5d9845912c47f46e07c05b5825f7497cda7f83e1c6290ad64111629b059428",
+  "sizeBytes": 142127616,
+  "publishedAtUtc": "2026-11-13T10:05:18Z",
+  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.13.2/experimental-history.json",
+  "notes": "Исследование засчитывает подход к Лии, когда персонаж реально пришёл к ней, даже если игра не признала маршрут своим: раньше лаунчер полторы минуты ждал подтверждения, которого не будет, и останавливал сценарий.",
   "deltas": [
     {
-      "baseVersion": "2026.11.12.23",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.13.1/delta-2026.11.12.23-2026.11.13.1.json",
-      "fileName": "delta-2026.11.12.23-2026.11.13.1.json",
-      "sha256": "32867da6d27e3d041b109840b63c00772e1bb90b98a6b495a9c0a8a2ee22f392"
+      "baseVersion": "2026.11.13.1",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.13.2/delta-2026.11.13.1-2026.11.13.2.json",
+      "fileName": "delta-2026.11.13.1-2026.11.13.2.json",
+      "sha256": "db6757129d32e55965556d6f59167669e183696f5a1f5d1489e2e4fa60ac9053"
     },
     {
-      "baseVersion": "2026.11.12.22",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.13.1/delta-2026.11.12.22-2026.11.13.1.json",
-      "fileName": "delta-2026.11.12.22-2026.11.13.1.json",
-      "sha256": "6bf7357a61296eeda62dc879790252575f7de5c021a81eff7d643b1423f2997f"
+      "baseVersion": "2026.11.12.23",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.13.2/delta-2026.11.12.23-2026.11.13.2.json",
+      "fileName": "delta-2026.11.12.23-2026.11.13.2.json",
+      "sha256": "e3f13ffbac8c938995853e5d44f390101787cc5039c4400a7af3a7ba7e3535b6"
     }
   ],
   "delta": {
-    "baseVersion": "2026.11.12.23",
-    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.13.1/delta-2026.11.12.23-2026.11.13.1.json",
-    "fileName": "delta-2026.11.12.23-2026.11.13.1.json",
-    "sha256": "32867da6d27e3d041b109840b63c00772e1bb90b98a6b495a9c0a8a2ee22f392"
+    "baseVersion": "2026.11.13.1",
+    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.13.2/delta-2026.11.13.1-2026.11.13.2.json",
+    "fileName": "delta-2026.11.13.1-2026.11.13.2.json",
+    "sha256": "db6757129d32e55965556d6f59167669e183696f5a1f5d1489e2e4fa60ac9053"
   }
 }
