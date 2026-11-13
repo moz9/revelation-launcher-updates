@@ -1,32 +1,32 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.11.13.3",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.13.3/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+  "version": "2026.11.13.4",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.13.4/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "85dc159b0cf1ceb49f2c1f75999e51bbdfe40953b181b008e2acf487d2ce6a17",
-  "sizeBytes": 142130176,
-  "publishedAtUtc": "2026-11-13T10:49:20Z",
-  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.13.3/experimental-history.json",
-  "notes": "Башня больше не останавливает сценарий, если на экране остался открытый диалог с NPC (например, после гильдейского задания): лаунчер сам закрывает такой диалог и открывает этаж, а если закрыть не удаётся — пропускает Башню, отпускает игру, и остальные активности идут дальше.",
+  "sha256": "714f4aff49f751d7b38625e09c2db1be59725bd1c529c2d852ff498053ad1b79",
+  "sizeBytes": 142104576,
+  "publishedAtUtc": "2026-11-13T11:50:07Z",
+  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.13.4/experimental-history.json",
+  "notes": "Торговки снова изготавливают предметы через Ремесло, а не покупают их на аукционе: старое заблокированное задание в очереди Мастерской больше не отключает изготовление, а запуск для торговок выполняет только своё задание.",
   "deltas": [
     {
-      "baseVersion": "2026.11.13.2",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.13.3/delta-2026.11.13.2-2026.11.13.3.json",
-      "fileName": "delta-2026.11.13.2-2026.11.13.3.json",
-      "sha256": "af21bd22f667594f19b6e2ad6720efbc945230796cd35ab0971149dcce70bb23"
+      "baseVersion": "2026.11.13.3",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.13.4/delta-2026.11.13.3-2026.11.13.4.json",
+      "fileName": "delta-2026.11.13.3-2026.11.13.4.json",
+      "sha256": "a55026ca491f5f18052ed628645f639cf25ca6e1135da74c56bcaa8f46dd329f"
     },
     {
-      "baseVersion": "2026.11.13.1",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.13.3/delta-2026.11.13.1-2026.11.13.3.json",
-      "fileName": "delta-2026.11.13.1-2026.11.13.3.json",
-      "sha256": "a8f4fca7d60059595a8db16cb4f8b8e0e0eef2b537e78512d1bcd59c7667d787"
+      "baseVersion": "2026.11.13.2",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.13.4/delta-2026.11.13.2-2026.11.13.4.json",
+      "fileName": "delta-2026.11.13.2-2026.11.13.4.json",
+      "sha256": "3ff85ca8ddcf5ee2d60354acb22c229fd8b38278953669d46353e0631395b635"
     }
   ],
   "delta": {
-    "baseVersion": "2026.11.13.2",
-    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.13.3/delta-2026.11.13.2-2026.11.13.3.json",
-    "fileName": "delta-2026.11.13.2-2026.11.13.3.json",
-    "sha256": "af21bd22f667594f19b6e2ad6720efbc945230796cd35ab0971149dcce70bb23"
+    "baseVersion": "2026.11.13.3",
+    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.13.4/delta-2026.11.13.3-2026.11.13.4.json",
+    "fileName": "delta-2026.11.13.3-2026.11.13.4.json",
+    "sha256": "a55026ca491f5f18052ed628645f639cf25ca6e1135da74c56bcaa8f46dd329f"
   }
 }
