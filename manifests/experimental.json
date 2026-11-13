@@ -1,32 +1,32 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.11.13.11",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.13.11/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+  "version": "2026.11.14.1",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.14.1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "e42a83e7aba7dda2cdc7b647a4696258e6e67751e8635ed43b2c29e6a31ff16a",
-  "sizeBytes": 142162432,
-  "publishedAtUtc": "2026-11-13T16:16:26Z",
-  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.13.11/experimental-history.json",
-  "notes": "Торговки: если охота не дала нужный ресурс за отведённое время, при повторе этапа Торговки 30 минут не охотятся на это поручение снова, а берут следующий источник (например, аукцион).",
+  "sha256": "5eb6c25e89e7f001070a38daf36f5b6d24590d44d987d4ab33d21c4a8caac05c",
+  "sizeBytes": 142216704,
+  "publishedAtUtc": "2026-11-13T19:36:09Z",
+  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.14.1/experimental-history.json",
+  "notes": "Московское время в игре: новая настройка (включена по умолчанию). Игра считает дни и часы по серверному московскому времени, поэтому «Путь воина» и ежедневные события сменяются вместе с сервером, а не по часам компьютера. Часы Windows не меняются. Действует со следующего запуска игры через лаунчер.",
   "deltas": [
     {
-      "baseVersion": "2026.11.13.10",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.13.11/delta-2026.11.13.10-2026.11.13.11.json",
-      "fileName": "delta-2026.11.13.10-2026.11.13.11.json",
-      "sha256": "13e9ee2503077d8f492afb51f8e062d34c3d0d07590899f190d9bea39649b7e7"
+      "baseVersion": "2026.11.13.11",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.14.1/delta-2026.11.13.11-2026.11.14.1.json",
+      "fileName": "delta-2026.11.13.11-2026.11.14.1.json",
+      "sha256": "04c0eb66c5a077a2fb67d1dcbee49b5c89563ca6ea2f039d46b170ab4e538331"
     },
     {
-      "baseVersion": "2026.11.13.9",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.13.11/delta-2026.11.13.9-2026.11.13.11.json",
-      "fileName": "delta-2026.11.13.9-2026.11.13.11.json",
-      "sha256": "6c90af369074f249c0c2e1af43a9ddca08e31083a5332ab7f3e568a5ea6f6135"
+      "baseVersion": "2026.11.13.10",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.14.1/delta-2026.11.13.10-2026.11.14.1.json",
+      "fileName": "delta-2026.11.13.10-2026.11.14.1.json",
+      "sha256": "72195ce8713464c10a0b125cb7583369af4d4bd8cb7f6796e1124681218cefae"
     }
   ],
   "delta": {
-    "baseVersion": "2026.11.13.10",
-    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.13.11/delta-2026.11.13.10-2026.11.13.11.json",
-    "fileName": "delta-2026.11.13.10-2026.11.13.11.json",
-    "sha256": "13e9ee2503077d8f492afb51f8e062d34c3d0d07590899f190d9bea39649b7e7"
+    "baseVersion": "2026.11.13.11",
+    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.14.1/delta-2026.11.13.11-2026.11.14.1.json",
+    "fileName": "delta-2026.11.13.11-2026.11.14.1.json",
+    "sha256": "04c0eb66c5a077a2fb67d1dcbee49b5c89563ca6ea2f039d46b170ab4e538331"
   }
 }
