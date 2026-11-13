@@ -1,32 +1,32 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.11.13.6",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.13.6/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+  "version": "2026.11.13.7",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.13.7/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "e5e5f4d4292bfe23eb803fe40f5172653942b7343cc2811c13d58e058a98cec4",
-  "sizeBytes": 142144512,
-  "publishedAtUtc": "2026-11-13T13:40:38Z",
-  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.13.6/experimental-history.json",
-  "notes": "Торговки: телепорт к камню засчитывается и тогда, когда игра высаживает у одной из своих запасных точек рядом с ним (раньше поручение зависало до перезахода). Если телепорт всё же закончится не у точки, Торговки отпускают игру и сценарий идёт дальше вместо полной остановки. Новый игровой модуль: нужен перезаход в игру; лаунчер поставит модуль сам при следующем входе.",
+  "sha256": "be735cbaaf25e28be4f066bb0b86c9de99464591573358ec11c24db87e52268e",
+  "sizeBytes": 142138368,
+  "publishedAtUtc": "2026-11-13T13:55:49Z",
+  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.13.7/experimental-history.json",
+  "notes": "Торговки: точки высадки телепорта к камню теперь берутся из правильной таблицы игры, и прибытие засчитывается сразу после высадки. Новый игровой модуль: нужен перезаход в игру; лаунчер поставит модуль сам при следующем входе.",
   "deltas": [
     {
-      "baseVersion": "2026.11.13.5",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.13.6/delta-2026.11.13.5-2026.11.13.6.json",
-      "fileName": "delta-2026.11.13.5-2026.11.13.6.json",
-      "sha256": "7fee34b93339c0d947d71df665b1ba880956fe28e3f7b46e5d88f458d44ad2dd"
+      "baseVersion": "2026.11.13.6",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.13.7/delta-2026.11.13.6-2026.11.13.7.json",
+      "fileName": "delta-2026.11.13.6-2026.11.13.7.json",
+      "sha256": "079b38df849e3cf3031d6561eac8f93e2c4b772535b531fee9aa77bf077b1cb4"
     },
     {
-      "baseVersion": "2026.11.13.4",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.13.6/delta-2026.11.13.4-2026.11.13.6.json",
-      "fileName": "delta-2026.11.13.4-2026.11.13.6.json",
-      "sha256": "cd0bfa22779a3cba08c34dc5fec5f2e964f8267f5d1a5ddb1ccc183ea9ad0132"
+      "baseVersion": "2026.11.13.5",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.13.7/delta-2026.11.13.5-2026.11.13.7.json",
+      "fileName": "delta-2026.11.13.5-2026.11.13.7.json",
+      "sha256": "f557fd5a5ec083b06d496cb96e1bcdf42d95e8460e83b786d90acb7137616ac8"
     }
   ],
   "delta": {
-    "baseVersion": "2026.11.13.5",
-    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.13.6/delta-2026.11.13.5-2026.11.13.6.json",
-    "fileName": "delta-2026.11.13.5-2026.11.13.6.json",
-    "sha256": "7fee34b93339c0d947d71df665b1ba880956fe28e3f7b46e5d88f458d44ad2dd"
+    "baseVersion": "2026.11.13.6",
+    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.13.7/delta-2026.11.13.6-2026.11.13.7.json",
+    "fileName": "delta-2026.11.13.6-2026.11.13.7.json",
+    "sha256": "079b38df849e3cf3031d6561eac8f93e2c4b772535b531fee9aa77bf077b1cb4"
   }
 }
