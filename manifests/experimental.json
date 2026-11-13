@@ -1,32 +1,32 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.11.13.5",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.13.5/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+  "version": "2026.11.13.6",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.13.6/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "7f8e7a1e05f1ffb4cb1020e8a738d2d6ddda21a44e3f95defaa7413967099453",
-  "sizeBytes": 142135808,
-  "publishedAtUtc": "2026-11-13T12:16:12Z",
-  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.13.5/experimental-history.json",
-  "notes": "Новый игровой модуль: Торговки умеют добывать «Шкуру» охотой на снежных обезьян у монастыря Сноу-Шу (раньше этот предмет можно было только купить). Для загрузки нового модуля нужен перезаход в игру; лаунчер поставит модуль сам при следующем входе.",
+  "sha256": "e5e5f4d4292bfe23eb803fe40f5172653942b7343cc2811c13d58e058a98cec4",
+  "sizeBytes": 142144512,
+  "publishedAtUtc": "2026-11-13T13:40:38Z",
+  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.13.6/experimental-history.json",
+  "notes": "Торговки: телепорт к камню засчитывается и тогда, когда игра высаживает у одной из своих запасных точек рядом с ним (раньше поручение зависало до перезахода). Если телепорт всё же закончится не у точки, Торговки отпускают игру и сценарий идёт дальше вместо полной остановки. Новый игровой модуль: нужен перезаход в игру; лаунчер поставит модуль сам при следующем входе.",
   "deltas": [
     {
-      "baseVersion": "2026.11.13.4",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.13.5/delta-2026.11.13.4-2026.11.13.5.json",
-      "fileName": "delta-2026.11.13.4-2026.11.13.5.json",
-      "sha256": "c7d3a8cf53e1be34b595fbd0cd4332cd6d324cbaf0473e2a8b3d937297d777e1"
+      "baseVersion": "2026.11.13.5",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.13.6/delta-2026.11.13.5-2026.11.13.6.json",
+      "fileName": "delta-2026.11.13.5-2026.11.13.6.json",
+      "sha256": "7fee34b93339c0d947d71df665b1ba880956fe28e3f7b46e5d88f458d44ad2dd"
     },
     {
-      "baseVersion": "2026.11.13.3",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.13.5/delta-2026.11.13.3-2026.11.13.5.json",
-      "fileName": "delta-2026.11.13.3-2026.11.13.5.json",
-      "sha256": "3250435a1f7661f546c163a394e61f2735e6feca7b1960f7af091f1a7826ac37"
+      "baseVersion": "2026.11.13.4",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.13.6/delta-2026.11.13.4-2026.11.13.6.json",
+      "fileName": "delta-2026.11.13.4-2026.11.13.6.json",
+      "sha256": "cd0bfa22779a3cba08c34dc5fec5f2e964f8267f5d1a5ddb1ccc183ea9ad0132"
     }
   ],
   "delta": {
-    "baseVersion": "2026.11.13.4",
-    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.13.5/delta-2026.11.13.4-2026.11.13.5.json",
-    "fileName": "delta-2026.11.13.4-2026.11.13.5.json",
-    "sha256": "c7d3a8cf53e1be34b595fbd0cd4332cd6d324cbaf0473e2a8b3d937297d777e1"
+    "baseVersion": "2026.11.13.5",
+    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.13.6/delta-2026.11.13.5-2026.11.13.6.json",
+    "fileName": "delta-2026.11.13.5-2026.11.13.6.json",
+    "sha256": "7fee34b93339c0d947d71df665b1ba880956fe28e3f7b46e5d88f458d44ad2dd"
   }
 }
