@@ -1,32 +1,32 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.11.13.8",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.13.8/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+  "version": "2026.11.13.9",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.13.9/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "3e35bc29dc6b6851097dc47405c661becee7b14b4badacb63db072cf6bd7a76a",
-  "sizeBytes": 142099968,
-  "publishedAtUtc": "2026-11-13T14:39:54Z",
-  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.13.8/experimental-history.json",
-  "notes": "Торговки: сбор последней единицы жилы засчитывается, даже если жила сразу исчезла. Если игра не завершает сбор (например, после ловушки), Торговки отпускают игру и сценарий идёт дальше вместо полной остановки. Новый игровой модуль: нужен перезаход в игру; лаунчер поставит модуль сам при следующем входе.",
+  "sha256": "ff8b126e8765dee78e5e2a29d1d3d8744d60f7243033c0a27bee4715fb01afb5",
+  "sizeBytes": 142178304,
+  "publishedAtUtc": "2026-11-13T14:52:19Z",
+  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.13.9/experimental-history.json",
+  "notes": "Торговки: если для поручения нужен обычный купон Парка развлечений, а в сумке есть особый, лаунчер разбирает особый купон по одному (как кнопка «Да» в окне разбора) и забирает обычный из временной сумки — до покупки на аукционе. Неясный результат никогда не повторяется. Новый игровой модуль: нужен перезаход в игру; лаунчер поставит модуль сам при следующем входе.",
   "deltas": [
     {
-      "baseVersion": "2026.11.13.7",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.13.8/delta-2026.11.13.7-2026.11.13.8.json",
-      "fileName": "delta-2026.11.13.7-2026.11.13.8.json",
-      "sha256": "0289ec73da6b62de21792a92e3bb87e7483069c8fc3e42982fa2a2dba0c60fac"
+      "baseVersion": "2026.11.13.8",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.13.9/delta-2026.11.13.8-2026.11.13.9.json",
+      "fileName": "delta-2026.11.13.8-2026.11.13.9.json",
+      "sha256": "a02d251f073b36559c1a590838a7920fa8a1d79138c6ab4a634783adc42f3da8"
     },
     {
-      "baseVersion": "2026.11.13.6",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.13.8/delta-2026.11.13.6-2026.11.13.8.json",
-      "fileName": "delta-2026.11.13.6-2026.11.13.8.json",
-      "sha256": "b05ad333b162a8d23431e23eb859c9e926baf264fbd2843ff42c2092fe6b4f8f"
+      "baseVersion": "2026.11.13.7",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.13.9/delta-2026.11.13.7-2026.11.13.9.json",
+      "fileName": "delta-2026.11.13.7-2026.11.13.9.json",
+      "sha256": "7c6f1f66748ca9a190cfc3221cfda9a150482aa76d8edb32418ead3aa90c9076"
     }
   ],
   "delta": {
-    "baseVersion": "2026.11.13.7",
-    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.13.8/delta-2026.11.13.7-2026.11.13.8.json",
-    "fileName": "delta-2026.11.13.7-2026.11.13.8.json",
-    "sha256": "0289ec73da6b62de21792a92e3bb87e7483069c8fc3e42982fa2a2dba0c60fac"
+    "baseVersion": "2026.11.13.8",
+    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.13.9/delta-2026.11.13.8-2026.11.13.9.json",
+    "fileName": "delta-2026.11.13.8-2026.11.13.9.json",
+    "sha256": "a02d251f073b36559c1a590838a7920fa8a1d79138c6ab4a634783adc42f3da8"
   }
 }
