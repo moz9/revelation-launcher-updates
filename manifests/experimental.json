@@ -1,32 +1,32 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.11.14.2",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.14.2/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+  "version": "2026.11.14.3",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.14.3/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "f61a0669f6ca4f84a6956d1c0b3448035e800add01132babaae43b5fbadc783d",
-  "sizeBytes": 142151168,
-  "publishedAtUtc": "2026-11-13T19:41:49Z",
-  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.14.2/experimental-history.json",
-  "notes": "Торговки: охота за «Шкурой» у снежной обезьяны больше не отклоняется на этапе маршрута (точка 11020409 добавлена в список разрешённых). Также в этой версии: «Московское время в игре» из 2026.11.14.1.",
+  "sha256": "deab358d11ceb6991a7800c714fda691bd39f0444a564efd565f6f57008d8a41",
+  "sizeBytes": 142170112,
+  "publishedAtUtc": "2026-11-14T09:21:18Z",
+  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.14.3/experimental-history.json",
+  "notes": "Гильдия: угощение в таверне теперь оплачивается таэлями — той валютой, которую списывает игра. Раньше лаунчер сверял цену с монетами и при их нехватке ждал бесконечно, ничего не оплачивая. Монеты не тратятся. Если таэлей меньше цены, лаунчер сообщает об этом, ничего не платит, а общий сценарий переходит к следующим активностям; гильдейские задания остаются невыполненными. Также: после смены персонажа статусы оплота, торговок и гильдии больше не показывают результаты прежнего персонажа. Новый игровой модуль начинает работать после перезапуска клиента из лаунчера.",
   "deltas": [
     {
-      "baseVersion": "2026.11.14.1",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.14.2/delta-2026.11.14.1-2026.11.14.2.json",
-      "fileName": "delta-2026.11.14.1-2026.11.14.2.json",
-      "sha256": "092e0b1a26aa3168531fef73d36a0bc06ffd6256c1370f509b57619165508289"
+      "baseVersion": "2026.11.14.2",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.14.3/delta-2026.11.14.2-2026.11.14.3.json",
+      "fileName": "delta-2026.11.14.2-2026.11.14.3.json",
+      "sha256": "32fc5e1b620e0a6206b601d764b98a2bb196b0a21e9496dac1909611e89f401a"
     },
     {
-      "baseVersion": "2026.11.13.11",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.14.2/delta-2026.11.13.11-2026.11.14.2.json",
-      "fileName": "delta-2026.11.13.11-2026.11.14.2.json",
-      "sha256": "b7ed47af5e96a52c8b3c94c58d7ac4d577ac7a84bf6b3d24d4aed5f1fc9bec5e"
+      "baseVersion": "2026.11.14.1",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.14.3/delta-2026.11.14.1-2026.11.14.3.json",
+      "fileName": "delta-2026.11.14.1-2026.11.14.3.json",
+      "sha256": "b51e0fbb114616cfaa6c55998183d32a392784d954b81a6f0579a4449f4239a1"
     }
   ],
   "delta": {
-    "baseVersion": "2026.11.14.1",
-    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.14.2/delta-2026.11.14.1-2026.11.14.2.json",
-    "fileName": "delta-2026.11.14.1-2026.11.14.2.json",
-    "sha256": "092e0b1a26aa3168531fef73d36a0bc06ffd6256c1370f509b57619165508289"
+    "baseVersion": "2026.11.14.2",
+    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.14.3/delta-2026.11.14.2-2026.11.14.3.json",
+    "fileName": "delta-2026.11.14.2-2026.11.14.3.json",
+    "sha256": "32fc5e1b620e0a6206b601d764b98a2bb196b0a21e9496dac1909611e89f401a"
   }
 }
