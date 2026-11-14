@@ -1,32 +1,32 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.11.14.8",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.14.8/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+  "version": "2026.11.14.9",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.14.9/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "40ef8df479c73802c24659a9668999b210ae44c77e29748decc57769328672aa",
-  "sizeBytes": 142192128,
-  "publishedAtUtc": "2026-11-14T13:30:22Z",
-  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.14.8/experimental-history.json",
-  "notes": "Исследование: если окно исследования из прошлой подготовки осталось незакрытым запросом, лаунчер теперь успевает штатно снять его и открыть окно заново, а не просит нажать Stop. Ранее в этой ветке: таймер полёта мастерской, гильдия после сдачи, тумблеры «Boost» и «Сеть».",
+  "sha256": "dd9b0aaa65bac3f08e5eb100e1745cd4815d229446eb10426550e47a2ca7448e",
+  "sizeBytes": 142174720,
+  "publishedAtUtc": "2026-11-14T16:35:22Z",
+  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.14.9/experimental-history.json",
+  "notes": "Классовый оплот: если цель ежедневного задания уже выполнена (например, груз доставлен рыцарям), лаунчер ведёт персонажа обратно к главе оплота для сдачи, а не повторяет автопуть к старой цели. Ранее в этой ветке: исследование после отдельной подготовки, таймер полёта мастерской.",
   "deltas": [
     {
-      "baseVersion": "2026.11.14.7",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.14.8/delta-2026.11.14.7-2026.11.14.8.json",
-      "fileName": "delta-2026.11.14.7-2026.11.14.8.json",
-      "sha256": "254277d7ef3cb82c0a4f3df4f26e59b0576633259cdb9924d0d3d0ee05ef8a0b"
+      "baseVersion": "2026.11.14.8",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.14.9/delta-2026.11.14.8-2026.11.14.9.json",
+      "fileName": "delta-2026.11.14.8-2026.11.14.9.json",
+      "sha256": "fdc05fa63e6504f44874c17e56d2b5572c4e82b38571a61a43668c273b0fadee"
     },
     {
-      "baseVersion": "2026.11.14.6",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.14.8/delta-2026.11.14.6-2026.11.14.8.json",
-      "fileName": "delta-2026.11.14.6-2026.11.14.8.json",
-      "sha256": "e3ed3bbb9123630a9a80bef906834a1bc4549711fa1257b2dc8a2107e82ec0b2"
+      "baseVersion": "2026.11.14.7",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.14.9/delta-2026.11.14.7-2026.11.14.9.json",
+      "fileName": "delta-2026.11.14.7-2026.11.14.9.json",
+      "sha256": "2d483b653eb7411d51a087c02579528aeb9f831a3200ef255a438394de40a30a"
     }
   ],
   "delta": {
-    "baseVersion": "2026.11.14.7",
-    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.14.8/delta-2026.11.14.7-2026.11.14.8.json",
-    "fileName": "delta-2026.11.14.7-2026.11.14.8.json",
-    "sha256": "254277d7ef3cb82c0a4f3df4f26e59b0576633259cdb9924d0d3d0ee05ef8a0b"
+    "baseVersion": "2026.11.14.8",
+    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.14.9/delta-2026.11.14.8-2026.11.14.9.json",
+    "fileName": "delta-2026.11.14.8-2026.11.14.9.json",
+    "sha256": "fdc05fa63e6504f44874c17e56d2b5572c4e82b38571a61a43668c273b0fadee"
   }
 }
