@@ -1,32 +1,32 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.11.14.5",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.14.5/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+  "version": "2026.11.14.6",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.14.6/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "20cf5bdcaacc0ca18c553a50b52afb07957795c2f1aa167a7d08db1c26286abe",
-  "sizeBytes": 142170112,
-  "publishedAtUtc": "2026-11-14T11:22:54Z",
-  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.14.5/experimental-history.json",
-  "notes": "Сеть: рядом с «Boost» появился второй переключатель «Сеть». Он вместе включает автоматический сетевой профиль при запуске, его расширение после входа в мир и ограничение фонового трафика. В это ограничение, как в Boost-редакции, теперь входят и торрент-клиенты (qBittorrent, uTorrent, Tixati и другие): пока персонаж в мире, их отдача ограничена 1 Мбит/с. Ограничение Parsec осталось отдельной галочкой на странице «Сеть», переключатель его не трогает. Изменения применяются при следующем запуске игры через лаунчер. Также в этой версии: переключатель «Boost» из 2026.11.14.4 и оплата угощения таэлями из 2026.11.14.3.",
+  "sha256": "b368ba78f8e8082121693d839de1f147981f8f2311dd5487e144ce74ae47c225",
+  "sizeBytes": 142184960,
+  "publishedAtUtc": "2026-11-14T12:32:33Z",
+  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.14.6/experimental-history.json",
+  "notes": "Гильдия: если после сдачи задания следующее не появилось само, лаунчер примерно через минуту штатно перечитывает предложение у Господина Хмелля и принимает продолжение — так же, как кнопка «Продолжить». Раньше он мог ждать несколько минут. Второй круг заданий по-прежнему не берётся. Также в этой версии: переключатели «Boost» и «Сеть» и оплата угощения таэлями.",
   "deltas": [
     {
-      "baseVersion": "2026.11.14.4",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.14.5/delta-2026.11.14.4-2026.11.14.5.json",
-      "fileName": "delta-2026.11.14.4-2026.11.14.5.json",
-      "sha256": "ff574a03307274d165a43954705a653d062884f66d793442800f7207310d06b7"
+      "baseVersion": "2026.11.14.5",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.14.6/delta-2026.11.14.5-2026.11.14.6.json",
+      "fileName": "delta-2026.11.14.5-2026.11.14.6.json",
+      "sha256": "89bbbcbd186a5f8486b05e485ad84b30f0d2d32c4871d145baafd3119aab284e"
     },
     {
-      "baseVersion": "2026.11.14.3",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.14.5/delta-2026.11.14.3-2026.11.14.5.json",
-      "fileName": "delta-2026.11.14.3-2026.11.14.5.json",
-      "sha256": "917094bc42e93c95b147a099d3a75f4c809aa63121dc98cd2b5ed7de5ce5a955"
+      "baseVersion": "2026.11.14.4",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.14.6/delta-2026.11.14.4-2026.11.14.6.json",
+      "fileName": "delta-2026.11.14.4-2026.11.14.6.json",
+      "sha256": "1e429cfe7b645e8f6f9f0c652ff248933bc7401f7cf08918c39ff34b0cb5d142"
     }
   ],
   "delta": {
-    "baseVersion": "2026.11.14.4",
-    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.14.5/delta-2026.11.14.4-2026.11.14.5.json",
-    "fileName": "delta-2026.11.14.4-2026.11.14.5.json",
-    "sha256": "ff574a03307274d165a43954705a653d062884f66d793442800f7207310d06b7"
+    "baseVersion": "2026.11.14.5",
+    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.14.6/delta-2026.11.14.5-2026.11.14.6.json",
+    "fileName": "delta-2026.11.14.5-2026.11.14.6.json",
+    "sha256": "89bbbcbd186a5f8486b05e485ad84b30f0d2d32c4871d145baafd3119aab284e"
   }
 }
