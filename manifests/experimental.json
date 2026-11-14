@@ -1,32 +1,32 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.11.14.4",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.14.4/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+  "version": "2026.11.14.5",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.14.5/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "4a4229f45d818d091a04054b6cf79fb13019e5623f437015a5eadee78c735b84",
-  "sizeBytes": 142168576,
-  "publishedAtUtc": "2026-11-14T10:43:13Z",
-  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.14.4/experimental-history.json",
-  "notes": "Boost: на главной теперь один переключатель «Boost» вместо трёх настроек в разных местах. Он вместе включает и выключает игру на производительных ядрах, ускорение окон после входа в мир и быстрое закрытие инвентаря; подробности — во всплывающей подсказке. При первом запуске Boost включится, если раньше была включена хотя бы одна из этих настроек. Также в этой версии из 2026.11.14.3: угощение в таверне оплачивается таэлями, монеты не тратятся.",
+  "sha256": "20cf5bdcaacc0ca18c553a50b52afb07957795c2f1aa167a7d08db1c26286abe",
+  "sizeBytes": 142170112,
+  "publishedAtUtc": "2026-11-14T11:22:54Z",
+  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.14.5/experimental-history.json",
+  "notes": "Сеть: рядом с «Boost» появился второй переключатель «Сеть». Он вместе включает автоматический сетевой профиль при запуске, его расширение после входа в мир и ограничение фонового трафика. В это ограничение, как в Boost-редакции, теперь входят и торрент-клиенты (qBittorrent, uTorrent, Tixati и другие): пока персонаж в мире, их отдача ограничена 1 Мбит/с. Ограничение Parsec осталось отдельной галочкой на странице «Сеть», переключатель его не трогает. Изменения применяются при следующем запуске игры через лаунчер. Также в этой версии: переключатель «Boost» из 2026.11.14.4 и оплата угощения таэлями из 2026.11.14.3.",
   "deltas": [
     {
-      "baseVersion": "2026.11.14.3",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.14.4/delta-2026.11.14.3-2026.11.14.4.json",
-      "fileName": "delta-2026.11.14.3-2026.11.14.4.json",
-      "sha256": "885f98b412f837c29b02552a7ad347214ae3020154255bc44df53af40a869d1f"
+      "baseVersion": "2026.11.14.4",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.14.5/delta-2026.11.14.4-2026.11.14.5.json",
+      "fileName": "delta-2026.11.14.4-2026.11.14.5.json",
+      "sha256": "ff574a03307274d165a43954705a653d062884f66d793442800f7207310d06b7"
     },
     {
-      "baseVersion": "2026.11.14.2",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.14.4/delta-2026.11.14.2-2026.11.14.4.json",
-      "fileName": "delta-2026.11.14.2-2026.11.14.4.json",
-      "sha256": "90c011c8aaf7ec13be8efddfc54932998dcfc9920894cb4fbd4a0c8c188b58af"
+      "baseVersion": "2026.11.14.3",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.14.5/delta-2026.11.14.3-2026.11.14.5.json",
+      "fileName": "delta-2026.11.14.3-2026.11.14.5.json",
+      "sha256": "917094bc42e93c95b147a099d3a75f4c809aa63121dc98cd2b5ed7de5ce5a955"
     }
   ],
   "delta": {
-    "baseVersion": "2026.11.14.3",
-    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.14.4/delta-2026.11.14.3-2026.11.14.4.json",
-    "fileName": "delta-2026.11.14.3-2026.11.14.4.json",
-    "sha256": "885f98b412f837c29b02552a7ad347214ae3020154255bc44df53af40a869d1f"
+    "baseVersion": "2026.11.14.4",
+    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.14.5/delta-2026.11.14.4-2026.11.14.5.json",
+    "fileName": "delta-2026.11.14.4-2026.11.14.5.json",
+    "sha256": "ff574a03307274d165a43954705a653d062884f66d793442800f7207310d06b7"
   }
 }
