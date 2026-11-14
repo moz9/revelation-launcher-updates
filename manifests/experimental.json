@@ -1,32 +1,32 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.11.14.6",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.14.6/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+  "version": "2026.11.14.7",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.14.7/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "b368ba78f8e8082121693d839de1f147981f8f2311dd5487e144ce74ae47c225",
-  "sizeBytes": 142184960,
-  "publishedAtUtc": "2026-11-14T12:32:33Z",
-  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.14.6/experimental-history.json",
-  "notes": "Гильдия: если после сдачи задания следующее не появилось само, лаунчер примерно через минуту штатно перечитывает предложение у Господина Хмелля и принимает продолжение — так же, как кнопка «Продолжить». Раньше он мог ждать несколько минут. Второй круг заданий по-прежнему не берётся. Также в этой версии: переключатели «Boost» и «Сеть» и оплата угощения таэлями.",
+  "sha256": "e4bcc7347e2bebabdf5704df607a31db6611e56eb3d87fce24975df138338ef4",
+  "sizeBytes": 142210048,
+  "publishedAtUtc": "2026-11-14T13:14:12Z",
+  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.14.7/experimental-history.json",
+  "notes": "Мастерская: если клиент не принял таймер импульса полёта, импульс считается не начатым — остановка больше не зависает в «неизвестном движении», сбор продолжается после короткой паузы. В журнал полёта добавлено значение таймера клиента. Ранее в этой ветке: гильдия берёт следующее задание после сдачи, тумблеры «Boost» и «Сеть».",
   "deltas": [
     {
-      "baseVersion": "2026.11.14.5",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.14.6/delta-2026.11.14.5-2026.11.14.6.json",
-      "fileName": "delta-2026.11.14.5-2026.11.14.6.json",
-      "sha256": "89bbbcbd186a5f8486b05e485ad84b30f0d2d32c4871d145baafd3119aab284e"
+      "baseVersion": "2026.11.14.6",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.14.7/delta-2026.11.14.6-2026.11.14.7.json",
+      "fileName": "delta-2026.11.14.6-2026.11.14.7.json",
+      "sha256": "33ed0dfef120733a90d15acf0bab8920e429c0e432b8a8e4dcb1c50b60ab141d"
     },
     {
-      "baseVersion": "2026.11.14.4",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.14.6/delta-2026.11.14.4-2026.11.14.6.json",
-      "fileName": "delta-2026.11.14.4-2026.11.14.6.json",
-      "sha256": "1e429cfe7b645e8f6f9f0c652ff248933bc7401f7cf08918c39ff34b0cb5d142"
+      "baseVersion": "2026.11.14.5",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.14.7/delta-2026.11.14.5-2026.11.14.7.json",
+      "fileName": "delta-2026.11.14.5-2026.11.14.7.json",
+      "sha256": "54655b26e8f096ecc1a77d2c15801e72237fc3c6ecb084ed662842cf3802c21a"
     }
   ],
   "delta": {
-    "baseVersion": "2026.11.14.5",
-    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.14.6/delta-2026.11.14.5-2026.11.14.6.json",
-    "fileName": "delta-2026.11.14.5-2026.11.14.6.json",
-    "sha256": "89bbbcbd186a5f8486b05e485ad84b30f0d2d32c4871d145baafd3119aab284e"
+    "baseVersion": "2026.11.14.6",
+    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.14.7/delta-2026.11.14.6-2026.11.14.7.json",
+    "fileName": "delta-2026.11.14.6-2026.11.14.7.json",
+    "sha256": "33ed0dfef120733a90d15acf0bab8920e429c0e432b8a8e4dcb1c50b60ab141d"
   }
 }
