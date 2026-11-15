@@ -1,32 +1,32 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.11.15.2",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.15.2/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+  "version": "2026.11.15.3",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.15.3/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "673a3ef897d2a13bcc82500f8e02006d6122ddcfff36c4419a6495b3ae3403ce",
-  "sizeBytes": 142220800,
-  "publishedAtUtc": "2026-11-15T07:23:11Z",
-  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.15.2/experimental-history.json",
-  "notes": "Исследование: если помощь гильдии пришла, пока окно припасов было открыто, лаунчер теперь закрывает это окно сам и продолжает, а не оставляет его висеть. Ранее в этой ветке: вход на базу гильдии не отправляется из бани, возврат оплота к главе.",
+  "sha256": "a48ceea560fcd384cf07b6132409ed2c9377e8487cd63be8461339c2d307913c",
+  "sizeBytes": 142238208,
+  "publishedAtUtc": "2026-11-15T07:33:16Z",
+  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.15.3/experimental-history.json",
+  "notes": "Гильдия: если персонаж в бане, лаунчер перед входом на базу гильдии один раз штатно выходит из бани, дожидается обычного мира и только потом отправляет вход на базу. Ранее в этой ветке: окно припасов после помощи гильдии, возврат оплота к главе.",
   "deltas": [
     {
-      "baseVersion": "2026.11.15.1",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.15.2/delta-2026.11.15.1-2026.11.15.2.json",
-      "fileName": "delta-2026.11.15.1-2026.11.15.2.json",
-      "sha256": "1812de77ccc3de4c717e8dda7376bc1e441b923f564c8a5f4cd0f580b1957b70"
+      "baseVersion": "2026.11.15.2",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.15.3/delta-2026.11.15.2-2026.11.15.3.json",
+      "fileName": "delta-2026.11.15.2-2026.11.15.3.json",
+      "sha256": "b7508e70a096fe01830ce4af81efbcb6957facfd7a81554f49c5aec85994c523"
     },
     {
-      "baseVersion": "2026.11.14.9",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.15.2/delta-2026.11.14.9-2026.11.15.2.json",
-      "fileName": "delta-2026.11.14.9-2026.11.15.2.json",
-      "sha256": "4fcc32ef7381f29667ddc393fdd0e74b03b726766edaadea7e8fe2f385868123"
+      "baseVersion": "2026.11.15.1",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.15.3/delta-2026.11.15.1-2026.11.15.3.json",
+      "fileName": "delta-2026.11.15.1-2026.11.15.3.json",
+      "sha256": "47f15203ad66a7d080033a38e90ebb7e407097792e6c4fb1901c990e2a5fd9f2"
     }
   ],
   "delta": {
-    "baseVersion": "2026.11.15.1",
-    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.15.2/delta-2026.11.15.1-2026.11.15.2.json",
-    "fileName": "delta-2026.11.15.1-2026.11.15.2.json",
-    "sha256": "1812de77ccc3de4c717e8dda7376bc1e441b923f564c8a5f4cd0f580b1957b70"
+    "baseVersion": "2026.11.15.2",
+    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.15.3/delta-2026.11.15.2-2026.11.15.3.json",
+    "fileName": "delta-2026.11.15.2-2026.11.15.3.json",
+    "sha256": "b7508e70a096fe01830ce4af81efbcb6957facfd7a81554f49c5aec85994c523"
   }
 }
