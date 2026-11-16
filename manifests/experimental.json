@@ -1,32 +1,32 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.11.15.8",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.15.8/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+  "version": "2026.11.16.1",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.16.1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "65b901dccca093a49e7139f95120c2dcee1a31824b028f4b0f7b40e299fc48f3",
-  "sizeBytes": 142186496,
-  "publishedAtUtc": "2026-11-15T09:15:28Z",
-  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.15.8/experimental-history.json",
-  "notes": "Зов духов: если игра не приняла выход с базы гильдии перед путём к Зову, лаунчер больше не останавливает весь сценарий — этап пропускается, поиск группы продолжается. Устаревшая отметка прошлого выхода больше не блокирует новые выходы.",
+  "sha256": "bd88239ee6b619704733760643305bd53c457fb3ec0baf80db44a5dce0b62462",
+  "sizeBytes": 142228480,
+  "publishedAtUtc": "2026-11-16T06:20:15Z",
+  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.16.1/experimental-history.json",
+  "notes": "Исследование: незавершённое открытие припасов от прежнего окна больше не блокирует подготовку сценария, Зов и классовый оплот. Если игра в этом запуске отказывается открывать припасы, лаунчер больше не переоткрывает окно исследования каждые 40 секунд, а один раз сообщает, что исследование продолжится после перезапуска игры.",
   "deltas": [
     {
-      "baseVersion": "2026.11.15.7",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.15.8/delta-2026.11.15.7-2026.11.15.8.json",
-      "fileName": "delta-2026.11.15.7-2026.11.15.8.json",
-      "sha256": "6a66a67624a42005658507981caced9a41f37119597f58fe97839c9c04c8d89b"
+      "baseVersion": "2026.11.15.8",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.16.1/delta-2026.11.15.8-2026.11.16.1.json",
+      "fileName": "delta-2026.11.15.8-2026.11.16.1.json",
+      "sha256": "157fbed43744fab96fd48c4188dca61c33ec5bf91a1efea7078fbca509f8dc27"
     },
     {
-      "baseVersion": "2026.11.15.6",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.15.8/delta-2026.11.15.6-2026.11.15.8.json",
-      "fileName": "delta-2026.11.15.6-2026.11.15.8.json",
-      "sha256": "95d3fa2e90e7645c953f44b94e13ac328cfafcc2bd2084fa2bfbb73ce6b669a2"
+      "baseVersion": "2026.11.15.7",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.16.1/delta-2026.11.15.7-2026.11.16.1.json",
+      "fileName": "delta-2026.11.15.7-2026.11.16.1.json",
+      "sha256": "60d5d25a8dcb80c5a335353dec5fd550845f0f8fa90d9d394ba28faf2f2a3071"
     }
   ],
   "delta": {
-    "baseVersion": "2026.11.15.7",
-    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.15.8/delta-2026.11.15.7-2026.11.15.8.json",
-    "fileName": "delta-2026.11.15.7-2026.11.15.8.json",
-    "sha256": "6a66a67624a42005658507981caced9a41f37119597f58fe97839c9c04c8d89b"
+    "baseVersion": "2026.11.15.8",
+    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.16.1/delta-2026.11.15.8-2026.11.16.1.json",
+    "fileName": "delta-2026.11.15.8-2026.11.16.1.json",
+    "sha256": "157fbed43744fab96fd48c4188dca61c33ec5bf91a1efea7078fbca509f8dc27"
   }
 }
