@@ -1,32 +1,32 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.11.16.2",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.16.2/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+  "version": "2026.11.16.3",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.16.3/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "91ed203f776f360da459c34ba252b3e4701c2f2517f6932b006bbc937f2ca01c",
-  "sizeBytes": 142213632,
-  "publishedAtUtc": "2026-11-16T06:28:19Z",
-  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.16.2/experimental-history.json",
-  "notes": "Исследование: если дух уже отправлен и игра это подтвердила, а персонаж стоит у Лии без движения, незавершённая отметка маршрута к Лии больше не держит окно исследования. Классовый оплот и следующие активности запускаются сразу.",
+  "sha256": "bddf5a4d40620788e64660345c3a26d16a73627a382ac21730f2026702343efb",
+  "sizeBytes": 142192640,
+  "publishedAtUtc": "2026-11-16T06:44:06Z",
+  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.16.3/experimental-history.json",
+  "notes": "Откат изменения 2026.11.16.2 для маршрута к Лии после отправки духов: в этом случае игра не подтверждает освобождение окна, и шаг исследования мог завершиться ошибкой уже после успешной отправки. Поведение возвращено к 2026.11.16.1; исправления исследования из 2026.11.16.1 сохранены. Полное исправление выйдет вместе с обновлением после профилактики.",
   "deltas": [
     {
-      "baseVersion": "2026.11.16.1",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.16.2/delta-2026.11.16.1-2026.11.16.2.json",
-      "fileName": "delta-2026.11.16.1-2026.11.16.2.json",
-      "sha256": "83f30b15c2ff03072681ff6530d41590e032e8d2798a601300915a21d0e2d9ae"
+      "baseVersion": "2026.11.16.2",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.16.3/delta-2026.11.16.2-2026.11.16.3.json",
+      "fileName": "delta-2026.11.16.2-2026.11.16.3.json",
+      "sha256": "b32a82031840080cf23c7ab11e84a396858004e7b7c1e2ed4d5598385ec8d99b"
     },
     {
-      "baseVersion": "2026.11.15.8",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.16.2/delta-2026.11.15.8-2026.11.16.2.json",
-      "fileName": "delta-2026.11.15.8-2026.11.16.2.json",
-      "sha256": "330a793634a580cb62f963ad78b32daec7cf1dcaebe2a54edcf111c7bb0664e8"
+      "baseVersion": "2026.11.16.1",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.16.3/delta-2026.11.16.1-2026.11.16.3.json",
+      "fileName": "delta-2026.11.16.1-2026.11.16.3.json",
+      "sha256": "f75994986daeebfdc65b5dc64d05466d8c02de4baa86191138e1d09c364f16b5"
     }
   ],
   "delta": {
-    "baseVersion": "2026.11.16.1",
-    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.16.2/delta-2026.11.16.1-2026.11.16.2.json",
-    "fileName": "delta-2026.11.16.1-2026.11.16.2.json",
-    "sha256": "83f30b15c2ff03072681ff6530d41590e032e8d2798a601300915a21d0e2d9ae"
+    "baseVersion": "2026.11.16.2",
+    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.16.3/delta-2026.11.16.2-2026.11.16.3.json",
+    "fileName": "delta-2026.11.16.2-2026.11.16.3.json",
+    "sha256": "b32a82031840080cf23c7ab11e84a396858004e7b7c1e2ed4d5598385ec8d99b"
   }
 }
