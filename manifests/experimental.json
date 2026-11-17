@@ -1,32 +1,32 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.11.17.2",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.17.2/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+  "version": "2026.11.17.3",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.17.3/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "8ff518da22e6ed005a42b4832e9ba11cb0f8cbaa9eb97cd6fdd4f25a51e66e35",
-  "sizeBytes": 142208000,
-  "publishedAtUtc": "2026-11-17T01:23:03Z",
-  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.17.2/experimental-history.json",
-  "notes": "Меньше фоновой нагрузки во время игры: сторожа сети и выхода из VK Play больше не опрашивают Windows через WMI каждые 1–2 секунды (служба WmiPrvSE могла занимать больше ядра процессора). Проверка процесса игры и её соединения с сервером теперь читается напрямую, логика и тайм-ауты не менялись. Действует после перезапуска лаунчера или следующего входа в игру. Нативный модуль не менялся.",
+  "sha256": "2681f52af12fbd8e37355f65da0a3cdcd08d3f41c6465c53a3dcd05cb4e16f9f",
+  "sizeBytes": 142251008,
+  "publishedAtUtc": "2026-11-17T03:04:20Z",
+  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.17.3/experimental-history.json",
+  "notes": "Зов: если команда остановки текущего сценария попала на загрузку экрана и игра её отклонила, ничего не выполнив, лаунчер теперь отправит её ещё раз. Раньше он считал её отправленной и бесконечно ждал: «Зов уже активен. Ожидаю подтверждённой остановки…». Команды, которые дошли до игры или чей результат неизвестен, по-прежнему не повторяются. Нативный модуль не менялся.",
   "deltas": [
     {
-      "baseVersion": "2026.11.17.1",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.17.2/delta-2026.11.17.1-2026.11.17.2.json",
-      "fileName": "delta-2026.11.17.1-2026.11.17.2.json",
-      "sha256": "eaa058d611d13bc5afd5cd9a3b407230b4ca4e4f37b6bb163c71e43aee843097"
+      "baseVersion": "2026.11.17.2",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.17.3/delta-2026.11.17.2-2026.11.17.3.json",
+      "fileName": "delta-2026.11.17.2-2026.11.17.3.json",
+      "sha256": "4b4695a8dd6f97e9fb967aa736a3db1d9fe43e38970e9f94ce66c1f183c884a0"
     },
     {
-      "baseVersion": "2026.11.16.4",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.17.2/delta-2026.11.16.4-2026.11.17.2.json",
-      "fileName": "delta-2026.11.16.4-2026.11.17.2.json",
-      "sha256": "555487d1b1467cd006b3f122bd9bbb00acc4de9db773ea5047678b5d907e3020"
+      "baseVersion": "2026.11.17.1",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.17.3/delta-2026.11.17.1-2026.11.17.3.json",
+      "fileName": "delta-2026.11.17.1-2026.11.17.3.json",
+      "sha256": "62b649e81152e4bee37f90579b71a30b5d6ce6f0c5cca6c1f950a6075fb3a66b"
     }
   ],
   "delta": {
-    "baseVersion": "2026.11.17.1",
-    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.17.2/delta-2026.11.17.1-2026.11.17.2.json",
-    "fileName": "delta-2026.11.17.1-2026.11.17.2.json",
-    "sha256": "eaa058d611d13bc5afd5cd9a3b407230b4ca4e4f37b6bb163c71e43aee843097"
+    "baseVersion": "2026.11.17.2",
+    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.17.3/delta-2026.11.17.2-2026.11.17.3.json",
+    "fileName": "delta-2026.11.17.2-2026.11.17.3.json",
+    "sha256": "4b4695a8dd6f97e9fb967aa736a3db1d9fe43e38970e9f94ce66c1f183c884a0"
   }
 }
