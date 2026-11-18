@@ -1,32 +1,32 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.11.18.1",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.18.1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+  "version": "2026.11.18.2",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.18.2/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "f30d44a164f3c1d37bbf9cc74a8651a4a076f213b10ddcf6c217e609a8280e7f",
-  "sizeBytes": 142215168,
-  "publishedAtUtc": "2026-11-18T02:59:03Z",
-  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.18.1/experimental-history.json",
-  "notes": "Исследование: «спасибо» в чат гильдии теперь уходит сразу, как только лаунчер видит пришедшую помощь, а не при следующем выборе действия исследования (раньше могло задержаться на полчаса). Нативный модуль не менялся.\r\n",
+  "sha256": "f5ddee9be24adbdc1f942a5b915b7b5fa6567fcce674bf58c3eb96c0615ede24",
+  "sizeBytes": 142246912,
+  "publishedAtUtc": "2026-11-18T03:22:18Z",
+  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.18.2/experimental-history.json",
+  "notes": "Исследование: незавершённое открытие аукциона без трат больше не блокирует исследование навсегда, а если игра сама закрыла окно исследования (например, при выходе из Бани), шаг повторяется через 5 минут вместо «нужен пользователь». С галкой «только со всеми предметами»: для каждого пустого места просится помощь гильдии, через 30 минут без помощи предмет покупается в пределах лимитов. Нативный модуль не менялся.\r\n",
   "deltas": [
     {
-      "baseVersion": "2026.11.17.8",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.18.1/delta-2026.11.17.8-2026.11.18.1.json",
-      "fileName": "delta-2026.11.17.8-2026.11.18.1.json",
-      "sha256": "29310df7eb10deba2ad587daffbcf41824df9daae939c184a22df57684f37a3e"
+      "baseVersion": "2026.11.18.1",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.18.2/delta-2026.11.18.1-2026.11.18.2.json",
+      "fileName": "delta-2026.11.18.1-2026.11.18.2.json",
+      "sha256": "3ea4bf16909401e74a5c7a7c6d72c3db977822a0360348bd9ae97112d7d021b4"
     },
     {
-      "baseVersion": "2026.11.17.7",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.18.1/delta-2026.11.17.7-2026.11.18.1.json",
-      "fileName": "delta-2026.11.17.7-2026.11.18.1.json",
-      "sha256": "5ab6f6895d4de25426cca81d579107a7d088abc977fe2437fa9b8e902f8b3732"
+      "baseVersion": "2026.11.17.8",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.18.2/delta-2026.11.17.8-2026.11.18.2.json",
+      "fileName": "delta-2026.11.17.8-2026.11.18.2.json",
+      "sha256": "1e8d81a31d5c40febaa2d5824e1132889b39acd3e21432c215681b326ce31eba"
     }
   ],
   "delta": {
-    "baseVersion": "2026.11.17.8",
-    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.18.1/delta-2026.11.17.8-2026.11.18.1.json",
-    "fileName": "delta-2026.11.17.8-2026.11.18.1.json",
-    "sha256": "29310df7eb10deba2ad587daffbcf41824df9daae939c184a22df57684f37a3e"
+    "baseVersion": "2026.11.18.1",
+    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.18.2/delta-2026.11.18.1-2026.11.18.2.json",
+    "fileName": "delta-2026.11.18.1-2026.11.18.2.json",
+    "sha256": "3ea4bf16909401e74a5c7a7c6d72c3db977822a0360348bd9ae97112d7d021b4"
   }
 }
