@@ -1,32 +1,32 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.11.18.3",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.18.3/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+  "version": "2026.11.18.4",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.18.4/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "3b148adc8a17b866168d64a8860de2d53fc2dfa85a5dec9a9cc6b23b239103cf",
-  "sizeBytes": 142227456,
-  "publishedAtUtc": "2026-11-18T03:55:27Z",
-  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.18.3/experimental-history.json",
-  "notes": "Зов: после лечения, мешка, благодарности и флирта лаунчер снова может вернуться к Гурену и сдать задание (раньше переход к Гурену не отправлялся). Итог Зова теперь отдельно показывает начисление очков, каждое личное действие и сдачу у Гурена. Нативный модуль не менялся.\r\n",
+  "sha256": "b915409d9d2dfe04edfdd31be1c448531cde4e92acf1f95c0afb6242fcce9fa0",
+  "sizeBytes": 142239232,
+  "publishedAtUtc": "2026-11-18T05:35:00Z",
+  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.18.4/experimental-history.json",
+  "notes": "Лимиты на покупки по умолчанию для всех персонажей: при первом запуске лаунчер один раз поднимает до стандартных значений плату за отправку исследования (25000), источники припасов исследования, лимиты вина, гильдейских материалов и торговок и включает эти покупки; потом их можно снова уменьшить вручную. Купальня больше не повторяет исследование, если оно в этом прогоне уже ждёт ваших настроек, и не останавливает сценарий. Нативный модуль не менялся.\r\n",
   "deltas": [
     {
-      "baseVersion": "2026.11.18.2",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.18.3/delta-2026.11.18.2-2026.11.18.3.json",
-      "fileName": "delta-2026.11.18.2-2026.11.18.3.json",
-      "sha256": "4d9e74de6a818c8addcaa8428d2dd82e3a4f183ee5b439489308d3fa16b07838"
+      "baseVersion": "2026.11.18.3",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.18.4/delta-2026.11.18.3-2026.11.18.4.json",
+      "fileName": "delta-2026.11.18.3-2026.11.18.4.json",
+      "sha256": "444a71472e1945871de0968578f0d4f75f0a7f09fc436adf6a5c6be69cfdf528"
     },
     {
-      "baseVersion": "2026.11.18.1",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.18.3/delta-2026.11.18.1-2026.11.18.3.json",
-      "fileName": "delta-2026.11.18.1-2026.11.18.3.json",
-      "sha256": "5484ef65e7e13fd2f97ac224c51c096736e274d4200e3434b60eae46da6bc260"
+      "baseVersion": "2026.11.18.2",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.18.4/delta-2026.11.18.2-2026.11.18.4.json",
+      "fileName": "delta-2026.11.18.2-2026.11.18.4.json",
+      "sha256": "b113673ea5b8a80704fcfcf665ae4470e0ee8891a40213b4e31212685909c020"
     }
   ],
   "delta": {
-    "baseVersion": "2026.11.18.2",
-    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.18.3/delta-2026.11.18.2-2026.11.18.3.json",
-    "fileName": "delta-2026.11.18.2-2026.11.18.3.json",
-    "sha256": "4d9e74de6a818c8addcaa8428d2dd82e3a4f183ee5b439489308d3fa16b07838"
+    "baseVersion": "2026.11.18.3",
+    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.18.4/delta-2026.11.18.3-2026.11.18.4.json",
+    "fileName": "delta-2026.11.18.3-2026.11.18.4.json",
+    "sha256": "444a71472e1945871de0968578f0d4f75f0a7f09fc436adf6a5c6be69cfdf528"
   }
 }
