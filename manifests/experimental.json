@@ -1,32 +1,32 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.11.18.7",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.18.7/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+  "version": "2026.11.18.8",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.18.8/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "9624b221de21aaa3042d16c5ab6870a47a33d06975aef0b3d24b7ecfef80cfa3",
-  "sizeBytes": 142233600,
-  "publishedAtUtc": "2026-11-18T07:58:46Z",
-  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.18.7/experimental-history.json",
-  "notes": "Исследование: если маршрут к Лии в игре уже не удался, остановка маршрута теперь подтверждается, и сценарий больше не застревает перед следующими активностями. Обновлён нативный модуль — он загрузится после перезахода в игру.\r\n",
+  "sha256": "e75a73dc05f328c04b467863b781a3371512100419b86b132b17fc3ef5630104",
+  "sizeBytes": 142324224,
+  "publishedAtUtc": "2026-11-18T10:59:02Z",
+  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.18.8/experimental-history.json",
+  "notes": "Запуск за выбранного персонажа: на главной странице появился выбор персонажа и кнопка «Запустить за». Лаунчер запоминает, в каком аккаунте VK Play живёт каждый персонаж, и при необходимости сам переключает аккаунт VK Play: сначала по сохранённому входу, затем по сохранённому паролю (вкладка «VK Play» в сохранённых персонажах). Если VK Play попросит капчу или код, лаунчер подскажет войти вручную. Если нужного персонажа нет в открытом аккаунте, вход останавливается через несколько секунд с понятной причиной вместо долгого ожидания. Если VK Play просит войти заново из-за давнего входа, лаунчер распознаёт это: вводит сохранённый пароль и повторяет запуск, а без пароля пишет, что нужно войти в VK Play.\r\n",
   "deltas": [
     {
-      "baseVersion": "2026.11.18.6",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.18.7/delta-2026.11.18.6-2026.11.18.7.json",
-      "fileName": "delta-2026.11.18.6-2026.11.18.7.json",
-      "sha256": "d06454e028b4b934b43a2a0d473d6ce935a9dc658f7e3583728e9ae6a1588648"
+      "baseVersion": "2026.11.18.7",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.18.8/delta-2026.11.18.7-2026.11.18.8.json",
+      "fileName": "delta-2026.11.18.7-2026.11.18.8.json",
+      "sha256": "0cb53628f51bd0a61b4321f2edf0fde449456fcaf1e040cd08ceac7df6ddf59f"
     },
     {
-      "baseVersion": "2026.11.18.5",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.18.7/delta-2026.11.18.5-2026.11.18.7.json",
-      "fileName": "delta-2026.11.18.5-2026.11.18.7.json",
-      "sha256": "4d470015e9515aa54c3603a3593ae8f85ef127f02d3cbf28553f10668888986b"
+      "baseVersion": "2026.11.18.6",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.18.8/delta-2026.11.18.6-2026.11.18.8.json",
+      "fileName": "delta-2026.11.18.6-2026.11.18.8.json",
+      "sha256": "8abc019ee1b5011bc22983d75b84ff2deb8888ddcd6fe1db2e994b5af65db2bf"
     }
   ],
   "delta": {
-    "baseVersion": "2026.11.18.6",
-    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.18.7/delta-2026.11.18.6-2026.11.18.7.json",
-    "fileName": "delta-2026.11.18.6-2026.11.18.7.json",
-    "sha256": "d06454e028b4b934b43a2a0d473d6ce935a9dc658f7e3583728e9ae6a1588648"
+    "baseVersion": "2026.11.18.7",
+    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.18.8/delta-2026.11.18.7-2026.11.18.8.json",
+    "fileName": "delta-2026.11.18.7-2026.11.18.8.json",
+    "sha256": "0cb53628f51bd0a61b4321f2edf0fde449456fcaf1e040cd08ceac7df6ddf59f"
   }
 }
