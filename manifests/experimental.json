@@ -1,32 +1,32 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.11.18.11",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.18.11/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+  "version": "2026.11.18.13",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.18.13/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "4b44ca2a3715db8349a8cf34940db4a5b9f6204bd13aa5064e39f8166ba0993a",
-  "sizeBytes": 142267392,
-  "publishedAtUtc": "2026-11-18T15:49:32Z",
-  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.18.11/experimental-history.json",
-  "notes": "Остров отчаяния: исправлено чтение состояния острова игровым модулем (команда передавала игре на один параметр больше, чем позволял общий вызов). Обновлён нативный модуль — он загрузится после перезахода в игру. Лаунчер больше не меняет ограничение кадров, выставленное в самой игре (раньше при каждом запуске оно сбрасывалось на 300).\r\n",
+  "sha256": "cf5d8d33df93b8f0ce07bafc5302e42fd2181d33266b8aeb0e3dfba86b0dc099",
+  "sizeBytes": 142264832,
+  "publishedAtUtc": "2026-11-18T16:17:39Z",
+  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.18.13/experimental-history.json",
+  "notes": "Маг: временно возвращена прежняя очерёдность умений — в новой «Оружие разума» выбиралось постоянно и не наносило урона. Остров отчаяния: охота на призраков получила разрешения на бой, маршрут к точке острова больше не подбирает ящик «Пиратские товары», а бой не начинается, пока персонаж несёт груз. Обновлён нативный модуль — он загрузится после перезахода в игру.\r\n",
   "deltas": [
     {
-      "baseVersion": "2026.11.18.10",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.18.11/delta-2026.11.18.10-2026.11.18.11.json",
-      "fileName": "delta-2026.11.18.10-2026.11.18.11.json",
-      "sha256": "cdfd0320306ec240afe6d6a6dc83f9cffa6a3ab69ed19b21f57a6f0376a52523"
+      "baseVersion": "2026.11.18.12",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.18.13/delta-2026.11.18.12-2026.11.18.13.json",
+      "fileName": "delta-2026.11.18.12-2026.11.18.13.json",
+      "sha256": "29ea57b8fe57476dcacc43efb040b6a232ecad4a71e2d25f54931c7da442278b"
     },
     {
-      "baseVersion": "2026.11.18.9",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.18.11/delta-2026.11.18.9-2026.11.18.11.json",
-      "fileName": "delta-2026.11.18.9-2026.11.18.11.json",
-      "sha256": "fb8785fe3c0af73987735bbc7cf2c4ed190c2d7f8d259dc01f5de5eb79e4f086"
+      "baseVersion": "2026.11.18.11",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.18.13/delta-2026.11.18.11-2026.11.18.13.json",
+      "fileName": "delta-2026.11.18.11-2026.11.18.13.json",
+      "sha256": "163b22700ea02cde7cd768bea697a1f49d67d7324e4a327cc9121572abb4a344"
     }
   ],
   "delta": {
-    "baseVersion": "2026.11.18.10",
-    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.18.11/delta-2026.11.18.10-2026.11.18.11.json",
-    "fileName": "delta-2026.11.18.10-2026.11.18.11.json",
-    "sha256": "cdfd0320306ec240afe6d6a6dc83f9cffa6a3ab69ed19b21f57a6f0376a52523"
+    "baseVersion": "2026.11.18.12",
+    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.18.13/delta-2026.11.18.12-2026.11.18.13.json",
+    "fileName": "delta-2026.11.18.12-2026.11.18.13.json",
+    "sha256": "29ea57b8fe57476dcacc43efb040b6a232ecad4a71e2d25f54931c7da442278b"
   }
 }
