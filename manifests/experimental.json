@@ -1,32 +1,32 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.11.19.9",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.9/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+  "version": "2026.11.19.10",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.10/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "d9c1899ca9892f35d02e698d108fef5035fa39b629000a3bbf7dae8bd38a4617",
-  "sizeBytes": 142363648,
-  "publishedAtUtc": "2026-11-19T12:30:18Z",
-  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.9/experimental-history.json",
-  "notes": "Зов духов: повторный запуск наблюдения в той же игровой сессии больше не принимает уже сданный Зов за только что завершённый — нет ложного отчёта «действия не подтверждены», шаг наград не запускается поверх другой активности и идущее исследование не прерывается. Сценарий: этап, который после первой повторной попытки снова отложен (например, «Торговки» без доступного источника), больше не держит следующие активности — они выполняются, а этап повторяется после них с прежними интервалами. Остров отчаяния: принятое задание распознаётся и «принять» больше не отправляется по кругу; разовые действия ждут подтверждения игры и после лимита шаг останавливается с понятной причиной; после закрытия игры шаг сразу отдаёт управление. Пауза под Зов духов теперь останавливает шаг острова с подтверждённым освобождением управления.",
+  "sha256": "1ab0e24f7f5438016557a0086f7a5ed8f4675e68a2ceaf81f3632eb71c8e0642",
+  "sizeBytes": 142377472,
+  "publishedAtUtc": "2026-11-19T13:42:32Z",
+  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.10/experimental-history.json",
+  "notes": "Исследование: если по пути к Лии игра сама запускает движение, которое лаунчер не может подтвердить, и персонаж останавливается, такой маршрут теперь списывается как неудавшийся после 5 секунд покоя — этап откладывается и повторяется, а не останавливает весь сценарий до перезапуска игры. Добавлена диагностика, которая запишет в отчёт, какая функция игры запускает это движение. Обновлён игровой модуль.",
   "deltas": [
     {
-      "baseVersion": "2026.11.19.8",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.9/delta-2026.11.19.8-2026.11.19.9.json",
-      "fileName": "delta-2026.11.19.8-2026.11.19.9.json",
-      "sha256": "bc7360e3488ef4d41ab7a935f5f3e08d8244e00c6995737933a7b8f0ec6c16a8"
+      "baseVersion": "2026.11.19.9",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.10/delta-2026.11.19.9-2026.11.19.10.json",
+      "fileName": "delta-2026.11.19.9-2026.11.19.10.json",
+      "sha256": "e90cee1e49e6b1358bcaa54b23e07e85b47e3ab8791cbdd976579eec08291359"
     },
     {
-      "baseVersion": "2026.11.19.7",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.9/delta-2026.11.19.7-2026.11.19.9.json",
-      "fileName": "delta-2026.11.19.7-2026.11.19.9.json",
-      "sha256": "b45c66128dc891ee0bd3114fc84903fcc2c254db1c781bcc735c1543ce56d36d"
+      "baseVersion": "2026.11.19.8",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.10/delta-2026.11.19.8-2026.11.19.10.json",
+      "fileName": "delta-2026.11.19.8-2026.11.19.10.json",
+      "sha256": "1f02d01f097b0eb3de0b1c112cf3621f86fcf271a364339284fbc835bf5990e6"
     }
   ],
   "delta": {
-    "baseVersion": "2026.11.19.8",
-    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.9/delta-2026.11.19.8-2026.11.19.9.json",
-    "fileName": "delta-2026.11.19.8-2026.11.19.9.json",
-    "sha256": "bc7360e3488ef4d41ab7a935f5f3e08d8244e00c6995737933a7b8f0ec6c16a8"
+    "baseVersion": "2026.11.19.9",
+    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.10/delta-2026.11.19.9-2026.11.19.10.json",
+    "fileName": "delta-2026.11.19.9-2026.11.19.10.json",
+    "sha256": "e90cee1e49e6b1358bcaa54b23e07e85b47e3ab8791cbdd976579eec08291359"
   }
 }
