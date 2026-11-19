@@ -1,32 +1,32 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.11.19.2",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.2/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+  "version": "2026.11.19.3",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.3/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "005194e68f10ede7db521a650a69e4887c4d5e2f25aa35020f99f2f6eeba9245",
-  "sizeBytes": 142325248,
-  "publishedAtUtc": "2026-11-19T03:31:07Z",
-  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.2/experimental-history.json",
-  "notes": "Зов: после мешка лаунчер больше не отменяет собственное следование за ПЛ, когда группа переносится к Гурену, и не остаётся стоять у точки высадки — если свой переход к Гурену не состоялся, он снова включает следование. Зов и исследование: принятый Зов получает игру за секунды, даже если исследование в этот момент открывало магазин; прерванная покупка остаётся неизвестной и не повторяется. Исследование: если магазин закупки отказывается открываться, лаунчер больше не ходит по кругу «открыть сумку — отказ — закрыть»: после двух отказов в одном запуске игры закупка исследования останавливается с понятной причиной, остальные активности продолжаются. Обновлён нативный модуль — он загрузится после перезахода в игру.",
+  "sha256": "5515a66efdd83b105f5d4896f29be82ed473a85f8c03e6735af26c4327770158",
+  "sizeBytes": 142324224,
+  "publishedAtUtc": "2026-11-19T03:49:38Z",
+  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.3/experimental-history.json",
+  "notes": "Обновления: кнопка «Обновить и перезайти» сама находит свежую версию и больше не отвечает «Выберите тестовую версию», если нажать её во время проверки. Если к моменту запуска обновлённого лаунчера игра закрыта, он сам запускает её за того же персонажа и, если отмечено, продолжает сценарий.",
   "deltas": [
     {
-      "baseVersion": "2026.11.19.1",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.2/delta-2026.11.19.1-2026.11.19.2.json",
-      "fileName": "delta-2026.11.19.1-2026.11.19.2.json",
-      "sha256": "b0a5602c5d9c80d0aa0c5d97cfb59949582583deb68cec8264dd5c4dca32df3d"
+      "baseVersion": "2026.11.19.2",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.3/delta-2026.11.19.2-2026.11.19.3.json",
+      "fileName": "delta-2026.11.19.2-2026.11.19.3.json",
+      "sha256": "03ecc6aea4e3122800ead8e387372cada55844a11d6deba8f3c4e2c2efab954d"
     },
     {
-      "baseVersion": "2026.11.18.14",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.2/delta-2026.11.18.14-2026.11.19.2.json",
-      "fileName": "delta-2026.11.18.14-2026.11.19.2.json",
-      "sha256": "78c7de0669b73688ce9338c680b44d2b2ee797d18e80695cd0603f048961a1cb"
+      "baseVersion": "2026.11.19.1",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.3/delta-2026.11.19.1-2026.11.19.3.json",
+      "fileName": "delta-2026.11.19.1-2026.11.19.3.json",
+      "sha256": "bbe565aff49347ef886b59bf171ea0c70ab313f9fdc520d07575ab5bdc1b9ca3"
     }
   ],
   "delta": {
-    "baseVersion": "2026.11.19.1",
-    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.2/delta-2026.11.19.1-2026.11.19.2.json",
-    "fileName": "delta-2026.11.19.1-2026.11.19.2.json",
-    "sha256": "b0a5602c5d9c80d0aa0c5d97cfb59949582583deb68cec8264dd5c4dca32df3d"
+    "baseVersion": "2026.11.19.2",
+    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.3/delta-2026.11.19.2-2026.11.19.3.json",
+    "fileName": "delta-2026.11.19.2-2026.11.19.3.json",
+    "sha256": "03ecc6aea4e3122800ead8e387372cada55844a11d6deba8f3c4e2c2efab954d"
   }
 }
