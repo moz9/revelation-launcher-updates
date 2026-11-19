@@ -1,32 +1,32 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.11.19.11",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.11/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+  "version": "2026.11.19.12",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.12/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "04ce1a713652d96ee003b309eab0c1472ebaabba071feaeaca3149be5837942f",
-  "sizeBytes": 142347776,
-  "publishedAtUtc": "2026-11-19T15:31:34Z",
-  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.11/experimental-history.json",
-  "notes": "Виджет: рядом с «В игре» показываются очки активности персонажа за сегодня («В игре · акт. N»); значение берётся из обычных чтений игры (поиск Зова, шаг наград активности), в подсказке — время последнего чтения. Остров отчаяния: удары идут серией (до 6 подряд с интервалом около секунды) вместо одного удара раз в 3–4 секунды; «Пиратские товары» берутся у Пирата Лу до входа вместе с душами; после трёх душ шаг берёт ящик одним нажатием и ждёт каст, не сбивая его, затем сдаёт оба задания за один визит.",
+  "sha256": "3a97cf2d1159acee6f234d90aa87cf4f0b600d233f34dafad4aab6a1a78120b8",
+  "sizeBytes": 142356992,
+  "publishedAtUtc": "2026-11-19T15:38:43Z",
+  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.12/experimental-history.json",
+  "notes": "Остров отчаяния: бой сразу по нескольким призракам — шаг цепляет столько призраков, сколько ещё нужно душ (до трёх), бьёт их вместе начиная с самого слабого и подбирает души, когда рядом нет задетых; новых не цепляет при здоровье ниже 60 %. Обновлён игровой модуль (в чтение острова добавлен список ближайших призраков); до перезахода в игру шаг работает по-старому, по одной цели.",
   "deltas": [
     {
-      "baseVersion": "2026.11.19.10",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.11/delta-2026.11.19.10-2026.11.19.11.json",
-      "fileName": "delta-2026.11.19.10-2026.11.19.11.json",
-      "sha256": "8cccc501f137acb17320c75ce198d3a8edd9368233a7a63932e06dc4cc3ea70a"
+      "baseVersion": "2026.11.19.11",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.12/delta-2026.11.19.11-2026.11.19.12.json",
+      "fileName": "delta-2026.11.19.11-2026.11.19.12.json",
+      "sha256": "2f41083ec05104254c0c5cd8ec6583ac41e60a6f006c32c6b5edf7a532e753fe"
     },
     {
-      "baseVersion": "2026.11.19.9",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.11/delta-2026.11.19.9-2026.11.19.11.json",
-      "fileName": "delta-2026.11.19.9-2026.11.19.11.json",
-      "sha256": "6faad4afa45c66c6fdba05b3678c92400ad568c4df3813922217ef30184e24ff"
+      "baseVersion": "2026.11.19.10",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.12/delta-2026.11.19.10-2026.11.19.12.json",
+      "fileName": "delta-2026.11.19.10-2026.11.19.12.json",
+      "sha256": "d59e0f682da0e78fb36290f5b696f3924952ccb5b0bcc7a839d7fa82fd18d74b"
     }
   ],
   "delta": {
-    "baseVersion": "2026.11.19.10",
-    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.11/delta-2026.11.19.10-2026.11.19.11.json",
-    "fileName": "delta-2026.11.19.10-2026.11.19.11.json",
-    "sha256": "8cccc501f137acb17320c75ce198d3a8edd9368233a7a63932e06dc4cc3ea70a"
+    "baseVersion": "2026.11.19.11",
+    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.12/delta-2026.11.19.11-2026.11.19.12.json",
+    "fileName": "delta-2026.11.19.11-2026.11.19.12.json",
+    "sha256": "2f41083ec05104254c0c5cd8ec6583ac41e60a6f006c32c6b5edf7a532e753fe"
   }
 }
