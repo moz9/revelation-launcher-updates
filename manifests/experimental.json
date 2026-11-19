@@ -1,32 +1,32 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.11.19.1",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+  "version": "2026.11.19.2",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.2/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "88b523920247d2bd1802e14bce10a960fe6d12a9cb3e7d6b68908c5cf3581e92",
-  "sizeBytes": 142325760,
-  "publishedAtUtc": "2026-11-19T01:20:38Z",
-  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.1/experimental-history.json",
-  "notes": "Исправлено: незавершённое окно исследования духов, которого уже нет на экране, больше не блокирует запуск сценария и другие действия до перезапуска игры. Обновление лаунчера больше не отменяется, если какое-то действие не подтвердило остановку: лаунчер закрывается для установки, как при обычном выходе, и после перезапуска заново проверяет игру.\r\n",
+  "sha256": "005194e68f10ede7db521a650a69e4887c4d5e2f25aa35020f99f2f6eeba9245",
+  "sizeBytes": 142325248,
+  "publishedAtUtc": "2026-11-19T03:31:07Z",
+  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.2/experimental-history.json",
+  "notes": "Зов: после мешка лаунчер больше не отменяет собственное следование за ПЛ, когда группа переносится к Гурену, и не остаётся стоять у точки высадки — если свой переход к Гурену не состоялся, он снова включает следование. Зов и исследование: принятый Зов получает игру за секунды, даже если исследование в этот момент открывало магазин; прерванная покупка остаётся неизвестной и не повторяется. Исследование: если магазин закупки отказывается открываться, лаунчер больше не ходит по кругу «открыть сумку — отказ — закрыть»: после двух отказов в одном запуске игры закупка исследования останавливается с понятной причиной, остальные активности продолжаются. Обновлён нативный модуль — он загрузится после перезахода в игру.",
   "deltas": [
     {
-      "baseVersion": "2026.11.18.14",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.1/delta-2026.11.18.14-2026.11.19.1.json",
-      "fileName": "delta-2026.11.18.14-2026.11.19.1.json",
-      "sha256": "01c05e847fe566529ee76762febbb28ffde033e7048f9612b1b6f872a2169029"
+      "baseVersion": "2026.11.19.1",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.2/delta-2026.11.19.1-2026.11.19.2.json",
+      "fileName": "delta-2026.11.19.1-2026.11.19.2.json",
+      "sha256": "b0a5602c5d9c80d0aa0c5d97cfb59949582583deb68cec8264dd5c4dca32df3d"
     },
     {
-      "baseVersion": "2026.11.18.13",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.1/delta-2026.11.18.13-2026.11.19.1.json",
-      "fileName": "delta-2026.11.18.13-2026.11.19.1.json",
-      "sha256": "073146de3cee3e383127a1f3202859a6227a3c215f4338585ef3f38d7fee42e6"
+      "baseVersion": "2026.11.18.14",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.2/delta-2026.11.18.14-2026.11.19.2.json",
+      "fileName": "delta-2026.11.18.14-2026.11.19.2.json",
+      "sha256": "78c7de0669b73688ce9338c680b44d2b2ee797d18e80695cd0603f048961a1cb"
     }
   ],
   "delta": {
-    "baseVersion": "2026.11.18.14",
-    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.1/delta-2026.11.18.14-2026.11.19.1.json",
-    "fileName": "delta-2026.11.18.14-2026.11.19.1.json",
-    "sha256": "01c05e847fe566529ee76762febbb28ffde033e7048f9612b1b6f872a2169029"
+    "baseVersion": "2026.11.19.1",
+    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.2/delta-2026.11.19.1-2026.11.19.2.json",
+    "fileName": "delta-2026.11.19.1-2026.11.19.2.json",
+    "sha256": "b0a5602c5d9c80d0aa0c5d97cfb59949582583deb68cec8264dd5c4dca32df3d"
   }
 }
