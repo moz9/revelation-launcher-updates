@@ -1,32 +1,32 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.11.19.7",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.7/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+  "version": "2026.11.19.8",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.8/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "a62262a4888776c1ad720975c310f19bfc5c9ee97037d688382433005353495f",
-  "sizeBytes": 142316032,
-  "publishedAtUtc": "2026-11-19T06:05:55Z",
-  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.7/experimental-history.json",
-  "notes": "Запуск за персонажа другого аккаунта: лаунчер теперь узнаёт вход VK Play сразу после его запуска и больше не сообщает «сохранённый вход устарел», когда VK Play на самом деле вошёл в нужный аккаунт. Исследование: магазин припасов из сумки («Торговая палата») открывается и в только что запущенной игре, где торговый центр ещё ни разу не открывали. Обновлён нативный модуль — он загрузится после перезахода в игру.",
+  "sha256": "29720e7f7ed95108078c8917399fa573bc37c5fc493b091ee3378e50928c06a7",
+  "sizeBytes": 142354432,
+  "publishedAtUtc": "2026-11-19T06:16:02Z",
+  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.8/experimental-history.json",
+  "notes": "Обновления: «Обновить и перезайти» больше не отказывает с «Идёт Зов», когда сценарий только ищет группу Зова; блокирует только принятый Зов. Новая активность «Остров отчаяния»: строка в сценарии после «Классового оплота» (по умолчанию выключена) и вкладка «Остров» с выбором режима. Ограничения первой версии острова: полный проход в игре ещё не проверен; если на персонаже груз, шаг остановится и попросит снять его красной кнопкой; возможно, бой потребует первого удара вручную.",
   "deltas": [
     {
-      "baseVersion": "2026.11.19.6",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.7/delta-2026.11.19.6-2026.11.19.7.json",
-      "fileName": "delta-2026.11.19.6-2026.11.19.7.json",
-      "sha256": "6da0515f6f543585a6efef6f62bc7c6547e9a9583028bc3294f25f5ebea8d5e5"
+      "baseVersion": "2026.11.19.7",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.8/delta-2026.11.19.7-2026.11.19.8.json",
+      "fileName": "delta-2026.11.19.7-2026.11.19.8.json",
+      "sha256": "69cf53239b9ebada6332d975a51de1e55da5bc98330f50d04daf92ec33d6913a"
     },
     {
-      "baseVersion": "2026.11.19.5",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.7/delta-2026.11.19.5-2026.11.19.7.json",
-      "fileName": "delta-2026.11.19.5-2026.11.19.7.json",
-      "sha256": "3bebde6325041c5f276f9c1c2515f6b8079681a6eda060c845e23d253cb12cd3"
+      "baseVersion": "2026.11.19.6",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.8/delta-2026.11.19.6-2026.11.19.8.json",
+      "fileName": "delta-2026.11.19.6-2026.11.19.8.json",
+      "sha256": "9a7a487217a00e28ddcb1973bcbd76b475363667cb7336b6a59a3d3a1eea1a76"
     }
   ],
   "delta": {
-    "baseVersion": "2026.11.19.6",
-    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.7/delta-2026.11.19.6-2026.11.19.7.json",
-    "fileName": "delta-2026.11.19.6-2026.11.19.7.json",
-    "sha256": "6da0515f6f543585a6efef6f62bc7c6547e9a9583028bc3294f25f5ebea8d5e5"
+    "baseVersion": "2026.11.19.7",
+    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.8/delta-2026.11.19.7-2026.11.19.8.json",
+    "fileName": "delta-2026.11.19.7-2026.11.19.8.json",
+    "sha256": "69cf53239b9ebada6332d975a51de1e55da5bc98330f50d04daf92ec33d6913a"
   }
 }
