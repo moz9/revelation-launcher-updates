@@ -1,32 +1,32 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.11.19.4",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.4/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+  "version": "2026.11.19.5",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.5/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "cc08e74845570ea7d91e3186de00271799276e08883fa62f94822d2f3e075172",
-  "sizeBytes": 142327296,
-  "publishedAtUtc": "2026-11-19T04:51:49Z",
-  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.4/experimental-history.json",
-  "notes": "Исследование: неизвестный результат оконного шага у торговца (например, открытие магазина, прерванное Зовом) больше не блокирует исследование до конца дня — лаунчер снимает такую запись, когда игра показывает, что окна и ожидающей покупки нет. Неизвестная покупка, сдача припасов и отправка духов блокируют повтор, как и раньше; сообщение теперь называет именно то действие, исход которого неизвестен.",
+  "sha256": "9cd526fbd4b39b78faaced69274a5f541568efba742acb34501dc19a58c80e4f",
+  "sizeBytes": 142338048,
+  "publishedAtUtc": "2026-11-19T05:42:58Z",
+  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.5/experimental-history.json",
+  "notes": "Обновления: после «Обновить и перезайти» лаунчер действительно перезаходит в игру и продолжает сценарий. Раньше, если сценарий в момент нажатия не выполнялся, старый лаунчер сам забирал задание на перезаход ещё до установки, и новый лаунчер ничего не делал.",
   "deltas": [
     {
-      "baseVersion": "2026.11.19.3",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.4/delta-2026.11.19.3-2026.11.19.4.json",
-      "fileName": "delta-2026.11.19.3-2026.11.19.4.json",
-      "sha256": "7a0b591658d028420981edb345e10677566fed07fc03dea6221f5b8728985e5b"
+      "baseVersion": "2026.11.19.4",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.5/delta-2026.11.19.4-2026.11.19.5.json",
+      "fileName": "delta-2026.11.19.4-2026.11.19.5.json",
+      "sha256": "c65c943a3fa8ade722f9f22d0c26b27b1552d0f147bba34305eb18b8696b5517"
     },
     {
-      "baseVersion": "2026.11.19.2",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.4/delta-2026.11.19.2-2026.11.19.4.json",
-      "fileName": "delta-2026.11.19.2-2026.11.19.4.json",
-      "sha256": "66721663144e11cd8abac01d8960721cfb5350f4a1ed9b9e9ea94c7dc8abf8b2"
+      "baseVersion": "2026.11.19.3",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.5/delta-2026.11.19.3-2026.11.19.5.json",
+      "fileName": "delta-2026.11.19.3-2026.11.19.5.json",
+      "sha256": "5bd49b4c466910bbee2a138aacb5b68f84ad45a7cbc8efab6cc6f6c514154a96"
     }
   ],
   "delta": {
-    "baseVersion": "2026.11.19.3",
-    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.4/delta-2026.11.19.3-2026.11.19.4.json",
-    "fileName": "delta-2026.11.19.3-2026.11.19.4.json",
-    "sha256": "7a0b591658d028420981edb345e10677566fed07fc03dea6221f5b8728985e5b"
+    "baseVersion": "2026.11.19.4",
+    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.5/delta-2026.11.19.4-2026.11.19.5.json",
+    "fileName": "delta-2026.11.19.4-2026.11.19.5.json",
+    "sha256": "c65c943a3fa8ade722f9f22d0c26b27b1552d0f147bba34305eb18b8696b5517"
   }
 }
