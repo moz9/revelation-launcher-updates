@@ -1,32 +1,32 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.11.19.10",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.10/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+  "version": "2026.11.19.11",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.11/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "1ab0e24f7f5438016557a0086f7a5ed8f4675e68a2ceaf81f3632eb71c8e0642",
-  "sizeBytes": 142377472,
-  "publishedAtUtc": "2026-11-19T13:42:32Z",
-  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.10/experimental-history.json",
-  "notes": "Исследование: если по пути к Лии игра сама запускает движение, которое лаунчер не может подтвердить, и персонаж останавливается, такой маршрут теперь списывается как неудавшийся после 5 секунд покоя — этап откладывается и повторяется, а не останавливает весь сценарий до перезапуска игры. Добавлена диагностика, которая запишет в отчёт, какая функция игры запускает это движение. Обновлён игровой модуль.",
+  "sha256": "04ce1a713652d96ee003b309eab0c1472ebaabba071feaeaca3149be5837942f",
+  "sizeBytes": 142347776,
+  "publishedAtUtc": "2026-11-19T15:31:34Z",
+  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.11/experimental-history.json",
+  "notes": "Виджет: рядом с «В игре» показываются очки активности персонажа за сегодня («В игре · акт. N»); значение берётся из обычных чтений игры (поиск Зова, шаг наград активности), в подсказке — время последнего чтения. Остров отчаяния: удары идут серией (до 6 подряд с интервалом около секунды) вместо одного удара раз в 3–4 секунды; «Пиратские товары» берутся у Пирата Лу до входа вместе с душами; после трёх душ шаг берёт ящик одним нажатием и ждёт каст, не сбивая его, затем сдаёт оба задания за один визит.",
   "deltas": [
     {
-      "baseVersion": "2026.11.19.9",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.10/delta-2026.11.19.9-2026.11.19.10.json",
-      "fileName": "delta-2026.11.19.9-2026.11.19.10.json",
-      "sha256": "e90cee1e49e6b1358bcaa54b23e07e85b47e3ab8791cbdd976579eec08291359"
+      "baseVersion": "2026.11.19.10",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.11/delta-2026.11.19.10-2026.11.19.11.json",
+      "fileName": "delta-2026.11.19.10-2026.11.19.11.json",
+      "sha256": "8cccc501f137acb17320c75ce198d3a8edd9368233a7a63932e06dc4cc3ea70a"
     },
     {
-      "baseVersion": "2026.11.19.8",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.10/delta-2026.11.19.8-2026.11.19.10.json",
-      "fileName": "delta-2026.11.19.8-2026.11.19.10.json",
-      "sha256": "1f02d01f097b0eb3de0b1c112cf3621f86fcf271a364339284fbc835bf5990e6"
+      "baseVersion": "2026.11.19.9",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.11/delta-2026.11.19.9-2026.11.19.11.json",
+      "fileName": "delta-2026.11.19.9-2026.11.19.11.json",
+      "sha256": "6faad4afa45c66c6fdba05b3678c92400ad568c4df3813922217ef30184e24ff"
     }
   ],
   "delta": {
-    "baseVersion": "2026.11.19.9",
-    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.10/delta-2026.11.19.9-2026.11.19.10.json",
-    "fileName": "delta-2026.11.19.9-2026.11.19.10.json",
-    "sha256": "e90cee1e49e6b1358bcaa54b23e07e85b47e3ab8791cbdd976579eec08291359"
+    "baseVersion": "2026.11.19.10",
+    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.11/delta-2026.11.19.10-2026.11.19.11.json",
+    "fileName": "delta-2026.11.19.10-2026.11.19.11.json",
+    "sha256": "8cccc501f137acb17320c75ce198d3a8edd9368233a7a63932e06dc4cc3ea70a"
   }
 }
