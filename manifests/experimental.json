@@ -1,32 +1,32 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.11.19.6",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.6/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+  "version": "2026.11.19.7",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.7/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "5d04fe27d9105b9faa35b32cf7c14e1d6f9ded4775d55272e5f851bab456d331",
-  "sizeBytes": 142308352,
-  "publishedAtUtc": "2026-11-19T05:53:45Z",
-  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.6/experimental-history.json",
-  "notes": "Проверочная версия без изменений в поведении: выпущена, чтобы испытать «Обновить и перезайти» с исправлениями из 2026.11.19.3 и 2026.11.19.5.",
+  "sha256": "a62262a4888776c1ad720975c310f19bfc5c9ee97037d688382433005353495f",
+  "sizeBytes": 142316032,
+  "publishedAtUtc": "2026-11-19T06:05:55Z",
+  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.7/experimental-history.json",
+  "notes": "Запуск за персонажа другого аккаунта: лаунчер теперь узнаёт вход VK Play сразу после его запуска и больше не сообщает «сохранённый вход устарел», когда VK Play на самом деле вошёл в нужный аккаунт. Исследование: магазин припасов из сумки («Торговая палата») открывается и в только что запущенной игре, где торговый центр ещё ни разу не открывали. Обновлён нативный модуль — он загрузится после перезахода в игру.",
   "deltas": [
     {
-      "baseVersion": "2026.11.19.5",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.6/delta-2026.11.19.5-2026.11.19.6.json",
-      "fileName": "delta-2026.11.19.5-2026.11.19.6.json",
-      "sha256": "1fa0977ba851141b8bfda4f1f4063e296a8c8aed6aadfdc5d86993a121cd707c"
+      "baseVersion": "2026.11.19.6",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.7/delta-2026.11.19.6-2026.11.19.7.json",
+      "fileName": "delta-2026.11.19.6-2026.11.19.7.json",
+      "sha256": "6da0515f6f543585a6efef6f62bc7c6547e9a9583028bc3294f25f5ebea8d5e5"
     },
     {
-      "baseVersion": "2026.11.19.4",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.6/delta-2026.11.19.4-2026.11.19.6.json",
-      "fileName": "delta-2026.11.19.4-2026.11.19.6.json",
-      "sha256": "81ab4e798e23db4492cec2e1d789e67424218d6fdc67f3298b77f08516743f25"
+      "baseVersion": "2026.11.19.5",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.7/delta-2026.11.19.5-2026.11.19.7.json",
+      "fileName": "delta-2026.11.19.5-2026.11.19.7.json",
+      "sha256": "3bebde6325041c5f276f9c1c2515f6b8079681a6eda060c845e23d253cb12cd3"
     }
   ],
   "delta": {
-    "baseVersion": "2026.11.19.5",
-    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.6/delta-2026.11.19.5-2026.11.19.6.json",
-    "fileName": "delta-2026.11.19.5-2026.11.19.6.json",
-    "sha256": "1fa0977ba851141b8bfda4f1f4063e296a8c8aed6aadfdc5d86993a121cd707c"
+    "baseVersion": "2026.11.19.6",
+    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.7/delta-2026.11.19.6-2026.11.19.7.json",
+    "fileName": "delta-2026.11.19.6-2026.11.19.7.json",
+    "sha256": "6da0515f6f543585a6efef6f62bc7c6547e9a9583028bc3294f25f5ebea8d5e5"
   }
 }
