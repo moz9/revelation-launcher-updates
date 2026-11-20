@@ -1,32 +1,32 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.11.19.16",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.16/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+  "version": "2026.11.20.1",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.20.1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "9bfc77d34ccf44b1fa828849daa278f8e869c9dbdc36a86fa8c265bdd2677401",
-  "sizeBytes": 142384128,
-  "publishedAtUtc": "2026-11-19T17:02:57Z",
-  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.16/experimental-history.json",
-  "notes": "Остров отчаяния, защита от босса: шаг прекращает бой, отходит к интенданту и останавливается, если здоровье падает слишком быстро (8 % за 4 секунды или ниже 45 %) либо рядом (ближе 45 м) опасный монстр; призраки рядом с опасным монстром не выбираются; после смерти персонажа шаг сам не продолжается. Обновлён игровой модуль; до перезахода в игру действуют только правила по здоровью и смерти.",
+  "sha256": "e5e2410c70b0f0dc7178009f10560457d4761cdfee2f8e02f0aebdacdbcca26e",
+  "sizeBytes": 142370304,
+  "publishedAtUtc": "2026-11-20T05:05:32Z",
+  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.20.1/experimental-history.json",
+  "notes": "Остров отчаяния: кентавры — обычные жители острова, поэтому одна близость к ним шаг больше не останавливает; удары запрещены, пока персонаж или цель ближе 18 м к кентавру, свежие призраки выбираются не ближе 25 м от него, отход к интенданту запоминается до конца прогона, а при отсутствии безопасной цели шаг откладывается, а не бегает по кругу. Зов духов: служебные отчёты об ожидании отправляются, только если ожидание длится 45 секунд подряд.",
   "deltas": [
     {
-      "baseVersion": "2026.11.19.15",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.16/delta-2026.11.19.15-2026.11.19.16.json",
-      "fileName": "delta-2026.11.19.15-2026.11.19.16.json",
-      "sha256": "48a3e44c536ab1276d15804912ca740c1b4e692a6851de5c13b062adcb531a23"
+      "baseVersion": "2026.11.19.16",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.20.1/delta-2026.11.19.16-2026.11.20.1.json",
+      "fileName": "delta-2026.11.19.16-2026.11.20.1.json",
+      "sha256": "58880c01332afc51ca8ed6fcdc51667bca685bb803b5e06c2a38ffef551f4851"
     },
     {
-      "baseVersion": "2026.11.19.14",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.16/delta-2026.11.19.14-2026.11.19.16.json",
-      "fileName": "delta-2026.11.19.14-2026.11.19.16.json",
-      "sha256": "5c6e6ab5ed24264dffb31091b36f697f23cefe688d9bcbffe302b6a3b4ccb041"
+      "baseVersion": "2026.11.19.15",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.20.1/delta-2026.11.19.15-2026.11.20.1.json",
+      "fileName": "delta-2026.11.19.15-2026.11.20.1.json",
+      "sha256": "66e723f6b8765cb571497b63eaa3fd519bf653d646d805743b95cce38487780b"
     }
   ],
   "delta": {
-    "baseVersion": "2026.11.19.15",
-    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.19.16/delta-2026.11.19.15-2026.11.19.16.json",
-    "fileName": "delta-2026.11.19.15-2026.11.19.16.json",
-    "sha256": "48a3e44c536ab1276d15804912ca740c1b4e692a6851de5c13b062adcb531a23"
+    "baseVersion": "2026.11.19.16",
+    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.20.1/delta-2026.11.19.16-2026.11.20.1.json",
+    "fileName": "delta-2026.11.19.16-2026.11.20.1.json",
+    "sha256": "58880c01332afc51ca8ed6fcdc51667bca685bb803b5e06c2a38ffef551f4851"
   }
 }
