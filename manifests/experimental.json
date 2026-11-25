@@ -1,26 +1,32 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.11.25.1",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.25.1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+  "version": "2026.11.26.1",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.26.1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "4483da9eab1cef18adf0d3d30adda952535ab952b4430c159da31fd4f70f1736",
-  "sizeBytes": 142343168,
-  "publishedAtUtc": "2026-11-25T10:40:10Z",
-  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.25.1/experimental-history.json",
-  "notes": "Перезаход в игру (в том числе после обновления) больше не останавливается ошибкой «Не удается найти свойство \"Maximum\"»: номер следующей команды игре теперь считается без сбоя, даже когда в свежих событиях процесса нет номеров.",
+  "sha256": "9ae6006659e96529fe58ee5f57f1fb6d4e979058085401d8bd5c6af2e0ab3085",
+  "sizeBytes": 142377984,
+  "publishedAtUtc": "2026-11-25T17:43:05Z",
+  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.26.1/experimental-history.json",
+  "notes": "Запуск игры из лаунчера после того, как игра закрылась во время сценария, больше не останавливается ошибкой «Управление закрытым процессом ещё не освобождено»: сценарий встаёт на паузу с сохранённым прогрессом, и игра запускается без нажатия Stop.",
   "deltas": [
     {
-      "baseVersion": "2026.11.20.2",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.25.1/delta-2026.11.20.2-2026.11.25.1.json",
-      "fileName": "delta-2026.11.20.2-2026.11.25.1.json",
-      "sha256": "96c1e81e390e293bc35002d281dd1321b9acd7031f134cc50501a12550a0298e"
+      "baseVersion": "2026.11.25.1",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.26.1/delta-2026.11.25.1-2026.11.26.1.json",
+      "fileName": "delta-2026.11.25.1-2026.11.26.1.json",
+      "sha256": "65c4647ce55baf165b8f4b2dde46bc8468ba9f5f1053be5acbbc137027256e32"
+    },
+    {
+      "fileName": "delta-2026.11.20.2-2026.11.26.1.json",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.26.1/delta-2026.11.20.2-2026.11.26.1.json",
+      "sha256": "7a853a06715ca66ea6a2aae308f6136d3f1607ab62d85f14119d721fe5229390",
+      "baseVersion": "2026.11.20.2"
     }
   ],
   "delta": {
-    "baseVersion": "2026.11.20.2",
-    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.25.1/delta-2026.11.20.2-2026.11.25.1.json",
-    "fileName": "delta-2026.11.20.2-2026.11.25.1.json",
-    "sha256": "96c1e81e390e293bc35002d281dd1321b9acd7031f134cc50501a12550a0298e"
+    "baseVersion": "2026.11.25.1",
+    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.26.1/delta-2026.11.25.1-2026.11.26.1.json",
+    "fileName": "delta-2026.11.25.1-2026.11.26.1.json",
+    "sha256": "65c4647ce55baf165b8f4b2dde46bc8468ba9f5f1053be5acbbc137027256e32"
   }
 }
