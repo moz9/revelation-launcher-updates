@@ -1,32 +1,26 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.11.20.2",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.20.2/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+  "version": "2026.11.25.1",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.25.1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "fbc1544794258a3c3b6ed7a8ae0f37cd327bbd8b315f8275abaf025f5446cf97",
-  "sizeBytes": 142363136,
-  "publishedAtUtc": "2026-11-20T05:21:00Z",
-  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.20.2/experimental-history.json",
-  "notes": "Исследование: найдена причина остановок на пути к Лии — когда персонаж застревал, игра сама делала шаг назад (moveBack), а лаунчер принимал это за чужое движение и отзывал маршрут; теперь такой шаг назад считается частью маршрута. Окно исследования, которое игра закрыла сама до снятия привязки (например, при приходе Зова), больше не считается сбоем очистки. Обновлён игровой модуль.",
+  "sha256": "4483da9eab1cef18adf0d3d30adda952535ab952b4430c159da31fd4f70f1736",
+  "sizeBytes": 142343168,
+  "publishedAtUtc": "2026-11-25T10:40:10Z",
+  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.25.1/experimental-history.json",
+  "notes": "Перезаход в игру (в том числе после обновления) больше не останавливается ошибкой «Не удается найти свойство \"Maximum\"»: номер следующей команды игре теперь считается без сбоя, даже когда в свежих событиях процесса нет номеров.",
   "deltas": [
     {
-      "baseVersion": "2026.11.20.1",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.20.2/delta-2026.11.20.1-2026.11.20.2.json",
-      "fileName": "delta-2026.11.20.1-2026.11.20.2.json",
-      "sha256": "7769485f9cce983a5669e7b2db7017cfe815483e4f4915d42c44bfe2a72101ad"
-    },
-    {
-      "baseVersion": "2026.11.19.16",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.20.2/delta-2026.11.19.16-2026.11.20.2.json",
-      "fileName": "delta-2026.11.19.16-2026.11.20.2.json",
-      "sha256": "59e66983b19ef124f09312aab066dd3707986d3f2961bbc09d1bf3904a85e778"
+      "baseVersion": "2026.11.20.2",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.25.1/delta-2026.11.20.2-2026.11.25.1.json",
+      "fileName": "delta-2026.11.20.2-2026.11.25.1.json",
+      "sha256": "96c1e81e390e293bc35002d281dd1321b9acd7031f134cc50501a12550a0298e"
     }
   ],
   "delta": {
-    "baseVersion": "2026.11.20.1",
-    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.20.2/delta-2026.11.20.1-2026.11.20.2.json",
-    "fileName": "delta-2026.11.20.1-2026.11.20.2.json",
-    "sha256": "7769485f9cce983a5669e7b2db7017cfe815483e4f4915d42c44bfe2a72101ad"
+    "baseVersion": "2026.11.20.2",
+    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.25.1/delta-2026.11.20.2-2026.11.25.1.json",
+    "fileName": "delta-2026.11.20.2-2026.11.25.1.json",
+    "sha256": "96c1e81e390e293bc35002d281dd1321b9acd7031f134cc50501a12550a0298e"
   }
 }
