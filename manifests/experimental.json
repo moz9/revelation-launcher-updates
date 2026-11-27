@@ -1,50 +1,50 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.11.27.5",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.27.5/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+  "version": "2026.11.27.6",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.27.6/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "35a383ea1d90f1a27f37713206fde74af91f0b261f68f5b06b1107c332c65431",
-  "sizeBytes": 142435328,
-  "publishedAtUtc": "2026-11-27T04:33:07Z",
-  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.27.5/experimental-history.json",
-  "notes": "Исправлено выполнение заказов фракций по шагам: каждый шаг сдаётся тому NPC, которому он адресован, после сдачи лаунчер берёт следующий шаг, а когда все шаги дня сданы, заказ отмечается как выполненный сегодня.",
+  "sha256": "d482d69833419f245433c0bfc190983875cc06aeac96c50e3d18180f4820fb1c",
+  "sizeBytes": 142479872,
+  "publishedAtUtc": "2026-11-27T04:52:30Z",
+  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.27.6/experimental-history.json",
+  "notes": "Кнопки запуска и остановки перенесены в заголовок карточки: на вкладках «Актив» (Оплот, Гильдия, Зов, Баня, Торговки, Остров) и в «Прочее → Фракционки» до них больше не нужно прокручивать.",
   "deltas": [
     {
-      "baseVersion": "2026.11.27.4",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.27.5/delta-2026.11.27.4-2026.11.27.5.json",
-      "fileName": "delta-2026.11.27.4-2026.11.27.5.json",
-      "sha256": "8a1efbe8d873a41ea8dab57b761cfc3a1da360e51211b0f275e71b41d9dbf655"
+      "baseVersion": "2026.11.27.5",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.27.6/delta-2026.11.27.5-2026.11.27.6.json",
+      "fileName": "delta-2026.11.27.5-2026.11.27.6.json",
+      "sha256": "90b0da40c7949e8366fe49e3c03c98e24d0dd59f14f74a7343967a30f05ebaf9"
     },
     {
-      "fileName": "delta-2026.11.27.3-2026.11.27.5.json",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.27.5/delta-2026.11.27.3-2026.11.27.5.json",
-      "sha256": "4943b10e9525375202be150ac4b2f6ff5edd9b5f3e6e3651cbbe7136778359f4",
+      "fileName": "delta-2026.11.27.4-2026.11.27.6.json",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.27.6/delta-2026.11.27.4-2026.11.27.6.json",
+      "sha256": "fbc099643ccb765b51305545d7e2d1668a37d85260663119891308e243d20f48",
+      "baseVersion": "2026.11.27.4"
+    },
+    {
+      "fileName": "delta-2026.11.27.3-2026.11.27.6.json",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.27.6/delta-2026.11.27.3-2026.11.27.6.json",
+      "sha256": "57b309e05dd0c1691c96a914c60b4096d3823f56e24136ccb9b2d78c1996cdbd",
       "baseVersion": "2026.11.27.3"
     },
     {
-      "fileName": "delta-2026.11.27.2-2026.11.27.5.json",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.27.5/delta-2026.11.27.2-2026.11.27.5.json",
-      "sha256": "7b17231a3ebfa5de1ec3295090f2da1154056b458d185c79d1385ba4f11fe828",
+      "fileName": "delta-2026.11.27.2-2026.11.27.6.json",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.27.6/delta-2026.11.27.2-2026.11.27.6.json",
+      "sha256": "4a4a230bfad8c4063591cf2e92f2acc8e63bf0e61c76714ecf56884a0809976c",
       "baseVersion": "2026.11.27.2"
     },
     {
-      "fileName": "delta-2026.11.27.1-2026.11.27.5.json",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.27.5/delta-2026.11.27.1-2026.11.27.5.json",
-      "sha256": "5113364388a6c677bab366ed63fb32b11963049c8635e9772f07bd12ac7bf824",
+      "fileName": "delta-2026.11.27.1-2026.11.27.6.json",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.27.6/delta-2026.11.27.1-2026.11.27.6.json",
+      "sha256": "8582a190ff199f04321decde179f705e81378427f25b2ef59c12a9595b5829a4",
       "baseVersion": "2026.11.27.1"
-    },
-    {
-      "fileName": "delta-2026.11.26.2-2026.11.27.5.json",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.27.5/delta-2026.11.26.2-2026.11.27.5.json",
-      "sha256": "e29428f1d3f8d417a35c990c7a8596e974edb7935608be0a9ff15c01d1adb4a7",
-      "baseVersion": "2026.11.26.2"
     }
   ],
   "delta": {
-    "baseVersion": "2026.11.27.4",
-    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.27.5/delta-2026.11.27.4-2026.11.27.5.json",
-    "fileName": "delta-2026.11.27.4-2026.11.27.5.json",
-    "sha256": "8a1efbe8d873a41ea8dab57b761cfc3a1da360e51211b0f275e71b41d9dbf655"
+    "baseVersion": "2026.11.27.5",
+    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.27.6/delta-2026.11.27.5-2026.11.27.6.json",
+    "fileName": "delta-2026.11.27.5-2026.11.27.6.json",
+    "sha256": "90b0da40c7949e8366fe49e3c03c98e24d0dd59f14f74a7343967a30f05ebaf9"
   }
 }
