@@ -1,38 +1,44 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.11.26.2",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.26.2/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+  "version": "2026.11.27.1",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.27.1/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "b1574c342a1ebc59968fb3f9cdc270d48d39423f0a3dcdae17dc49a367754646",
-  "sizeBytes": 142348288,
-  "publishedAtUtc": "2026-11-26T13:13:49Z",
-  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.26.2/experimental-history.json",
-  "notes": "В списке «Запустить за» персонаж больше не появляется второй раз с припиской сервера (например, «имя-Сервер»), если он побывал на межсерверной карте. Уже сохранённые такие записи из списка скрываются.",
+  "sha256": "58a878b04a0679a61251709343ec7458aa499988f55d1b9bc4c84cf1ab4d149f",
+  "sizeBytes": 142411264,
+  "publishedAtUtc": "2026-11-26T20:02:02Z",
+  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.27.1/experimental-history.json",
+  "notes": "Лицензия проверяется на новом защищённом сервере: старый адрес перестал работать. Без связи с проверкой лаунчер работает до 72 часов, потом нужен интернет. Аварийные коды больше не принимаются. Отчёты об ошибках снова доходят до разработчика, а ссылка на последнюю версию ведёт на GitHub.",
   "deltas": [
     {
-      "baseVersion": "2026.11.26.1",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.26.2/delta-2026.11.26.1-2026.11.26.2.json",
-      "fileName": "delta-2026.11.26.1-2026.11.26.2.json",
-      "sha256": "04b5af85fba3225bc1ea5034d1f8722a456eefbf45837523c0a38a4d1150ebeb"
+      "baseVersion": "2026.11.26.2",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.27.1/delta-2026.11.26.2-2026.11.27.1.json",
+      "fileName": "delta-2026.11.26.2-2026.11.27.1.json",
+      "sha256": "2d640a1e1419ef9ef199892e92baed4a5d01f9450bc454abcae0bdf8db684dc5"
     },
     {
-      "fileName": "delta-2026.11.25.1-2026.11.26.2.json",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.26.2/delta-2026.11.25.1-2026.11.26.2.json",
-      "sha256": "85fc260d3b94c74b39f479bdcd2efca590ae1b60ed567f406a9e55f57122a010",
+      "fileName": "delta-2026.11.26.1-2026.11.27.1.json",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.27.1/delta-2026.11.26.1-2026.11.27.1.json",
+      "sha256": "a054fcf71bf57ec08b28da07d6d842b70c28b1461c943165506d15bd17ef2334",
+      "baseVersion": "2026.11.26.1"
+    },
+    {
+      "fileName": "delta-2026.11.25.1-2026.11.27.1.json",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.27.1/delta-2026.11.25.1-2026.11.27.1.json",
+      "sha256": "a15e27f8b55413516195685bca8e6a4a09eff17c695263829387a71fc3e1ac6f",
       "baseVersion": "2026.11.25.1"
     },
     {
-      "fileName": "delta-2026.11.20.2-2026.11.26.2.json",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.26.2/delta-2026.11.20.2-2026.11.26.2.json",
-      "sha256": "5e06f305573dc5277301cc5fde1f9689fde36a1635d92d9db5e48aa5a277dbe3",
+      "fileName": "delta-2026.11.20.2-2026.11.27.1.json",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.27.1/delta-2026.11.20.2-2026.11.27.1.json",
+      "sha256": "1ffb17462d39d579168f8cc7df8c5338ab30a2b9839ff89dcc2938a8c9216460",
       "baseVersion": "2026.11.20.2"
     }
   ],
   "delta": {
-    "baseVersion": "2026.11.26.1",
-    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.26.2/delta-2026.11.26.1-2026.11.26.2.json",
-    "fileName": "delta-2026.11.26.1-2026.11.26.2.json",
-    "sha256": "04b5af85fba3225bc1ea5034d1f8722a456eefbf45837523c0a38a4d1150ebeb"
+    "baseVersion": "2026.11.26.2",
+    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.27.1/delta-2026.11.26.2-2026.11.27.1.json",
+    "fileName": "delta-2026.11.26.2-2026.11.27.1.json",
+    "sha256": "2d640a1e1419ef9ef199892e92baed4a5d01f9450bc454abcae0bdf8db684dc5"
   }
 }
