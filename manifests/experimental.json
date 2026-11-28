@@ -1,44 +1,44 @@
 {
   "channel": "experimental",
   "displayName": "Тестовая версия",
-  "version": "2026.11.28.3",
-  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.28.3/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
+  "version": "2026.11.28.4",
+  "installerUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.28.4/RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
   "fileName": "RevelationLauncherStandaloneInstaller-Experimental-RU.exe",
-  "sha256": "f4d7c59685a982e620abc387eb7e176e052c8740420d0d07661149eba391bd5b",
-  "sizeBytes": 142498304,
-  "publishedAtUtc": "2026-11-28T10:41:23Z",
-  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.28.3/experimental-history.json",
-  "notes": "Фракционки: итог после очереди теперь считает все заказы и показывает пропущенные.",
+  "sha256": "711ee1187e7b67035beeb4cf256817d18bb3b3ac3146cd089de91b1ceafa617d",
+  "sizeBytes": 142568960,
+  "publishedAtUtc": "2026-11-28T15:49:16Z",
+  "historyUrl": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.28.4/experimental-history.json",
+  "notes": "Жемчуг у Фалмари: пока собрано меньше 8/8, лаунчер просит собрать его под водой вручную; на 8/8 он сам сдаёт его Ману, когда вы стоите рядом.",
   "deltas": [
     {
-      "baseVersion": "2026.11.28.2",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.28.3/delta-2026.11.28.2-2026.11.28.3.json",
-      "fileName": "delta-2026.11.28.2-2026.11.28.3.json",
-      "sha256": "dc8f287c050170afffbe000fe7251fd5391c5124d430b561a5bd0e14d9223aec"
+      "baseVersion": "2026.11.28.3",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.28.4/delta-2026.11.28.3-2026.11.28.4.json",
+      "fileName": "delta-2026.11.28.3-2026.11.28.4.json",
+      "sha256": "0ef56bec59d3aa2db2b52751e6ed069875c9c0f6efbe9cb9886d8c66646fa3a0"
     },
     {
-      "fileName": "delta-2026.11.28.1-2026.11.28.3.json",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.28.3/delta-2026.11.28.1-2026.11.28.3.json",
-      "sha256": "2fe2ddf0822e46f45355ecc51467b0b7e2160c087aa3a0e8aa3436fa1bb59ab6",
+      "fileName": "delta-2026.11.28.2-2026.11.28.4.json",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.28.4/delta-2026.11.28.2-2026.11.28.4.json",
+      "sha256": "7dd3f153102d38ae18c5d42d3e62747af6985bdcce24069449a7d083bf2c4ebd",
+      "baseVersion": "2026.11.28.2"
+    },
+    {
+      "fileName": "delta-2026.11.28.1-2026.11.28.4.json",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.28.4/delta-2026.11.28.1-2026.11.28.4.json",
+      "sha256": "f447a9f294f4b248d90f9ec802d944dc22a44eda83e83134f6447a98a4b6de92",
       "baseVersion": "2026.11.28.1"
     },
     {
-      "fileName": "delta-2026.11.27.25-2026.11.28.3.json",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.28.3/delta-2026.11.27.25-2026.11.28.3.json",
-      "sha256": "a7d2d31b28335ce272fa1812a3029db4cbad4432eff33ec6e84a65fe6ea6b4e2",
+      "fileName": "delta-2026.11.27.25-2026.11.28.4.json",
+      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.28.4/delta-2026.11.27.25-2026.11.28.4.json",
+      "sha256": "da89f371b78aed297591ebe4ff3a2fd01330278598411195cdf3c55204fadef5",
       "baseVersion": "2026.11.27.25"
-    },
-    {
-      "fileName": "delta-2026.11.27.24-2026.11.28.3.json",
-      "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.28.3/delta-2026.11.27.24-2026.11.28.3.json",
-      "sha256": "95aa6e69a79c82e82dc7a939962e18bbb3c2479d67716190d31480458a9d2e1c",
-      "baseVersion": "2026.11.27.24"
     }
   ],
   "delta": {
-    "baseVersion": "2026.11.28.2",
-    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.28.3/delta-2026.11.28.2-2026.11.28.3.json",
-    "fileName": "delta-2026.11.28.2-2026.11.28.3.json",
-    "sha256": "dc8f287c050170afffbe000fe7251fd5391c5124d430b561a5bd0e14d9223aec"
+    "baseVersion": "2026.11.28.3",
+    "url": "https://github.com/moz9/revelation-launcher-updates/releases/download/v2026.11.28.4/delta-2026.11.28.3-2026.11.28.4.json",
+    "fileName": "delta-2026.11.28.3-2026.11.28.4.json",
+    "sha256": "0ef56bec59d3aa2db2b52751e6ed069875c9c0f6efbe9cb9886d8c66646fa3a0"
   }
 }
